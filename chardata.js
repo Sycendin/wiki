@@ -2,9 +2,9 @@ export const charData = [
   {
     name: "Rapi",
     art: "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
     weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -13,15 +13,42 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect:
+          "■ Activates when attacked 20 time(s). Affects self.##ATK ▲ 21.81% for 20 sec.",
+      },
+      {
+        name: "FF Formation",
+        effect:
+          "■ Affects all Supporter allies. Activates after 3 normal attack(s).Recover 6.07% of attack damage as HP over 5 sec.",
+      },
+      {
+        name: "Missile",
+        active: "20 Seconds",
+        effect:
+          "■ Affects 1 enemy with the highest ATK.##[Target] Deals 528.97% of ATK as damage.## Taunt for 5 sec.",
+      },
+      {
+        name: "Warhead Volley",
+        effect:
+          "■ Affects 1 enemy with the highest ATK.##[Target] Deals 657.72% of ATK as damage.##■ Affects self.##ATK ▲ 60.75% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SR",
   },
 
   {
     name: "Anis",
     art: "https://www.prydwen.gg/static/f3bf26dc83d5a31a5a8b46355d9e20b3/60b4d/anis_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 307885,
+    atk: 8666,
+    def: 2497,
     weapon: "Rocket Launcher",
     class: "Defender",
     manufacturer: "Tetra",
@@ -30,14 +57,41 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Tank", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2.03s",
+        effect:
+          "■ Affects target enemy.## Deals 65.02% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "D.H. Formation",
+        effect:
+          "■ Activates when attacked 40 time(s). Affects self.##DEF ▲ 120% for 10 sec",
+      },
+      {
+        name: "C.H. Formation",
+        active: "10 Seconds",
+        effect:
+          "■ Affects 2 allies with the highest ATK.##DEF ▲ 80% for 5 sec.##Shares damage taken for 10 sec.",
+      },
+      {
+        name: "Pinpoint Missile",
+        effect:
+          "■ Affects all enemies within attack range.##Deal 156.73% of ATK as damage.##DEF ▼ 32% for 5 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
     name: "Neon",
     art: "https://www.prydwen.gg/static/a57df3a4f920f22dee72d6a4faea333b/60b4d/neon_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 280314,
+    atk: 10824,
+    def: 2252,
     weapon: "Shotgun",
     class: "Support",
     manufacturer: "Elysion",
@@ -46,6 +100,31 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "1.82s",
+        effect: "■ Affects target enemy.##Deals 224.5% ATK as damage.",
+      },
+      {
+        name: "Neon's Special Bullet",
+        effect:
+          "■ Affects 2 allies with the highest ATK. Cast when killing an enemy.##[Target] Critical Rate ▲ 3.56% for 5 sec.",
+      },
+      {
+        name: "Viva Firepower!",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects all allies.## Critical Rate ▲ 45.93% for 2 shots.",
+      },
+      {
+        name: "Firepower Rules!",
+        effect:
+          "■ Affects 1 enemy with the highest DEF.##[Target] Deals 528.97% of ATK as damage.## ■ Affects all allies with a Shotgun.##[Target] Max Ammunition Capacity ▲ 3 for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
