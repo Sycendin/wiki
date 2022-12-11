@@ -625,6 +625,40 @@ export const charData = [
     rarity: "SR",
   },
   {
+    name: "Miracle Fairy Anne",
+    art: "https://www.prydwen.gg/static/c6ceea437415ffe9dad57dd84b6865f3/60b4d/anne_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 4485,
+    weapon: "Rocket Launcher",
+    class: "Support",
+    manufacturer: "Missilis",
+    element: "Wind",
+    squad: "Recall & Release",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer", "Healer"],
+    skill: [
+      {
+        name: "Fairy Dance",
+        effect:
+          "■ Affects all Supporter allies. Activates after 3 normal attack(s).Recover 6.07% of attack damage as HP over 5 sec.",
+      },
+      {
+        name: "Fairy's Jest",
+        effect:
+          "■ Affects all allies. Activates when above 90% HP.## HP Potency ▲ 23.46%.## ■ Activates when the last bullet hits the target while having over 90% HP. Affects all enemies.## HP Potency ▼ 78.93% for 10 sec..",
+      },
+      {
+        name: "Blue Butterfly Slumber",
+        effect:
+          "■ Affects 1 random fallen Attacker ally unit(s).## Resurrect with 99% HP. Activates once per battle.## ■ Affects all Attacker allies.## Restores HP equal to 38.61% of the caster's Max HP.## ATK ▲ 77.22% for 10 sec.",
+        active: "60 Seconds",
+      },
+    ],
+    rarity: "SR",
+  },
+  {
     name: "Soldier OW",
     art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
     hp: 111,
@@ -732,6 +766,22 @@ export const charData = [
     element: "Earth",
     squad: "Talentum",
     position: "Burst 2",
+    burstCD: "20",
+    role: ["DPS", "Buffer"],
+    rarity: "SSR",
+  },
+  {
+    name: "Winter Shopper Rupee",
+    art: "https://www.prydwen.gg/static/4957dbc3fee0219e431d602ec7100311/60b4d/xrupee_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 5015,
+    weapon: "Assault Rifle",
+    class: "Defender",
+    manufacturer: "Tetra",
+    element: "Electric",
+    squad: "Talentum",
+    position: "Burst 1",
     burstCD: "20",
     role: ["DPS", "Buffer"],
     rarity: "SSR",
