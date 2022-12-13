@@ -130,9 +130,9 @@ export const charData = [
   {
     name: "Poli",
     art: "https://www.prydwen.gg/static/09bf8bdd4ca52d5bbefc4072fb018cdb/60b4d/poli_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 711171,
+    atk: 17059,
+    def: 4827,
     weapon: "Shotgun",
     class: "Defender",
     manufacturer: "Elysion",
@@ -141,14 +141,40 @@ export const charData = [
     position: "Support 2",
     burstCD: "40",
     role: ["Shielder", "Buffer", "Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 201.5% ATK as damage.",
+      },
+      {
+        name: "Brave Call",
+        effect:
+          "■ Activates after 5 normal attacks. Affects all allies.##ATK ▲ 5.46% for 10 sec.",
+      },
+      {
+        name: "That's a Good Boy",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self and 2 ally units with the lowest HP (except caster).##DEF ▲ 23.51% for 10 sec.##Shares damage taken for 10 sec.",
+      },
+      {
+        name: "Poli's Defense Line",
+        effect:
+          "■ Affects all allies.##Creates a shield, equivalent to 22.57% of the caster's Max HP, which protects all allies from damage. Lasts for 5 sec.##ATK ▲ 44.55% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Miranda",
     art: "https://www.prydwen.gg/static/1347f6bfd3ccce5f40bc5aa01aad7a7d/60b4d/miranda_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 647453,
+    atk: 21307,
+    def: 3999,
     weapon: "SMG",
     class: "Support",
     manufacturer: "Elysion",
@@ -157,14 +183,40 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.43s",
+        effect: "■ Affects target enemy.##Deals 8.64% ATK as damage.",
+      },
+      {
+        name: "Health up!",
+        effect:
+          "■ Activates after landing 30 normal attack(s). Affects all allies.## Hit Rate ▲ 5.37% for 5 sec.",
+      },
+      {
+        name: "Wake Up!",
+        active: "20 Seconds",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects all allies.##Critical Damage ▲ 32.99% for 10 sec.",
+      },
+      {
+        name: "Powering up!",
+        effect:
+          "■ Affects 1 ally with the highest ATK (except caster).##[Target] ATK ▲ 40.4% for 10 sec.##[Target] Critical Damage ▲ 56.23% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Eunhwa",
     art: "https://www.prydwen.gg/static/1659088541bb1b28389ccf64cbb54907/60b4d/eunhwa_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 583734,
+    atk: 25554,
+    def: 3522,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -173,14 +225,42 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["DPS", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2.33s",
+        effect:
+          "■ Affects target enemy.##Deals 71.07% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%",
+      },
+      {
+        name: "Ready and Able",
+        active: "Passive",
+        effect:
+          "■ Affects self. Cast after firing the last round.##Charging Damage ▲ 37.28% for 2 shots.##Charging Speed ▲ 15.53% for 2 shots.",
+      },
+      {
+        name: "Achilles' Heel",
+        active: "Passive",
+        effect:
+          "■ Activates after firing the last bullet. Affects the target.##DEF ▼ 29% for 5 sec.",
+      },
+      {
+        name: "Turning The Tide",
+        effect:
+          "■ Affects 10 enemies with the highest ATK.##[Target] Deals 85.62% of ATK as damage.##DEF ▼ 2.43% for 15 sec.##■ Affects all allies.##Critical rate ▲ 4.65% for 15 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Emma",
     art: "https://www.prydwen.gg/static/fde8f1e1ce61228967ad9ec8af771499/60b4d/emma_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 647453,
+    atk: 21307,
+    def: 3894,
     weapon: "Machine Gun",
     class: "Support",
     manufacturer: "Elysion",
@@ -189,14 +269,41 @@ export const charData = [
     position: "Support 1",
     burstCD: "40",
     role: ["Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 5.57% ATK as damage.",
+      },
+      {
+        name: "Cheerleading",
+        active: "Passive",
+        effect:
+          "■ There is a 5% chance of activating when attacked. Affects all allies.##Restore HP equal to 10.77% of the caster's Max HP.",
+      },
+      {
+        name: "Temptation",
+        active: "Passive",
+        effect:
+          "■ Active when HP is above 90%. Affects all allies.##HP Recovery ▲ 13.33% permanently.",
+      },
+      {
+        name: "Altruism",
+        effect:
+          "■ Affects all allies.##Restore HP equal to 39.6% of the caster's Max HP.##Restore HP equal to 39.6% of ATK for 5 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Vesti",
     art: "https://www.prydwen.gg/static/6e15fc164660b4ca7ec1974e57382ecb/60b4d/vesti_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 583734,
+    atk: 25554,
+    def: 4071,
     weapon: "Rocket Launcher",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -205,6 +312,34 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Dreams Do Come True",
+        active: "Passive",
+        effect:
+          "■ Activates when hitting a target with Full Charge. Affects self.##Explosion Range ▲ 15.01% for 10 sec.",
+      },
+      {
+        name: "Survival Instinct",
+        active: "Passive",
+        effect:
+          "■ Activates when using Burst Skill. Affects self ##Survival Instinct 1: ATK ▲ 5.35% for 45 sec.##■ Activates when using Burst Skill during Survival Instinct 1. Affects self.##Survival Instinct 2: Critical Damage ▲ 22.34% for 45 sec. Previous effects trigger repeatedly.##■ Activates when using Burst Skill during Survival Instinct 2. Affects self.##Survival Instinct 3: Critical Rate ▲ 15.51% for 45 sec. Previous effects trigger repeatedly.",
+      },
+      {
+        name: "Justifiable Defense",
+        effect:
+          "■ Affects all enemies.##Deals 15.56% of ATK as damage.##Effect changes according to the caster's status. Previous effects trigger repeatedly:##Survival Instinct 1: Deals 210.62% of ATK as additional damage.##Survival Instinct 2: Deals 247.25% of ATK as additional damage.##Survival Instinct 3: Deals 302.19% of ATK as additional damage.##■ Affects all allies.##Full Burst Time ▼ 5 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
