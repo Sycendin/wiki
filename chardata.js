@@ -345,9 +345,9 @@ export const charData = [
   {
     name: "Helm",
     art: "https://www.prydwen.gg/static/c9979cff3fa84468d282634b1d60836c/60b4d/helm_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 583734,
+    atk: 25554,
+    def: 3552,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -356,14 +356,42 @@ export const charData = [
     position: "Support 3",
     burstCD: "40",
     role: ["Healer", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Frontline Command",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects all allies.##Critical Rate of normal attack ▲ 14.64% for 5 seconds",
+      },
+      {
+        name: "Fire Away",
+        active: "Passive",
+        effect:
+          "■ Affects all allies.##Damage to interruption part ▲ 3.08% permanently.##■ Activates when entering Full Burst. Affects all allies.##ATK damage ▲ 11.85% for 10 sec.",
+      },
+      {
+        name: "Aegis Cannon",
+        effect:
+          "■ Affects the enemy with the highest ATK.##Deals 1237.5% of ATK as damage.##■ Affects all allies.##Recovers 54.45% of ATK damage for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Sugar",
     art: "https://www.prydwen.gg/static/c17575707266e86e2b0d0ad859cf0935/60b4d/sugar_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 583734,
+    atk: 25554,
+    def: 4012,
     weapon: "Shotgun",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -372,14 +400,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.03s",
+        effect: "■ Affects target enemy.##Deals 231.6% ATK as damage.",
+      },
+      {
+        name: "Black Typhoon",
+        active: "Passive",
+        effect:
+          "■ Affects self. 20% chance of casting when Cover is under attack.##Critical Damage ▲ 16.39% for 10 sec.##Reloading Speed ▲ 12.12% for 10 sec.",
+      },
+      {
+        name: "Noire Sensor",
+        active: "Passive",
+        effect:
+          "■ Affects self. Cast when entering Full Burst.##Critical Rate ▲ 13.2% for 10 sec.##■ Affects all allies with a Shotgun. Cast when entering Full Burst.##Max Ammunition Capacity ▲ 83.08% for 10 sec.",
+      },
+      {
+        name: "Trouble Shooter",
+        effect:
+          "■ Affects self.##ATK Speed ▲ 68% for 15 sec.##Hit Rate ▲ 33% for 15 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Milk",
     art: "https://www.prydwen.gg/static/45082510523372d5af24eb1da2e2396e/60b4d/milk_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 583734,
+    atk: 25554,
+    def: 3552,
     weapon: "Sniper",
     class: "Support",
     manufacturer: "Tetra",
@@ -388,14 +443,42 @@ export const charData = [
     position: "Support 1",
     burstCD: "40",
     role: ["Healer", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "In it to Win It",
+        active: "20 Seconds",
+        effect:
+          "■ Affects 2 allies with the highest ATK.##ATK ▲ 31.83% for 10 sec.",
+      },
+      {
+        name: "Sugar Rush",
+        active: "Passive",
+        effect:
+          "■ Activates when above 80% HP. Affects all allies.##Critical Damage ▲ 11.13% permanently.",
+      },
+      {
+        name: "Victory is Mine",
+        effect:
+          "■ Affects the enemies within the attack range.##Deals 367.34% of ATK as damage.##■ Affects all allies.##Restores 16.16% of attack damage as HP for 10 sec",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Frima",
     art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 647453,
+    atk: 21307,
+    def: 3909,
     weapon: "Sniper",
     class: "Support",
     manufacturer: "Tetra",
@@ -404,14 +487,42 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.5s",
+        effect:
+          "■ Affects target enemy.##Deals 65.95% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: " ... I Want To Sleep",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 4 normal attacks. Affects target.## Def ▼ 15.84% for 10 sec.",
+      },
+      {
+        name: " ... Ah",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects all allies.#Max HP ▲ 6.09% for 5 sec.",
+      },
+      {
+        name: "Vexation",
+        effect:
+          "■ Affects 10 enemy targets with the highest DEF.##Deals 101.66% of ATK as damage.##DEF ▼ 9.86% for 10 sec.##■ Affects all allies.##Max HP ▲ 30.26% for 4 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Crow",
-    art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/59d66f236542b4887034173b70177dd3/60b4d/crow_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
     weapon: "SMG",
     class: "Defender",
     manufacturer: "Missillis",
@@ -420,14 +531,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.67s",
+        effect: "■ Affects target enemy.##Deals 4.47% ATK as damage.",
+      },
+      {
+        name: "Killing Time",
+        active: "Passive",
+        effect:
+          "■ Affects all enemies. Activates when entering Full Burst.##ATK ▼ 19.93% for 10 sec.",
+      },
+      {
+        name: "Killing Time",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects the target.##[Target] Deals 89.09% of ATK as Additional Damage.##■ Activates when the last bullet hits the target. Affects self.##DEF ▲ 12.72% for 5 sec.",
+      },
+      {
+        name: "The Terrorist",
+        effect:
+          "■ Affects the enemy with the highest ATK.##Deals 915.75% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Maiden",
-    art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/01b647fd49861b5305f7e0cb6fc63a09/60b4d/maiden_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4012,
     weapon: "Shotgun",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -436,14 +574,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.05s",
+        effect: "■ Affects target enemy.##Deals 231.6% ATK as damage.",
+      },
+      {
+        name: "Kotodama: Words of Skill",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 20 time(s). Affects self.##Revenge: ATK ▲ 26.66% for 20 sec.",
+      },
+      {
+        name: "Kotodama: Words of Assault",
+        active: "30 Seconds",
+        effect:
+          "■ Affects all enemies.##Attract for 10 sec.##■ Affects self.##Critical Damage ▲ 152.84% for 10 sec.",
+      },
+      {
+        name: "Kotodama: Words of Power",
+        effect:
+          "■ Affects all enemies.##Deals 457.87% of ATK as damage.##■ Affects the same target(s) when in Revenge status.##Deals 457.87% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Guillotine",
-    art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/849455f1237535750d6383f4831c1fdf/60b4d/guillotine_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3539,
     weapon: "Machine Gun",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -452,6 +617,33 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.5s",
+        effect: "■ Affects target enemy.##Deals 5.57% ATK as damage.",
+      },
+      {
+        name: "Residual Heat",
+        active: "Passive",
+        effect:
+          "■ Affects self. Casts after landing 100 normal attacks.##Critical rate ▲ 9.28% for 10 sec.##HP ▼ 2.01%",
+      },
+      {
+        name: "Shroud of Darkness",
+        active: "Passive",
+        effect:
+          "■ Affects self. Casts after landing 150 normal attacks.##Critical Damage ▲ 14.46% for 5 sec.##■ Affects self. Casts when HP falls below 70%.##ATK ▲ 0.2% with every 1% of HP loss.",
+      },
+      {
+        name: "Dragon of the Deep",
+        effect:
+          "■ Affects the enemy with the highest ATK.##[Target] Deals 1237.5% of ATK as damage.##■ Affects the same target when HP falls below 50%.##Deal additional damage to the same target equal to 1237.5% of ATK.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
