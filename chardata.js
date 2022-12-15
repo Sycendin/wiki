@@ -648,10 +648,10 @@ export const charData = [
   },
   {
     name: "Brid",
-    art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/86155c25c213c48bbccb40cfbe917d1a/60b4d/brid_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -660,14 +660,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.3s",
+        effect: "■ Affects target enemy.##Deals 14.29% ATK as damage.",
+      },
+      {
+        name: "Acceleration",
+        active: "Passive",
+        effect:
+          "■ Affects self. Activates after 30 normal attacks.##ATK ▲ 15.18% for 10 sec.",
+      },
+      {
+        name: "Leak",
+        active: "10 Seconds",
+        effect:
+          "■ Affects the enemy with the highest ATK.##Deal damage equal to 200% of ATK.",
+      },
+      {
+        name: "AZX",
+        effect:
+          "■ Affects the enemy with the highest DEF.##Deal damage equal to 1237.5% of ATK.##■ Affects the same target when at Max HP.##Deal additional damage to the same target equal to 1237.5% of ATK.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Diesel",
     art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 711171,
+    atk: 17059,
+    def: 4250,
     weapon: "Machine Gun",
     class: "Defender",
     manufacturer: "Elysion",
@@ -676,14 +703,41 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.16s",
+        effect: "■ Affects target enemy.##Deals 5.38% ATK as damage.",
+      },
+      {
+        name: "Strawberry Fields",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects self.##DEF ▲ 22.04% for 10 sec.##■ Activates when attacked during Full Burst. Affects self.##Recovers HP by 11.02% of the caster's Max HP.",
+      },
+      {
+        name: "Sweet Strawberry Goodness",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 100 normal attack(s). Affects self.##Strawberry Candy: Max Ammunition Capacity ▲ 56.7% for 10 time(s) and lasts for 10 sec.##■ Affects all allies when the caster reaches max stacks of Strawberry Candy. Activates after clearing stacks effect.##Reload 86.62% magazine(s).",
+      },
+      {
+        name: "Strawberry Shock",
+        effect:
+          "■ Affects 5 enemies with the highest ATK.##[Target] Deals 299.98% ATK as damage.##Taunt for 5.06 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Soline",
     art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 583734,
+    atk: 25554,
+    def: 3633,
     weapon: "SMG",
     class: "Support",
     manufacturer: "Elysion",
@@ -692,6 +746,33 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 4.68% ATK as damage.",
+      },
+      {
+        name: "On the Ball!",
+        active: "Passive",
+        effect:
+          "■ Activates after 40 normal attack(s). Affects Self.##Attack speed ▲ 7.26% for 3 sec.",
+      },
+      {
+        name: "Grow Up!",
+        active: "Passive",
+        effect:
+          "■ Only affects self at Max HP.##Critical Rate ▲ 2% permanently##Critical Damage ▲ 13.5% permanently.",
+      },
+      {
+        name: "My Word, My Bond!",
+        effect:
+          "■ Affects enemies within attack range.##Deals damage equal to 396% of ATK.##■ Cast on the same enemies when at Max HP.##Deal additional damage equal to 924% ATK as damage",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
