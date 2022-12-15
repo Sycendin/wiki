@@ -734,7 +734,7 @@ export const charData = [
   },
   {
     name: "Soline",
-    art: "https://www.prydwen.gg/static/729864516a6224f9fc9de1184ef877ae/60b4d/frima_icon.webp",
+    art: "https://www.prydwen.gg/static/f40e2fb9f7c3d325409635681e0f27d4/60b4d/soline_icon.webp",
     hp: 583734,
     atk: 25554,
     def: 3633,
@@ -777,10 +777,10 @@ export const charData = [
   },
   {
     name: "Harran",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/b3721ed6c39084e9911745361fd6570e/60b4d/harran_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Pilgrim",
@@ -789,14 +789,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2.3s",
+        effect:
+          "■ Affects target enemy.## Deals 70.89% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Plague Transfer",
+        active: "Passive",
+        effect:
+          "■ There is a 25% chance to activate when attacking.##Virus Transfer: Constantly deals 17.28% ATK as damage every 1 sec for 5 seconds.##■ Activates when an enemy afflicted with Virus Transfer is killed. Affects 2 nearby enemy unit(s).##Virus Transfer: Constantly deals 17.28% ATK as damage every 1 sec for 5 seconds.",
+      },
+      {
+        name: "Predator",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects self.##Gain Pierce for 1 round(s)##Critical rate ▲ 1.84%##■ Activates when killing an enemy. Affects self.##TK ▲ 3.02%, stacks up to 15 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Death Scythe",
+        effect: "■ Affects all enemies.##Deals 999% of ATK as damage",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Noah",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/e85af87106d388bae80e0fa4c9588990/60b4d/noah_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4900,
     weapon: "Rocket Launcher",
     class: "Defender",
     manufacturer: "Pilgrim",
@@ -805,14 +832,42 @@ export const charData = [
     position: "Support 2",
     burstCD: "40",
     role: ["Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 6,
+        reload: "2.5s",
+        effect:
+          "■ Affects target enemy.## Deals 32.02% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "This is Gonna Hurt",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. 10% chance to cast when attacked.##Sustained damage ▼ 8% for 10 sec.",
+      },
+      {
+        name: "Cruisin' for a Bruisin'",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects the target(s).##Taunt for 2 sec.##ATK ▼ 7.82% for 2 sec.",
+      },
+      {
+        name: "U Mad Bro?",
+        effect:
+          "■ Affects self.##Attract: Taunt all enemies for 10 sec.##■ Affects all allies.##Invincible for 3 sec.##DEF ▲ 99% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Isabel",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/c5ccac91278f7ff0fb62a1cfa094a25e/60b4d/isabel_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4012,
     weapon: "Machine Gun",
     class: "Attacker",
     manufacturer: "Pilgrim",
@@ -821,14 +876,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "1.86s",
+        effect: "■ Affects target enemy.##Deals 210.7% ATK as damage..",
+      },
+      {
+        name: "Marked Target",
+        active: "Passive",
+        effect:
+          "■ Activates when using Burst Skill. Affects self.##Marked Target 1: Critical Rate ▲ 6.26% for 45 sec.##■ Activates when using Burst Skill during Marked Target 1. Affects self.##Marked Target 2: Critical Damage ▲ 18.03% for 45 sec. Previous effects trigger repeatedly.##■ Activates when using Burst Skill during Marked Target 2. Affects self.##Marked Target 3: ATK ▲ 17.28% for 45 sec. Previous effects trigger repeatedly.",
+      },
+      {
+        name: "Pointed Feather",
+        active: "15 Seconds",
+        effect:
+          "■ Affects 5 enemy unit(s) with the highest DEF.## Deals 170.58% of ATK as damage.",
+      },
+      {
+        name: "Sonic Chaser",
+        effect:
+          "■ Affects all enemies.##Deals 149.85% of ATK as damage.##Effect changes according to the caster's status. Previous effects trigger repeatedly.## Marked Target 1: Damage Taken ▲ 39.96% for 5 sec.##Marked Target 2: Deals 299.7% of ATK as additional damage.##Marked Target 3: Deals 349.65% of ATK as additional damage.##■ Affects all allies.##Full Burst Time ▼ 5 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Ether",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/2400afbfa211a1db536c906f2e0e262a/60b4d/ether_icon.webp",
+    hp: 307886,
+    atk: 8666,
+    def: 2459,
     weapon: "Shotgun",
     class: "Defender",
     manufacturer: "Missilis",
@@ -837,14 +919,41 @@ export const charData = [
     position: "Support 1",
     burstCD: "40",
     role: ["Shielder", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 214.03% ATK as damage.",
+      },
+      {
+        name: "Corrosive Bullets",
+        active: "Passive",
+        effect:
+          "■ Affects 1 ally with the lowest HP.##Sustained Damage ▼ 52.5% for 5 sec.",
+      },
+      {
+        name: "Prognostic Response Experiment",
+        active: "13 Seconds",
+        effect:
+          "■ Affects 3 enemies with the highest DEF.##[Target] Deals 56.32% of ATK as damage.## ■ Affects one enemy. Activates during Full Burst.##Target] DEF ▼ 9.38% for 6 sec.",
+      },
+      {
+        name: "Colossal Single Cell",
+        effect:
+          "■ Affects 3 allied unit(s) with the lowest HP.##Creates a Shield equal to 96% of the caster's Max HP for 5 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
     name: "Julia",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/b525e1a3a88a0c68ee0c24ad192d6fb6/60b4d/julia_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Missilis",
@@ -853,6 +962,32 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.2s",
+        effect: "■ Affects target enemy.##Deals 14.07% ATK as damage.",
+      },
+      {
+        name: "Crescendo",
+        active: "20 Seconds",
+        effect: "■ Affects self.##Critical Rate ▲ 26.04% for 10 sec..",
+      },
+      {
+        name: "Decrescendo",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects self.##Crescendo: Critical Damage ▲ 24.79%,##stacks up to 5 times and lasts for 15 sec.",
+      },
+      {
+        name: "Climax",
+        effect:
+          '■ Affects 5 enemies with the highest DEF.##Deals 544.5% of ATK as damage.##■ Affects the same target(s) when "Crescendo" is fully stacked.##Deals 544.5% of ATK as additional damage.',
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
