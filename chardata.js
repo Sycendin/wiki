@@ -992,10 +992,10 @@ export const charData = [
   },
   {
     name: "Drake",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/dd41faf38ff5b9c0ad6603e720619a8f/60b4d/drake_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4012,
     weapon: "Shotgun",
     class: "Attacker",
     manufacturer: "Missilis",
@@ -1004,14 +1004,41 @@ export const charData = [
     position: "Support 3",
     burstCD: "40",
     role: ["DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "1.52s",
+        effect: "■ Affects target enemy.##Deals 214.3% ATK as damage..",
+      },
+      {
+        name: "Overcharge",
+        active: "Passive",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects all allies.##Hit Rate ▲ 11.85% for 10 sec.##ATK ▲ 11.85% for 10 sec.",
+      },
+      {
+        name: "Thunder Bolt",
+        active: "Passive",
+        effect:
+          "■ Activates after 10 hits. Affects 3 enemies with the lowest HP.##Deals 98.55% of ATK as damage.",
+      },
+      {
+        name: "Drake Special",
+        effect:
+          "■ Affects enemies within the attack range.##[Target] Deals 1254% of ATK as damage.##■ Affects self.##Max Ammunition Capacity ▲ 72.18% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Laplace",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/bc5a8bc902adfb42b0c538a66159aa1b/60b4d/laplace_icon.webp",
+    hp: 583374,
+    atk: 25554,
+    def: 4071,
     weapon: "Rocket Launcher",
     class: "Attacker",
     manufacturer: "Missilis",
@@ -1020,14 +1047,42 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 6,
+        reload: "2.33s",
+        effect:
+          "■ Affects target enemy.##Deals 63.13% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Hero Vision",
+        active: "Passive",
+        effect:
+          "■ Activates when landing a hit with Full Charge. Affects self.##Hero Vision: Explosion Range up 3.57%, stacks up to 5 time(s) and lasts for 5 sec.",
+      },
+      {
+        name: "Hero Bomber",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects the target.##Deals 81.66% of ATK as additional damage.##■ Activates when hitting the Boss Parts. Affects the target.##Deals 14.78% of ATK as additional damage.",
+      },
+      {
+        name: "Laplace Buster",
+        effect:
+          '■ Affects Self.##Change the weapon in use:##Max Damage: 897.6% of ATK##Damage Over Time: 14.52% of ATK##Lasts for 5 sec.##Additional Effect: Pierce.##■ Affects the same enemy unit(s) when "Hero Vision" is fully stacked.##Deals 11.9% of ATK as true damage.',
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Maxwell",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/93d44190358ad0fcda38d6e6e107ec62/60b4d/maxwel_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3552,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Missilis",
@@ -1036,11 +1091,39 @@ export const charData = [
     position: "Support 3",
     burstCD: "40",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Straight Shot",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects 2 ally units with the highest ATK.##Charge Speed ▲ 4.48% for 10 sec.##ATK ▲ 43.1% for 10 sec.",
+      },
+      {
+        name: "Spark Shot",
+        active: "Passive",
+        effect:
+          "■ Activates when there are above 5 enemy unit(s), excluding NIKKEs. Affects self.##Critical Rate ▲ 4.83%##Critical Damage ▲ 13.91%",
+      },
+      {
+        name: "Pierce shot",
+        effect:
+          "■ Affects self.##Change the Weapon in use.##Damage: 813.42% of ATK##Max Ammunition Capacity: 1 round##Additional Effect: Pierce",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Liter",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
+    art: "https://www.prydwen.gg/static/4815b31782020c75ad99d332d54f6323/60b4d/liter_icon.webp",
     hp: 111,
     atk: 111,
     def: 111,
@@ -1056,7 +1139,7 @@ export const charData = [
   },
   {
     name: "Centi",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
+    art: "https://www.prydwen.gg/static/83ed726ead71c91a8110740374597b27/60b4d/centi_icon.webp",
     hp: 111,
     atk: 111,
     def: 111,
