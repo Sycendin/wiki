@@ -1124,9 +1124,9 @@ export const charData = [
   {
     name: "Liter",
     art: "https://www.prydwen.gg/static/4815b31782020c75ad99d332d54f6323/60b4d/liter_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 647453,
+    atk: 21307,
+    def: 399,
     weapon: "SMG",
     class: "Support",
     manufacturer: "Missilis",
@@ -1135,14 +1135,40 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 8.73% ATK as damage.",
+      },
+      {
+        name: "Liter Boost",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects all allies.##Effect changes according to the activation time(s). Previous effects triggers repeatedly.##Once: Cooldown of Burst Skill ▼ 2.34 sec.##Twice: Cooldown of Burst Skill ▼ 2.7 sec.##Three times: Cooldown of Burst Skill ▼ 3.17 sec.## ■ Activates when using Burst Skill. Affects all allies.##Effect changes according to the activation time(s). Previous effects triggers repeatedly.##Once: Max Ammunition Capacity ▲ 48.17% for 5 sec.##Twice: Critical Damage ▲ 12.46% for 5 sec.##Three times: ATK ▲ 14.42% for 5 sec.",
+      },
+      {
+        name: "Bolt Boost",
+        active: "15 Seconds",
+        effect:
+          "■ Affects 2 ally unit(s) with the lowest HP.##Cover's HP recovers by 52.5%.",
+      },
+      {
+        name: "Double Boost",
+        effect: "■ Affects all allies.##ATK ▲ 66% for 5 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Centi",
     art: "https://www.prydwen.gg/static/83ed726ead71c91a8110740374597b27/60b4d/centi_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    hp: 71171,
+    atk: 17059,
+    def: 4908,
     weapon: "Rocket Launcher",
     class: "Defender",
     manufacturer: "Missilis",
@@ -1151,14 +1177,42 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Shielder", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.52s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Maintain Fortification",
+        active: "Passive",
+        effect:
+          "■ Activates when Full Charge hits the target. Affects self.##Cooldown of Skill 2 ▼ 9.16%.",
+      },
+      {
+        name: "Field Discussion",
+        active: "9 Seconds",
+        effect:
+          "■ Affects all allies.##reates a shield, equivalent to 6.38% of the caster's Max HP, which protects all allies from damage. Lasts for 5 sec.",
+      },
+      {
+        name: "Start Construction",
+        effect:
+          "■ Affects 5 enemy targets with the lowest HP.##Deals 145.46% of ATK as damage.##DEF ▼ 14.54% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Epinel",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/b70ff5847ea161a4c7f01c5f20955c5c/60b4d/epinel_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3633,
     weapon: "SMG",
     class: "Attacker",
     manufacturer: "Missilis",
@@ -1167,14 +1221,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 8.1% ATK as damage.",
+      },
+      {
+        name: "Total Noob",
+        active: "Passive",
+        effect:
+          "■ Activates when killing an enemy. Affects self.##Total Noob: ATK ▲ 13.86%, stacks up to 5 time(s) and lasts for 15 sec.",
+      },
+      {
+        name: "Arachnid",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects self.## Critical Rate ▲ 5.05% for 5 sec.##Critical Damage ▲ 6.4% for 5 sec.",
+      },
+      {
+        name: "SAFE 50-50",
+        effect:
+          "■ Affects all enemies.##Deals 457.87% of ATK as damage.##■ Activates when attacking with Total Noob passive active. Affects all enemies.##Deals 457.87% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Folkwang",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/49362e8159fb82e78410efd2a995d977/60b4d/folkwang_icon.webp",
+    hp: 711171,
+    atk: 15059,
+    def: 5015,
     weapon: "Assault Rifle",
     class: "Defender",
     manufacturer: "Tetra",
@@ -1183,14 +1264,41 @@ export const charData = [
     position: "Burst 2",
     burstCD: "40",
     role: ["Healer", "Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.3s",
+        effect: "■ Affects target enemy.##Deals 14.29% ATK as damage.",
+      },
+      {
+        name: "Starting Whistle",
+        active: "30 Seconds",
+        effect:
+          "■ Affects 2 targets with the highest ATK.##Gain a shield equal to 13.71% of the caster's Max HP for 10 sec.##HP Potency ▲ 45.7% for 10 sec.",
+      },
+      {
+        name: "Harder, Better, Faster",
+        active: "20 Seconds",
+        effect:
+          "■ Affects the target with the highest ATK.##Taunt for 5 sec.##■ Affects self.##Max HP ▲ 44.96% for 10 sec.",
+      },
+      {
+        name: "Splint",
+        effect:
+          "■ Affects 2 allies with the highest ATK.##Gain a shield equal to 32.9% of the caster's Max HP for 10 sec.##Restore HP equal to 65.81% of ATK for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Scarlet",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/e6108076ecd772e101f22d77a2ee3eb6/60b4d/scarlet_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Pilgrim",
@@ -1199,14 +1307,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 20,
+        reload: "2.3s",
+        effect: "■ Affects target enemy.##Deals 27.08% ATK as damage.",
+      },
+      {
+        name: "Rip & Tear",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 10 normal attack(s). Affects self.##ATK ▲ 23.15%, stacks up to 5 times and lasts for 5 sec.##Current HP ▼ 4.01%",
+      },
+      {
+        name: "Zatoichi",
+        active: "Passive",
+        effect:
+          "■ Affects the attacker. 30% chance of casting when attacked.##[Target] Deals 138.24% of ATK as damage.##■ Affects self. Cast when HP falls below 60%.##Critical Damage ▲ 6.61%",
+      },
+      {
+        name: "Scarlet Flash",
+        effect:
+          "■ Affects self. Cast when HP falls below 50%.## Critical Rate ▲ 19.57% for 10 sec.##■ Affects all enemies.##Deals 849.15% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Rapunzel",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/b085d6638a870a21dfe81fa83915e074/60b4d/rapunzel_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 4485,
     weapon: "Rocket Launcher",
     class: "Support",
     manufacturer: "Pilgrim",
@@ -1215,14 +1350,42 @@ export const charData = [
     position: "Support 1",
     burstCD: "60",
     role: ["Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2.3s",
+        effect:
+          "■ Affects target enemy.##Deals 62.95% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Sacrifice",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects 3 allied unit(s) with the lowest HP.##Recovers 4.03% of the caster's Max HP as HP.",
+      },
+      {
+        name: "Divine Blessing",
+        active: "15 Seconds",
+        effect:
+          "■ Affects 2 allied unit(s) with the highest ATK.##Max HP ▲ 8.19% for 20 sec.##HP Potency ▲ 13.65% for 20 sec.",
+      },
+      {
+        name: "Garden of Shangri-La",
+        effect:
+          "■ Affects all allies.##Recovers 40.83% of the casters max HP as HP.##■ Affects 1 fallen allied unit(s) randomly.##Resurrect with 81.67% HP.##■ Activates when HP falls below 30%. Affects all enemies.##Stun for 1 sec.",
+        active: "60 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Snow White",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/cca848f0ed074359a9fe832a3f5855fc/60b4d/snow_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Pilgrim",
@@ -1231,6 +1394,33 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 14.71% ATK as damage.",
+      },
+      {
+        name: "Determination",
+        active: "Passive",
+        effect:
+          "■ Activates when normal attacks hits 30 times. Affects enemy targets.##Deals 82.8% of ATK as additional damage.##■ Activates when normal attacks hits 30 times. Affects self.##ATK ▲ 8.28% for 5 sec.",
+      },
+      {
+        name: "Seven Dwarves: V & VI",
+        active: "15 Seconds",
+        effect:
+          "■ Affects enemies within the attack range.##[Target] Deals 144.73% of ATK as damage.##■ Activates when attacking during Full Burst Time.##[Self] Critical Rate ▲ 26.1% for 10 sec.",
+      },
+      {
+        name: "Seven Dwarves: I",
+        effect:
+          "■ Affects self.## Changes the weapon in use:##Charge Time: 5 sec##Damage 499.5% of ATK##Full Charge Damage: 1000% damage##Max Ammunition Capacity: 1 round##Additional Effect: Penetration",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
