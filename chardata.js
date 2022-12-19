@@ -1386,7 +1386,7 @@ export const charData = [
     hp: 583734,
     atk: 25554,
     def: 4164,
-    weapon: "Sniper",
+    weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Pilgrim",
     element: "Earth",
@@ -1425,10 +1425,10 @@ export const charData = [
   },
   {
     name: "Noise",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/66ecab0a489a2ef6d3df2dccdcdb311c/60b4d/noise_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 4485,
     weapon: "Rocket Launcher",
     class: "Support",
     manufacturer: "Tetra",
@@ -1437,14 +1437,42 @@ export const charData = [
     position: "Support 1",
     burstCD: "40",
     role: ["Healer", "Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 350%.",
+      },
+      {
+        name: "Chorus",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 20 time(s). Affects all allies.##Damage taken ▼ 10.66% for 20 sec.",
+      },
+      {
+        name: "Sing Together",
+        active: "Passive",
+        effect:
+          "■ Affects the target(s) when attacking with full charge.##Taunt for 2 sec.##■ Affects self.##Max HP ▲ 15.16% for 5 sec.",
+      },
+      {
+        name: "Energetic Noise",
+        effect:
+          "■ Affects all allies.##Constantly recovers caster's 2.47% of caster's Maximum HP every 1 sec for 10 sec.##Maximum HP ▲ 49.5% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Aria",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/861c597a1846bfea9d8bbd760dac0bbc/60b4d/aria_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3539,
     weapon: "Machine Gun",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -1453,14 +1481,41 @@ export const charData = [
     position: "Support 2",
     burstCD: "40",
     role: ["Buffer", "Shielder"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 30,
+        reload: "2.33s",
+        effect: "■ Affects target enemy.##Deals 5.47% ATK as damage.",
+      },
+      {
+        name: "Allegro",
+        active: "Passive",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects all allies.##Critical Damage ▲ 26.99% for 10 sec.",
+      },
+      {
+        name: "Lacrimoso",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects all allies.##Critical Rate ▲ 7.03% for 5 sec.",
+      },
+      {
+        name: "Da Capo Aria",
+        effect:
+          "■ Affects all allies.##Generates a Shield with 37.86% of the caster's Max HP for 10 sec.##■ Affects self.##Hit Rate ▲ 30.37% for 15 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Volume",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/81322f18cac0b4e219372821f30f9a53/60b4d/volume_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3633,
     weapon: "SMG",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -1469,6 +1524,31 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 8.73% ATK as damage.",
+      },
+      {
+        name: "Allegro",
+        active: "Passive",
+        effect: "■ Affects self when killing an enemy.##ATK ▲ 12.6% for 5 sec.",
+      },
+      {
+        name: "Lacrimoso",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects all allies.## Effect changes according to the number of activation time(s). Previous effects triggers repeatedly.##Once: Burst Skill cooldown ▼ 2.34 sec.##Twice: Burst Skill cooldown ▼ 2.7 sec.## Three times: Burst Skill cooldown ▼ 3.17 sec.##■ Activates when using Burst Skill. Affects all allies.##Effect changes according to the number of activation time(s). Previous effects triggers repeatedly.##Once: Critical Damage ▲ 10.77% for 5sec.##Twice: Critical Damage ▲ 12.46% for 5 sec.##hree times: Critical Damage ▲ 14.42% for 5 sec.",
+      },
+      {
+        name: "Da Capo Aria",
+        effect: "■ Affects all allies.##Critical Chance ▲ 31.59% for 5 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
