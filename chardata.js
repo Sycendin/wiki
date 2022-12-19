@@ -1553,10 +1553,10 @@ export const charData = [
   },
   {
     name: "Novel",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/2d768441d86a208971ae9a370a25c284/60b4d/novel_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
     weapon: "SMG",
     class: "Defender",
     manufacturer: "Tetra",
@@ -1565,14 +1565,41 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 8.1% ATK as damage.",
+      },
+      {
+        name: "Something's Fishy Here",
+        active: "10 Seconds",
+        effect:
+          "■ Affects 3 enemy unit(s) with the highest DEF.##Deals 52.36% of ATK as damage.##DEF ▼ 7.05% for 5 sec.",
+      },
+      {
+        name: "Detective's Intuition",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 100 normal attack(s). Affects self.##Cornucopia: DEF ▲ 13.5%, stacks up to 5 time(s) and lasts for 15 sec.",
+      },
+      {
+        name: "Case Closed",
+        effect:
+          '■ Affects 1 enemy unit(s) with the highest ATK.##Deals 330.61% of ATK as damage.##■ Activates when "Cornucopia" is fully stacked. Affects 1 enemy unit(s).##Damage Taken ▲ 67.5% for 5 sec.',
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Exia",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/7e833e38b9b438f98af5940b06edc468/60b4d/exia_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 3894,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -1581,14 +1608,42 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Invasion",
+        active: "Passive",
+        effect:
+          '■ When the last round of ammunition hits, affects the target if the caster is in "Collect Hacking Code"##ATK ▼ 13.77% for 5 sec.##DEF ▼ 13.77% for 5 sec.',
+      },
+      {
+        name: "Secret Code",
+        active: "Passive",
+        effect:
+          "■ Activates when the last round of ammunition hits. Affects self.##Collect Hacking Code: ATK ▲ 16.8%, stacks up to 5 time(s) and lasts for 15 sec.",
+      },
+      {
+        name: "Partisan Protocol",
+        effect:
+          '■ Affects 10 enemy unit(s) with the highest DEF.##Deals 122.32% of ATK as damage.##DEF ▼ 2.71% for 5 sec.##■ Affects the same target(s) when "Collect Hacking Code" is fully stacked.##Deals 122.32% of ATK as additional damage.',
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "N102",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/510126b1c7ed2707ef5c0e0bb239652f/60b4d/n102_icon.webp",
+    hp: 280314,
+    atk: 10824,
+    def: 2286,
     weapon: "Rocket Launcher",
     class: "Support",
     manufacturer: "Missilis",
@@ -1597,6 +1652,33 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 350% of damage.",
+      },
+      {
+        name: "Written Memories",
+        active: "Passive",
+        effect:
+          "■ Affects 1 ally with the highest ATK. Cast when attacking during Full Charge.##[Target] Max Ammunition Capacity ▲ 3 shots for 10 sec.##[Target] Critical Damage ▲ 10.34% for 10 sec.",
+      },
+      {
+        name: "Impaired Memory",
+        active: "!5 Seconds",
+        effect:
+          "■ Affects 1 ally unit(s) with the highest HP.##Charge Damage ▲ 25.84% for 5 sec.",
+      },
+      {
+        name: "Memories of Blue Butterflies",
+        effect: "■ Affects all allies.##ATK ▲ 25.86% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
@@ -1621,11 +1703,13 @@ export const charData = [
       },
       {
         name: "Fairy's Jest",
+        active: "Passive",
         effect:
           "■ Affects all allies. Activates when above 90% HP.## HP Potency ▲ 23.46%.## ■ Activates when the last bullet hits the target while having over 90% HP. Affects all enemies.## HP Potency ▼ 78.93% for 10 sec..",
       },
       {
         name: "Blue Butterfly Slumber",
+        active: "Passive",
         effect:
           "■ Affects 1 random fallen Attacker ally unit(s).## Resurrect with 99% HP. Activates once per battle.## ■ Affects all Attacker allies.## Restores HP equal to 38.61% of the caster's Max HP.## ATK ▲ 77.22% for 10 sec.",
         active: "60 Seconds",
@@ -1635,10 +1719,10 @@ export const charData = [
   },
   {
     name: "Soldier OW",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 83463,
+    atk: 2903,
+    def: 499,
     weapon: "SMG",
     class: "Support",
     manufacturer: "Elysion",
@@ -1647,6 +1731,375 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "12",
+        effect: "■ Affects target enemy.##Deals 9.36% ATK as damage.",
+      },
+      {
+        name: "Hoo of the Owl",
+        active: "10 Seconds",
+        effect:
+          "■ There is a 10% chance of activating after casting normal attack(s).##Deals 75.6% of ATK as additional damage.",
+      },
+      {
+        name: "Owl Wind",
+        active: "10 Seconds",
+        effect:
+          "■ Affects 3 ally unit(s) with the highest ATK.##Cover's DEF ▲ 128.57% for 5 sec.",
+      },
+      {
+        name: "Owl Feather",
+        effect:
+          "■ Affects all allies with Fire Element.## Max Ammunition Capacity ▲ 280% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "Soldier EG",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 75117,
+    atk: 3484,
+    def: 522,
+    weapon: "Assault Rifle",
+    class: "Attacler",
+    manufacturer: "Elysion",
+    element: "Electric",
+    squad: "Replace",
+    position: "Burst 3",
+    burstCD: "20",
+    role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.17s",
+        effect: "■ Affects target enemy.##Deals 14.01% ATK as damage.",
+      },
+      {
+        name: "Eagle Eye",
+        active: "10 Seconds",
+        effect:
+          "■ When a normal attack hits, there is a 5% chance of affecting self.##ATK ▲ 7.92% for 5 sec.",
+      },
+      {
+        name: "Eagle's Gambit",
+        active: "9 Seconds",
+        effect: "■ Affects self.##Max Ammunition Capacity ▲ 112.77% for 5 sec.",
+      },
+      {
+        name: "Eagle Shot",
+        effect:
+          "■ Affects enemy unit(s) within attack range.##Deals 720% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "Soldier FA",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 91809,
+    atk: 2322,
+    def: 613,
+    weapon: "Shotgun",
+    class: "Defender",
+    manufacturer: "Elysion",
+    element: "Iron",
+    squad: "Replace",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2s",
+        effect: "■ Affects target enemy.##eals 214.3% ATK as damage.",
+      },
+      {
+        name: "Falcon Wings",
+        active: "10 Seconds",
+        effect:
+          "■ There is a 10% chance of activating when attacked. Affects self.##DEF ▲ 9.09% for 10 sec.",
+      },
+      {
+        name: "Falcon Nest",
+        active: "15 Seconds",
+        effect:
+          "■ Affects self.##Recover 20.19% of attack damage as HP over 8 sec.",
+      },
+      {
+        name: "Falcon Boost",
+        effect: "■ Affects self.##Max HP ▲ 112.5% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "Product 08",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 83463,
+    atk: 2903,
+    def: 487,
+    weapon: "Sniper",
+    class: "Supporter",
+    manufacturer: "Missilis",
+    element: "Electric",
+    squad: "Replace",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Tactic: Enhance Armor",
+        active: "10 Seconds",
+        effect:
+          "■ When a normal attack hits, there is 20% chance of affecting 1 ally unit(s) with the lowest HP.##DEF ▲ 9.09% for 5 sec.",
+      },
+      {
+        name: "Tactic: Crack Shot",
+        active: "17 Seconds",
+        effect:
+          "■ Affects 1 ally unit(s) with the highest ATK.##Critical Rate ▲ 22.99% for 5 sec.",
+      },
+      {
+        name: "Tactic: Power Boost",
+        effect: "■ Affects all allies.##ATK ▲ 19.39% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "Product 12",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 75117,
+    atk: 3484,
+    def: 437,
+    weapon: "Machine Gun",
+    class: "Supporter",
+    manufacturer: "Missilis",
+    element: "Fire",
+    squad: "Replace",
+    position: "Burst 3",
+    burstCD: "20",
+    role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.67s",
+        effect: "■ Affects target enemy.##Deals 5.57% ATK as damage.",
+      },
+      {
+        name: "Action: Increase ATK",
+        active: "10 Seconds",
+        effect:
+          "■ Affects self. Activates after 2 normal attack(s).##ATK ▲ 8.28% for 5 sec.",
+      },
+      {
+        name: "Action: Concentrate Fire",
+        active: "10 Seconds",
+        effect:
+          "■ Affects 1 enemies with the lowest HP.##[Target] Deals 109.09% of ATK as damage.",
+      },
+      {
+        name: "Action: Precision Strike",
+        effect:
+          "■ Affects enemies within attack range.##[Target] Deals 720% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "Product 23",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 83463,
+    atk: 2903,
+    def: 557,
+    weapon: "Shotgun",
+    class: "Supporter",
+    manufacturer: "Missilis",
+    element: "Wind",
+    squad: "Replace",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 231.6% ATK as damage.",
+      },
+      {
+        name: "Order: Power Boost",
+        active: "10 Seconds",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects self.##DEF ▲ 8.1% for 10 sec..",
+      },
+      {
+        name: "Order: Emergency Measure",
+        active: "15 Seconds",
+        effect:
+          "■ Affects self.##Recover 16.15% of attack damage as HP over 10 s",
+      },
+      {
+        name: "Action: Precision Strike",
+        effect:
+          "■ Affects 2 enemy unit(s) with the highest ATK.##DEF ▼ 48.75% for 5 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "IDoll Flower",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 91809,
+    atk: 2322,
+    def: 622,
+    weapon: "Rocket Launcher",
+    class: "Defender",
+    manufacturer: "Tetra",
+    element: "Wind",
+    squad: "Replace",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.## Deals 61.3% of ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Perennial Leaf",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects the target.##ATK ▼ 16.52% for 5 sec.",
+      },
+      {
+        name: "Hue of the Perennial",
+        active: "15 Seconds",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest ATK.##ATK ▼ 39.37% for 5 sec.",
+      },
+      {
+        name: "Perennial Perfume",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest ATK.##Deals 330.61% of ATK as damage.## Attract for 2 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "IDoll Ocean",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 83463,
+    atk: 2903,
+    def: 499,
+    weapon: "SMG",
+    class: "Supporter",
+    manufacturer: "Tetra",
+    element: "Water",
+    squad: "Replace",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 6,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 8.73% ATK as damage.",
+      },
+      {
+        name: "Ocean Shower",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects the target.##ATK ▼ 16.52% for 5 sec.",
+      },
+      {
+        name: "Ocean Cleaning",
+        active: "15 Seconds",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects 1 ally unit(s) with the lowest HP.## Recovers 4.85% of Max Hp.",
+      },
+      {
+        name: "Ocean Dive",
+        effect:
+          "■ Affects all allies.##Recovers 29.37% of the caster's Max HP as HP.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "R",
+  },
+  {
+    name: "IDoll Sun",
+    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    hp: 83463,
+    atk: 2903,
+    def: 580,
+    weapon: "Assault Rifle",
+    class: "Supporter",
+    manufacturer: "Tetra",
+    element: "Iron",
+    squad: "Replace",
+    position: "Burst 3",
+    burstCD: "40",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 6,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 14.71% ATK as damage.",
+      },
+      {
+        name: "Sunshine",
+        active: "Passive",
+        effect:
+          "■ Affects self. Activates after landing 10 normal attack(s).##DEF ▲ 7.56% for 5 sec.",
+      },
+      {
+        name: "Sunlight",
+        active: "15 Seconds",
+        effect:
+          "■ There is a 20% chance to activate when attacked.##ATK ▲ 9.09% for 5 sec.",
+      },
+      {
+        name: "Sunset",
+        effect: "■ Affects self.##Max Ammunition Capacity ▲ 787.5% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "R",
   },
   {
