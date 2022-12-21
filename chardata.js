@@ -2104,10 +2104,10 @@ export const charData = [
   },
   {
     name: "Signal",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/f04d9c2af6296c9e996739ebf22ca9fd/60b4d/signal_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3633,
     weapon: "SMG",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -2116,14 +2116,41 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["DPS", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1s",
+        effect: "■ Affects target enemy##Deals 8.1% ATK as damage.",
+      },
+      {
+        name: "Attack Signal",
+        active: "Passive",
+        effect:
+          "■ Affects enemy hit by 60 normal attack (s).##[Target] DEF ▼ 5.94% for 5 sec.##Target] ATK ▼ 5.94% for 5 sec.",
+      },
+      {
+        name: "Waiting for Signal",
+        active: "Passive",
+        effect:
+          "■ Affects self. Cast when entering Full Burst.##Recovers 44.08% of attack damage as HP over 10 sec.",
+      },
+      {
+        name: "Emergency Signal",
+        effect:
+          "■ Affects enemies within attack range.##Deals 229.22% of ATK as damage.##DEF ▼ 12.34% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Delta",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/5d4be549107e1f2bdc8645873236b1d2/60b4d/delta_icon.webp",
+    hp: 115704,
+    atk: 3056,
+    def: 1135,
     weapon: "Sniper",
     class: "Defender",
     manufacturer: "Elysion",
@@ -2132,6 +2159,34 @@ export const charData = [
     position: "Support 2",
     burstCD: "40",
     role: ["Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.5s",
+        effect:
+          "■ Affects target enemy.##Deals 65.95% ATK as damage.##harge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Recollection",
+        active: "Passive",
+        effect:
+          "■ Activates when hitting a target with Full Charge. Affects self.##Max HP ▲ 8.82% for 10 sec.",
+      },
+      {
+        name: "Last Memory",
+        active: "Passive",
+        effect:
+          "■ Activates when using Burst Skills. Affects self.##DEF ▲ 51.42% for 20 sec.",
+      },
+      {
+        name: "Remember Me",
+        effect:
+          "■ Affects self.## Decoy: Avatar with 91.68% of caster's Max HP for 10 sec.##Attract: Taunt all enemies for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
