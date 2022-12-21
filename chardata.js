@@ -1762,7 +1762,7 @@ export const charData = [
   },
   {
     name: "Soldier EG",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/5ab73c9dedfb2d26289c37d026f76ec5/60b4d/soldiereg_icon.webp",
     hp: 75117,
     atk: 3484,
     def: 522,
@@ -1804,7 +1804,7 @@ export const charData = [
   },
   {
     name: "Soldier FA",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/bbdbbe6026210ec9425b7b583251246a/60b4d/soldierfa_icon.webp",
     hp: 91809,
     atk: 2322,
     def: 613,
@@ -1846,7 +1846,7 @@ export const charData = [
   },
   {
     name: "Product 08",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/e61659e7cd7a8be1b07fa00f15d8ed89/60b4d/product8_icon.webp",
     hp: 83463,
     atk: 2903,
     def: 487,
@@ -1889,7 +1889,7 @@ export const charData = [
   },
   {
     name: "Product 12",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/5d42c1727b76a56f510b49d7d3ec2b51/60b4d/product12_icon.webp",
     hp: 75117,
     atk: 3484,
     def: 437,
@@ -1932,7 +1932,7 @@ export const charData = [
   },
   {
     name: "Product 23",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/c653c3df3d78d755a275354ddec54863/60b4d/product23_icon.webp",
     hp: 83463,
     atk: 2903,
     def: 557,
@@ -1975,7 +1975,7 @@ export const charData = [
   },
   {
     name: "IDoll Flower",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/70955e7d07f2ec2b28927f77fdcb88dc/60b4d/idollflower_icon.webp",
     hp: 91809,
     atk: 2322,
     def: 622,
@@ -2019,7 +2019,7 @@ export const charData = [
   },
   {
     name: "IDoll Ocean",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/a39dfa345e904bc4a514db2cd8c05ffc/60b4d/idollocean_icon.webp",
     hp: 83463,
     atk: 2903,
     def: 499,
@@ -2062,7 +2062,7 @@ export const charData = [
   },
   {
     name: "IDoll Sun",
-    art: "https://www.prydwen.gg/static/c9f347f399b4bcd94a82f184abc7bed3/60b4d/soldierow_icon.webp",
+    art: "https://www.prydwen.gg/static/5d256b2db083da55c0c0ea2a469eff8e/60b4d/idollsun_icon.webp",
     hp: 83463,
     atk: 2903,
     def: 580,
