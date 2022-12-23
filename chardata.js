@@ -2418,6 +2418,34 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 350%.",
+      },
+      {
+        name: "Scattershot",
+        active: "Passive",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects all allies.##Charge damage ▲ 21.55% for 10 sec.",
+      },
+      {
+        name: "The More, The Merrier",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects all allies.##ATK ▲ 2.77% for 5 sec.##Critical Rate ▲ 1.33% for 5 sec.",
+      },
+      {
+        name: "Fat Cat",
+        effect:
+          "■ Affects enemies within attack range.##[Target] Deals 348.73% ATK as damage.##[Target] Forcibly move to the center of the attack location for 2 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
