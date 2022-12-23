@@ -2191,10 +2191,10 @@ export const charData = [
   },
   {
     name: "Pepper",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/cbd0e67b95a58abe8037c9bfd17f0131/60b4d/pepper_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 4420,
     weapon: "Shotgun",
     class: "Support",
     manufacturer: "Missilis",
@@ -2203,14 +2203,41 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Healer", "DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.03s",
+        effect: "■ Affects target enemy.##Deals 231.6% ATK as damage.",
+      },
+      {
+        name: "Refresh Heart",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects 1 allied unit(s) with the lowest HP.##Restores HP equal to 4.45% of the caster's Max HP.##■ Activates when the last bullet hits the target. Affects all allies.##Refresh Heart: HP Recovery up 6.53%, stacks up to 5 time(s) and lasts for 15 sec..",
+      },
+      {
+        name: "Vitamin Power",
+        active: "10 Seconds",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest ATK.##Deal damage equal to 160% of ATK.##ATK ▼ 3.55% for 5 sec.",
+      },
+      {
+        name: "Pepper Therapy",
+        effect:
+          '■ Affects 1 enemy unit(s) with the highest ATK.##Deals 1237.5% of ATK as damage.##■ Affects all allies.##Increases stack count of buffs by 1.##■ Activates when "Refresh Heart" is fully stacked.## Restores HP equal to 27.22% of the caster\'s Max HP.',
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Mary",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/f38af9ba124203b6cabd74aca4d7b641/60b4d/mary_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 4420,
     weapon: "Shotgun",
     class: "Support",
     manufacturer: "Tetra",
@@ -2219,14 +2246,41 @@ export const charData = [
     position: "Support 1",
     burstCD: "40",
     role: ["Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.03s",
+        effect: "■ Affects target enemy.##Deals 201.5% ATK as damage.",
+      },
+      {
+        name: "Refresh Heart",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects 1 allies with the lowest HP.##Recovers 8.4% of the caster's Max HP as HP",
+      },
+      {
+        name: "Vitamin Power",
+        active: "Passive",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects allies.##Restored HP ▲ 23.78%",
+      },
+      {
+        name: "epper Therapy",
+        effect:
+          "■ Affects all allies. Cast when above 50% HP.##DEF ▲ 19.8% for 10 sec.##■ Affects all allies.##Recovers HP by 39.6% of the casters Max HP.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Dolla",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/9cffd71ed16bbf20fc1b3b542a74e6c8/60b4d/dolla_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 3909,
     weapon: "Sniper",
     class: "Support",
     manufacturer: "Tetra",
@@ -2235,14 +2289,41 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Entrepreneurship",
+        active: "10 Seconds",
+        effect: "■ Affects all allies.##ATK ▲ 16.16% for 5 sec.",
+      },
+      {
+        name: "Risk Sharing",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects all allies.## Effect changes according to the activation time(s). Previous effects triggers repeatedly.##Once: Cooldown of Burst Skill ▼ 1.82 sec.##wice: Cooldown of Burst Skill ▼ 2.2 sec.##Three times: Cooldown of Burst Skill ▼ 2.6 sec.##■ Activates when using Burst Skill. Affects all allies.##Once: ATK ▲ 7.72% for 5sec.##Twice: Critical Rate ▲ 4.21% for 5 sec.##Three times: Critical Damage ▲ 13.22% for 5 sec.",
+      },
+      {
+        name: "R&D Shot",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest DEF.##Deals 734.69% of ATK as damage.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Rupee",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/0e9381f58b59d3c94d460a1791c043c6/60b4d/rupee_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -2251,6 +2332,33 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 13.65% ATK as damage.",
+      },
+      {
+        name: "Prize",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 100 normal attack(s). Affects all Iron type allies.##Increases stack count of buffs by 1.##Critical Rate ▲ 2.24% for 10 sec.",
+      },
+      {
+        name: "Mileage",
+        active: "Passive",
+        effect:
+          "■ Activates after 30 attack(s). Affects self.##Mileage: ATK ▲ 13.8%, stacks up to 5 time(s) and lasts for 15 sec.",
+      },
+      {
+        name: "Single Payment",
+        effect:
+          '■ Affects all enemies within attack range.##Deals 274.28% of ATK as damage.##■ Activates when "Mileage" is fully stacked. Affects all allies.##ATK ▲ 19.8% for 5 sec',
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
@@ -2267,14 +2375,41 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 13.65% ATK as damage.",
+      },
+      {
+        name: "Winter Premium",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects all allies.##DEF ▲ 19.02% for 5 sec.",
+      },
+      {
+        name: "VIP Gift",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. Activates when any ally unit uses Burst Skills.##Shopping: DEF ▲ 1.33%, stacks up to 4 time(s) and lasts for 20 sec.##■ Affects all allies. Activates when the caster reaches max stacks of Shopping at the end of Full Burst.##Burst gauge loading speed ▲ 7.9% for 5 sec.",
+      },
+      {
+        name: "Shopaholic Date",
+        effect:
+          "■ Affects self.##Attract: Taunt all enemies for 5 sec.##Recover 50.47% of attack damage as HP over 10 sec.##■ Affects all allies.##Reload Speed ▲ 63.17% for 10 sec.##Re-enter Burst Skill Stage 1.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Yan",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/ccd68d306d780f31e1d123084682e78c/60b4d/yan_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 4485,
     weapon: "Rocket Launcher",
     class: "Support",
     manufacturer: "Tetra",
