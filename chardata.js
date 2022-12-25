@@ -2450,10 +2450,10 @@ export const charData = [
   },
   {
     name: "Belorta",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/2c3e11d8965e60db68a48979116be85d/60b4d/belorta_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2075,
     weapon: "Rocket Launcher",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -2462,14 +2462,42 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1.5 sec##Full Charge Damage: 350% of damage.",
+      },
+      {
+        name: "Surprise",
+        active: "Passive",
+        effect:
+          "■ Activates when hitting a target with Full Charge. Affects self.##Explosion Radius ▲ 9.55% for 5 sec.",
+      },
+      {
+        name: "Greed",
+        active: "Passive",
+        effect:
+          "■ Activates when a normal attack hits more than 4 enemies. Affects enemies hit.##[Target] DEF ▼ 3.52% for 5 sec.$$Deals 14.96% of ATK as Additional Damage.",
+      },
+      {
+        name: "Tricky Bomber",
+        effect:
+          "■ Affects enemies within the attack range.##Deals 192% ATK as damage.##■ Affects all allies.##Charging Speed ▲ 2.82% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
     name: "Mica",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/7a879aa0592ed4069531141b3966cd42/60b4d/mica_icon.webp",
+    hp: 280314,
+    atk: 10824,
+    def: 2286,
     weapon: "Rocket Launcher",
     class: "Support",
     manufacturer: "Tetra",
@@ -2478,6 +2506,34 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Surprise",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 20 time(s). Affects self.## DEF ▲ 39.18% for 10 sec.",
+      },
+      {
+        name: "Greed",
+        active: "Passive",
+        effect:
+          "■ Affects 2 allies with the highest ATK.##Max Ammunition Capacity ▲ 2 round(s) for 10 sec.##DEF ▲ 19.89% for 10 sec..",
+      },
+      {
+        name: "Tricky Bomber",
+        effect:
+          "■ Affects all enemies.##Deals 152.22% of ATK as damage.##DEF ▼ 13.32% for 5 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SR",
   },
   {
