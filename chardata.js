@@ -2538,10 +2538,10 @@ export const charData = [
   },
   {
     name: "Privaty",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/ccf228c26b60cd74e6f8bce05c3ddcf8/60b4d/privaty_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 4164,
     weapon: "Assault Rifle",
     class: "Attacker",
     manufacturer: "Elysion",
@@ -2550,14 +2550,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 13.65% ATK as damage.",
+      },
+      {
+        name: "Ex Magazine",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. Cast when entering Full Burst.##ATK ▲ 23.61% for 10 sec.##Reloading Speed ▲ 51.16% for 10 sec.##Max Ammunition Capacity ▼ 50.66% for 10 sec.",
+      },
+      {
+        name: "LD Assault",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects the target.##[Target] Deals 85.79% of ATK as Additional Damage.##■ Affects the enemy hit by the last round of ammunition if they are Stunned.##[Target] Deals 1089% of ATK as Additional Damage.",
+      },
+      {
+        name: "AK Missile",
+        effect:
+          "■ Affects all enemies##Deals 457.87% of ATK as damage.##Stuns for 3 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Admi",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/066da55baf64a2c7c11a3958c6b5d193/60b4d/admi_icon.webp",
+    hp: 647453,
+    atk: 21307,
+    def: 3909,
     weapon: "Sniper",
     class: "Support",
     manufacturer: "Missilis",
@@ -2566,14 +2593,42 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.87s",
+        effect:
+          "■ Affects target enemy.##Deals 67.37% of ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Cheering Hand",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 20 time(s). Affects all allies.##Charge Damage ▲ 9.59% for 20 sec.",
+      },
+      {
+        name: "Kitten's Breath",
+        active: "20 seconds",
+        effect:
+          "■ Affects 2 allies with the highest ATK.##Damage Taken ▼ 28.65% for 10 sec.",
+      },
+      {
+        name: "Love Returned",
+        effect:
+          "■ Affects all allies.##Reloading Speed ▲ 50.91% for 10 sec.##Critical Damage ▲ 28.34% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Yulha",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/93bc2b0c26e88b113d089c29029cf55a/60b4d/yulha_icon.webp",
+    hp: 583374,
+    atk: 25554,
+    def: 3552,
     weapon: "Sniper",
     class: "Support",
     manufacturer: "Tetra",
@@ -2582,6 +2637,34 @@ export const charData = [
     position: "Support 3",
     burstCD: "40",
     role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.87s",
+        effect:
+          "■ Affects target enemy.##Deals 68.23% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Tough Leadership",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 30 times. Affects self.##Calm: Critical Rate ▲ 24.53% for 20 sec.",
+      },
+      {
+        name: "The Weakener",
+        active: "Passive",
+        effect:
+          "■ Affects 5 allies with the lowest HP.##ATK ▲ 90.75% for 5 sec.##Shares damage taken for 10 sec.",
+      },
+      {
+        name: "Busy Bee",
+        effect:
+          "■ Affects all enemies.##Deals 457.87% of ATK as damage.##■ Affects the same targets when under Calm status.##Deals 457.87% of ATK as damage.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
