@@ -2669,10 +2669,10 @@ export const charData = [
   },
   {
     name: "Alice",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/94d01c6fd76e93454b34b6f0b134ba5d/60b4d/alice_icon.webp",
+    hp: 583734,
+    atk: 25554,
+    def: 3552,
     weapon: "Sniper",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -2681,14 +2681,42 @@ export const charData = [
     position: "support 3",
     burstCD: "40",
     role: ["DPS", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 350%.",
+      },
+      {
+        name: "Energizing Carrot",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects 2 ally units with the highest ATK.##Charge Speed ▲ 11.67% for 10 sec.##Charge Damage ▲ 7% for 10 sec.",
+      },
+      {
+        name: "Healthy Carrot",
+        active: "Passive",
+        effect:
+          "■ Affects self. Activates when above 80% HP.##Gains continuous Pierce.##■ Affects self. Activates when HP falls below 80%.##Continuously recover HP by 8.12% of attack damage.",
+      },
+      {
+        name: "Wonderland",
+        effect:
+          "■ Affects self.##Charging Speed ▲ 80.15% for 10 sec.##ATK ▲ 55.12% for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Neve",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/acd5bf7574a448024d18d8befd09f102/60b4d/neve_icon.webp",
+    hp: 252242,
+    atk: 12982,
+    def: 2045,
     weapon: "Shotgun",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -2697,14 +2725,41 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 6,
+        reload: "2s",
+        effect: "■ Affects target enemy.##Deals 214.3% ATK as damage.",
+      },
+      {
+        name: "Bear Power",
+        active: "10 seconds",
+        effect:
+          "■ Affects 1 enemy unit(s) with the lowest HP.##Deals 145.45% of ATK as damage.",
+      },
+      {
+        name: "Hibernation",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects self.##Deals for Pierce for 2 round(s).##ATK ▲ 124.8% for 2 round(s).",
+      },
+      {
+        name: "Roar",
+        effect:
+          "■ Affects self.##Critical Rate ▲ 31.95% for 20 sec.##Hit Rate ▲ 22.04% for 20 sec.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Ludmilla",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/c5b9e181547151fd7038cd83ba35f3fd/60b4d/ludmilla_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
     weapon: "SMG",
     class: "Attacker",
     manufacturer: "Tetra",
@@ -2713,6 +2768,33 @@ export const charData = [
     position: "Burst 1",
     burstCD: "20",
     role: ["Debuffer", "Tank"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "2.76s",
+        effect: "■ Affects target enemy.##Deals 10.32% ATK as damage.",
+      },
+      {
+        name: "Tough Leadership",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects the target.##[Target] DEF ▼ 8.4% for 10 sec.##[Target] ATK ▼ 8.4% for 10 sec.",
+      },
+      {
+        name: "The Weakener",
+        active: "Passive",
+        effect:
+          "■ Activates at the beginning of Full Burst. Affects all enemies.##Taunt continuously for 15.09 sec.##■ Activates at the beginning of Full Burst. Affects self.##Sustained damage ▼ 57.86% for 15 sec.",
+      },
+      {
+        name: "Busy Bee",
+        effect:
+          "■ Affects 10 enemies with the highest ATK.##[Target] deals 163.1% of ATK as damage.##■ Affects all allies. Cast when above 50% HP.##DEF ▲ 12.93% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
