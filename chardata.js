@@ -2799,10 +2799,10 @@ export const charData = [
   },
   {
     name: "Yuni",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/b41b08676389e7e30afde35da7193eb8/60b4d/yuni_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4900,
     weapon: "Rocket Launcher",
     class: "Defender",
     manufacturer: "Missilis",
@@ -2811,14 +2811,42 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Buffer", "Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1.5 sec.##Full Charge Damage: 350%.",
+      },
+      {
+        name: "DMNS",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. Activates when entering Full Burst.##Charging speed ▲ 8.97% for 10 sec.",
+      },
+      {
+        name: "SDS",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. Cast when attacking during Full Charge.##DEF ▲ 2.77% for 10 sec.##Restores 2.77% of attack damage as HP for 10 sec.##Max Ammunition Capacity ▲ 1 rounds for 5 sec.",
+      },
+      {
+        name: "BDG",
+        effect:
+          "■ Affects enemies within attack range.##[Target] Deals 348.73% of ATK as damage.##[Target] Immobilizes the target(s) for 5 sec.",
+        active: "20 Seconds",
+      },
+    ],
     rarity: "SSR",
   },
   {
     name: "Mihara",
-    art: "https://www.prydwen.gg/static/454270444acc923035517fbd3b71bbf4/60b4d/diesel_icon.webp",
-    hp: 111,
-    atk: 111,
-    def: 111,
+    art: "https://www.prydwen.gg/static/4a87cee6c31ef9a5d0508212831cc340/60b4d/mihara_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
     weapon: "Assault Rifle",
     class: "Defender",
     manufacturer: "Missilis",
