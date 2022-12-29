@@ -2855,6 +2855,33 @@ export const charData = [
     position: "Burst 3",
     burstCD: "40",
     role: ["DPS"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.67s",
+        effect: "■ Affects target enemy.##Deals 15.07% ATK as damage.",
+      },
+      {
+        name: "Endure",
+        active: "Passive",
+        effect:
+          "■ Activates when the last bullet hits the target. Affects self.##Critical Damage ▲ 18.7% for 10 sec.",
+      },
+      {
+        name: "Highway to Hell 1",
+        active: "15 Seconds",
+        effect:
+          "■ Activates when using Burst Skill. Affects self.## Highway to Hell 1: ATK ▲ 15.56% for 45 sec.## ■ Activates when using Burst Skill during Highway to Hell 1. Affects self.##Highway to Hell 2: Critical Rate ▲ 11.28% for 45 sec.",
+      },
+      {
+        name: "Sense Sharing",
+        effect:
+          "■ Affects all allies.##Full Burst Time ▼ 5 sec.##■ Affects all enemies.##Deals 399.6% of ATK as damage.##■ Activates during Highway to Hell 2. Affects all enemies.##Deals 266.4% of ATK as additional damage.",
+        active: "40 Seconds",
+      },
+    ],
     rarity: "SR",
   },
 ];
