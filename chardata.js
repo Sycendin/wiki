@@ -44,6 +44,7 @@ export const charData = [
   },
 
   {
+    id: "1",
     name: "Anis",
     art: "https://www.prydwen.gg/static/f3bf26dc83d5a31a5a8b46355d9e20b3/60b4d/anis_icon.webp",
     hp: 307885,

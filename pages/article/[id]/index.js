@@ -2,10 +2,11 @@ import Meta from "../../../components/Meta";
 import { server } from "../../config";
 import Link from "next/link";
 const article = ({ article }) => {
+  // console.log(article);
   return (
     <div>
       <Meta title={article.title} description={article.excerpt} />
-      <h1>This is article {article.id}</h1>
+      <h1>This is article {article.name}</h1>
       <p>{article.body}</p>
       <br />
       <Link href="/">Go back</Link>
@@ -28,9 +29,9 @@ export const getStaticPaths = async () => {
   const res = await fetch(`${server}/api/articles/`);
 
   const articles = await res.json();
-  const ids = articles.map((article) => article.id);
+  const names = articles.map((article) => article.name);
   // Generate paths for ids
-  const paths = ids.map((id) => ({ params: { id: id.toString() } }));
+  const paths = names.map((name) => ({ params: { id: name.toString() } }));
   return {
     // return paths
     paths,
