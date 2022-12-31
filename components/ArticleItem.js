@@ -15,6 +15,10 @@ const ArticleItem = ({ article }) => {
             src={article.art}
           ></img>
           <p>{article.squad}</p>
+          <p>{article.weapon}</p>
+          <p>{article.class}</p>
+          <p>{article.manufacturer}</p>
+          <p>{article.element}</p>
         </div>
       </Link>
     </Fragment>
