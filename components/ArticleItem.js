@@ -14,11 +14,13 @@ const ArticleItem = ({ article }) => {
             // width={64}
             src={article.art}
           ></img>
-          <p>{article.squad}</p>
-          <p>{article.weapon}</p>
-          <p>{article.class}</p>
-          <p>{article.manufacturer}</p>
-          <p>{article.element}</p>
+          <div>
+            <p>{article.squad}</p>
+            <p>{article.weapon}</p>
+            <p>{article.class}</p>
+            <p>{article.manufacturer}</p>
+            <p>{article.element}</p>
+          </div>
         </div>
       </Link>
     </Fragment>
