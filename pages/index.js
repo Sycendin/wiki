@@ -1,13 +1,21 @@
 import { server } from "./config";
 // import Head from "next/head";
 import ArticleList from "../components/ArticleList";
+import Meta from "../components/Meta";
+import Nav from "../components/nav";
+
 export default function Home({ articles }) {
   return (
     <div>
+      <Meta />
+
+      <Nav />
+      <div className="ap">aa</div>
       {/* <Head>
         <title>WebDev Stuff</title>
         <meta name="keywords" content="web development, programming" />
       </Head> */}
+      <button className="button">Button</button>
       <h1>Welcome to next</h1>
       <ArticleList articles={articles} />
     </div>
