@@ -4,10 +4,12 @@ import articleStyles from "../styles/article.module.css";
 const ArticleList = ({ articles }) => {
   return (
     <Fragment>
-      <div className={articleStyles.grid}>
-        {articles.map((article, index) => (
-          <ArticleItem key={index} article={article}></ArticleItem>
-        ))}
+      <div className="container has-background-grey border">
+        <div className="columns is-centered is-vcentered is-flex-wrap-wrap">
+          {articles.map((article, index) => (
+            <ArticleItem key={index} article={article}></ArticleItem>
+          ))}
+        </div>
       </div>
     </Fragment>
   );
