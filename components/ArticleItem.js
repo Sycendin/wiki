@@ -2,10 +2,35 @@ import { Fragment } from "react";
 import Link from "next/link";
 import articlesStyles from "../styles/article.module.css";
 const ArticleItem = ({ article }) => {
-  const imgName = article.art;
   return (
     <Fragment>
-      <Link href="/article/[id]" as={`/article/${article.name}`}>
+      <div className="column is-narrow mr-4 mb-4 has-background-grey-lighter border ">
+        <h1 className="is-size-3 title has-text-white has-background-grey border is-narrow has-text-centered">
+          {article.name}
+        </h1>
+        <div class="card-content is-flex is-horizontal-center">
+          <img
+            className="is-horizontal-center"
+            alt="art"
+            // height={64}
+            // width={64}
+            src={article.art}
+          ></img>
+        </div>
+        <p className="is-size-4 is-narrow has-text-centered">{article.squad}</p>
+        <p className="is-size-4 is-narrow has-text-centered">
+          {article.weapon}
+        </p>
+        <p className="is-size-4 is-narrow has-text-centered">{article.class}</p>
+        <p className="is-size-4 is-narrow has-text-centered">
+          {article.manufacturer}
+        </p>
+        <p className="is-size-4 is-narrow has-text-centered">
+          {article.element}
+        </p>
+      </div>
+
+      {/* <Link href="/article/[id]" as={`/article/${article.name}`}>
         <div className={articlesStyles.card}>
           <h3>{article.name}</h3>
           <img
@@ -22,7 +47,7 @@ const ArticleItem = ({ article }) => {
             <p>{article.element}</p>
           </div>
         </div>
-      </Link>
+      </Link> */}
       {/* <div className="container">
         <div className="columns">
           <div className="column is 3">

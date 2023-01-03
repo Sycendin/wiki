@@ -12,7 +12,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
+.border{
+  border-radius: 8px;
+}
+.is-horizontal-center {
+  justify-content: center;
+}
 .ap{
  color: aqua;
 }
