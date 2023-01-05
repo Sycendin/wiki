@@ -3,7 +3,7 @@ import { server } from "./config";
 import ArticleList from "../components/ArticleList";
 import Meta from "../components/Meta";
 import Nav from "../components/nav";
-
+import SearchPlusList from "../components/SearchPlusList";
 export default function Home({ articles }) {
   return (
     <div>
@@ -17,7 +17,8 @@ export default function Home({ articles }) {
       </Head> */}
       <button className="button">Button</button>
       <h1>Welcome to next</h1>
-      <ArticleList articles={articles} />
+      <SearchPlusList articles={articles} />
+      {/* <ArticleList articles={articles} /> */}
     </div>
   );
 }

@@ -39,7 +39,7 @@ const Nav = () => {
             </a>
 
             <a className="navbar-item">Character Page</a>
-            <a className="navbar-item">About!</a>
+            <a className="navbar-item">About</a>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">More</a>
 
