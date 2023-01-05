@@ -18,8 +18,23 @@ a {
 .is-horizontal-center {
   justify-content: center;
 }
-.ap{
- color: aqua;
+.max-i{
+  max-width: 160px;
+}
+.wide{
+  width: 100%;
+  height: auto;
+}
+.search{
+  height: 50px;
+}
+.bordertop{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.borderbottom{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 * {
   box-sizing: border-box;

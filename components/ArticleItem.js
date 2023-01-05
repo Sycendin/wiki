@@ -4,20 +4,21 @@ import articlesStyles from "../styles/article.module.css";
 const ArticleItem = ({ article }) => {
   return (
     <Fragment>
-      <div className="column is-narrow mr-4 mb-4 has-background-grey-lighter border ">
-        <h1 className="is-size-3 title has-text-white has-background-grey border is-narrow has-text-centered">
-          {article.name}
-        </h1>
-        <div class="card-content is-flex is-horizontal-center">
-          <img
-            className="is-horizontal-center"
-            alt="art"
-            // height={64}
-            // width={64}
-            src={article.art}
-          ></img>
-        </div>
-        <p className="is-size-4 is-narrow has-text-centered">{article.squad}</p>
+      <Link href="/article/[id]" as={`/article/${article.name}`}>
+        <div className="column is-narrow mr-4 mb-4 has-background-grey-lighter  max-i">
+          <div class=" is-flex">
+            <img
+              className="is-horizontal-center"
+              alt="art"
+              // height={64}
+              // width={64}
+              src={article.art}
+            ></img>
+          </div>
+          <h1 className="is-size-3 title has-text-white has-background-grey border is-narrow has-text-centered  mt-2">
+            {article.name}
+          </h1>
+          {/* <p className="is-size-4 is-narrow has-text-centered">{article.squad}</p>
         <p className="is-size-4 is-narrow has-text-centered">
           {article.weapon}
         </p>
@@ -27,9 +28,9 @@ const ArticleItem = ({ article }) => {
         </p>
         <p className="is-size-4 is-narrow has-text-centered">
           {article.element}
-        </p>
-      </div>
-
+        </p> */}
+        </div>
+      </Link>
       {/* <Link href="/article/[id]" as={`/article/${article.name}`}>
         <div className={articlesStyles.card}>
           <h3>{article.name}</h3>
