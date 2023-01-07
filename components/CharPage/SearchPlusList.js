@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { React, useState } from "react";
 import dynamic from "next/dynamic";
-
+import { ddClass, ddWeapon } from "./Characters/Dropdown/DropDownData";
 const DynamicHeader = dynamic(() => import("./Characters/Dropdown/Dropdown"), {
   ssr: false,
 });
@@ -13,7 +13,7 @@ const SearchPlusList = ({ articles }) => {
   return (
     <Fragment>
       <div className="container is-centered  mb-3 border ">
-        <DynamicHeader />
+        <DynamicHeader type={ddClass} />
       </div>
       <Search setInputText={setInputText} />
       <ArticleList articles={articles} inputText={inputText} />
