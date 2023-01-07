@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import ArticleItem from "./ArticleItem";
-import articleStyles from "../styles/article.module.css";
+import articlesStyles from "../../../styles/article.module.css";
 const ArticleList = ({ articles, inputText }) => {
   let temp = [];
   if (inputText !== "") {

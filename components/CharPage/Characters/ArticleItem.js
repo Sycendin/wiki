@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
-import articlesStyles from "../styles/article.module.css";
+
+import articlesStyles from "../../../styles/article.module.css";
 const ArticleItem = ({ article }) => {
   return (
     <Fragment>
