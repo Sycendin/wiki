@@ -1,15 +1,16 @@
 import { Fragment } from "react";
 import { useEffect, useState } from "react";
-const dropdown = ({ type }) => {
-  const [ddClassState, setDDClassState] = useState("Class");
+const dropdown = ({ type, ddObject }) => {
   // Add is-active class to dropdown on click
+
   const handleClick = () => {
     let dropdown = document.getElementById("drop");
     dropdown.classList.toggle("is-active");
   };
   const changeWeapon = (ev) => {
     console.log(ev.currentTarget.dataset.div_id);
-    setDDClassState(ev.currentTarget.dataset.div_id);
+    const changeState = { ...ddObject, class: ev.currentTarget.dataset.div_id };
+    setDDObject(changeState);
   };
   useEffect(() => {
     // Add event listener to dropdown
@@ -32,7 +33,7 @@ const dropdown = ({ type }) => {
             aria-haspopup="true"
             aria-controls="dropdown-menu3"
           >
-            <span>{ddClassState}</span>
+            <span>{ddObject.class}</span>
             <span className="icon is-small">
               <i className="fas fa-angle-down" aria-hidden="true"></i>
             </span>
@@ -43,12 +44,10 @@ const dropdown = ({ type }) => {
             {type.map((el, index) => {
               // For hr break, check next element
               let next = type[index + 1];
-              console.log(next);
               return (
-                <Fragment>
+                <Fragment key={index}>
                   <div
                     href="#"
-                    key={el}
                     className="dropdown-item"
                     data-div_id={el}
                     onClick={changeWeapon}
