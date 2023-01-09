@@ -1,20 +1,28 @@
 import { Fragment } from "react";
-import { useEffect } from "react";
-const dropdown = () => {
+import { useEffect, useState } from "react";
+const dropdown = ({ type }) => {
+  const [ddClassState, setDDClassState] = useState("Class");
+  // Add is-active class to dropdown on click
   const handleClick = () => {
-    let el = document.getElementById("drop");
-    el.classList.toggle("is-active");
+    let dropdown = document.getElementById("drop");
+    dropdown.classList.toggle("is-active");
+  };
+  const changeWeapon = (ev) => {
+    console.log(ev.currentTarget.dataset.div_id);
+    setDDClassState(ev.currentTarget.dataset.div_id);
   };
   useEffect(() => {
+    // Add event listener to dropdown
     document.getElementById("drop").addEventListener("click", handleClick);
     return () => {
+      // Remove event listener to prevent memory leak
       if (document.getElementById("drop") !== null) {
         document
           .getElementById("drop")
           .removeEventListener("click", handleClick);
       }
     };
-  });
+  }, []);
   return (
     <Fragment>
       <div className="dropdown" id="drop">
@@ -24,7 +32,7 @@ const dropdown = () => {
             aria-haspopup="true"
             aria-controls="dropdown-menu3"
           >
-            <span>Click me</span>
+            <span>{ddClassState}</span>
             <span className="icon is-small">
               <i className="fas fa-angle-down" aria-hidden="true"></i>
             </span>
@@ -32,8 +40,30 @@ const dropdown = () => {
         </div>
         <div className="dropdown-menu" id="dropdown-menu3" role="menu">
           <div className="dropdown-content">
-            <a href="#" className="dropdown-item">
-              Overview
+            {type.map((el, index) => {
+              // For hr break, check next element
+              let next = type[index + 1];
+              console.log(next);
+              return (
+                <Fragment>
+                  <div
+                    href="#"
+                    key={el}
+                    className="dropdown-item"
+                    data-div_id={el}
+                    onClick={changeWeapon}
+                  >
+                    {el}
+                  </div>
+                  {/* If there is no element then don't render divider hr */}
+                  {next !== undefined ? (
+                    <hr className="dropdown-divider" />
+                  ) : null}
+                </Fragment>
+              );
+            })}
+            {/* <a href="#" className="dropdown-item">
+              
             </a>
             <a href="#" className="dropdown-item">
               Modifiers
@@ -52,11 +82,11 @@ const dropdown = () => {
             </a>
             <a href="#" className="dropdown-item">
               Layout
-            </a>
-            <hr className="dropdown-divider" />
+            </a> */}
+            {/* <hr className="dropdown-divider" />
             <a href="#" className="dropdown-item">
               More
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
