@@ -40,7 +40,10 @@ const dropdown = ({ type }) => {
         </div>
         <div className="dropdown-menu" id="dropdown-menu3" role="menu">
           <div className="dropdown-content">
-            {type.map((el) => {
+            {type.map((el, index) => {
+              // For hr break, check next element
+              let next = type[index + 1];
+              console.log(next);
               return (
                 <Fragment>
                   <div
@@ -52,6 +55,10 @@ const dropdown = ({ type }) => {
                   >
                     {el}
                   </div>
+                  {/* If there is no element then don't render divider hr */}
+                  {next !== undefined ? (
+                    <hr className="dropdown-divider" />
+                  ) : null}
                 </Fragment>
               );
             })}
@@ -76,10 +83,10 @@ const dropdown = ({ type }) => {
             <a href="#" className="dropdown-item">
               Layout
             </a> */}
-            <hr className="dropdown-divider" />
+            {/* <hr className="dropdown-divider" />
             <a href="#" className="dropdown-item">
               More
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
