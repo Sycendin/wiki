@@ -1,39 +1,37 @@
 import { Fragment } from "react";
-import { useEffect, useState } from "react";
-const dropdown = ({ type, ddObject }) => {
+import { useEffect } from "react";
+const Dropdown = ({ typeArray, ddObject, setDDObject, type, dropdownVis }) => {
   // Add is-active class to dropdown on click
-
+  let key = type;
   const handleClick = () => {
-    let dropdown = document.getElementById("drop");
+    let dropdown = document.getElementById(type);
     dropdown.classList.toggle("is-active");
   };
   const changeWeapon = (ev) => {
     console.log(ev.currentTarget.dataset.div_id);
-    const changeState = { ...ddObject, class: ev.currentTarget.dataset.div_id };
+    const changeState = { ...ddObject, [key]: ev.currentTarget.dataset.div_id };
     setDDObject(changeState);
   };
   useEffect(() => {
     // Add event listener to dropdown
-    document.getElementById("drop").addEventListener("click", handleClick);
+    document.getElementById(type).addEventListener("click", handleClick);
     return () => {
       // Remove event listener to prevent memory leak
-      if (document.getElementById("drop") !== null) {
-        document
-          .getElementById("drop")
-          .removeEventListener("click", handleClick);
+      if (document.getElementById(type) !== null) {
+        document.getElementById(type).removeEventListener("click", handleClick);
       }
     };
   }, []);
   return (
     <Fragment>
-      <div className="dropdown" id="drop">
+      <div className="dropdown" id={type}>
         <div className="dropdown-trigger">
           <button
             className="button"
             aria-haspopup="true"
             aria-controls="dropdown-menu3"
           >
-            <span>{ddObject.class}</span>
+            <span>{dropdownVis}</span>
             <span className="icon is-small">
               <i className="fas fa-angle-down" aria-hidden="true"></i>
             </span>
@@ -41,9 +39,10 @@ const dropdown = ({ type, ddObject }) => {
         </div>
         <div className="dropdown-menu" id="dropdown-menu3" role="menu">
           <div className="dropdown-content">
-            {type.map((el, index) => {
+            {typeArray.map((el, index) => {
               // For hr break, check next element
-              let next = type[index + 1];
+              let next = [index + 1];
+              console.log(next);
               return (
                 <Fragment key={index}>
                   <div
@@ -61,35 +60,10 @@ const dropdown = ({ type, ddObject }) => {
                 </Fragment>
               );
             })}
-            {/* <a href="#" className="dropdown-item">
-              
-            </a>
-            <a href="#" className="dropdown-item">
-              Modifiers
-            </a>
-            <a href="#" className="dropdown-item">
-              Grid
-            </a>
-            <a href="#" className="dropdown-item">
-              Form
-            </a>
-            <a href="#" className="dropdown-item">
-              Elements
-            </a>
-            <a href="#" className="dropdown-item">
-              Components
-            </a>
-            <a href="#" className="dropdown-item">
-              Layout
-            </a> */}
-            {/* <hr className="dropdown-divider" />
-            <a href="#" className="dropdown-item">
-              More
-            </a> */}
           </div>
         </div>
       </div>
     </Fragment>
   );
 };
-export default dropdown;
+export default Dropdown;
