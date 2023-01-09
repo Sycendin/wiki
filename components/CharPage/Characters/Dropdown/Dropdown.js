@@ -1,15 +1,34 @@
 import { Fragment } from "react";
 import { useEffect } from "react";
-const Dropdown = ({ typeArray, ddObject, setDDObject, type, dropdownVis }) => {
+const Dropdown = ({
+  typeArray,
+  ddObject,
+  setDDObject,
+  type,
+  dropdownVis,
+  filterNames,
+}) => {
   // Add is-active class to dropdown on click
-  let key = type;
+  let ddObjectKey = type;
   const handleClick = () => {
+    // Close all other dropdowns
+    filterNames.forEach((element) => {
+      let dropdownClose = document.getElementById(element);
+      dropdownClose.classList.remove("is-active");
+    });
+    // Open clicked dropdown
     let dropdown = document.getElementById(type);
     dropdown.classList.toggle("is-active");
   };
-  const changeWeapon = (ev) => {
-    console.log(ev.currentTarget.dataset.div_id);
-    const changeState = { ...ddObject, [key]: ev.currentTarget.dataset.div_id };
+  const changeDDObject = (ev) => {
+    const changeState = {
+      ...ddObject,
+      [ddObjectKey]: ev.currentTarget.dataset.div_id,
+    };
+    // Close current dropdown
+    let dropdown = document.getElementById(type);
+    dropdown.classList.toggle("is-active");
+    // Update filter object state
     setDDObject(changeState);
   };
   useEffect(() => {
@@ -41,15 +60,15 @@ const Dropdown = ({ typeArray, ddObject, setDDObject, type, dropdownVis }) => {
           <div className="dropdown-content">
             {typeArray.map((el, index) => {
               // For hr break, check next element
-              let next = [index + 1];
-              console.log(next);
+              let next = typeArray[index + 1];
+
               return (
                 <Fragment key={index}>
                   <div
                     href="#"
                     className="dropdown-item"
                     data-div_id={el}
-                    onClick={changeWeapon}
+                    onClick={changeDDObject}
                   >
                     {el}
                   </div>

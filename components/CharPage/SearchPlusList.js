@@ -39,7 +39,7 @@ const SearchPlusList = ({ articles }) => {
           //   ddElement: ddElement,
           //   ddBurst: ddBurst,
           // }}
-          type={[ddClass, ddWeapon, ddManufacture, ddElement, ddBurst]}
+          typeArray={[ddClass, ddWeapon, ddManufacture, ddElement, ddBurst]}
           ddObject={ddObject}
           setDDObject={setDDObject}
         />
