@@ -12,12 +12,15 @@ const Dropdown = ({
   let ddObjectKey = type;
   const handleClick = () => {
     // Close all other dropdowns
-    filterNames.forEach((element) => {
-      let dropdownClose = document.getElementById(element);
-      dropdownClose.classList.remove("is-active");
-    });
+
+    // let dropdownClose = document.getElementById(element);
+    const dropdownClose = document.getElementsByClassName("is-active");
+    console.log(dropdownClose);
+    if (dropdownClose.length > 0) {
+      dropdownClose[0].classList.remove("is-active");
+    }
     // Open clicked dropdown
-    let dropdown = document.getElementById(type);
+    const dropdown = document.getElementById(type);
     dropdown.classList.toggle("is-active");
   };
   const changeDDObject = (ev) => {
@@ -26,7 +29,7 @@ const Dropdown = ({
       [ddObjectKey]: ev.currentTarget.dataset.div_id,
     };
     // Close current dropdown
-    let dropdown = document.getElementById(type);
+    const dropdown = document.getElementById(type);
     dropdown.classList.toggle("is-active");
     // Update filter object state
     setDDObject(changeState);
