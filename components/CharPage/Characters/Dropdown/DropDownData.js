@@ -1,29 +1,3 @@
-export const dropdownData = [
-  {
-    id: "1",
-    title: "Better Call Saul",
-    excerpt: "why is that",
-    body: "send help",
-  },
-  {
-    id: "2",
-    title: "Chicago PD",
-    excerpt: "why is that",
-    body: "send help",
-  },
-  {
-    id: "3",
-    title: "Breaking Bad",
-    excerpt: "why is that",
-    body: "send help",
-  },
-  {
-    id: "4",
-    title: "Pokemon",
-    excerpt: "why is that",
-    body: "send help",
-  },
-];
 // weapon: "Rocket Launcher",
 // class: "Defender",
 // manufacturer: "Tetra",
@@ -32,6 +6,13 @@ export const dropdownData = [
 // position: "Burst 2",
 // burstCD: "20",
 // role: ["Tank", "Debuffer"],
+
+export const ddBurst = ["20", "40"];
+
+export const ddClass = ["Assault", "Defender", "Support"];
+
+export const ddElement = ["Earth", "Electric", "Fire", "Water", "Wind"];
+
 export const ddWeapon = [
   "Assault Rifle",
   "Machine Gun",
@@ -41,4 +22,4 @@ export const ddWeapon = [
   "Sniper",
 ];
 
-export const ddClass = ["Elysion", "Missilis", "Pilgrim", "Tetra"];
+export const ddManufacture = ["Elysion", "Missilis", "Pilgrim", "Tetra"];
