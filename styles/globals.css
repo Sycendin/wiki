@@ -26,8 +26,14 @@ a {
   width: 100%;
   height: auto;
 }
+.pointer{
+  cursor: pointer;
+}
 .search{
   height: 50px;
+}
+.minheight{
+  min-height: 235.5px;
 }
 .bordertop{
   border-top-left-radius: 8px;
