@@ -13,7 +13,7 @@ export default function handler({ query: { id } }, res) {
   } else {
     res
       .status(404)
-      .json({ message: `Article with the id of ${name} is not found ` });
+      .json({ message: `Article with the id of ${char.name} is not found ` });
   }
   // res.status(200).json(articles);
 }

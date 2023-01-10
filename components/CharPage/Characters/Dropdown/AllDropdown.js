@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Dropdown from "./Dropdown";
-const Alldropdown = ({ typeArray, ddObject, setDDObject }) => {
+const Alldropdown = ({ dropDownArray, ddObject, setDDObject }) => {
   let filterNames = ["class", "weapon", "manufacture", "element", "burst"];
   let indiv = [
     ddObject.class,
@@ -17,7 +17,7 @@ const Alldropdown = ({ typeArray, ddObject, setDDObject }) => {
             key={index}
             ddObject={ddObject}
             setDDObject={setDDObject}
-            typeArray={typeArray[index]}
+            dropDownArray={dropDownArray[index]}
             dropdownVis={indiv[index]}
             filterNames={filterNames}
             type={el}
