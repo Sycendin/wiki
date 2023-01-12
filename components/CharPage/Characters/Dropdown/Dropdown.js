@@ -9,7 +9,7 @@ const Dropdown = ({
   dropdownVis,
   filterNames,
 }) => {
-  // Ref for dropdown
+  // React ref for dropdown
   const refOne = useRef(null);
   // Add is-active class to dropdown on click
   let ddObjectKey = type;

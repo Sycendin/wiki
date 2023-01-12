@@ -9,7 +9,7 @@
 
 export const ddBurst = ["20", "40"];
 
-export const ddClass = ["Assault", "Defender", "Support"];
+export const ddClass = ["Attacker", "Defender", "Support"];
 
 export const ddElement = ["Earth", "Electric", "Fire", "Water", "Wind"];
 
@@ -22,6 +22,6 @@ export const ddWeapon = [
   "Sniper",
 ];
 
-export const ddManufacture = ["Elysion", "Missilis", "Pilgrim", "Tetra"];
+export const ddManufacturer = ["Elysion", "Missilis", "Pilgrim", "Tetra"];
 // Export above arrays as one big array
-export const ddData = [ddClass, ddWeapon, ddManufacture, ddElement, ddBurst];
+export const ddData = [ddClass, ddWeapon, ddManufacturer, ddElement, ddBurst];
