@@ -1,13 +1,7 @@
 import { Fragment } from "react";
 import { React, useState } from "react";
 import dynamic from "next/dynamic";
-import {
-  ddClass,
-  ddWeapon,
-  ddManufacture,
-  ddElement,
-  ddBurst,
-} from "./Characters/Dropdown/DropDownData";
+import { ddData } from "./Characters/Dropdown/DropDownData";
 // Render Dropdown on client side rather than server side
 const DynamicDropdown = dynamic(
   () => import("./Characters/Dropdown/AllDropdown"),
@@ -39,13 +33,17 @@ const SearchPlusList = ({ articles }) => {
           //   ddElement: ddElement,
           //   ddBurst: ddBurst,
           // }}
-          dropDownArray={[ddClass, ddWeapon, ddManufacture, ddElement, ddBurst]}
+          dropDownArray={ddData}
           ddObject={ddObject}
           setDDObject={setDDObject}
         />
       </div>
       <Search setInputText={setInputText} />
-      <ArticleList articles={articles} inputText={inputText} />
+      <ArticleList
+        articles={articles}
+        inputText={inputText}
+        ddFilter={ddObject}
+      />
     </Fragment>
   );
 };

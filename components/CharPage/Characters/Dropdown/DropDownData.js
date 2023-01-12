@@ -23,3 +23,5 @@ export const ddWeapon = [
 ];
 
 export const ddManufacture = ["Elysion", "Missilis", "Pilgrim", "Tetra"];
+// Export above arrays as one big array
+export const ddData = [ddClass, ddWeapon, ddManufacture, ddElement, ddBurst];
