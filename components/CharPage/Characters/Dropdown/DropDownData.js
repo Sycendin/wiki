@@ -25,3 +25,11 @@ export const ddWeapon = [
 export const ddManufacturer = ["Elysion", "Missilis", "Pilgrim", "Tetra"];
 // Export above arrays as one big array
 export const ddData = [ddClass, ddWeapon, ddManufacturer, ddElement, ddBurst];
+
+export const dropdownNames = [
+  "Class",
+  "Weapon",
+  "Manufacturer",
+  "Element",
+  "Burst",
+];
