@@ -58,13 +58,13 @@ const ArticleList = ({ articles, inputText, ddFilter }) => {
       if (element.name.toLowerCase().includes(inputText)) {
         if (
           ddFilter.class !== "Class" &&
-          element.class.includes(ddFilter.class)
+          !element.class.includes(ddFilter.class)
         ) {
           check = check - 1;
         }
         if (
           ddFilter.weapon !== "Weapon" &&
-          element.weapon.includes(ddFilter.weapon)
+          !element.weapon.includes(ddFilter.weapon)
         ) {
           check = check - 1;
         }
