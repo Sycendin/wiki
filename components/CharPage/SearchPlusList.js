@@ -18,7 +18,7 @@ const SearchPlusList = ({ articles }) => {
   const [ddObject, setDDObject] = useState({
     class: "Class",
     weapon: "Weapon",
-    manufacture: "Manufacture",
+    manufacturer: "Manufacturer",
     element: "Element",
     burst: "Burst",
   });
