@@ -13,7 +13,7 @@ const ResetDropdown = ({ setDDObject }) => {
   };
   return (
     <Fragment>
-      <button className="button" onClick={handleReset}>
+      <button className="button is-danger is-focused" onClick={handleReset}>
         Reset
       </button>
     </Fragment>
