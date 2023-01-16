@@ -8,10 +8,11 @@ import {
   signInWithRedirect,
   signInWithPopup,
   GoogleAuthProvider,
+  createUserWithEmailAndPassword,
 } from "firebase/auth";
 // for firebase db
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
-import { userAgent } from "next/server";
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyCeLi8Oczmt-b2dYwhd9aRiparVPF1aEU8",
@@ -37,8 +38,14 @@ export const siginInWithGooglePopup = () =>
 export const signInWithGoogleRedirect = () =>
   signInWithRedirect(auth, googleProvider);
 export const db = getFirestore();
-
-export const createUserDocumentFromAuth = async (userAuth) => {
+//udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138944#questions
+//additionalInformation
+export const createUserDocumentFromAuth = async (
+  userAuth,
+  additionalInformation = {}
+) => {
+  // If no arguments then return
+  if (!userAuth) return;
   //  db, collection, identifyer
   // use uid from google auth
   const userDocRef = doc(db, "users", userAuth.uid);
@@ -59,6 +66,7 @@ export const createUserDocumentFromAuth = async (userAuth) => {
         displayName,
         email,
         createdAt,
+        ...additionalInformation,
       });
     } catch (error) {
       console.log("error creating the user", error.message);
@@ -67,4 +75,10 @@ export const createUserDocumentFromAuth = async (userAuth) => {
   // if user data exists
   // return userdocref
   return userDocRef;
+};
+
+// https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138942#questions
+export const createAuthUserWithEmailAndPassword = async (email, password) => {
+  if (!email || !password) return;
+  return await createUserWithEmailAndPassword(auth, email, password);
 };

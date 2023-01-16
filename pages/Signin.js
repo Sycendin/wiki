@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import SignupForm from "../components/SignupForm/SignupForm";
 import { getRedirectResult } from "firebase/auth";
 import {
   auth,
@@ -8,14 +9,15 @@ import {
 } from "../components/Utils/firebase/firebase";
 
 const SignIn = () => {
-  useEffect(
-    // get response for redirect that just happened based on the auth
-    () => async () => {
+  // get response for redirect that just happened based on the auth
+  useEffect(() => {
+    const unsubscribe = async () => {
       const response = await getRedirectResult(auth);
       console.log(response);
-    },
-    []
-  );
+    };
+
+    return () => unsubscribe();
+  }, []);
 
   const logGoogleUser = async () => {
     const { user } = await siginInWithGooglePopup();
@@ -31,6 +33,7 @@ const SignIn = () => {
       <button onClick={signInWithGoogleRedirect}>
         Sign in with google redirect
       </button>
+      <SignupForm />
     </div>
   );
 };
