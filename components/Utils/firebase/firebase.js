@@ -26,14 +26,16 @@ const firebaseConfig = {
 const firebaseapp = initializeApp(firebaseConfig);
 // instialize provider for googleauth ( cam have mult provideers so use new GoogleAuthProvider())
 // only need one auth but might need many providers
-const provider = new GoogleAuthProvider();
-provider.setCustomParameters({
+const googleProvider = new GoogleAuthProvider();
+googleProvider.setCustomParameters({
   prompt: "select_account",
 });
 
 export const auth = getAuth();
-export const siginInWithGooglePopup = () => signInWithPopup(auth, provider);
-
+export const siginInWithGooglePopup = () =>
+  signInWithPopup(auth, googleProvider);
+export const signInWithGoogleRedirect = () =>
+  signInWithRedirect(auth, googleProvider);
 export const db = getFirestore();
 
 export const createUserDocumentFromAuth = async (userAuth) => {
@@ -63,7 +65,6 @@ export const createUserDocumentFromAuth = async (userAuth) => {
     }
   }
   // if user data exists
-  return userDocRef;
-
   // return userdocref
+  return userDocRef;
 };
