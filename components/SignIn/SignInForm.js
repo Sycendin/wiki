@@ -1,17 +1,20 @@
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138942#questions/17648170
 import styles from "../../styles/signin.module.scss";
-import { useState, Fragment } from "react";
+import { useState, Fragment, useContext } from "react";
 import FormInput from "../forminput/FormInput";
 import Button from "../Button/Button";
 import { useEffect } from "react";
-import { getRedirectResult } from "firebase/auth";
+import { getRedirectResult, signOut } from "firebase/auth";
 import {
   auth,
   siginInWithGooglePopup,
   createUserDocumentFromAuth,
   signInAuthUserWithEmailAndPassword,
   signInWithGoogleRedirect,
+  signOutUser,
 } from "../Utils/firebase/firebase";
+//
+import { UserContext } from "../../contexts/UserContext";
 const defaultFormFields = {
   email: "",
   password: "",
@@ -19,6 +22,7 @@ const defaultFormFields = {
 const SignInForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { email, password } = formFields;
+  const { setCurrentUser, currentUser } = useContext(UserContext);
 
   const signInWithGoogle = async () => {
     const { user } = await siginInWithGooglePopup();
@@ -40,7 +44,7 @@ const SignInForm = () => {
         email,
         password
       );
-      console.log(response);
+      setCurrentUser(response.user);
       resetFormFields();
     } catch (error) {
       // https://firebase.google.com/docs/auth/admin/errors
@@ -55,6 +59,12 @@ const SignInForm = () => {
           break;
       }
     }
+  };
+
+  // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
+  const signOutHandler = async () => {
+    await signOutUser();
+    setCurrentUser(null);
   };
   // get response for redirect that just happened based on the auth
   useEffect(() => {
@@ -106,6 +116,16 @@ const SignInForm = () => {
             >
               Redirect Google Signin
             </Button>
+            {currentUser ? (
+              <Button
+                type="button"
+                onClick={signOutHandler}
+                // onClick={signInWithGoogle}
+                buttonType="google"
+              >
+                Sign out
+              </Button>
+            ) : null}
           </div>
         </form>
       </div>
