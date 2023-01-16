@@ -29,6 +29,9 @@ a {
 .pointer{
   cursor: pointer;
 }
+.white{
+  color: white;
+}
 .search{
   height: 50px;
 }
