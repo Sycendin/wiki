@@ -1,7 +1,8 @@
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138942#questions/17648170
-
-import { useState } from "react";
-import { Fragment } from "react";
+import styles from "../../styles/signup.module.scss";
+import { useState, Fragment } from "react";
+import FormInput from "../forminput/FormInput";
+import Button from "../Button/Button";
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
@@ -49,42 +50,55 @@ const SignupForm = () => {
 
   return (
     <Fragment>
-      <div>
-        <h1 className="white">Sign up with email/password</h1>
+      <div className={`${styles.signUpContainer}`}>
+        <h2>Don't have an account?</h2>
+        <span className="white">Sign up with email/password</span>
         <form onSubmit={handleSubmit}>
-          <label className="white">Display Name</label>
-          <input
+          <FormInput
+            label="Display Name"
             required
             type="text"
             onChange={handleChange}
             name="displayName"
             value={displayName}
-          ></input>
-          <label className="white">Email</label>
-          <input
+            // inputOptions = {{
+            //   required: true,
+            //   type:"text",
+            //   onChange:handleChange,
+            //   name:"displayName",
+            //   value:displayName
+            //   }}
+          ></FormInput>
+
+          <FormInput
+            label="Email"
             required
             type="email"
             onChange={handleChange}
             name="email"
             value={email}
-          ></input>
-          <label className="white">Password</label>
-          <input
+          ></FormInput>
+
+          <FormInput
+            label="Password"
             required
             type="password"
             onChange={handleChange}
             name="password"
             value={password}
-          ></input>
-          <label className="white">Confirm Password</label>
-          <input
+          ></FormInput>
+
+          <FormInput
+            label="Confirm Password"
             required
             type="password"
             onChange={handleChange}
             name="confirmPassword"
             value={confirmPassword}
-          ></input>
-          <button type="submit">Sign up</button>
+          ></FormInput>
+          <Button buttonType="inverted" type="submit">
+            Sign up
+          </Button>
         </form>
       </div>
     </Fragment>
