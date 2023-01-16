@@ -8,7 +8,7 @@ import {
   signInWithGoogleRedirect,
 } from "../components/Utils/firebase/firebase";
 
-const SignIn = () => {
+const Authentication = () => {
   // get response for redirect that just happened based on the auth
   useEffect(() => {
     const unsubscribe = async () => {
@@ -38,4 +38,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Authentication;
