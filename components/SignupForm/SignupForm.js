@@ -1,13 +1,12 @@
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138942#questions/17648170
 import styles from "../../styles/signup.module.scss";
-import { useState, Fragment, useContext } from "react";
+import { useState, Fragment } from "react";
 import FormInput from "../forminput/FormInput";
 import Button from "../Button/Button";
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
 } from "../Utils/firebase/firebase";
-import { UserContext } from "../../contexts/UserContext";
 
 const defaultFormFields = {
   displayName: "",
@@ -20,7 +19,6 @@ const SignupForm = () => {
   const { displayName, email, password, confirmPassword } = formFields;
   // console.log(formFields);
   // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
-  const { setCurrentUser } = useContext(UserContext);
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormFields((prevData) => ({ ...prevData, [name]: value }));
@@ -40,7 +38,7 @@ const SignupForm = () => {
           email,
           password
         );
-        setCurrentUser(user);
+
         await createUserDocumentFromAuth(user, { displayName });
         resetFormFields();
       } catch (error) {

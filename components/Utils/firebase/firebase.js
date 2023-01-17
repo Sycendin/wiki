@@ -11,6 +11,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
+  onAuthStateChanged,
 } from "firebase/auth";
 // for firebase db
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
@@ -92,3 +93,9 @@ export const signInAuthUserWithEmailAndPassword = async (email, password) => {
 };
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
 export const signOutUser = () => signOut(auth);
+// https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159546#questions
+
+// whenever you instantiate this function, you need to give me a callback
+export const onAuthStateChangedListener = (callback) =>
+  // call callback when auth changes, always waiting to see if auth changes and when it does it runs callback
+  onAuthStateChanged(auth, callback);

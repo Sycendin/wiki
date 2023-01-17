@@ -22,11 +22,11 @@ const defaultFormFields = {
 const SignInForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { email, password } = formFields;
-  const { setCurrentUser, currentUser } = useContext(UserContext);
+  const { currentUser } = useContext(UserContext);
 
   const signInWithGoogle = async () => {
-    const { user } = await siginInWithGooglePopup();
-    await createUserDocumentFromAuth(user);
+    // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159552#questions
+    await siginInWithGooglePopup();
   };
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -44,7 +44,7 @@ const SignInForm = () => {
         email,
         password
       );
-      setCurrentUser(response.user);
+
       resetFormFields();
     } catch (error) {
       // https://firebase.google.com/docs/auth/admin/errors
@@ -60,12 +60,12 @@ const SignInForm = () => {
       }
     }
   };
-
-  // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
-  const signOutHandler = async () => {
-    await signOutUser();
-    setCurrentUser(null);
-  };
+  // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159552#questions
+  // // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
+  // const signOutHandler = async () => {
+  //   await signOutUser();
+  //   setCurrentUser(null);
+  // };
   // get response for redirect that just happened based on the auth
   useEffect(() => {
     const unsubscribe = async () => {
@@ -119,7 +119,7 @@ const SignInForm = () => {
             {currentUser ? (
               <Button
                 type="button"
-                onClick={signOutHandler}
+                onClick={signOutUser}
                 // onClick={signInWithGoogle}
                 buttonType="google"
               >
