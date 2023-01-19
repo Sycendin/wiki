@@ -37,9 +37,9 @@ const Nav = () => {
             <a className="navbar-item" href="http://localhost:3000/">
               Home
             </a>
-            <Link href="/chars" as={`/chars}`}>
-              <div className="navbar-item">Character Page</div>
-            </Link>
+            <a className="navbar-item" href="/chars">
+              Character Page
+            </a>
             <a className="navbar-item">About</a>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">More</a>
