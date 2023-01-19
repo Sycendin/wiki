@@ -7,6 +7,7 @@ import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
 } from "../Utils/firebase/firebase";
+
 const defaultFormFields = {
   displayName: "",
   email: "",
@@ -16,7 +17,8 @@ const defaultFormFields = {
 const SignupForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { displayName, email, password, confirmPassword } = formFields;
-  console.log(formFields);
+  // console.log(formFields);
+  // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormFields((prevData) => ({ ...prevData, [name]: value }));
@@ -36,6 +38,7 @@ const SignupForm = () => {
           email,
           password
         );
+
         await createUserDocumentFromAuth(user, { displayName });
         resetFormFields();
       } catch (error) {

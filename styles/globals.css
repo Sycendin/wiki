@@ -29,6 +29,28 @@ a {
 .pointer{
   cursor: pointer;
 }
+/* .bright-img{
+
+} */
+.bright-img:hover{
+  filter: brightness(110%);
+ 
+}
+.big{
+  transition: transform .2s;
+}
+.big:hover{
+  transform: scale(1.05);
+}
+.ssr{
+  background-color: orange;
+}
+.sr{
+  background-color: rgb(161, 0, 161);
+}
+.r{
+  background-color: rgb(81, 81, 206);
+}
 .white{
   color: white;
 }
