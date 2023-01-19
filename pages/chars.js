@@ -10,7 +10,6 @@ export default function Chars({ articles }) {
   return (
     <div>
       <Meta />
-
       <Nav />
       <div className="mt-3"></div>
       <SearchPlusList articles={articles} />

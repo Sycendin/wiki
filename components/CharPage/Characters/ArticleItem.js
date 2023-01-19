@@ -5,16 +5,25 @@ const ArticleItem = ({ article }) => {
   return (
     <Fragment>
       <Link href="/article/[id]" as={`/article/${article.name}`}>
-        <div className="column is-narrow mr-4 mb-4 minheight has-background-grey-lighter  max-i">
-          <div className=" is-flex">
+        <div className="column is-narrow mr-4 mb-4 minheight has-background-grey-lighter  max-i big">
+          <div
+            className={`${
+              article.rarity === "SSR"
+                ? "ssr"
+                : article.rarity === "SR"
+                ? "sr"
+                : "r"
+            } is-flex`}
+          >
             <img
-              className="is-horizontal-center"
+              className="is-horizontal-center bright-img"
               alt="art"
               height={160}
               width={160}
               src={article.art}
             ></img>
           </div>
+          {/* change size of text depending on name length */}
           {article.name.length > 10 ? (
             <h1 className="is-size-5 title has-text-white has-background-grey border is-narrow has-text-centered  mt-2">
               {article.name}

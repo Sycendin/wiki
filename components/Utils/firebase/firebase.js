@@ -36,13 +36,16 @@ googleProvider.setCustomParameters({
 });
 
 export const auth = getAuth();
+// Run signin with popup for google firebase function
 export const siginInWithGooglePopup = () =>
   signInWithPopup(auth, googleProvider);
+// Run signin with redirect for google firebase function
 export const signInWithGoogleRedirect = () =>
   signInWithRedirect(auth, googleProvider);
 export const db = getFirestore();
 //udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138944#questions
 //additionalInformation
+// Create new user, and use additional information if we are missing display name
 export const createUserDocumentFromAuth = async (
   userAuth,
   additionalInformation = {}
@@ -52,10 +55,9 @@ export const createUserDocumentFromAuth = async (
   //  db, collection, identifyer
   // use uid from google auth
   const userDocRef = doc(db, "users", userAuth.uid);
-  console.log(userDocRef);
+  // console.log(userDocRef);
 
   const userSnapshot = await getDoc(userDocRef);
-  console.log(userSnapshot);
   console.log(userSnapshot.exists());
 
   // if user data does not exist
@@ -81,17 +83,20 @@ export const createUserDocumentFromAuth = async (
 };
 
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31138942#questions
+// run create with user/pass firebase function
 export const createAuthUserWithEmailAndPassword = async (email, password) => {
   if (!email || !password) return;
   return await createUserWithEmailAndPassword(auth, email, password);
 };
 
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31147830#questions/17606432
+// Run signin with user/pass firebae function
 export const signInAuthUserWithEmailAndPassword = async (email, password) => {
   if (!email || !password) return;
   return await signInWithEmailAndPassword(auth, email, password);
 };
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
+// Run sign out firebase function
 export const signOutUser = () => signOut(auth);
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159546#questions
 
