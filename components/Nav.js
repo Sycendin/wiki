@@ -1,8 +1,15 @@
 import Link from "next/link";
-import { Fragment } from "react";
+import { Fragment, useContext } from "react";
+import ProfileIcon from "./ProfileContent/ProfileIcon/ProfileIcon";
+import ProfileDropDown from "./ProfileContent/ProfileDropdown/ProfileDropdown";
+import { ProfileContext } from "../contexts/ProfileContext";
+import { UserContext } from "../contexts/UserContext";
 import navStyles from "../styles/nav.module.css";
 const Nav = () => {
   // <Link href="/article/[id]" as={`/article/${article.name}`}></Link>
+  const { currentUser } = useContext(UserContext);
+  // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31173868#questions
+  const { profileOpen } = useContext(ProfileContext);
   return (
     <Fragment>
       <nav
@@ -64,7 +71,9 @@ const Nav = () => {
               </div>
             </div>
           </div>
+          <ProfileIcon />
         </div>
+        {profileOpen && <ProfileDropDown />}
       </nav>
     </Fragment>
   );

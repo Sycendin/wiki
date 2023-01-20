@@ -5,8 +5,11 @@ import { server } from "./config";
 import Meta from "../components/Meta";
 import Nav from "../components/nav";
 import SearchPlusList from "../components/CharPage/SearchPlusList";
+import { CharContext } from "../contexts/CharContext";
 
+import { useContext } from "react";
 export default function Chars({ articles }) {
+  const { charsInfo } = useContext(CharContext);
   return (
     <div>
       <Meta />
