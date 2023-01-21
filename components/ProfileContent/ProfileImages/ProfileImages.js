@@ -1,14 +1,17 @@
 import { useContext } from "react";
 import { CharContext } from "../../../contexts/CharContext";
-
+import { ProfileContext } from "../../../contexts/ProfileContext";
 import { ProfileImageModalContext } from "../../../contexts/ProfileImageContext";
 const ProfileImages = () => {
   const { charsInfo } = useContext(CharContext);
   const { profileImageModalOpen, setProfileImageModalOpen } = useContext(
     ProfileImageModalContext
   );
-  const toggleProfileImagesOpen = () =>
+  const { addToPick } = useContext(ProfileContext);
+  const toggleProfileImagesOpen = (element) => {
     setProfileImageModalOpen(!profileImageModalOpen);
+    addToPick(element);
+  };
   return (
     <div className="images-background">
       <div className="images-div">
@@ -19,9 +22,10 @@ const ProfileImages = () => {
           {charsInfo.map((element) => {
             return (
               <img
+                key={element.art}
                 src={element.art}
                 className="single-image"
-                onClick={toggleProfileImagesOpen}
+                onClick={() => toggleProfileImagesOpen(element)}
               ></img>
             );
           })}
