@@ -77,7 +77,7 @@ const Nav = () => {
               </div>
             </div>
           </div>
-          <ProfileIcon />
+          {currentUser && <ProfileIcon />}
         </div>
         {profileOpen && <ProfileDropDown />}
       </nav>
