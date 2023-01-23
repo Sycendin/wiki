@@ -12,6 +12,7 @@ import {
   signInAuthUserWithEmailAndPassword,
   signInWithGoogleRedirect,
   signOutUser,
+  UpdateProfile,
 } from "../Utils/firebase/firebase";
 //
 import { UserContext } from "../../contexts/UserContext";
@@ -124,6 +125,16 @@ const SignInForm = () => {
                 buttonType="google"
               >
                 Sign out
+              </Button>
+            ) : null}
+            {currentUser ? (
+              <Button
+                type="button"
+                onClick={UpdateProfile}
+                // onClick={signInWithGoogle}
+                buttonType="google"
+              >
+                update
               </Button>
             ) : null}
           </div>

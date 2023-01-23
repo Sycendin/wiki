@@ -12,6 +12,7 @@ import {
   signInWithEmailAndPassword,
   signOut,
   onAuthStateChanged,
+  updateProfile,
 } from "firebase/auth";
 // for firebase db
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
@@ -104,3 +105,16 @@ export const signOutUser = () => signOut(auth);
 export const onAuthStateChangedListener = (callback) =>
   // call callback when auth changes, always waiting to see if auth changes and when it does it runs callback
   onAuthStateChanged(auth, callback);
+
+export const UpdateProfile = () =>
+  updateProfile(auth.currentUser, {
+    displayName: "Jane Q. User",
+    photoURL:
+      "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp",
+  })
+    .then(() => {
+      console.log("updated");
+    })
+    .catch((error) => {
+      console.log("error");
+    });
