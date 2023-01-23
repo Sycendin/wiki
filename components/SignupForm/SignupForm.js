@@ -6,7 +6,9 @@ import Button from "../Button/Button";
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
+  UpdateProfilePicture,
 } from "../Utils/firebase/firebase";
+
 const defaultFormFields = {
   displayName: "",
   email: "",
@@ -41,6 +43,9 @@ const SignupForm = () => {
         );
 
         await createUserDocumentFromAuth(user, { displayName, profilePic });
+        await UpdateProfilePicture(
+          "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp"
+        );
         resetFormFields();
       } catch (error) {
         if (error.code === "auth/email-already-in-use") {
