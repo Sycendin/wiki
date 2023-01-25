@@ -81,17 +81,23 @@ a {
 /* profile */
 
 .profile-container{
-  width: 65px;
-  height: 65px;
+  width: 68px;
+  height: 68px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border-radius: 50%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .profile-icon{
-  width: 24px;
-  height: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 .notif-count{
   position: absolute;
