@@ -77,10 +77,13 @@ const Nav = () => {
               </div>
             </div>
           </div>
+          {/* Render icon if user is logged into firebase */}
           {currentUser && <ProfileIcon />}
         </div>
+        {/* Render dropdown if user Profile icon */}
         {profileOpen && <ProfileDropDown />}
       </nav>
+      {/* Render profile images if  user click profile images button*/}
       {profileImageModalOpen ? <ProfileImages /> : null}
     </Fragment>
   );

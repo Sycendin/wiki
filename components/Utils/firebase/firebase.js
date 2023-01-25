@@ -105,15 +105,16 @@ export const signOutUser = () => signOut(auth);
 export const onAuthStateChangedListener = (callback) =>
   // call callback when auth changes, always waiting to see if auth changes and when it does it runs callback
   onAuthStateChanged(auth, callback);
-// Update auth's photoUrl to newPhto
+// Update auth's photoUrl to newPohto
 export const UpdateProfilePicture = (newPhoto) =>
+  // Call firebase function to update user and update photo
   updateProfile(auth.currentUser, {
     // displayName: "Jane Q. User",
     photoURL: newPhoto,
   })
     .then(() => {
-      console.log("updated Photo");
+      console.log("Updated user pohoto");
     })
     .catch((error) => {
-      console.log("error, couldn't update photo");
+      console.log("Error, couldn't update photo", error.message);
     });
