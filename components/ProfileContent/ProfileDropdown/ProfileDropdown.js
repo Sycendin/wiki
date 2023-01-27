@@ -10,6 +10,7 @@ const ProfileDropDown = () => {
   const toggleProfileImagesOpen = () =>
     setProfileImageModalOpen(!profileImageModalOpen);
   console.log(pickPic);
+  const setIcon = () => {};
   return (
     <div className="dropdown-container">
       <div className="items">
@@ -21,8 +22,11 @@ const ProfileDropDown = () => {
           );
         })}
       </div>
-      <button className="" onClick={toggleProfileImagesOpen}>
-        Images
+      <button className="is-light" onClick={toggleProfileImagesOpen}>
+        Open Selection
+      </button>
+      <button className="is-primary" onClick={setIcon}>
+        Set Selection
       </button>
     </div>
   );

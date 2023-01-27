@@ -185,6 +185,16 @@ a {
   font-weight: bold;
   color: white;
 }
+
+/* Profile pick */
+.center-div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.profile-pick-text{
+  text-align: center;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
