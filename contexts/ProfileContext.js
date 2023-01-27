@@ -5,15 +5,22 @@ const addPicture = (picks, pickToAdd) => {
   if (picks.length > 0) {
     existingPick = picks.find((pickItem) => pickItem.name === pickToAdd.name);
   }
-  if (existingPick) {
-    return picks.map((pickItem) =>
-      pickItem.name === pickToAdd.name
-        ? { ...pickItem, ammo: pickItem.ammo + 1 }
-        : pickItem
-    );
-  }
 
-  return [...picks, { ...pickToAdd }];
+  if (existingPick) {
+    return picks;
+  }
+  // Don't add if already there
+  // if (existingPick) {
+  //   return picks.map((pickItem) =>
+  //     pickItem.name === pickToAdd.name
+  //       ? { ...pickItem, ammo: pickItem.ammo + 1 }
+  //       : pickItem
+  //   );
+  // }
+  else {
+    return [pickToAdd];
+  }
+  // return [...picks, { ...pickToAdd }];
   // return [...pick, { ...pickToAdd, quantity: 1 }];
 };
 export const ProfileContext = createContext({
