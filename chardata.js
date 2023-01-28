@@ -1,3 +1,5 @@
+export const defaultProfileUrl =
+  "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp";
 export const charData = [
   {
     name: "Rapi",

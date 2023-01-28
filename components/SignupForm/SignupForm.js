@@ -8,7 +8,7 @@ import {
   createUserDocumentFromAuth,
   UpdateProfilePicture,
 } from "../Utils/firebase/firebase";
-
+import { defaultProfileUrl } from "../../chardata";
 const defaultFormFields = {
   displayName: "",
   email: "",
@@ -18,8 +18,6 @@ const defaultFormFields = {
 const SignupForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { displayName, email, password, confirmPassword } = formFields;
-  let profilePic =
-    "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp";
   // console.log(formFields);
   // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31159534#questions
   const handleChange = (event) => {
@@ -43,9 +41,8 @@ const SignupForm = () => {
         );
 
         await createUserDocumentFromAuth(user, { displayName, profilePic });
-        await UpdateProfilePicture(
-          "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp"
-        );
+        // Set Pfp to default one set from chardata file
+        UpdateProfilePicture(defaultProfileUrl);
         resetFormFields();
       } catch (error) {
         if (error.code === "auth/email-already-in-use") {
