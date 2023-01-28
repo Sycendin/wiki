@@ -1,16 +1,26 @@
 import { Fragment, useContext } from "react";
 import { ProfileContext } from "../../../contexts/ProfileContext";
 import { ProfileImageModalContext } from "../../../contexts/ProfileImageContext";
+import { UpdateProfilePicture } from "../../Utils/firebase/firebase";
 import ProfilePick from "../ProfilePick/ProfilePick";
 const ProfileDropDown = () => {
   const { profileImageModalOpen, setProfileImageModalOpen } = useContext(
     ProfileImageModalContext
   );
-  const { pickPic } = useContext(ProfileContext);
+  const { profileOpen, setProfileOpen } = useContext(ProfileContext);
+  const { pickPic, addToPick, updateTempUpdate } = useContext(ProfileContext);
   const toggleProfileImagesOpen = () =>
     setProfileImageModalOpen(!profileImageModalOpen);
   console.log(pickPic);
-  const setIcon = () => {};
+  const setIcon = async () => {
+    let { art } = pickPic[0];
+    await UpdateProfilePicture(art);
+    setTimeout(updateTempUpdate(), 1000);
+  };
+  const toggleProfileOpen = () => {
+    setProfileOpen(!profileOpen);
+    addToPick({}, true);
+  };
   return (
     <div className="dropdown-container">
       <div className="items">
@@ -22,12 +32,19 @@ const ProfileDropDown = () => {
           );
         })}
       </div>
-      <button className="is-light" onClick={toggleProfileImagesOpen}>
-        Open Selection
-      </button>
-      <button className="is-primary" onClick={setIcon}>
-        Set Selection
-      </button>
+      <div className="center-div">
+        <button className="button is-light" onClick={toggleProfileImagesOpen}>
+          Open Selection
+        </button>
+        {pickPic.length > 0 && (
+          <button className="button is-primary" onClick={setIcon}>
+            Set Selection
+          </button>
+        )}
+        <button className="button is-warning" onClick={toggleProfileOpen}>
+          Exit
+        </button>
+      </div>
     </div>
   );
 };
