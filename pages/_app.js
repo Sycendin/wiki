@@ -5,7 +5,6 @@ import { UserProvider } from "../contexts/UserContext";
 import { CharProvider } from "../contexts/CharContext";
 import { ProfileProvider } from "../contexts/ProfileContext";
 import { ProfileImageModalProvider } from "../contexts/ProfileImageContext";
-
 function MyApp({ Component, pageProps }) {
   return (
     <UserProvider>
