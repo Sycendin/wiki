@@ -6,18 +6,20 @@ import Meta from "../components/Meta";
 import Nav from "../components/nav";
 import SearchPlusList from "../components/CharPage/SearchPlusList";
 import { CharContext } from "../contexts/CharContext";
-
+import { Wrapper } from "../components/Wrapper/Wrapper";
 import { useContext } from "react";
 export default function Chars({ articles }) {
   const { charsInfo } = useContext(CharContext);
   return (
-    <div>
-      <Meta />
-      <Nav />
-      <div className="mt-3"></div>
-      <SearchPlusList articles={articles} />
-      {/* <ArticleList articles={articles} /> */}
-    </div>
+    <Wrapper>
+      <div>
+        <Meta />
+        <Nav />
+        <div className="mt-3"></div>
+        <SearchPlusList articles={articles} />
+        {/* <ArticleList articles={articles} /> */}
+      </div>
+    </Wrapper>
   );
 }
 export const getStaticProps = async () => {
