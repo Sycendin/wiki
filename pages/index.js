@@ -1,7 +1,6 @@
 import { server } from "./config";
 // import Head from "next/head";
 // import ArticleList from "../components/ArticleList";
-
 import Meta from "../components/Meta";
 import Nav from "../components/nav";
 import SearchPlusList from "../components/CharPage/SearchPlusList";
