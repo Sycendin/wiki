@@ -18,7 +18,6 @@ export default function Home({ articles }) {
         <button className="button">Button</button>
         <h1>Welcome to next</h1>
         <SearchPlusList articles={articles} />
-        {/* <ArticleList articles={articles} /> */}
       </div>
     </Wrapper>
   );
