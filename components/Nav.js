@@ -31,7 +31,6 @@ const Nav = () => {
               height="28"
             />
           </a>
-
           <a
             role="button"
             className="navbar-burger"
@@ -70,10 +69,15 @@ const Nav = () => {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a className="button is-light">Log in</a>
+                {/* Render if there is no user sign in */}
+                {!currentUser && (
+                  <Fragment>
+                    {" "}
+                    <a className="button is-primary" href="/Auth">
+                      <strong>Sign up</strong>
+                    </a>
+                  </Fragment>
+                )}
               </div>
             </div>
           </div>
