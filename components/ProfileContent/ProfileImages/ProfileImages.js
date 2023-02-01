@@ -8,6 +8,7 @@ const ProfileImages = () => {
     ProfileImageModalContext
   );
   const { addToPick } = useContext(ProfileContext);
+  // Toggle profile picture modal off and add selected picture to to ProfileContext
   const toggleProfileImagesOpen = (element) => {
     setProfileImageModalOpen(!profileImageModalOpen);
     addToPick(element);
@@ -15,9 +16,11 @@ const ProfileImages = () => {
   return (
     <div className="images-background">
       <div className="images-div">
+        {/* Top cancel button to close modal that is sticky  */}
         <button className="sticky" onClick={toggleProfileImagesOpen}>
           Cancel
         </button>
+        {/* Render Selected Image */}
         <div className="images">
           {charsInfo.map((element) => {
             return (
@@ -30,7 +33,8 @@ const ProfileImages = () => {
             );
           })}
         </div>
-        <button className="" onClick={toggleProfileImagesOpen}>
+        {/* Bottom cancel button to close modal */}
+        <button className="button is-error" onClick={toggleProfileImagesOpen}>
           Cancel
         </button>
       </div>
