@@ -3,7 +3,6 @@ import { server } from "./config";
 // import ArticleList from "../components/ArticleList";
 
 import Meta from "../components/Meta";
-import Nav from "../components/nav";
 import SearchPlusList from "../components/CharPage/SearchPlusList";
 import { CharContext } from "../contexts/CharContext";
 import { Wrapper } from "../components/Wrapper/Wrapper";
@@ -14,7 +13,7 @@ export default function Chars({ articles }) {
     <Wrapper>
       <div>
         <Meta />
-        <Nav />
+
         <div className="mt-3"></div>
         <SearchPlusList articles={articles} />
         {/* <ArticleList articles={articles} /> */}

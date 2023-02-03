@@ -4,11 +4,19 @@ import { useContext, useEffect } from "react";
 import { ProfileContext } from "../../../contexts/ProfileContext";
 import { UserContext } from "../../../contexts/UserContext";
 const ProfileIcon = () => {
-  const { profileOpen, setProfileOpen, tempUpdate } =
-    useContext(ProfileContext);
+  const {
+    profileOpen,
+    setProfileOpen,
+    tempUpdate,
+    setProfileOptions,
+    profileOptions,
+  } = useContext(ProfileContext);
   const { currentUser, setCurrentUser } = useContext(UserContext);
 
-  const toggleProfileOpen = () => setProfileOpen(!profileOpen);
+  const toggleProfileOpen = () => {
+    setProfileOptions(!profileOptions);
+    setProfileOpen(!profileOpen);
+  };
 
   return (
     <div className="profile-container " onClick={toggleProfileOpen}>

@@ -34,12 +34,15 @@ export const ProfileContext = createContext({
   addPick: () => {},
   tempUpdate: false,
   setTempUpdate: () => null,
+  profileOptions: false,
+  setProfileOptions: () => null,
 });
 
 export const ProfileProvider = ({ children }) => {
   const [profileOpen, setProfileOpen] = useState(false);
   const [pickPic, setPick] = useState([]);
   const [tempUpdate, setTempUpdate] = useState([]);
+  const [profileOptions, setProfileOptions] = useState(false);
   const updateTempUpdate = () => {
     console.log("temp update");
     setTempUpdate(!tempUpdate);
@@ -55,6 +58,8 @@ export const ProfileProvider = ({ children }) => {
     pickPic,
     tempUpdate,
     updateTempUpdate,
+    profileOptions,
+    setProfileOptions,
   };
   return (
     <ProfileContext.Provider value={value}>{children}</ProfileContext.Provider>
