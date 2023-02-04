@@ -6,14 +6,23 @@ import Meta from "../components/Meta";
 import SearchPlusList from "../components/CharPage/SearchPlusList";
 import { CharContext } from "../contexts/CharContext";
 import { Wrapper } from "../components/Wrapper/Wrapper";
-import { useContext } from "react";
+import { Fragment, useContext } from "react";
+import dynamic from "next/dynamic";
+// Render Dropdown on client side rather than server side
+import { NewVisit } from "../components/NewVisit/NewVisit";
+const DynamicVisit = dynamic(() => import("../components/NewVisit/NewVisit"), {
+  ssr: false,
+});
 export default function Chars({ articles }) {
   const { charsInfo } = useContext(CharContext);
   return (
     <Wrapper>
       <div>
         <Meta />
-
+        <Fragment>
+          {/* <NewVisit /> */}
+          <DynamicVisit />
+        </Fragment>
         <div className="mt-3"></div>
         <SearchPlusList articles={articles} />
         {/* <ArticleList articles={articles} /> */}

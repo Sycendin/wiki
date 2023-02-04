@@ -5,16 +5,19 @@ import { UserProvider } from "../contexts/UserContext";
 import { CharProvider } from "../contexts/CharContext";
 import { ProfileProvider } from "../contexts/ProfileContext";
 import { ProfileImageModalProvider } from "../contexts/ProfileImageContext";
+import { VisitProvider } from "../contexts/VisitContext";
 function MyApp({ Component, pageProps }) {
   return (
     <UserProvider>
-      <ProfileProvider>
-        <ProfileImageModalProvider>
-          <CharProvider>
-            <Component {...pageProps} />
-          </CharProvider>
-        </ProfileImageModalProvider>
-      </ProfileProvider>
+      <VisitProvider>
+        <ProfileProvider>
+          <ProfileImageModalProvider>
+            <CharProvider>
+              <Component {...pageProps} />
+            </CharProvider>
+          </ProfileImageModalProvider>
+        </ProfileProvider>
+      </VisitProvider>
     </UserProvider>
   );
 }
