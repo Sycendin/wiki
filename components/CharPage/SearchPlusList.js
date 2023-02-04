@@ -9,6 +9,7 @@ const DynamicDropdown = dynamic(
     ssr: false,
   }
 );
+
 import ArticleList from "./Characters/ArticleList";
 import Search from "./Characters/Search";
 const SearchPlusList = ({ articles }) => {

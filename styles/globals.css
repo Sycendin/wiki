@@ -187,6 +187,32 @@ a {
   font-weight: bold;
   color: white;
 }
+/* Vist */
+.messageBackgroundDiv{
+  background-color: rgba(0, 0, 0, 0.5);
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  overflow: hidden;
+  position:fixed;
+  z-index: 100;
+  backdrop-filter: blur(5px);
+}
+.messageDiv{
+  padding: 0px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: fixed;
+  justify-content: center;
+  left: 50%;
+  opacity: 100%;
+  transform: translateX(-50%);
+  overflow-y: auto;
+  max-height: 100vh;
+}
 
 /* Profile pick */
 .center-div{
