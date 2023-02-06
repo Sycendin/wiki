@@ -15,13 +15,13 @@ export const ProfileOptions = () => {
   return (
     <Fragment>
       <div className="profileOptionsDiv">
-        <buttton className="button" onClick={ChangeToPictures}>
+        <button className="button" onClick={ChangeToPictures}>
           Profile Picture
-        </buttton>
-        <buttton className="button">Sign Out</buttton>
-        <buttton className="button is-warning" onClick={toggleProfileOpen}>
+        </button>
+        <button className="button">Sign Out</button>
+        <button className="button is-warning" onClick={toggleProfileOpen}>
           Exit
-        </buttton>
+        </button>
       </div>
     </Fragment>
   );
