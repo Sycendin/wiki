@@ -29,6 +29,13 @@ const NewVisit = () => {
           <AttentionSeeker effect="pulse">
             <div className={` ${styles.messageBig}`}>
               <div className={` ${styles.messageDiv}`}>
+                <span>
+                  <p className="black">
+                    Please note that the game is rated 16+ and may contain
+                    contain themes not suitable for children, Press Ok to
+                    continue
+                  </p>
+                </span>
                 <div className={` ${styles.buttonDiv}`}>
                   <button className="button is-primary" onClick={setVisited}>
                     Ok.
