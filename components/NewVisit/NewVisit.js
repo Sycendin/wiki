@@ -27,8 +27,8 @@ const NewVisit = () => {
       {visit !== "True" && timeCheck === true ? (
         <div className={`${styles.messageBackgroundDiv}`}>
           <AttentionSeeker effect="pulse">
-            <div className={` ${styles.messageBig}`}>
-              <div className={` ${styles.messageDiv}`}>
+            <div className={` ${styles.messageDiv}`}>
+              <div className={` ${styles.messageBig}`}>
                 <span>
                   <p className="black">
                     Please note that the game is rated 16+ and may contain
