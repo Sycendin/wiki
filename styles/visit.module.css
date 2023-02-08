@@ -23,17 +23,22 @@
   width: 500px;
   z-index: 110;
   border-radius: 8px;
+  border: 3px solid rgb(255, 0, 13);
 }
 
 .messageBig{
-display: flex;
-justify-content: center;
-flex-direction: column;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
-
+.messageText{
+  margin-top: 10%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
 
 .buttonDiv{
   width: 100%;

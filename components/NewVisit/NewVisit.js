@@ -30,7 +30,7 @@ const NewVisit = () => {
             <div className={` ${styles.messageDiv}`}>
               <div className={` ${styles.messageBig}`}>
                 <span>
-                  <p className="black">
+                  <p className={` ${styles.messageText} black`}>
                     Please note that the game is rated 16+ and may contain
                     contain themes not suitable for children, Press Ok to
                     continue
