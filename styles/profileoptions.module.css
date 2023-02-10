@@ -1,0 +1,4 @@
+.profileOptionsDiv{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,5 +1,6 @@
 import { Fragment, useContext } from "react";
 import { ProfileContext } from "../../../../contexts/ProfileContext";
+import styles from "../../../../styles/profileoptions.module.css";
 export const ProfileOptions = () => {
   const { setProfileOptions, profileOptions } = useContext(ProfileContext);
   const { setProfileOpen } = useContext(ProfileContext);
@@ -14,7 +15,7 @@ export const ProfileOptions = () => {
   };
   return (
     <Fragment>
-      <div className="profileOptionsDiv">
+      <div className={`${styles.profileOptionsDiv}`}>
         <button className="button" onClick={ChangeToPictures}>
           Profile Picture
         </button>
