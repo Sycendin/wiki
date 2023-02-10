@@ -564,6 +564,94 @@ export const charData = [
     rarity: "SSR",
   },
   {
+    name: "Viper",
+    art: "https://www.prydwen.gg/static/466fda5e86ed8e653d5016055b018b08/60b4d/viper_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
+    weapon: "Shotgun",
+    class: "Attacker",
+    manufacturer: "Missillis",
+    element: "Water",
+    squad: "Exotic",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "0.56s",
+        effect: "■ Affects target enemy.##Deals 220.4% ATK as damage.",
+      },
+      {
+        name: "Snake Sense",
+        active: "Passive",
+        effect:
+          "■ Activates when the target appears. Affects all allies.##ATK ▲ 25.98% for 10 sec.##Hit Rate ▲ 11.13% for 10 sec.",
+      },
+      {
+        name: "Snake Scale",
+        active: "Passive",
+        effect:
+          "■ Affects self.##Hit Rate ▲ 3.43%##■ Activates when entering Full Burst. Affects self.##Vamp: Excludes 1 ally unit from enemies' targets for 10 sec. Loses effect when the caster takes damage.##nvincible for 1 sec.",
+      },
+      {
+        name: "Snake Bite",
+        effect:
+          "■ Affects designed 1 enemy unit(s).##Deals 462.85% of ATK as damage.##■ Activates when the designated enemy unit(s) include the stage target. Affects the same enemy unit(s).##DEF ▼ 19.83% for 10 seconds.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/ee583860e0a716d00a1bdfe39b194c99/3cd29/viper_full.webp",
+  },
+  {
+    name: "Jackal",
+    art: "https://www.prydwen.gg/static/8b5dbe64fd3b5cc45324e5c118267aeb/60b4d/jackal_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
+    weapon: "Rocket Launcer",
+    class: "Defender",
+    manufacturer: "Missillis",
+    element: "Iron",
+    squad: "Exotic",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 65.02% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Happy Jackal",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 10 time(s). Affects 1 enemy unit(s) with the highest Max HP.##Damage Taken ▲ 9.09% for 10 sec.##ATK ▼ 9.09% for 10 sec.",
+      },
+      {
+        name: "Jumpin' Jackal Flash",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK.##Shares damage taken for 120 sec.##DEF ▲ 8.27% for 120 sec.",
+      },
+      {
+        name: "Crazy Jackal",
+        effect: `■ Affects all allies.##Burst Skill Damage (except additional damage) with "Affects the enemy with" in description ▲ 38.91% for 15 sec.##DEF ▲ 14.69% for 10 sec."`,
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/1b31ef386f8c4898369baa0cd040fe45/3cd29/jackal_full.webp",
+  },
+  {
     name: "Maiden",
     art: "https://www.prydwen.gg/static/01b647fd49861b5305f7e0cb6fc63a09/60b4d/maiden_icon.webp",
     hp: 583734,
@@ -2886,5 +2974,270 @@ export const charData = [
       },
     ],
     rarity: "SR",
+  },
+  {
+    name: "Modernia",
+    art: "https://www.prydwen.gg/static/802bf3134fd935eddaddc33ac5017d41/60b4d/modernia_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
+    weapon: "Machine Gun",
+    class: "Attacker",
+    manufacturer: "Missillis",
+    element: "Fire",
+    squad: "The Heretics",
+    position: "Burst 3",
+    burstCD: "40",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.3s",
+        effect: "■ Affects target enemy.##Deals 7.71% ATK as damage.",
+      },
+      {
+        name: "High-Speed Evolution",
+        active: "Passive",
+        effect:
+          "■ Activates when normal attack hits. Affects the target(s).##Deals 3.05% of ATK as additional damage.##■ Activates when normal attack hits 200 time(s). Affects self.##Critical Damage ▲ 14.25%, stacks up to 5 time(s) and lasts for 10 sec.##Max Ammunition Capacity ▼ 5.04%, stacks up to 5 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Giant Leap",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. Activates when entering Full Burst.##Hit Rate ▲ 8.56% for 15 sec.##■ Affects self. Activates when normal attack hits 200 time(s) during increasing Hit Rate status.##ATK ▲ 29.38% for 10 sec.",
+      },
+      {
+        name: "New World",
+        effect:
+          "■ Affects all allies.##Full Burst Time ▲ 5 sec.##■ Affects self.##Grants unlimited ammunition for 15 sec.##Destroy Mode:##Extending the line of sight and auto-aim at all enemies within fire range. Stage enemy will be recognized as a single enemy regardless of its interruption parts.##Deals 2.24% of ATK as damage for 15 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/7ce68d265b64365a600be6766964d672/3cd29/modernia_full.webp",
+  },
+  {
+    name: "Guilty",
+    art: "https://www.prydwen.gg/static/6dba75e041243feee1c240deee75c559/60b4d/guilty_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Shotgun",
+    class: "Attacker",
+    manufacturer: "Missilis",
+    element: "Wind",
+    squad: "Real Kindness",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.67s",
+        effect: "■ Affects target enemy.##Deals 231.4% ATK as damage.",
+      },
+      {
+        name: "Mind If I Borrow This?",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 6 normal attack(s). Affects self.##Mind If I Borrow This?: Duplicate 8.81% ATK of ally with the highest ATK, stacks up to 5 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Time to play",
+        active: "15 Seconds",
+        effect:
+          "■ Activates after landing 12 normal attack(s). Affects all Wind type allies.##Increases stack count of buffs by 1.##ATK ▲ 4.13% for 10 sec.",
+      },
+      {
+        name: "Gotcha",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest DEF.##Deals 284.32% of ATK as damage.##■ Affects the same target(s) when Mind If I Borrow This? is fully stacked.##DEF ▼ 20.25% for 5 sec.##Deals 277.71% of ATK as additional damage.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/9e4370d39355c5027c1f40cedaae5771/3cd29/guilty_full.webp",
+  },
+  {
+    name: "Sin",
+    art: "https://www.prydwen.gg/static/7ed8d6828b087116701de42d983f57e3/60b4d/sin_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    class: "Defender",
+    manufacturer: "Missilis",
+    element: "Electric",
+    squad: "Real Kindness",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Taunter", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 13.65% ATK as damage.",
+      },
+      {
+        name: "Full Stop",
+        active: "Passive",
+        effect:
+          "■ Activates when the last round of ammunition hits. Affects self.##Duplicate 15.03% HP of ally with the highest HP, lasts for 5 sec.##Attract: Taunt all enemies for 5 sec.",
+      },
+      {
+        name: "Hurry Up",
+        active: "Passive",
+        effect:
+          "■ Activates after the Full Burst ends. Affects self.##Burst gauge loading speed ▲ 16.17% for 5 sec.##■ Activates when using Burst Skill. Affects self.##Effect changes according to the number of activation time(s). Previous effects trigger repeatedly.##Once: Recovers 15.3% of ATK damage as HP, lasts for 5 sec.##Twice: HP Potency ▲ 51% for 5 sec.##Thrice: DEF ▲ 43.2% for 5 sec",
+      },
+      {
+        name: "Words can Kill",
+        effect:
+          "■ Activates when enemy unit(s) (excluding Nikkes) are more than 4. Affects all enemies.##Damage Taken ▲ 12.23% for 5 sec.##■ Affects enemies within attack range.##Deals 176.32% of ATK as damage.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/50b70eef5978c1aaf69ecefedde21514/3cd29/sin_full.webp",
+  },
+  {
+    name: "Quency",
+    art: "https://www.prydwen.gg/static/fcda742bb9971ce894deb5aba6d4ec8b/60b4d/quency_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    class: "Supporter",
+    manufacturer: "Missilis",
+    element: "Electric",
+    squad: "Real Kindness",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.67s",
+        effect: "■ Affects target enemy.##Deals 4.47% ATK as damage.",
+      },
+      {
+        name: "New Route",
+        active: "Passive",
+        effect:
+          "■ Activates after 60 normal attack(s). Affects self.##Duplicate 12.42% HP of ally with the highest HP, lasts for 10 sec.",
+      },
+      {
+        name: "Hidden Accomplice",
+        active: "8 Seconds",
+        effect:
+          "■ Affects 2 ally unit(s) with the highest ATK.##ATK ▲ 16.11% for 5 sec.",
+      },
+      {
+        name: "The Great Escape",
+        effect:
+          "■ Affects 2 ally unit(s) with the highest ATK.##Max HP ▲ 43.87% for 5 sec.##Critical Damage ▲ 29.9% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/e388f0d9ebe92934d426e7f6524000e7/3cd29/quency_full.webp",
+  },
+  {
+    name: "Cocoa",
+    art: "https://www.prydwen.gg/static/249325af661515f4234e6a046fe8a064/60b4d/cocoa_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper Rifle",
+    class: "Supporter",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Maid For You",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Cleanser", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Professional Origami",
+        active: "15 Seconds",
+        effect:
+          "■ Affects all allies.##Recovers 17.76% of cover's Hp as Hp.##■ Affects 2 ally unit(s) with debuff randomly.##Dispels 1 debuff(s).",
+      },
+      {
+        name: "Professional Tomato Sauce",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects self.##Professional Tomato Souce: Sustained damage ▼ 4.37%, stacks up to 15 time(s) and lasts for 5 sec.",
+      },
+      {
+        name: "Professional Maid Leader",
+        effect:
+          "■ Affects all allies.##Dispels 1 debuff(s).##■ Activates when Professional Tomato Souce is fully stacked. Affects all enemies.##ATK ▼ 13.59% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/adfc6eaa8190bd524a15ffa01df4deb2/3cd29/cocoa_full.webp",
+  },
+  {
+    name: "Soda",
+    art: "https://www.prydwen.gg/static/268a9578c7b7c5e9e705bcbd0a54b559/60b4d/soda_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Machine Gun",
+    class: "Supporter",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Maid For You",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer", "Crowd Controller", "Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.5s",
+        effect: "Deals 5.57% of ATK as damage.",
+      },
+      {
+        name: "Spotless Chair",
+        active: "Passive",
+        effect:
+          "■ Activates after 180 normal attack(s). Affects self.##Maid Spirit: Increase Max HP by 13%, stacks up to 5 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Squeaky Clean Floor",
+        active: "12 Seconds",
+        effect:
+          "■ Affects all allies.##Restore HP equal to 3.23% of the caster's Max HP.##■ Activates when Maid Spirit is fully stacked. Affects all allies.##Restore HP equal to 12.71% of the caster's Max HP.",
+      },
+      {
+        name: "Spring Cleaning",
+        effect:
+          "■ Affects 2 enemy units randomly.##Deals 321.8% of ATK as damage.##Stun for 1 sec.##■ Affects all allies with Fire element.##Stack count of buffs ▲ 1.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/fdca25d3e1f93e976c376a547e9e63ad/3cd29/soda_full.webp",
   },
 ];
