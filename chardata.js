@@ -43,6 +43,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/5cca9a18c03bec4b5bf252af2af009c4/3cd29/rapi_full.webp",
   },
 
   {
@@ -88,6 +89,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/8eb85cf991cb58f905f00c4be71db85f/3cd29/anis_full.webp",
   },
   {
     name: "Neon",
@@ -129,6 +131,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/aed92f4f10fd8084e863982b5259ac99/3cd29/neon_full.webp",
   },
   {
     name: "Poli",
@@ -171,6 +174,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/2f6126194937a4c427a3d421c0db7096/3cd29/poli_full.webp",
   },
   {
     name: "Miranda",
@@ -213,6 +217,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/9517b4b325a1d36dcb395d4eb135565f/3cd29/miranda_full.webp",
   },
   {
     name: "Eunhwa",
@@ -257,6 +262,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/72addc3fd1daf7e62758863dc1d1a1ad/3cd29/eunhwa_full.webp",
   },
   {
     name: "Emma",
@@ -300,6 +306,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/4fc8086435b3a0d65f9782d4faeb3997/3cd29/emma_full.webp",
   },
   {
     name: "Vesti",
@@ -344,6 +351,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/435c7016460cf805d4d178ffa91f61c5/3cd29/vesti_full.webp",
   },
   {
     name: "Helm",
@@ -388,6 +396,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/f9831131ec85afcfc79f08cf804767d2/3cd29/helm_full.webp",
   },
   {
     name: "Sugar",
@@ -431,6 +440,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/2bf9655435e00c796cf8de6a163b95b0/3cd29/sugar_full.webp",
   },
   {
     name: "Milk",
@@ -475,6 +485,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/ab5b46c1f9f1985c59c85f1535a8d5a6/3cd29/milk_full.webp",
   },
   {
     name: "Frima",
@@ -519,6 +530,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/1d084981876b98ad2fbdf5c15f9601c7/3cd29/frima_full.webp",
   },
   {
     name: "Crow",
@@ -562,6 +574,95 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/f6f433d5ea43664cd970a02ca96da1fe/3cd29/crow_full.webp",
+  },
+  {
+    name: "Viper",
+    art: "https://www.prydwen.gg/static/466fda5e86ed8e653d5016055b018b08/60b4d/viper_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
+    weapon: "Shotgun",
+    class: "Attacker",
+    manufacturer: "Missillis",
+    element: "Water",
+    squad: "Exotic",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "0.56s",
+        effect: "■ Affects target enemy.##Deals 220.4% ATK as damage.",
+      },
+      {
+        name: "Snake Sense",
+        active: "Passive",
+        effect:
+          "■ Activates when the target appears. Affects all allies.##ATK ▲ 25.98% for 10 sec.##Hit Rate ▲ 11.13% for 10 sec.",
+      },
+      {
+        name: "Snake Scale",
+        active: "Passive",
+        effect:
+          "■ Affects self.##Hit Rate ▲ 3.43%##■ Activates when entering Full Burst. Affects self.##Vamp: Excludes 1 ally unit from enemies' targets for 10 sec. Loses effect when the caster takes damage.##nvincible for 1 sec.",
+      },
+      {
+        name: "Snake Bite",
+        effect:
+          "■ Affects designed 1 enemy unit(s).##Deals 462.85% of ATK as damage.##■ Activates when the designated enemy unit(s) include the stage target. Affects the same enemy unit(s).##DEF ▼ 19.83% for 10 seconds.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/ee583860e0a716d00a1bdfe39b194c99/3cd29/viper_full.webp",
+  },
+  {
+    name: "Jackal",
+    art: "https://www.prydwen.gg/static/8b5dbe64fd3b5cc45324e5c118267aeb/60b4d/jackal_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
+    weapon: "Rocket Launcer",
+    class: "Defender",
+    manufacturer: "Missillis",
+    element: "Iron",
+    squad: "Exotic",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 65.02% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Happy Jackal",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 10 time(s). Affects 1 enemy unit(s) with the highest Max HP.##Damage Taken ▲ 9.09% for 10 sec.##ATK ▼ 9.09% for 10 sec.",
+      },
+      {
+        name: "Jumpin' Jackal Flash",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK.##Shares damage taken for 120 sec.##DEF ▲ 8.27% for 120 sec.",
+      },
+      {
+        name: "Crazy Jackal",
+        effect: `■ Affects all allies.##Burst Skill Damage (except additional damage) with "Affects the enemy with" in description ▲ 38.91% for 15 sec.##DEF ▲ 14.69% for 10 sec."`,
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/1b31ef386f8c4898369baa0cd040fe45/3cd29/jackal_full.webp",
   },
   {
     name: "Maiden",
@@ -605,6 +706,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/f62afd279296966d20c49f6f2f082f46/3cd29/maiden_full.webp",
   },
   {
     name: "Guillotine",
@@ -648,6 +750,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/95462a190665dc34a46eb536a323d0e5/3cd29/guillotine_full.webp",
   },
   {
     name: "Brid",
@@ -691,6 +794,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/f2cd36bae6403f01e3bf0bd4cd1e26aa/3cd29/brid_full.webp",
   },
   {
     name: "Diesel",
@@ -734,6 +838,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/c35f2b083025338a81ea0151a8eef1ef/3cd29/diesel_full.webp",
   },
   {
     name: "Soline",
@@ -777,6 +882,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/c65daf0da534dfece836d047069db05f/3cd29/soline_full.webp",
   },
   {
     name: "Harran",
@@ -820,6 +926,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/53cfec2bd5eb040c52463243bf745ac8/3cd29/harran_full.webp",
   },
   {
     name: "Noah",
@@ -864,6 +971,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/06f5c16b0b79b96443c57de7536f72a1/3cd29/noah_full.webp",
   },
   {
     name: "Isabel",
@@ -907,6 +1015,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/e7f5459540c67aa6e275e72dcf8d213c/3cd29/isabel_full.webp",
   },
   {
     name: "Ether",
@@ -950,6 +1059,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/b9707f1df86e8d10599723359ecc998f/3cd29/ether_full.webp",
   },
   {
     name: "Julia",
@@ -992,6 +1102,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/13bb2057f12dc636476ac056a627702d/3cd29/julia_full.webp",
   },
   {
     name: "Drake",
@@ -1035,6 +1146,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/02a7b295d08da21a5803ec7dc1ce2502/3cd29/drake_full.webp",
   },
   {
     name: "Laplace",
@@ -1079,6 +1191,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/6a595a138bd9892af9a68b2e33650aec/3cd29/laplace_full.webp",
   },
   {
     name: "Maxwell",
@@ -1123,6 +1236,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/944cc6b93ab7ce72ab531cb3a4696889/3cd29/maxwell_full.webp",
   },
   {
     name: "Liter",
@@ -1165,6 +1279,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/6dacad01045a330784fcbac2acca9cf0/3cd29/liter_full.webp",
   },
   {
     name: "Centi",
@@ -1209,6 +1324,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/7602c69a685c204e18027d67148f7ec9/3cd29/centi_full.webp",
   },
   {
     name: "Epinel",
@@ -1252,6 +1368,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/5feadecd53e96118e17cffc4b5110db6/3cd29/epinel_full.webp",
   },
   {
     name: "Folkwang",
@@ -1295,6 +1412,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/3b1bbc79698cec179b9d6920ba99e6b1/3cd29/folkwang_full.webp",
   },
   {
     name: "Scarlet",
@@ -1338,6 +1456,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/603578b2f7a750e29637c0c6f5b1a2ce/3cd29/scarlet_full.webp",
   },
   {
     name: "Rapunzel",
@@ -1382,6 +1501,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/be3bbc1b290d7fb25585f94627193ee1/3cd29/rapunzel_full.webp",
   },
   {
     name: "Snow White",
@@ -1425,6 +1545,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/db311e935842ff830d6efc13f4bab7b1/3cd29/snow_full.webp",
   },
   {
     name: "Noise",
@@ -1469,6 +1590,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/0a198aa8c0394ad05d57bd1a24c8332e/3cd29/noise_full.webp",
   },
   {
     name: "Aria",
@@ -1512,6 +1634,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/0d48d21ec9e21a0cbddc0b5bb2ea67b1/3cd29/aria_full.webp",
   },
   {
     name: "Volume",
@@ -1553,6 +1676,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/eb970dc74bc6a613c78a653a504bbf2a/3cd29/volume_full.webp",
   },
   {
     name: "Novel",
@@ -1596,6 +1720,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/548e5ccc4fd042763444f515301e9e31/3cd29/novel_full.webp",
   },
   {
     name: "Exia",
@@ -1640,6 +1765,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/d048784ce57f5c11edbbbc649f8fef77/3cd29/exia_full.webp",
   },
   {
     name: "N102",
@@ -1683,6 +1809,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/935391c4df2a04ae370c1717d3f21ae7/3cd29/n102_full.webp",
   },
   {
     name: "Miracle Fairy Anne",
@@ -1718,7 +1845,8 @@ export const charData = [
         active: "60 Seconds",
       },
     ],
-    rarity: "SR",
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/32e949cc167950642487cdc465884384/3cd29/anne_full.webp",
   },
   {
     name: "Soldier OW",
@@ -1762,6 +1890,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/9647afea345a6717756524f0b97a87b3/3cd29/soldierow_full.webp",
   },
   {
     name: "Soldier EG",
@@ -1804,6 +1933,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/0ae606b92971663e727ee54bb24f5f17/3cd29/soldiereg_full.webp",
   },
   {
     name: "Soldier FA",
@@ -1846,6 +1976,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/c2676994239f24dd8ee33bb282215847/3cd29/soldierfa_full.webp",
   },
   {
     name: "Product 08",
@@ -1889,6 +2020,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/7323001f5aed7538506a38a0db964d27/3cd29/product8_full.webp",
   },
   {
     name: "Product 12",
@@ -1932,6 +2064,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/1cb462e4a72d3d9a98e7c5b67614080f/3cd29/product12_full.webp",
   },
   {
     name: "Product 23",
@@ -1975,6 +2108,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/47b7b605db735b692e5c746d74a39deb/3cd29/product23_full.webp",
   },
   {
     name: "IDoll Flower",
@@ -2019,6 +2153,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/2af41e666508375a19c7faec7c7e2fce/3cd29/idollflower_full.webp",
   },
   {
     name: "IDoll Ocean",
@@ -2062,6 +2197,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/92413daa5709ea317791b1db0377e985/3cd29/idollocean_full.webp",
   },
   {
     name: "IDoll Sun",
@@ -2104,6 +2240,7 @@ export const charData = [
       },
     ],
     rarity: "R",
+    full: "https://www.prydwen.gg/static/336dbbc0e28866f9365976e73c7fabf9/3cd29/idollsun_full.webp",
   },
   {
     name: "Signal",
@@ -2147,6 +2284,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/0f55a1746540afdcb66d31fde6262ccf/3cd29/signal_full.webp",
   },
   {
     name: "Delta",
@@ -2191,6 +2329,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/57d9c08ecda2e4103ac3dcb689fbecab/3cd29/delta_full.webp",
   },
   {
     name: "Pepper",
@@ -2234,6 +2373,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/27b83255cab87cb5be1042f88556f27c/3cd29/pepper_full.webp",
   },
   {
     name: "Mary",
@@ -2277,6 +2417,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/854de0dc5707a84f1d889fec616bebff/3cd29/mary_full.webp",
   },
   {
     name: "Dolla",
@@ -2320,6 +2461,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/ba2cc4c072f44c5bb47336de0fb66b37/3cd29/dolla_full.webp",
   },
   {
     name: "Rupee",
@@ -2363,6 +2505,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/1706be44f7cabd095dee69c55159828a/3cd29/rupee_full.webp",
   },
   {
     name: "Winter Shopper Rupee",
@@ -2406,6 +2549,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/c4521685d24d6e81d8ceda752335b448/3cd29/xrupee_full.webp",
   },
   {
     name: "Yan",
@@ -2450,6 +2594,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/83ecf7505ad25f169224a5885a1a70f9/3cd29/yan_full.webp",
   },
   {
     name: "Belorta",
@@ -2494,6 +2639,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/8866cc4c88e1ec9a597cf2b3a82bd00a/3cd29/belorta_full.webp",
   },
   {
     name: "Mica",
@@ -2538,6 +2684,7 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/71a458c556fbe9d390a78c8b6dd491fd/3cd29/mica_full.webp",
   },
   {
     name: "Privaty",
@@ -2581,6 +2728,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/039fa12791fd1c81ff6699ec36f3eb27/3cd29/privaty_full.webp",
   },
   {
     name: "Admi",
@@ -2625,6 +2773,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/8b390b18f7e9d5afae8cd7bfd28ac00d/3cd29/admi_full.webp",
   },
   {
     name: "Yulha",
@@ -2669,6 +2818,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/48f421971bb6e38adbe39ca1a7127b5f/3cd29/yulha_full.webp",
   },
   {
     name: "Alice",
@@ -2713,6 +2863,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/a1a021812dd058fc1b2bb29375a45af8/3cd29/alice_full.webp",
   },
   {
     name: "Neve",
@@ -2756,6 +2907,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/4fa7dc010aea028dc881afadc27dbafc/3cd29/neve_full.webp",
   },
   {
     name: "Ludmilla",
@@ -2799,6 +2951,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/79893ccee09b2444bbfbd471a2b23e48/3cd29/ludmilla_full.webp",
   },
   {
     name: "Yuni",
@@ -2843,6 +2996,7 @@ export const charData = [
       },
     ],
     rarity: "SSR",
+    full: "https://www.prydwen.gg/static/9ffc86d0383505644246bc99abc807e6/3cd29/yuni_full.webp",
   },
   {
     name: "Mihara",
@@ -2886,5 +3040,271 @@ export const charData = [
       },
     ],
     rarity: "SR",
+    full: "https://www.prydwen.gg/static/45719a19a5cc983f95dc6f518d4e3af8/3cd29/mihara_full.webp",
+  },
+  {
+    name: "Modernia",
+    art: "https://www.prydwen.gg/static/802bf3134fd935eddaddc33ac5017d41/60b4d/modernia_icon.webp",
+    hp: 711171,
+    atk: 17059,
+    def: 4364,
+    weapon: "Machine Gun",
+    class: "Attacker",
+    manufacturer: "Missillis",
+    element: "Fire",
+    squad: "The Heretics",
+    position: "Burst 3",
+    burstCD: "40",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.3s",
+        effect: "■ Affects target enemy.##Deals 7.71% ATK as damage.",
+      },
+      {
+        name: "High-Speed Evolution",
+        active: "Passive",
+        effect:
+          "■ Activates when normal attack hits. Affects the target(s).##Deals 3.05% of ATK as additional damage.##■ Activates when normal attack hits 200 time(s). Affects self.##Critical Damage ▲ 14.25%, stacks up to 5 time(s) and lasts for 10 sec.##Max Ammunition Capacity ▼ 5.04%, stacks up to 5 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Giant Leap",
+        active: "Passive",
+        effect:
+          "■ Affects all allies. Activates when entering Full Burst.##Hit Rate ▲ 8.56% for 15 sec.##■ Affects self. Activates when normal attack hits 200 time(s) during increasing Hit Rate status.##ATK ▲ 29.38% for 10 sec.",
+      },
+      {
+        name: "New World",
+        effect:
+          "■ Affects all allies.##Full Burst Time ▲ 5 sec.##■ Affects self.##Grants unlimited ammunition for 15 sec.##Destroy Mode:##Extending the line of sight and auto-aim at all enemies within fire range. Stage enemy will be recognized as a single enemy regardless of its interruption parts.##Deals 2.24% of ATK as damage for 15 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/7ce68d265b64365a600be6766964d672/3cd29/modernia_full.webp",
+  },
+  {
+    name: "Guilty",
+    art: "https://www.prydwen.gg/static/6dba75e041243feee1c240deee75c559/60b4d/guilty_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Shotgun",
+    class: "Attacker",
+    manufacturer: "Missilis",
+    element: "Wind",
+    squad: "Real Kindness",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.67s",
+        effect: "■ Affects target enemy.##Deals 231.4% ATK as damage.",
+      },
+      {
+        name: "Mind If I Borrow This?",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 6 normal attack(s). Affects self.##Mind If I Borrow This?: Duplicate 8.81% ATK of ally with the highest ATK, stacks up to 5 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Time to play",
+        active: "15 Seconds",
+        effect:
+          "■ Activates after landing 12 normal attack(s). Affects all Wind type allies.##Increases stack count of buffs by 1.##ATK ▲ 4.13% for 10 sec.",
+      },
+      {
+        name: "Gotcha",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest DEF.##Deals 284.32% of ATK as damage.##■ Affects the same target(s) when Mind If I Borrow This? is fully stacked.##DEF ▼ 20.25% for 5 sec.##Deals 277.71% of ATK as additional damage.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/9e4370d39355c5027c1f40cedaae5771/3cd29/guilty_full.webp",
+  },
+  {
+    name: "Sin",
+    art: "https://www.prydwen.gg/static/7ed8d6828b087116701de42d983f57e3/60b4d/sin_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    class: "Defender",
+    manufacturer: "Missilis",
+    element: "Electric",
+    squad: "Real Kindness",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Taunter", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect: "■ Affects target enemy.##Deals 13.65% ATK as damage.",
+      },
+      {
+        name: "Full Stop",
+        active: "Passive",
+        effect:
+          "■ Activates when the last round of ammunition hits. Affects self.##Duplicate 15.03% HP of ally with the highest HP, lasts for 5 sec.##Attract: Taunt all enemies for 5 sec.",
+      },
+      {
+        name: "Hurry Up",
+        active: "Passive",
+        effect:
+          "■ Activates after the Full Burst ends. Affects self.##Burst gauge loading speed ▲ 16.17% for 5 sec.##■ Activates when using Burst Skill. Affects self.##Effect changes according to the number of activation time(s). Previous effects trigger repeatedly.##Once: Recovers 15.3% of ATK damage as HP, lasts for 5 sec.##Twice: HP Potency ▲ 51% for 5 sec.##Thrice: DEF ▲ 43.2% for 5 sec",
+      },
+      {
+        name: "Words can Kill",
+        effect:
+          "■ Activates when enemy unit(s) (excluding Nikkes) are more than 4. Affects all enemies.##Damage Taken ▲ 12.23% for 5 sec.##■ Affects enemies within attack range.##Deals 176.32% of ATK as damage.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/50b70eef5978c1aaf69ecefedde21514/3cd29/sin_full.webp",
+  },
+  {
+    name: "Quency",
+    art: "https://www.prydwen.gg/static/fcda742bb9971ce894deb5aba6d4ec8b/60b4d/quency_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    class: "Supporter",
+    manufacturer: "Missilis",
+    element: "Electric",
+    squad: "Real Kindness",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.67s",
+        effect: "■ Affects target enemy.##Deals 4.47% ATK as damage.",
+      },
+      {
+        name: "New Route",
+        active: "Passive",
+        effect:
+          "■ Activates after 60 normal attack(s). Affects self.##Duplicate 12.42% HP of ally with the highest HP, lasts for 10 sec.",
+      },
+      {
+        name: "Hidden Accomplice",
+        active: "8 Seconds",
+        effect:
+          "■ Affects 2 ally unit(s) with the highest ATK.##ATK ▲ 16.11% for 5 sec.",
+      },
+      {
+        name: "The Great Escape",
+        effect:
+          "■ Affects 2 ally unit(s) with the highest ATK.##Max HP ▲ 43.87% for 5 sec.##Critical Damage ▲ 29.9% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/e388f0d9ebe92934d426e7f6524000e7/3cd29/quency_full.webp",
+  },
+  {
+    name: "Cocoa",
+    art: "https://www.prydwen.gg/static/249325af661515f4234e6a046fe8a064/60b4d/cocoa_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper Rifle",
+    class: "Supporter",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Maid For You",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Cleanser", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250%.",
+      },
+      {
+        name: "Professional Origami",
+        active: "15 Seconds",
+        effect:
+          "■ Affects all allies.##Recovers 17.76% of cover's Hp as Hp.##■ Affects 2 ally unit(s) with debuff randomly.##Dispels 1 debuff(s).",
+      },
+      {
+        name: "Professional Tomato Sauce",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects self.##Professional Tomato Souce: Sustained damage ▼ 4.37%, stacks up to 15 time(s) and lasts for 5 sec.",
+      },
+      {
+        name: "Professional Maid Leader",
+        effect:
+          "■ Affects all allies.##Dispels 1 debuff(s).##■ Activates when Professional Tomato Souce is fully stacked. Affects all enemies.##ATK ▼ 13.59% for 10 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/adfc6eaa8190bd524a15ffa01df4deb2/3cd29/cocoa_full.webp",
+  },
+  {
+    name: "Soda",
+    art: "https://www.prydwen.gg/static/268a9578c7b7c5e9e705bcbd0a54b559/60b4d/soda_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Machine Gun",
+    class: "Supporter",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Maid For You",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer", "Crowd Controller", "Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.5s",
+        effect: "Deals 5.57% of ATK as damage.",
+      },
+      {
+        name: "Spotless Chair",
+        active: "Passive",
+        effect:
+          "■ Activates after 180 normal attack(s). Affects self.##Maid Spirit: Increase Max HP by 13%, stacks up to 5 time(s) and lasts for 10 sec.",
+      },
+      {
+        name: "Squeaky Clean Floor",
+        active: "12 Seconds",
+        effect:
+          "■ Affects all allies.##Restore HP equal to 3.23% of the caster's Max HP.##■ Activates when Maid Spirit is fully stacked. Affects all allies.##Restore HP equal to 12.71% of the caster's Max HP.",
+      },
+      {
+        name: "Spring Cleaning",
+        effect:
+          "■ Affects 2 enemy units randomly.##Deals 321.8% of ATK as damage.##Stun for 1 sec.##■ Affects all allies with Fire element.##Stack count of buffs ▲ 1.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/fdca25d3e1f93e976c376a547e9e63ad/3cd29/soda_full.webp",
   },
 ];
