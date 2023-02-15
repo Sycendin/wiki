@@ -12,6 +12,7 @@ const DynamicDropdown = dynamic(
 
 import ArticleList from "./Characters/ArticleList";
 import Search from "./Characters/Search";
+import LastUpdated from "./LastUpdated/LastUpdated";
 const SearchPlusList = ({ articles }) => {
   // State that tracks text search
   const [inputText, setInputText] = useState("");
@@ -26,6 +27,7 @@ const SearchPlusList = ({ articles }) => {
   return (
     <Fragment>
       <div className="container is-centered  mb-3 border ">
+        <LastUpdated />
         <DynamicDropdown
           // type={{
           //   ddClass: ddClass,
