@@ -5,6 +5,9 @@
   width: 80%;
   height: 50px;
   background-color: white;
+  border-color: red;
+  border-radius: 8px;
+  border: 2px;
 }
 .updateSpan{
   display: flex;
