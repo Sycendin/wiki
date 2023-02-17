@@ -1,3 +1,17 @@
 .updateDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: 50px;
+  background-color: white;
+}
+.updateSpan{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.updateText{
+  text-align: center;
 }
