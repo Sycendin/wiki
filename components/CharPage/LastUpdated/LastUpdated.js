@@ -7,7 +7,7 @@ const LastUpdated = () => {
       <div className={`${styles.updateDiv}`}>
         <span className={`${styles.updateSpan}`}>
           <p className={`${styles.updateText}`}>
-            Characters last updated {lastUpdatedData}
+            Character Page last updated: {lastUpdatedData}
           </p>
         </span>
       </div>
