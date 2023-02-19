@@ -1,6 +1,7 @@
 import Meta from "../../../components/Meta";
 import { server } from "../../config";
 import Link from "next/link";
+import IndivChar from "../../../components/IndivChar/IndivChar";
 const article = ({ article }) => {
   // console.log(article);
   return (
@@ -9,7 +10,10 @@ const article = ({ article }) => {
       <h1>This is article {article.name}</h1>
       <p>{article.body}</p>
       <br />
-      <Link href="/">Go back</Link>
+      <IndivChar data={article} />
+      <Link href="/">
+        <button className="button is-primary">Go back</button>
+      </Link>
     </div>
   );
 };
