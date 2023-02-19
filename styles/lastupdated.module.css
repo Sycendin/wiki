@@ -5,9 +5,12 @@
   width: 80%;
   height: 50px;
   background-color: white;
-  border-color: red;
+  border: 3px solid rgb(201, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 8px;
-  border: 2px;
+  margin-bottom: 2%;
+
 }
 .updateSpan{
   display: flex;
@@ -17,4 +20,9 @@
 
 .updateText{
   text-align: center;
+}
+
+.updateTextBold{
+  text-align: center;
+  font-weight: bold;
 }
