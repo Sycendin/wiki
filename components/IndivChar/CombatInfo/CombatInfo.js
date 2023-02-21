@@ -7,7 +7,11 @@ const CombatInfo = ({ data }) => {
   return (
     <Fragment>
       <div className={`${styles.combatDiv}`}>
-        <p className={`${styles.combatText} white`}>{rarity}</p>
+        <div className={`${styles.combatRowDiv}`}>
+          {" "}
+          <p className={`${styles.combatLeftText} white`}>Rarity</p>
+          <p className={`${styles.combatRightText} white`}>{rarity}</p>
+        </div>
       </div>
     </Fragment>
   );

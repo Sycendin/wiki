@@ -1,7 +1,15 @@
 .combatDiv{
-
+ display: flex;
+ flex-direction: column;
+}
+.combatRowDiv{
+display: flex;
+flex-direction: row;
+}
+.combatLeftText{
+  
 }
 
-.combatText{
-  
+.combatRightText{
+  font-weight: bold;
 }
