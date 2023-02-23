@@ -1,0 +1,22 @@
+.charDiv{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(119, 119, 119);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .charRowDiv{
+ display: flex;
+ flex-direction: column;
+ margin-left: 8px;
+margin-right: 8px;
+ }
+ .charLeftText{
+   
+ }
+ 
+ .charRightText{
+   font-weight: bold;
+ }
+ 

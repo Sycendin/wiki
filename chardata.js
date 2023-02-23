@@ -9,7 +9,7 @@ export const charData = [
     atk: 12982,
     def: 2122,
     weapon: "Assault Rifle",
-    unitunitClass: "Attacker",
+    unitClass: "Attacker",
     manufacturer: "Elysion",
     element: "Fire",
     squad: "Counters",
