@@ -2,20 +2,23 @@ import { Fragment } from "react";
 
 import styles from "../../../styles/otherinfo.module.css";
 const OtherInfo = ({ data }) => {
-  const { name, manufacturer, squad } = data;
+  const { role } = data;
 
   return (
     <Fragment>
-      <div className={`${styles.otherDiv}`}>
-        <div className={`${styles.otherRowDiv}`}>
-          <p className={`${styles.otherLeftText} white`}>Name</p>{" "}
-          <p className={`${styles.otherLeftText} white`}>Manufacturer</p>{" "}
-          <p className={`${styles.otherLeftText} white`}>Squad</p>
-        </div>
-        <div className={`${styles.otherRowDiv}`}>
-          <p className={`${styles.otherRightText} white`}>{name}</p>
-          <p className={`${styles.otherRightText} white`}>{manufacturer}</p>
-          <p className={`${styles.otherRightText} white`}>{squad}</p>
+      <div className={`${styles.otherWholeDiv}`}>
+        <h2 className={`${styles.otherTitle} white`}>Other Info</h2>
+        <div className={`${styles.otherDiv}`}>
+          <div className={`${styles.otherRowDiv}`}>
+            <p className={`${styles.otherLeftText} white`}>Role</p>{" "}
+          </div>
+          <div className={`${styles.otherRowDiv}`}>
+            <div className={`${styles.otherRoles}`}>
+              {role.map((eachRole, index) => (
+                <p className={`${styles.otherRoleText} white`}>{eachRole}</p>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </Fragment>

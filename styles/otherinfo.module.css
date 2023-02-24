@@ -1,22 +1,35 @@
+.otherWholeDiv{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+    background-color: rgb(119, 119, 119);
+}
+.otherTitle{
+  font-weight: bold;
+}
 .otherDiv{
   display: flex;
   flex-direction: row;
   background-color: rgb(119, 119, 119);
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+
  }
  .otherRowDiv{
  display: flex;
  flex-direction: column;
- margin-left: 8px;
-margin-right: 8px;
+ /* margin-left: 8px;
+margin-right: 8px; */
  }
  .otherLeftText{
-   
+   margin-right: 8px;
  }
  
- .otherRightText{
+ .otherRoleText{
    font-weight: bold;
+   margin-right: 8px;
  }
  
+ .otherRoles{
+  display: flex;
+  flex-direction: row;
+ }

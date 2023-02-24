@@ -1,8 +1,25 @@
 .indivCharDiv{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(119, 119, 119);
+}
+
+
+.indivCharHeader{
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.indivCharHeaderText{
+ font-weight: bold;
+ width: 50%;
+ margin-left: auto;
+ margin-right: auto;
 }
