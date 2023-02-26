@@ -10,10 +10,10 @@ const article = ({ article }) => {
       <h1>This is article {article.name}</h1>
       <p>{article.body}</p>
       <br />
-      <IndivChar data={article} />
       <Link href="/">
         <button className="button is-primary">Go back</button>
       </Link>
+      <IndivChar data={article} />
     </div>
   );
 };

@@ -7,7 +7,9 @@ const OtherInfo = ({ data }) => {
   return (
     <Fragment>
       <div className={`${styles.otherWholeDiv}`}>
-        <h2 className={`${styles.otherTitle} white`}>Other Info</h2>
+        <h2 className={`${styles.otherTitle} ${styles.otherText}  white`}>
+          Other Info
+        </h2>
         <div className={`${styles.otherDiv}`}>
           <div className={`${styles.otherRowDiv}`}>
             <p className={`${styles.otherLeftText} white`}>Role</p>{" "}
@@ -15,7 +17,11 @@ const OtherInfo = ({ data }) => {
           <div className={`${styles.otherRowDiv}`}>
             <div className={`${styles.otherRoles}`}>
               {role.map((eachRole, index) => (
-                <p className={`${styles.otherRoleText} white`}>{eachRole}</p>
+                <p
+                  className={`${styles.otherRoleText} ${styles.otherText} white`}
+                >
+                  {eachRole}
+                </p>
               ))}
             </div>
           </div>
