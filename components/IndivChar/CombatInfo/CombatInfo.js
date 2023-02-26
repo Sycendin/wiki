@@ -7,25 +7,67 @@ const CombatInfo = ({ data }) => {
   return (
     <Fragment>
       <div className={`${styles.combatWholeDiv}`}>
-        <h2 className={`${styles.combatTitle} white`}>Combat Info</h2>
+        <h2 className={`${styles.combatTitle} ${styles.combatText}  white`}>
+          Combat Info
+        </h2>
         <div className={`${styles.combatDiv}`}>
           <div className={`${styles.combatRowDiv}`}>
-            <p className={`${styles.combatLeftText} white`}>Rarity</p>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText} white`}
+            >
+              Rarity
+            </p>
 
-            <p className={`${styles.combatLeftText} white`}>Class</p>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              Class
+            </p>
 
-            <p className={`${styles.combatLeftText} white`}>Weapon</p>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              Weapon
+            </p>
 
-            <p className={`${styles.combatLeftText} white`}>element</p>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              element
+            </p>
 
-            <p className={`${styles.combatLeftText} white`}>Burst Type</p>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              Burst Type
+            </p>
           </div>
           <div className={`${styles.combatRowDiv}`}>
-            <p className={`${styles.combatRightText} white`}>{rarity}</p>
-            <p className={`${styles.combatRightText} white`}>{unitClass}</p>
-            <p className={`${styles.combatRightText} white`}>{weapon}</p>
-            <p className={`${styles.combatRightText} white`}>{element}</p>
-            <p className={`${styles.combatRightText} white`}>{burst}</p>
+            <p
+              className={`${styles.combatRightText} ${styles.combatText}  white`}
+            >
+              {rarity}
+            </p>
+            <p
+              className={`${styles.combatRightText} ${styles.combatText}  white`}
+            >
+              {unitClass}
+            </p>
+            <p
+              className={`${styles.combatRightText} ${styles.combatText}  white`}
+            >
+              {weapon}
+            </p>
+            <p
+              className={`${styles.combatRightText} ${styles.combatText}  white`}
+            >
+              {element}
+            </p>
+            <p
+              className={`${styles.combatRightText} ${styles.combatText}  white`}
+            >
+              {burst}
+            </p>
           </div>
         </div>
       </div>

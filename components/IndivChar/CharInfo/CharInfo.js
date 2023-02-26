@@ -7,17 +7,31 @@ const CharInfo = ({ data }) => {
   return (
     <Fragment>
       <div className={`${styles.charWholeDiv}`}>
-        <h2 className={`${styles.charTitle} white`}>Character Info</h2>
+        <h2 className={`${styles.charTitle} ${styles.charText}  white`}>
+          Character Info
+        </h2>
         <div className={`${styles.charDiv}`}>
-          <div className={`${styles.charRowDiv}`}>
-            <p className={`${styles.charLeftText} white`}>Name</p>{" "}
-            <p className={`${styles.charLeftText} white`}>Manufacturer</p>{" "}
-            <p className={`${styles.charLeftText} white`}>Squad</p>
+          <div className={`${styles.charRowDiv} `}>
+            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
+              Name
+            </p>{" "}
+            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
+              Manufacturer
+            </p>{" "}
+            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
+              Squad
+            </p>
           </div>
           <div className={`${styles.charRowDiv}`}>
-            <p className={`${styles.charRightText} white`}>{name}</p>
-            <p className={`${styles.charRightText} white`}>{manufacturer}</p>
-            <p className={`${styles.charRightText} white`}>{squad}</p>
+            <p className={`${styles.charRightText}  ${styles.charText} white`}>
+              {name}
+            </p>
+            <p className={`${styles.charRightText} ${styles.charText} white`}>
+              {manufacturer}
+            </p>
+            <p className={`${styles.charRightText}  ${styles.charText}white`}>
+              {squad}
+            </p>
           </div>
         </div>
       </div>
