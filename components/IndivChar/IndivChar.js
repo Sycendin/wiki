@@ -16,9 +16,9 @@ const IndivChar = ({ data }) => {
           <OtherInfo data={data} />
         </div>
         <p className={`${styles.indivCharHeaderText} white`}>Skills</p>
-        <Skills />
+        <Skills data={data} />
         <p className={`${styles.indivCharHeaderText} white`}>Full Image</p>
-        <FullImage />
+        <FullImage data={data} />
       </div>
     </Fragment>
   );

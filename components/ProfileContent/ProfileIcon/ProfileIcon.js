@@ -1,6 +1,6 @@
 // import logo from "../../assets/profile2.svg";
 // https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/31173868#questions
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ProfileContext } from "../../../contexts/ProfileContext";
 import { UserContext } from "../../../contexts/UserContext";
 const ProfileIcon = () => {
