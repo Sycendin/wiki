@@ -10,7 +10,10 @@ const FullImage = ({ data }) => {
     <Fragment>
       {" "}
       <div className={`${styles.wholeImageDiv}`}>
-        <button className="button is-primary" onClick={revealDiv}>
+        <button
+          className={`${styles.imageButton} button is-primary`}
+          onClick={revealDiv}
+        >
           Full Image
         </button>
         {reveal ? (
