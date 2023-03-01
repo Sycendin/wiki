@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import styles from "../../../styles/fullimage.module.css";
-const FullImage = () => {
+const FullImage = ({ data }) => {
   const { full } = data;
   const [reveal, setReveal] = useState(false);
   const revealDiv = () => {
@@ -9,14 +9,16 @@ const FullImage = () => {
   return (
     <Fragment>
       {" "}
-      <button className="button is-primary" onClick={revealDiv}>
-        Full Image
-      </button>
-      {reveal ? (
-        <div className={`${styles.imageDiv}`}>
-          <img className={`${styles.image}`} src={full} />
-        </div>
-      ) : null}
+      <div className={`${styles.wholeImageDiv}`}>
+        <button className="button is-primary" onClick={revealDiv}>
+          Full Image
+        </button>
+        {reveal ? (
+          <div className={`${styles.imageDiv}`}>
+            <img className={`${styles.image}`} src={full} />
+          </div>
+        ) : null}
+      </div>
     </Fragment>
   );
 };
