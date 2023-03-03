@@ -18,6 +18,7 @@ const OtherInfo = ({ data }) => {
             <div className={`${styles.otherRoles}`}>
               {role.map((eachRole, index) => (
                 <p
+                  key={index}
                   className={`${styles.otherRoleText} ${styles.otherText} white`}
                 >
                   {eachRole}

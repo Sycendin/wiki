@@ -4,11 +4,13 @@ import CharInfo from "./CharInfo/CharInfo";
 import OtherInfo from "./OtherInfo/OtherInfo";
 import Skills from "./Skills/Skills";
 import FullImage from "./FullImage/FullImage";
+import CharProfile from "./CharProfile/CharProfile";
 import styles from "../../styles/indivchar.module.css";
 const IndivChar = ({ data }) => {
   return (
     <Fragment>
       <div className={`${styles.indivCharHeader} white`}>
+        <CharProfile data={data} />
         <p className={`${styles.indivCharHeaderText} white`}>Info</p>
         <div className={`${styles.indivCharDiv}`}>
           <CharInfo data={data} />
