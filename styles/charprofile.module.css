@@ -17,3 +17,12 @@
 .charInfoDiv{
   margin: auto;
 }
+
+.charInfoDivInner{
+  display: flex;
+  flex-direction: row;
+}
+
+.charOtherText{
+  font-size: 8px;
+}
