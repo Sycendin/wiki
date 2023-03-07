@@ -11,7 +11,13 @@ const CharProfile = ({ data }) => {
           <p className={`${styles.charName}`}>{name}</p>
           <div className={`${styles.charInfoDivInner}`}>
             <p className={`${styles.charOtherText}`}>{weapon}</p>
-            <p className={`${styles.charOtherText}`}>{element}</p>
+            <p
+              className={`${styles.charOtherText} ${
+                styles.charElement + element
+              }`}
+            >
+              {element}
+            </p>
             <p className={`${styles.charOtherText}`}>{squad}</p>
           </div>
         </div>
