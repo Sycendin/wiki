@@ -30,19 +30,18 @@
 
 .charElementFire{
   background-color: red;
-}
-
-.charElementWind{
-  background-color: green;
-}
-.charElementEarth{
-  background-color: orange;
-}
-
-.charElementElectric{
-  background-color: purple;
-}
-
-.charElementWater{
+ }
+ .charElementWater{
   background-color: blue;
-}
+ }
+
+ .charElementWind{
+  background-color: rgb(64, 155, 113);
+ }
+ .charElementEarth{
+  background-color: rgb(233, 178, 60);
+ }
+
+ .charElementElectric{
+  background-color: rgb(153, 84, 170);
+ }
