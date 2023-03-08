@@ -27,3 +27,22 @@
 .charOtherText{
   font-size: 8px;
 }
+
+.charElementFire{
+  background-color: red;
+}
+
+.charElementWind{
+  background-color: green;
+}
+.charElementEarth{
+  background-color: orange;
+}
+
+.charElementElectric{
+  background-color: purple;
+}
+
+.charElementWater{
+  background-color: blue;
+}
