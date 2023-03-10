@@ -1,8 +1,37 @@
 import { Fragment } from "react";
 
 import styles from "../../../styles/charprofile.module.css";
+
 const CharProfile = ({ data }) => {
-  const [name, art, weapon, element, squad] = data;
+  const { name, art, weapon, element, squad } = data;
+  const {
+    charElementEarth,
+    charElementFire,
+    charElementWind,
+    charElementWater,
+    charElementElectric,
+  } = styles;
+  let setElement = "";
+  switch (element) {
+    case "Fire":
+      setElement = charElementFire;
+      break;
+    case "Wind":
+      setElement = charElementWind;
+      break;
+    case "Earth":
+      setElement = charElementEarth;
+      console.log("sdsd");
+      break;
+    case "Electric":
+      setElement = charElementElectric;
+      break;
+    case "Water":
+      setElement = charElementWater;
+      break;
+    default:
+    // code block
+  }
   return (
     <Fragment>
       <div className={`${styles.charProfile}`}>
@@ -12,9 +41,7 @@ const CharProfile = ({ data }) => {
           <div className={`${styles.charInfoDivInner}`}>
             <p className={`${styles.charOtherText}`}>{weapon}</p>
             <p
-              className={`${styles.charOtherText} ${
-                styles.charElement + element
-              }`}
+              className={`${styles.charOtherText} ${setElement} ${styles.border}`}
             >
               {element}
             </p>
