@@ -11,12 +11,12 @@
 }
 
 .charName{
- font-size: 12px;
+ font-size: 40px;
 }
 
 .charInfoDiv{
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .charInfoDivInner{
@@ -25,7 +25,10 @@
 }
 
 .charOtherText{
-  font-size: 8px;
+  font-size: 16px;
+  margin-right: 4px;
+  background-color: grey;
+  border-radius: 4px;
 }
 
 .charElementFire{
