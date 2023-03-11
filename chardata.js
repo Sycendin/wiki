@@ -2,6 +2,32 @@ export const defaultProfileUrl =
   "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp";
 export const lastUpdatedData = "February 12th, 20323";
 
+export const elementIcons = {
+  fire: "https://cdn.discordapp.com/attachments/788247984517283880/1083943584195149904/fireicon.webp",
+  water:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083943630827442216/watericon.webp",
+  wind: "https://cdn.discordapp.com/attachments/788247984517283880/1083943583972872265/windicon.webp",
+  earth:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083943583683457146/earthicon.webp",
+  electric:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083943583435980810/electricicon.webp",
+};
+
+export const weaponIcons = {
+  assaultRifle:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083948303298867250/ar.webp",
+  sniperRifle:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083949163714195549/sr.webp",
+  submachinegun:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083948302912987236/smg.webp",
+  rocketLauncher:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083948302464200754/rl.webp",
+  machinegun:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083948340242300978/mg.webp",
+  shotgun:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1083948302665519176/sg.webp",
+};
+
 export const charData = [
   {
     name: "Rapi",
