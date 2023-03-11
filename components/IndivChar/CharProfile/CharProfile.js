@@ -4,6 +4,7 @@ import styles from "../../../styles/charprofile.module.css";
 
 const CharProfile = ({ data }) => {
   const { name, art, weapon, element, squad } = data;
+  // Import class types for background of element color
   const {
     charElementEarth,
     charElementFire,
@@ -12,6 +13,7 @@ const CharProfile = ({ data }) => {
     charElementElectric,
   } = styles;
   let setElement = "";
+  // Set class to appropriate type
   switch (element) {
     case "Fire":
       setElement = charElementFire;
@@ -21,7 +23,6 @@ const CharProfile = ({ data }) => {
       break;
     case "Earth":
       setElement = charElementEarth;
-      console.log("sdsd");
       break;
     case "Electric":
       setElement = charElementElectric;
