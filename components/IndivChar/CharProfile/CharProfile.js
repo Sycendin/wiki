@@ -5,7 +5,7 @@ import { elementIcons } from "../../../chardata";
 import { weaponIcons } from "../../../chardata";
 const CharProfile = ({ data }) => {
   const { name, art, weapon, element, squad } = data;
-  const { fire, water, wind, electic, earth } = elementIcons;
+  const { fire, water, wind, electric, earth } = elementIcons;
   const {
     sniperRifle,
     shotgun,
@@ -23,42 +23,48 @@ const CharProfile = ({ data }) => {
     charElementElectric,
   } = styles;
   let setElement = "";
-  let setWeapon = "";
+  let setWeaponIcon = "";
+  let setElementIcon = "";
   // Set class to appropriate type
   switch (element) {
     case "Fire":
       setElement = charElementFire;
+      setElementIcon = fire;
       break;
     case "Wind":
       setElement = charElementWind;
+      setElementIcon = wind;
       break;
     case "Earth":
       setElement = charElementEarth;
+      setElementIcon = earth;
       break;
     case "Electric":
       setElement = charElementElectric;
+      setElementIcon = electric;
       break;
     case "Water":
       setElement = charElementWater;
+      setElementIcon = water;
       break;
     default:
     // code block
   }
   switch (weapon) {
     case "Assault Rifle":
-      setWeapon = assaultRifle;
+      setWeaponIcon = assaultRifle;
       break;
     case "Machine Gun":
-      setWeapon = machinegun;
+      setWeaponIcon = machinegun;
       break;
     case "SMG":
-      setWeapon = submachinegun;
+      setWeaponIcon = submachinegun;
       break;
     case "Sniper":
-      setWeapon = sniperRifle;
+      setWeaponIcon = sniperRifle;
       break;
     case "Rocket Launcher":
-      setWeapon = rocketLauncher;
+      setWeaponIcon = rocketLauncher;
       break;
     default:
     // code block
@@ -70,12 +76,18 @@ const CharProfile = ({ data }) => {
         <div className={`${styles.charInfoDiv}`}>
           <p className={`${styles.charName}`}>{name}</p>
           <div className={`${styles.charInfoDivInner}`}>
-            <p className={`${styles.charOtherText}`}>{weapon}</p>
-            <p
-              className={`${styles.charOtherText} ${setElement} ${styles.border}`}
-            >
-              {element}
-            </p>
+            <div>
+              <img className={`${styles.setIcon}`} src={setWeaponIcon}></img>
+              <p className={`${styles.charOtherText}`}>{weapon}</p>
+            </div>
+            <div>
+              <img className={`${styles.setIcon}`} src={setElementIcon}></img>
+              <p
+                className={`${styles.charOtherText} ${setElement} ${styles.border}`}
+              >
+                {element}
+              </p>
+            </div>
             <p className={`${styles.charOtherText}`}>{squad}</p>
           </div>
         </div>
