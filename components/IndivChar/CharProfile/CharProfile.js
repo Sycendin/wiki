@@ -1,9 +1,19 @@
 import { Fragment } from "react";
 
 import styles from "../../../styles/charprofile.module.css";
-
+import { elementIcons } from "../../../chardata";
+import { weaponIcons } from "../../../chardata";
 const CharProfile = ({ data }) => {
   const { name, art, weapon, element, squad } = data;
+  const { fire, water, wind, electic, earth } = elementIcons;
+  const {
+    sniperRifle,
+    shotgun,
+    machinegun,
+    submachinegun,
+    rocketLauncher,
+    assaultRifle,
+  } = weaponIcons;
   // Import class types for background of element color
   const {
     charElementEarth,
@@ -13,6 +23,7 @@ const CharProfile = ({ data }) => {
     charElementElectric,
   } = styles;
   let setElement = "";
+  let setWeapon = "";
   // Set class to appropriate type
   switch (element) {
     case "Fire":
@@ -29,6 +40,25 @@ const CharProfile = ({ data }) => {
       break;
     case "Water":
       setElement = charElementWater;
+      break;
+    default:
+    // code block
+  }
+  switch (weapon) {
+    case "Assault Rifle":
+      setWeapon = assaultRifle;
+      break;
+    case "Machine Gun":
+      setWeapon = machinegun;
+      break;
+    case "SMG":
+      setWeapon = submachinegun;
+      break;
+    case "Sniper":
+      setWeapon = sniperRifle;
+      break;
+    case "Rocket Launcher":
+      setWeapon = rocketLauncher;
       break;
     default:
     // code block
