@@ -2,6 +2,19 @@ export const defaultProfileUrl =
   "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp";
 export const lastUpdatedData = "February 12th, 20323";
 
+export const skillIcons = {
+  normal:
+    "https://www.prydwen.gg/static/92a841c9db81efd22788eefa3adb4bbf/d8057/sight_rocket.webp",
+  skillOne:
+    "https://www.prydwen.gg/static/66934440069796d63c50a8dbcc45cd20/507b0/icon_skill1.webp",
+  skillTwo:
+    "https://www.prydwen.gg/static/b6c317f9626a61a4167d6560536531da/507b0/icon_skill2.webp",
+  burst:
+    "https://www.prydwen.gg/static/df4fba30477765fe937b50aca132ae6a/507b0/icon_burst.webp",
+  cd: "https://cdn.discordapp.com/attachments/788247984517283880/1086071482075074590/clock.webp",
+  cdwhite:
+    "https://cdn.discordapp.com/attachments/788247984517283880/1086071672479694869/clockwhite.webp",
+};
 export const elementIcons = {
   fire: "https://cdn.discordapp.com/attachments/788247984517283880/1083943584195149904/fireicon.webp",
   water:
