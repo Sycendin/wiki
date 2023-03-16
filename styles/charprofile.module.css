@@ -32,20 +32,16 @@
 }
 
 .charElementFire{
-  background-color: red;
   border-bottom: 2px solid red;
  }
  .charElementWater{
-  background-color: blue;
   border-bottom: 2px solid blue;
  }
 
  .charElementWind{
-  background-color: rgb(64, 155, 113);
   border-bottom: 2px solid rgb(64, 155, 113);
  }
  .charElementEarth{
-  background-color: rgb(233, 178, 60);
   border-bottom: 2px solid rgb(233, 178, 60);
  }
 
