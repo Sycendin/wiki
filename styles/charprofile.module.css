@@ -22,6 +22,7 @@
 .charInfoDivInner{
   display: flex;
   flex-direction: row;
+
 }
 
 .charOtherText{
@@ -29,6 +30,9 @@
   margin-right: 4px;
   background-color: grey;
   border-radius: 4px;
+  margin-top: auto;
+  margin-bottom: auto;
+  
 }
 
 .charElementFire{
@@ -53,6 +57,21 @@
   border-radius: 4px;
  }
 
- .setIcon{
-  
+ .charIconDiv{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  border-radius: 4px;
+
  }
+ .setIcon{
+  height: 32px;
+  width: auto;
+ }
+ .nonIconDiv{
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  border-radius: 4px;
+ }
+
