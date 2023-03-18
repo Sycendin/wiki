@@ -76,11 +76,11 @@ const CharProfile = ({ data }) => {
         <div className={`${styles.charInfoDiv}`}>
           <p className={`${styles.charName}`}>{name}</p>
           <div className={`${styles.charInfoDivInner}`}>
-            <div>
+            <div className={`${styles.charIconDiv}`}>
               <img className={`${styles.setIcon}`} src={setWeaponIcon}></img>
               <p className={`${styles.charOtherText}`}>{weapon}</p>
             </div>
-            <div>
+            <div className={`${styles.charIconDiv}`}>
               <img className={`${styles.setIcon}`} src={setElementIcon}></img>
               <p
                 className={`${styles.charOtherText} ${setElement} ${styles.border}`}
@@ -88,7 +88,9 @@ const CharProfile = ({ data }) => {
                 {element}
               </p>
             </div>
-            <p className={`${styles.charOtherText}`}>{squad}</p>
+            <div className={`${styles.nonIconDiv}`}>
+              <p className={`${styles.charOtherText}`}>{squad}</p>
+            </div>
           </div>
         </div>
       </div>
