@@ -3,17 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items:flex-start;
-  margin-right: 30%;
+  min-width: calc(100% /3);
 }
 .charTitle{
   font-weight: bold;
 }
-.charDiv{
-  display: flex;
-  flex-direction: row;
-  width: 50%;
 
- }
  .charRowDiv{
  display: flex;
  flex-direction: column;
@@ -30,3 +25,7 @@
    font-weight: bold;
  }
  
+.char{
+  display: flex;
+  flex-direction: row;
+}

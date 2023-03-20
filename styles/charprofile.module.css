@@ -28,8 +28,6 @@
 .charOtherText{
   font-size: 16px;
   margin-right: 4px;
-  background-color: grey;
-  border-radius: 4px;
   margin-top: auto;
   margin-bottom: auto;
   
@@ -40,6 +38,7 @@
  }
  .charElementWater{
   border-bottom: 2px solid blue;
+
  }
 
  .charElementWind{
@@ -62,16 +61,13 @@
   flex-direction: row;
   background-color: grey;
   border-radius: 4px;
+  margin-right: 4px;
 
  }
  .setIcon{
   height: 32px;
   width: auto;
+  margin-right: 4px;
  }
- .nonIconDiv{
-  display: flex;
-  flex-direction: row;
-  background-color: grey;
-  border-radius: 4px;
- }
+
 

@@ -82,13 +82,11 @@ const CharProfile = ({ data }) => {
             </div>
             <div className={`${styles.charIconDiv}`}>
               <img className={`${styles.setIcon}`} src={setElementIcon}></img>
-              <p
-                className={`${styles.charOtherText} ${setElement} ${styles.border}`}
-              >
+              <p className={`${styles.charOtherText} ${setElement}`}>
                 {element}
               </p>
             </div>
-            <div className={`${styles.nonIconDiv}`}>
+            <div className={`${styles.charIconDiv}`}>
               <p className={`${styles.charOtherText}`}>{squad}</p>
             </div>
           </div>

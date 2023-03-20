@@ -1,7 +1,8 @@
 .otherWholeDiv{
   display: flex;
   flex-direction: column;
-  margin-right: 30%;
+  align-items:flex-start;
+  min-width: calc(100% /3);
 
 }
 .otherTitle{
