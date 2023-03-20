@@ -14,6 +14,11 @@ export const skillIcons = {
   cd: "https://cdn.discordapp.com/attachments/788247984517283880/1086071482075074590/clock.webp",
   cdwhite:
     "https://cdn.discordapp.com/attachments/788247984517283880/1086071672479694869/clockwhite.webp",
+  ammo: "https://cdn.discordapp.com/attachments/747928182891610213/1087215449667817543/ammow.webp",
+  reload:
+    "https://cdn.discordapp.com/attachments/747928182891610213/1087215450062073926/reloadw.webp",
+  control:
+    "https://cdn.discordapp.com/attachments/747928182891610213/1087215450431180800/controllerw.webp",
 };
 export const elementIcons = {
   fire: "https://cdn.discordapp.com/attachments/788247984517283880/1083943584195149904/fireicon.webp",
