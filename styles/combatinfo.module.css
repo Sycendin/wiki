@@ -2,22 +2,23 @@
 .combatWholeDiv{
   display: flex;
   flex-direction: column;
-  margin-right: 30%;
+  align-items:flex-start;
+  min-width: calc(100% /3);
+
 }
 .combatTitle{
   font-weight: bold;
 }
 .combatDiv{
  display: flex;
- flex-direction: row;
+ flex-direction: column;
 
- width: 50%;
 
 
 }
 .combatRowDiv{
   display: flex;
-  flex-direction: column;
+  flex-direction: row
 
 }
 .combatText{

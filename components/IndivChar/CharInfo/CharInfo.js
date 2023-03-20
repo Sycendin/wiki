@@ -10,26 +10,30 @@ const CharInfo = ({ data }) => {
         <h2 className={`${styles.charTitle} ${styles.charText}  white`}>
           Character Info
         </h2>
-        <div className={`${styles.charDiv}`}>
-          <div className={`${styles.charRowDiv} `}>
+
+        <div className={`${styles.charRowDiv} `}>
+          <div className={`${styles.char} `}>
             <p className={`${styles.charLeftText}  ${styles.charText} white`}>
               Name
-            </p>{" "}
-            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
-              Manufacturer
-            </p>{" "}
-            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
-              Squad
             </p>
-          </div>
-          <div className={`${styles.charRowDiv}`}>
             <p className={`${styles.charRightText}  ${styles.charText} white`}>
               {name}
             </p>
+          </div>
+          <div className={`${styles.char} `}>
+            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
+              Manufacturer
+            </p>{" "}
             <p className={`${styles.charRightText} ${styles.charText} white`}>
               {manufacturer}
             </p>
-            <p className={`${styles.charRightText}  ${styles.charText}white`}>
+          </div>
+          <div className={`${styles.char} `}>
+            <p className={`${styles.charLeftText}  ${styles.charText} white`}>
+              Squad
+            </p>
+
+            <p className={`${styles.charRightText}  ${styles.charText} white`}>
               {squad}
             </p>
           </div>

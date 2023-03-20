@@ -17,52 +17,55 @@ const CombatInfo = ({ data }) => {
             >
               Rarity
             </p>
-
-            <p
-              className={`${styles.combatLeftText} ${styles.combatText}  white`}
-            >
-              Class
-            </p>
-
-            <p
-              className={`${styles.combatLeftText} ${styles.combatText}  white`}
-            >
-              Weapon
-            </p>
-
-            <p
-              className={`${styles.combatLeftText} ${styles.combatText}  white`}
-            >
-              element
-            </p>
-
-            <p
-              className={`${styles.combatLeftText} ${styles.combatText}  white`}
-            >
-              Burst Type
-            </p>
-          </div>
-          <div className={`${styles.combatRowDiv}`}>
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
             >
               {rarity}
+            </p>
+          </div>
+          <div className={`${styles.combatRowDiv}`}>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              Class
             </p>
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
             >
               {unitClass}
             </p>
+          </div>
+          <div className={`${styles.combatRowDiv}`}>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              Weapon
+            </p>
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
             >
               {weapon}
+            </p>
+          </div>
+          <div className={`${styles.combatRowDiv}`}>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              element
             </p>
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
             >
               {element}
             </p>
+          </div>
+          <div className={`${styles.combatRowDiv}`}>
+            <p
+              className={`${styles.combatLeftText} ${styles.combatText}  white`}
+            >
+              Burst Type
+            </p>
+
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
             >
@@ -70,6 +73,7 @@ const CombatInfo = ({ data }) => {
             </p>
           </div>
         </div>
+        <div className={`${styles.combatRowDiv}`}></div>
       </div>
     </Fragment>
   );
