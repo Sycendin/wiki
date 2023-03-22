@@ -22,10 +22,6 @@
   flex-direction: row;
 }
 
-.skillImage{
- 
-}
-
 .skillName{
  font-size: 40px;
 }
@@ -49,28 +45,7 @@
   
 }
 
-.skillElementFire{
-  border-bottom: 2px solid red;
- }
- .skillElementWater{
-  border-bottom: 2px solid blue;
 
- }
-
- .skillElementWind{
-  border-bottom: 2px solid rgb(64, 155, 113);
- }
- .skillElementEarth{
-  border-bottom: 2px solid rgb(233, 178, 60);
- }
-
- .skillElementElectric{
-  border-bottom: 2px solid rgb(153, 84, 170);
- }
-
- .border{
-  border-radius: 4px;
- }
 
  .skillIconDiv{
   display: flex;
