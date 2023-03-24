@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import styles from "../../../../styles/skill.module.css";
 const SkillAttack = ({ data, skillIcons }) => {
+  // Split string with skill description into array
   let desc = data.skill[0].effect.split("##");
 
   return (
@@ -13,7 +14,7 @@ const SkillAttack = ({ data, skillIcons }) => {
         <div className={`${styles.skillProfile}`}>
           <img className={`${styles.skillImage}`} src={skillIcons.normal}></img>
           <div className={`${styles.skillInfoDiv}`}>
-            <p className={`${styles.skillName}`}>Normal Attack</p>
+            <p className={`${styles.skillName}`}>{data.skill[0].name}</p>
             <div className={`${styles.skillInfoDivInner}`}>
               <div className={`${styles.skillIconDiv}`}>
                 <img
@@ -46,11 +47,12 @@ const SkillAttack = ({ data, skillIcons }) => {
             </div>
           </div>
         </div>
+        {/* Return the skill description */}
         <div>
           {desc.map((element, index) => {
             return (
               <Fragment key={index}>
-                <p> {element}</p>
+                <p className={`${styles.skillText}`}> {element}</p>
               </Fragment>
             );
           })}

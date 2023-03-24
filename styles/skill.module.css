@@ -67,6 +67,7 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  background-color: rgb(59, 59, 59);
 }
 
 
