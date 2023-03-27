@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import styles from "../../../../styles/skill.module.css";
-const SkillBurst = () => {
+const SkillBurst = ({ data, skillIcons }) => {
   // Split string with skill description into array
   let desc = data.skill[0].effect.split("##");
 
@@ -12,7 +12,7 @@ const SkillBurst = () => {
       </div> */}
       <div className={`${styles.skillProfileWhole}`}>
         <div className={`${styles.skillProfile}`}>
-          <img className={`${styles.skillImage}`} src={skillIcons.normal}></img>
+          <img className={`${styles.skillImage}`} src={skillIcons.burst}></img>
           <div className={`${styles.skillInfoDiv}`}>
             <p className={`${styles.skillName}`}>{data.skill[2].name}</p>
             <div className={`${styles.skillInfoDivInner}`}>
