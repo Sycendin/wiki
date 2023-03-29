@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import styles from "../../../../styles/skill.module.css";
-const SkillTwo = () => {
+const SkillTwo = ({ data, skillIcons }) => {
   return (
     <Fragment>
       {" "}
