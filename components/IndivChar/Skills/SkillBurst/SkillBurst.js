@@ -14,9 +14,9 @@ const SkillBurst = ({ data, skillIcons }) => {
         <div className={`${styles.skillProfile}`}>
           <img className={`${styles.skillImage}`} src={skillIcons.burst}></img>
           <div className={`${styles.skillInfoDiv}`}>
-            <p className={`${styles.skillName}`}>{data.skill[2].name}</p>
+            <p className={`${styles.skillName}`}>{data.skill[3].name}</p>
             <div className={`${styles.skillInfoDivInner}`}>
-              {"active" in data.skill[2] ? (
+              {"active" in data.skill[3] ? (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
                     className={`${styles.setIcon}`}
