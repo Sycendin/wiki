@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import styles from "../../../../styles/skill.module.css";
 const SkillOne = ({ data, skillIcons }) => {
   // Split string with skill description into array
-  let desc = data.skill[0].effect.split("##");
+  let desc = data.skill[1].effect.split("##");
 
   return (
     <Fragment>
