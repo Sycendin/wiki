@@ -30,6 +30,8 @@ const SkillAttack = ({ data, skillIcons }) => {
               </div>
               <div className={`${styles.skillIconDiv}`}>
                 <img
+                  width={62}
+                  height={70}
                   className={`${styles.setIcon}`}
                   src={skillIcons.ammo}
                 ></img>
@@ -39,6 +41,8 @@ const SkillAttack = ({ data, skillIcons }) => {
               </div>
               <div className={`${styles.skillIconDiv}`}>
                 <img
+                  width={62}
+                  height={70}
                   className={`${styles.setIcon}`}
                   src={skillIcons.reload}
                 ></img>
