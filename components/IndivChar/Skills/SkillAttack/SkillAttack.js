@@ -18,6 +18,8 @@ const SkillAttack = ({ data, skillIcons }) => {
             <div className={`${styles.skillInfoDivInner}`}>
               <div className={`${styles.skillIconDiv}`}>
                 <img
+                  width={100}
+                  height={100}
                   className={`${styles.setIcon}`}
                   src={skillIcons.control}
                 ></img>

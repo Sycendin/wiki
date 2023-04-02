@@ -19,6 +19,8 @@ const SkillOne = ({ data, skillIcons }) => {
               {"active" in data.skill[2] ? (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
+                    width={100}
+                    height={100}
                     className={`${styles.setIcon}`}
                     src={skillIcons.reload}
                   ></img>
