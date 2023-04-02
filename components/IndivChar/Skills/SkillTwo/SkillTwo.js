@@ -31,6 +31,8 @@ const SkillTwo = ({ data, skillIcons }) => {
               ) : (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
+                    width={62}
+                    height={70}
                     className={`${styles.setIcon}`}
                     src={skillIcons.reload}
                   ></img>
