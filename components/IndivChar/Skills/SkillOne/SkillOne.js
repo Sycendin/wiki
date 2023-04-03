@@ -12,11 +12,14 @@ const SkillOne = ({ data, skillIcons }) => {
       </div> */}
       <div className={`${styles.skillProfileWhole}`}>
         <div className={`${styles.skillProfile}`}>
-          <img className={`${styles.skillImage}`} src={skillIcons.burst}></img>
+          <img
+            className={`${styles.skillImage}`}
+            src={skillIcons.skillOne}
+          ></img>
           <div className={`${styles.skillInfoDiv}`}>
             <p className={`${styles.skillName}`}>{data.skill[1].name}</p>
             <div className={`${styles.skillInfoDivInner}`}>
-              {"active" in data.skill[2] ? (
+              {"active" in data.skill[1] ? (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
                     width={100}
@@ -31,8 +34,10 @@ const SkillOne = ({ data, skillIcons }) => {
               ) : (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
-                    width={62}
-                    height={70}
+                    width={100}
+                    height={100}
+                    // width={62}
+                    // height={70}
                     className={`${styles.setIcon}`}
                     src={skillIcons.reload}
                   ></img>

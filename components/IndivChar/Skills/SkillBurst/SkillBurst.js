@@ -16,7 +16,8 @@ const SkillBurst = ({ data, skillIcons }) => {
           <div className={`${styles.skillInfoDiv}`}>
             <p className={`${styles.skillName}`}>{data.skill[3].name}</p>
             <div className={`${styles.skillInfoDivInner}`}>
-              {"active" in data.skill[3] ? (
+              {console.log(data.skill[3].hasOwnProperty("active"))}
+              {data.skill[3].hasOwnProperty("active") ? (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
                     width={100}
@@ -31,8 +32,8 @@ const SkillBurst = ({ data, skillIcons }) => {
               ) : (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
-                    width={62}
-                    height={70}
+                    width={100}
+                    height={100}
                     className={`${styles.setIcon}`}
                     src={skillIcons.reload}
                   ></img>
