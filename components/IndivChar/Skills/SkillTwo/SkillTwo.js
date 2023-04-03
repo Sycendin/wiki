@@ -12,7 +12,10 @@ const SkillTwo = ({ data, skillIcons }) => {
       </div> */}
       <div className={`${styles.skillProfileWhole}`}>
         <div className={`${styles.skillProfile}`}>
-          <img className={`${styles.skillImage}`} src={skillIcons.burst}></img>
+          <img
+            className={`${styles.skillImage}`}
+            src={skillIcons.skillTwo}
+          ></img>
           <div className={`${styles.skillInfoDiv}`}>
             <p className={`${styles.skillName}`}>{data.skill[2].name}</p>
             <div className={`${styles.skillInfoDivInner}`}>
@@ -31,8 +34,8 @@ const SkillTwo = ({ data, skillIcons }) => {
               ) : (
                 <div className={`${styles.skillIconDiv}`}>
                   <img
-                    width={62}
-                    height={70}
+                    width={100}
+                    height={100}
                     className={`${styles.setIcon}`}
                     src={skillIcons.reload}
                   ></img>
