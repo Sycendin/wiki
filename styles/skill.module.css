@@ -14,8 +14,8 @@
 
 }
 .skillImage{
-  width: 120;
-  height: 120;
+  width: 120px;
+  height: 120px;
 }
 .skillProfile{
   width: 100%;
@@ -71,7 +71,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(59, 59, 59);
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 
