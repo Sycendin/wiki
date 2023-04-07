@@ -3353,4 +3353,228 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/fdca25d3e1f93e976c376a547e9e63ad/3cd29/soda_full.webp",
   },
+  {
+    name: "Makima",
+    art: "https://www.prydwen.gg/static/33e5da7490ecbf0f21f4762b9bd381ed/60b4d/makima_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Defender",
+    manufacturer: "Abnormal",
+    element: "Water",
+    squad: "Devil Hunters",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Taunter"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 6,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 8.73% ATK as damage.",
+      },
+      {
+        name: "Show Me What You Got",
+        active: "Passive",
+        effect:
+          "■ Activates when attacked 20 time(s). Affects all allies.##Reloading Speed ▲ 36.96% for 10 sec.##DEF ▲ 14.78% for 10 sec.",
+      },
+      {
+        name: "Seems I've Been Noticed",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 120 normal attack(s). Affects self.##Attract: Taunt all enemies for 3 sec.##■ Activates when taking lethal damage. Affects self.##Gains indomitability for 7 sec. Activates 1 time(s) per battle.##Cooldown of Burst Skill ▼ 11.58 sec.",
+      },
+      {
+        name: "Can You Be Quiet?",
+        effect:
+          "■ Affects self.##Gain Pierce for 10 sec.##Recover 34.02% of attack damage as HP over 10 sec.##■ Activates during indomitability. Affects self.##HP Potency ▲ 41.02% for 10 sec..",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/fdca25d3e1f93e976c376a547e9e63ad/3cd29/soda_full.webp",
+  },
+  {
+    name: "Power",
+    art: "https://www.prydwen.gg/static/8cc51a7523d9ce2648ca901dafcc38f9/60b4d/power_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Rocket Launcher",
+    unitClass: "Attacker",
+    manufacturer: "Abnormal",
+    element: "Fire",
+    squad: "Devil Hunters",
+    position: "Burst 3",
+    burstCD: "40",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.5s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Blood Fiend",
+        active: "Passive",
+        effect:
+          "■ Activates at the end of Full Burst. Affects all Attacker allies.##Critical Rate of normal attack ▲ 5.77% for 10 sec.##Constantly recovers 1.53% of caster's Maximum HP every 1 sec for 10 sec.",
+      },
+      {
+        name: "Blood Explosion",
+        active: "Passive",
+        effect:
+          "■ Activates when a Defender ally's HP falls below 50%. Affects the target Defender ally.##Invincible for 5 sec. Activates 2 time(s) per battle.##Recovers 23.26% of caster's Max HP. Activates 2 time(s) per battle.",
+      },
+      {
+        name: "Blood Hammer",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest ATK.##Deals 1584% of ATK as damage.##■ Affects the same target(s) when Blood Fiend is fully stacked.##Deals 1584% of ATK as additional damage.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/fdca25d3e1f93e976c376a547e9e63ad/3cd29/soda_full.webp",
+  },
+  {
+    name: "Biscuit",
+    art: "https://www.prydwen.gg/static/f542ff8fff2df4b171b3fb3ef75ffb85/60b4d/biscuit_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Rocket Launcher",
+    unitClass: "Supporter",
+    manufacturer: "Abnormal",
+    element: "Electric",
+    squad: "Happy Zoo",
+    position: "Burst 2",
+    burstCD: "40",
+    role: ["Buffer", "Healer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Happy Puppy",
+        active: "Passive",
+        effect:
+          "■ Activates at the end of Full Burst. Affects all Attacker allies.##Critical Rate of normal attack ▲ 5.77% for 10 sec.##Constantly recovers 1.53% of caster's Maximum HP every 1 sec for 10 sec.",
+      },
+      {
+        name: "Tug of War",
+        active: "Passive",
+        effect:
+          "■ Activates when a Defender ally's HP falls below 50%. Affects the target Defender ally.##Invincible for 5 sec. Activates 2 time(s) per battle.##Recovers 23.26% of caster's Max HP. Activates 2 time(s) per battle.",
+      },
+      {
+        name: "Walk Training",
+        effect:
+          "■ Affects 2 ally unit(s) whose cover has been destroyed.##Rebuild cover with 93.6% HP.##■ Affects all Supporter allies.##ATK ▲ 43.08% for 10 sec.##Restores 55.44% of attack damage as HP for 10 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/2a35757af51209cf7627c9cb0869fa0d/3cd29/biscuit_full.webp",
+  },
+  {
+    name: "Nihilister",
+    art: "https://www.prydwen.gg/static/6d60ad78690523f7d6b1169b7496259a/60b4d/nihilister_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper Rifle",
+    unitClass: "Attacker",
+    manufacturer: "Pilgrim",
+    element: "Fire",
+    squad: "The Heretics",
+    position: "Burst 2",
+    burstCD: "40",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.## Deals 69.04% of ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Burning Shot",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects self.##Gain Pierce for 1 round(s).##Piercing Radius ▲ 50% for 1 round(s).##■ Activates when a normal attack hits 2 or more enemies concurrently. Affects all enemies hit.##Deals 50.33% of ATK as additional damage.",
+      },
+      {
+        name: "Megiddo Flame",
+        active: "10 Seconds",
+        effect:
+          "■ Affects enemy unit(s) within attack range.##Deals 112.64% of ATK as damage.",
+      },
+      {
+        name: "Burning Scourge",
+        effect:
+          "■ Affects enemies within the attack range.##Deals 158.59% of ATK as damage.##Burn: Deals 13.19% of Atk as sustained damage every 1 sec for 10 sec.##■ Affects self.##Max Ammunition Capacity ▲ 6 round(s) for 15 sec.",
+        active: "20 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/851bf401951d1378212ab1785b9e1fb6/3cd29/nihilister_full.webp",
+  },
+  {
+    name: "Sakura",
+    art: "https://www.prydwen.gg/static/7e9d48eb9f3fcf850c0e760b055439f1/60b4d/sakura_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper Rifle",
+    unitClass: "Supporter",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Underworld Queen",
+    position: "Burst 1",
+    burstCD: "40",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "1.67s",
+        effect:
+          "■ Affects target enemy.##Deals 67% of ATK as damage.## Charge Time: 1 sec.##Full Charge Damage: 250% of damage.",
+      },
+      {
+        name: "Cherry Blossom Tea",
+        active: "Passive",
+        effect:
+          "■ Activates after 3 normal attack(s). Affects all allies.##Cherry Blossom Tea: 8.15% of DEF, stacks up to 10 time(s) and lasts for 15 sec.",
+      },
+      {
+        name: "Falling Petals",
+        active: "Passive",
+        effect:
+          "■ Affects all allies.##When attacking an enemy projectile, damage to that projectile ▲ 7.74% permanently.##■ Activates when entering Full Burst. Affects all allies.##Burst Skill cooldown ▼ 4.84 sec.",
+      },
+      {
+        name: "Resplendent Cherry Blossom",
+        effect:
+          "■ Affects all allies.##Damage dealt by Wind code enemies ▼ 90.72%, lasts for 30 sec. Activates 1 time(s) per battle.##ATK ▲ 23.76% of caster's ATK, lasts for 10 sec.##■ Affects all allies when Cherry Blossom Tea is fully stacked.##Damage to interruption part ▲ 23.54%, lasts for 30 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/9d04a3affe6a5e5d638a9cc4cc789af4/3cd29/sakura_full.webp",
+  },
 ];
