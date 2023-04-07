@@ -1,6 +1,6 @@
 export const defaultProfileUrl =
   "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp";
-export const lastUpdatedData = "February 12th, 20323";
+export const lastUpdatedData = "April 6th, 2023";
 
 export const skillIcons = {
   normal:
