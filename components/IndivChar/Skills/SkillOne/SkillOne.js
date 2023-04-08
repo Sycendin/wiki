@@ -50,11 +50,19 @@ const SkillOne = ({ data, skillIcons }) => {
         {/* Return the skill description */}
         <div>
           {desc.map((element, index) => {
-            return (
-              <Fragment key={index}>
-                <p className={`${styles.skillText}`}> {element}</p>
-              </Fragment>
-            );
+            if (element[0] === "■") {
+              return (
+                <Fragment key={index}>
+                  <p className={`${styles.skillTextEnd}`}> {element}</p>
+                </Fragment>
+              );
+            } else {
+              return (
+                <Fragment key={index}>
+                  <p className={`${styles.skillText}`}> {element}</p>
+                </Fragment>
+              );
+            }
           })}
         </div>
       </div>
