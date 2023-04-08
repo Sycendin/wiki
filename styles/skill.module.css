@@ -33,8 +33,14 @@
   margin-bottom: auto;
   
 }
-
-
+.skillText{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.skillTextEnd{
+  font-size: 16px;
+  margin-top: 4px;
+}
  .skillIconDiv{
   display: flex;
   flex-direction: row;
