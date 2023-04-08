@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import styles from "../../../../styles/skill.module.css";
+import SkillTextFormat from "../SkillHelper";
 const SkillOne = ({ data, skillIcons }) => {
   // Split string with skill description into array
   let desc = data.skill[1].effect.split("##");
@@ -50,19 +51,7 @@ const SkillOne = ({ data, skillIcons }) => {
         {/* Return the skill description */}
         <div>
           {desc.map((element, index) => {
-            if (element[0] === "■") {
-              return (
-                <Fragment key={index}>
-                  <p className={`${styles.skillTextEnd}`}> {element}</p>
-                </Fragment>
-              );
-            } else {
-              return (
-                <Fragment key={index}>
-                  <p className={`${styles.skillText}`}> {element}</p>
-                </Fragment>
-              );
-            }
+            <SkillTextFormat key={index} firstLetter={element[0]} />;
           })}
         </div>
       </div>
