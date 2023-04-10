@@ -1,16 +1,18 @@
 import react, { Fragment } from "react";
 
-const SkillTextFormat = (firstLetter) => {
+import styles from "../../../styles/skill.module.css";
+const SkillTextFormat = ({ firstLetter }) => {
+  console.log(firstLetter);
   if (firstLetter[0] === "■") {
     return (
-      <Fragment key={index}>
-        <p className={`${styles.skillTextEnd}`}> {firstLetter}</p>
+      <Fragment>
+        <p className={`${styles.skillTextEnd}`}>{firstLetter} </p>
       </Fragment>
     );
   } else {
     return (
-      <Fragment key={index}>
-        <p className={`${styles.skillText}`}> {firstLetter}</p>
+      <Fragment>
+        <p className={`${styles.skillText}`}>{firstLetter}</p>
       </Fragment>
     );
   }

@@ -51,7 +51,7 @@ const SkillOne = ({ data, skillIcons }) => {
         {/* Return the skill description */}
         <div>
           {desc.map((element, index) => {
-            <SkillTextFormat key={index} firstLetter={element[0]} />;
+            return <SkillTextFormat key={index} firstLetter={element} />;
           })}
         </div>
       </div>
