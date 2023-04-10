@@ -51,6 +51,7 @@ const SkillOne = ({ data, skillIcons }) => {
         {/* Return the skill description */}
         <div>
           {desc.map((element, index) => {
+            // Return helper function for applying appropiate css on each <p>
             return <SkillTextFormat key={index} firstLetter={element} />;
           })}
         </div>
