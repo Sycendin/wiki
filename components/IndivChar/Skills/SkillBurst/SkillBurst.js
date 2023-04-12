@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import SkillTextFormat from "../SkillHelper";
 import styles from "../../../../styles/skill.module.css";
 const SkillBurst = ({ data, skillIcons }) => {
   // Split string with skill description into array
@@ -45,11 +46,8 @@ const SkillBurst = ({ data, skillIcons }) => {
         {/* Return the skill description */}
         <div>
           {desc.map((element, index) => {
-            return (
-              <Fragment key={index}>
-                <p className={`${styles.skillText}`}> {element}</p>
-              </Fragment>
-            );
+            // Return helper function for applying appropiate css on each <p>
+            return <SkillTextFormat key={index} firstLetter={element} />;
           })}
         </div>
       </div>
