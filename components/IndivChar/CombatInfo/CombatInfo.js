@@ -2,7 +2,7 @@ import { Fragment } from "react";
 
 import styles from "../../../styles/combatinfo.module.css";
 const CombatInfo = ({ data }) => {
-  const { rarity, unitClass, weapon, element, burst } = data;
+  const { rarity, unitClass, weapon, element, position } = data;
 
   return (
     <Fragment>
@@ -51,7 +51,7 @@ const CombatInfo = ({ data }) => {
             <p
               className={`${styles.combatLeftText} ${styles.combatText}  white`}
             >
-              element
+              Element
             </p>
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
@@ -69,7 +69,7 @@ const CombatInfo = ({ data }) => {
             <p
               className={`${styles.combatRightText} ${styles.combatText}  white`}
             >
-              {burst}
+              {position}
             </p>
           </div>
         </div>
