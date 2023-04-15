@@ -7,6 +7,12 @@ const InfoHelper = ({ data, section }) => {
     const { rarity, unitClass, weapon, element, position } = data;
     temp = [rarity, unitClass, weapon, element, position];
     temp2 = ["Rarity", "Class", "Weapon", "Element", "Burst Type"];
+  } else if (section === "info") {
+    const { name, manufacturer, squad } = data;
+    temp = [name, manufacturer, squad];
+  } else {
+    const { role } = data;
+    temp = [role];
   }
   return (
     <Fragment>
