@@ -3582,4 +3582,48 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/9d04a3affe6a5e5d638a9cc4cc789af4/3cd29/sakura_full.webp",
   },
+  {
+    name: "D",
+    art: "https://www.prydwen.gg/static/d4eb1bee42eda75df678d2f23931aff0/60b4d/d_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Attacker",
+    manufacturer: "Elysion",
+    element: "Wind",
+    squad: "Perilous Siege",
+    position: "Burst 3",
+    burstCD: "2=40",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 8.73% ATK as damage.",
+      },
+      {
+        name: "Vigorous Waves",
+        active: "Passive",
+        effect:
+          "■ Activates when entering Full Burst. Affects self.##Damage as strong element ▲ 46.93% for 15 sec.##Recovers 3.52% of ATK damage as HP, lasts for 15 sec.##■ Affects self when first activated.##Recovers 16.5% of ATK damage as HP, lasts for 15 sec.",
+      },
+      {
+        name: "Surprise Attack",
+        active: "Passive",
+        effect:
+          "■ Activates when the target appears. Affects all allies.##Charges Burst Gauge by 98.56%. Activates 1 time(s) per battle.##Become immune to Stun for 36.95 sec.##■ Activates when the target appears. Affects self.##Damage as strong element ▲ 91.09%, lasts for 15 sec.",
+      },
+      {
+        name: "Chastisement",
+        effect:
+          "■ Affects all enemies.##Deals 426.24% of ATK as damage.##■ Affects all Attacker allies.##When attacking a certain part of an enemy, damage dealt to the part ▲ 42.38% for 15 sec.##■ Affects all allies when gaining immunity to Stun.##Full Burst Time ▲ 5.04 sec.",
+        active: "40 Seconds",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/53179c477d6102f3fb04ede83ee90646/3cd29/d_full.webp",
+  },
 ];
