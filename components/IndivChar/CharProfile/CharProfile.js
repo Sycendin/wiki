@@ -57,6 +57,9 @@ const CharProfile = ({ data }) => {
     case "Machine Gun":
       setWeaponIcon = machinegun;
       break;
+    case "Shotgun":
+      setWeaponIcon = shotgun;
+      break;
     case "SMG":
       setWeaponIcon = submachinegun;
       break;

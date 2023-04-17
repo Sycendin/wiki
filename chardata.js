@@ -2,6 +2,11 @@ export const defaultProfileUrl =
   "https://www.prydwen.gg/static/d2182bea4a3c35b721a4bd55d5690239/60b4d/rapi_icon.webp";
 export const lastUpdatedData = "April 6th, 2023";
 
+export const infoOne = ["Rarity", "Class", "Weapon", "Element", "Burst Type"];
+export const infoTwo = ["Name", "Manufacturer", "Squad"];
+export const infoThree = ["Role"];
+temp2 = ["Rarity", "Class", "Weapon", "Element", "Burst Type"];
+
 export const skillIcons = {
   normal:
     "https://www.prydwen.gg/static/92a841c9db81efd22788eefa3adb4bbf/d8057/sight_rocket.webp",
