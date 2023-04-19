@@ -1,18 +1,22 @@
 import react, { Fragment } from "react";
+import { infoChar, infoOther, infoCombat } from "../../chardata";
 import styles from "../../styles/combatinfo.module.css";
 const InfoHelper = ({ data, section }) => {
-  let temp = [];
-  let temp2 = [];
-  if (section === "Combat") {
-    const { rarity, unitClass, weapon, element, position } = data;
-    temp = [rarity, unitClass, weapon, element, position];
-    temp2 = ["Rarity", "Class", "Weapon", "Element", "Burst Type"];
-  } else if (section === "info") {
+  let leftData,
+    rightData = [];
+  if (section === "Info") {
     const { name, manufacturer, squad } = data;
-    temp = [name, manufacturer, squad];
-  } else {
+
+    leftData = infoChar;
+    rightData = [name, manufacturer, squad];
+  } else if (section === "Combat") {
+    const { rarity, unitClass, weapon, element, position } = data;
+    leftData = infoCombat;
+    rightData = [rarity, unitClass, weapon, element, position];
+  } else if (section === "Other") {
     const { role } = data;
-    temp = [role];
+    leftData = infoOther;
+    rightData = [role];
   }
   return (
     <Fragment>
@@ -20,24 +24,37 @@ const InfoHelper = ({ data, section }) => {
         <h2 className={`${styles.combatTitle} ${styles.combatText}  white`}>
           {section} Info
         </h2>
-        <div className={`${styles.combatDiv}`}>
-          {temp.map((element, index) => {
-            return (
-              <div className={`${styles.combatRowDiv}`}>
-                <p
-                  className={`${styles.combatLeftText} ${styles.combatText} white`}
-                >
-                  {temp2[index]}
-                </p>
-                <p
-                  className={`${styles.combatRightText} ${styles.combatText}  white`}
-                >
-                  {element}
-                </p>
-              </div>
-            );
-          })}
-        </div>
+        {section === "Other" ? (
+          <div className={`${styles.otherRoles}`}>
+            {role.map((eachRole, index) => (
+              <p
+                key={index}
+                className={`${styles.otherRoleText} ${styles.otherText} white`}
+              >
+                {eachRole}
+              </p>
+            ))}
+          </div>
+        ) : (
+          <div className={`${styles.combatDiv}`}>
+            {temp.map((element, index) => {
+              return (
+                <div className={`${styles.combatRowDiv}`}>
+                  <p
+                    className={`${styles.combatLeftText} ${styles.combatText} white`}
+                  >
+                    {temp2[index]}
+                  </p>
+                  <p
+                    className={`${styles.combatRightText} ${styles.combatText}  white`}
+                  >
+                    {element}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </Fragment>
   );
