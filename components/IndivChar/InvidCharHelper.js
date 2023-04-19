@@ -21,7 +21,7 @@ const InfoHelper = ({ data, section }) => {
           {section} Info
         </h2>
         <div className={`${styles.combatDiv}`}>
-          {desc.map((element, index) => {
+          {temp.map((element, index) => {
             return (
               <div className={`${styles.combatRowDiv}`}>
                 <p
@@ -38,7 +38,6 @@ const InfoHelper = ({ data, section }) => {
             );
           })}
         </div>
-        =
       </div>
     </Fragment>
   );
