@@ -5,7 +5,6 @@ export const lastUpdatedData = "April 6th, 2023";
 export const infoOne = ["Rarity", "Class", "Weapon", "Element", "Burst Type"];
 export const infoTwo = ["Name", "Manufacturer", "Squad"];
 export const infoThree = ["Role"];
-temp2 = ["Rarity", "Class", "Weapon", "Element", "Burst Type"];
 
 export const skillIcons = {
   normal:
