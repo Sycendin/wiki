@@ -4,9 +4,9 @@ import styles from "../../styles/combatinfo.module.css";
 const InfoHelper = ({ data, section }) => {
   let leftData,
     rightData = [];
+  // Set data according to which section of charinfo we are on
   if (section === "Info") {
     const { name, manufacturer, squad } = data;
-
     leftData = infoChar;
     rightData = [name, manufacturer, squad];
   } else if (section === "Combat") {
@@ -24,6 +24,7 @@ const InfoHelper = ({ data, section }) => {
         <h2 className={`${styles.combatTitle} ${styles.combatText}  white`}>
           {section} Info
         </h2>
+        {/* Render different'y depending on if data is array or string */}
         {section === "Other" ? (
           <div className={`${styles.otherRoles}`}>
             {role.map((eachRole, index) => (
