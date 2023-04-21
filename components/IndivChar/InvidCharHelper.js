@@ -37,13 +37,13 @@ const InfoHelper = ({ data, section }) => {
           </div>
         ) : (
           <div className={`${styles.combatDiv}`}>
-            {temp.map((element, index) => {
+            {rightData.map((element, index) => {
               return (
                 <div className={`${styles.combatRowDiv}`}>
                   <p
                     className={`${styles.combatLeftText} ${styles.combatText} white`}
                   >
-                    {temp2[index]}
+                    {leftData[index]}
                   </p>
                   <p
                     className={`${styles.combatRightText} ${styles.combatText}  white`}
