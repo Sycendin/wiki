@@ -2,6 +2,8 @@ import react, { Fragment } from "react";
 import { infoChar, infoOther, infoCombat } from "../../chardata";
 import styles from "../../styles/combatinfo.module.css";
 const InfoHelper = ({ data, section }) => {
+  // LeftData is the static string eg, class, weapon
+  // Rightdata is the dynamic string eg for weapon smg or sg
   let leftData,
     rightData = [];
   // Set data according to which section of charinfo we are on
