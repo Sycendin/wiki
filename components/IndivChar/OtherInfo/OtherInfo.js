@@ -1,9 +1,7 @@
 import { Fragment } from "react";
 import InfoHelper from "../InvidCharHelper";
-import styles from "../../../styles/otherinfo.module.css";
-const OtherInfo = ({ data }) => {
-  const { role } = data;
 
+const OtherInfo = ({ data }) => {
   return (
     <Fragment>
       <InfoHelper data={data} section={"Other"} />

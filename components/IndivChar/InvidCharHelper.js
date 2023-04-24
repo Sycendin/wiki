@@ -1,4 +1,4 @@
-import react, { Fragment } from "react";
+import { Fragment } from "react";
 import { infoChar, infoOther, infoCombat } from "../../chardata";
 import styles from "../../styles/combatinfo.module.css";
 const InfoHelper = ({ data, section }) => {
@@ -26,7 +26,7 @@ const InfoHelper = ({ data, section }) => {
         <h2 className={`${styles.combatTitle} ${styles.combatText}  white`}>
           {section} Info
         </h2>
-        {/* Render different'y depending on if data is array or string */}
+        {/* Render depending on if data is array or string */}
         {section === "Other" ? (
           <div className={`${styles.otherRoles}`}>
             {role.map((eachRole, index) => (
