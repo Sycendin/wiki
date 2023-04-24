@@ -29,7 +29,7 @@ const InfoHelper = ({ data, section }) => {
         {/* Render depending on if data is array or string */}
         {section === "Other" ? (
           <div className={`${styles.otherRoles}`}>
-            {role.map((eachRole, index) => (
+            {rightData.map((eachRole, index) => (
               <p
                 key={index}
                 className={`${styles.otherRoleText} ${styles.otherText} white`}
