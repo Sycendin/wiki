@@ -29,3 +29,10 @@
   display: flex;
   flex-direction: row;
 }
+
+@media (max-width: 600px) {
+  .charWholeDiv {
+    width: 100%;
+    flex-direction: column;
+  }
+}
