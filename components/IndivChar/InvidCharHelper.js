@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { infoChar, infoOther, infoCombat } from "../../chardata";
 import styles from "../../styles/combatinfo.module.css";
+import mobileStyles from "../../styles/profilemobile.module.css";
 const InfoHelper = ({ data, section }) => {
   // LeftData is the static string eg, class, weapon
   // Rightdata is the dynamic string eg for weapon smg or sg
@@ -63,4 +64,5 @@ const InfoHelper = ({ data, section }) => {
   );
 };
 
+export const InfoHelperMobile = ({ data, section }) => {};
 export default InfoHelper;
