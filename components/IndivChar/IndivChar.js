@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import CombatInfo from "./CombatInfo/CombatInfo";
 import CharInfo from "./CharInfo/CharInfo";
 import OtherInfo from "./OtherInfo/OtherInfo";
@@ -6,9 +6,14 @@ import Skills from "./Skills/Skills";
 import FullImage from "./FullImage/FullImage";
 import CharProfile from "./CharProfile/CharProfile";
 import styles from "../../styles/indivchar.module.css";
+import useWindowSize from "./useWindowDimensions";
 const IndivChar = ({ data }) => {
+  const size = useWindowSize();
   return (
     <Fragment>
+      <div>
+        {size.width}px / {size.height}px
+      </div>
       <div className={`${styles.indivCharHeader} white`}>
         <CharProfile data={data} />
         <p className={`${styles.indivCharHeaderText} white`}>Info</p>
