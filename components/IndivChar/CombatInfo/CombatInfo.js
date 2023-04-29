@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 import InfoHelper from "../InvidCharHelper";
 
-const CombatInfo = ({ data }) => {
+const CombatInfo = ({ data, size }) => {
   return (
     <Fragment>
-      <InfoHelper data={data} section={"Combat"} />
+      <InfoHelper data={data} size={size} section={"Combat"} />
     </Fragment>
   );
 };

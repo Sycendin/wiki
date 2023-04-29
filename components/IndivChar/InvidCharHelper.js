@@ -4,7 +4,9 @@ import { infoChar, infoOther, infoCombat } from "../../chardata";
 import styles from "../../styles/combatinfo.module.css";
 import mobileStyles from "../../styles/profilemobile.module.css";
 
-const InfoHelper = ({ data, section }) => {
+const InfoHelper = ({ data, size, section }) => {
+  // Get window height/width from parent SSRWindowSize in IdivChar
+  const { width, height } = size;
   // LeftData is the static string eg, class, weapon
   // Rightdata is the dynamic string eg for weapon smg or sg
   let leftData,
