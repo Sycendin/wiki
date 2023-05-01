@@ -118,7 +118,7 @@ export const InfoHelperMobile = ({ data, section }) => {
           </div>
         ) : (
           <div className={`${mobileStyles.combatDiv}`}>
-            {rightData.map((element, index) => {
+            {leftData.map((element, index) => {
               return (
                 <div className={`${mobileStyles.combatRowDiv}`}>
                   <p
@@ -132,6 +132,19 @@ export const InfoHelperMobile = ({ data, section }) => {
                     {element}
                   </p>
                 </div>
+              );
+            })}
+            {rightData.map((element, index) => {
+              return (
+                <Fragment>
+                  <div className={`${mobileStyles.combatRowDiv}`}>
+                    <p
+                      className={`${mobileStyles.combatRightText} ${mobileStyles.combatText}  white`}
+                    >
+                      {element}
+                    </p>
+                  </div>
+                </Fragment>
               );
             })}
           </div>
