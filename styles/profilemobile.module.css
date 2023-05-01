@@ -1,0 +1,45 @@
+.combatWholeDiv{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  min-width: calc(100% /3);
+
+}
+.combatTitle{
+  font-weight: bold;
+}
+.combatDiv{
+ display: flex;
+ flex-direction: column;
+
+
+
+}
+.combatRowDiv{
+  display: flex;
+  flex-direction: row
+
+}
+.combatText{
+  margin-bottom: 8px;
+ }
+.combatLeftText{
+  margin-right: 8px;
+}
+
+.combatRightText{
+  font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+  .combatWholeDiv{
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .combatLeftText{
+   
+  }
+}
