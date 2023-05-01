@@ -4,9 +4,9 @@ import { infoChar, infoOther, infoCombat } from "../../chardata";
 import styles from "../../styles/combatinfo.module.css";
 import mobileStyles from "../../styles/profilemobile.module.css";
 
-const InfoHelper = ({ data, size, section }) => {
-  // Get window height/width from parent SSRWindowSize in IdivChar
-  const { width, height } = size;
+// Refactor of code to determine which data to use for infoHelper/Mobile functions
+// Below
+const getDataInfo = (data, section) => {
   // LeftData is the static string eg, class, weapon
   // Rightdata is the dynamic string eg for weapon smg or sg
   let leftData,
@@ -25,6 +25,15 @@ const InfoHelper = ({ data, size, section }) => {
     leftData = infoOther;
     rightData = [role];
   }
+
+  return { leftData, rightData };
+};
+const InfoHelper = ({ data, size, section }) => {
+  let { leftData, rightData } = getDataInfo(data, section);
+
+  // Get window height/width from parent SSRWindowSize in IdivChar
+  const { width, height } = size;
+
   return (
     <Fragment>
       <div className={`${styles.combatWholeDiv}`}>
