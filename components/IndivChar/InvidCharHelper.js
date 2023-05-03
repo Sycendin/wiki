@@ -80,22 +80,7 @@ const InfoHelper = ({ data, size, section }) => {
 export const InfoHelperMobile = ({ data, section }) => {
   // LeftData is the static string eg, class, weapon
   // Rightdata is the dynamic string eg for weapon smg or sg
-  let leftData,
-    rightData = [];
-  // Set data according to which section of charinfo we are on
-  if (section === "Info") {
-    const { name, manufacturer, squad } = data;
-    leftData = infoChar;
-    rightData = [name, manufacturer, squad];
-  } else if (section === "Combat") {
-    const { rarity, unitClass, weapon, element, position } = data;
-    leftData = infoCombat;
-    rightData = [rarity, unitClass, weapon, element, position];
-  } else if (section === "Other") {
-    const { role } = data;
-    leftData = infoOther;
-    rightData = [role];
-  }
+  let { leftData, rightData } = getDataInfo(data, section);
   return (
     <Fragment>
       <div className={`${mobileStyles.combatWholeDiv}`}>
@@ -117,31 +102,35 @@ export const InfoHelperMobile = ({ data, section }) => {
             ))}
           </div>
         ) : (
-          <div className={`${mobileStyles.combatDivMob}`}>
-            {leftData.map((element, index) => {
-              return (
-                <div className={`${mobileStyles.combatRowDiv}`}>
-                  <p
-                    className={`${mobileStyles.combatLeftText} ${mobileStyles.combatText}  white`}
-                  >
-                    {element}
-                  </p>
-                </div>
-              );
-            })}
-            {rightData.map((element, index) => {
-              return (
-                <Fragment>
+          <div className={`${mobileStyles.combatDivWholeMob}`}>
+            <div className={`${mobileStyles.combatDivMob}`}>
+              {leftData.map((element, index) => {
+                return (
                   <div className={`${mobileStyles.combatRowDiv}`}>
                     <p
-                      className={`${mobileStyles.combatRightText} ${mobileStyles.combatText}  white`}
+                      className={`${mobileStyles.combatLeftText} ${mobileStyles.combatText}  white`}
                     >
                       {element}
                     </p>
                   </div>
-                </Fragment>
-              );
-            })}
+                );
+              })}
+            </div>
+            <div className={`${mobileStyles.combatDivMob}`}>
+              {rightData.map((element, index) => {
+                return (
+                  <Fragment>
+                    <div className={`${mobileStyles.combatRowDiv}`}>
+                      <p
+                        className={`${mobileStyles.combatRightText} ${mobileStyles.combatText}  white`}
+                      >
+                        {element}
+                      </p>
+                    </div>
+                  </Fragment>
+                );
+              })}
+            </div>
           </div>
         )}
       </div>
