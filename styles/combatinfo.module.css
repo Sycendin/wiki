@@ -18,7 +18,8 @@
 }
 .combatRowDiv{
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+
 
 }
 .combatText{
