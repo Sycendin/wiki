@@ -5,9 +5,9 @@ const CharInfo = ({ data, size }) => {
   return (
     <Fragment>
       {size.width < 800 ? (
-        <InfoHelperMobile data={data} size={size} section={"Info"} />
+        <InfoHelperMobile data={data} size={size} section={"Character"} />
       ) : (
-        <InfoHelper data={data} size={size} section={"Info"} />
+        <InfoHelper data={data} size={size} section={"Character"} />
       )}
     </Fragment>
   );
