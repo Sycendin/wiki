@@ -7,6 +7,7 @@
 }
 .combatTitle{
   font-weight: bold;
+  font-size: 20px;
 }
 .combatDiv{
  display: flex;
@@ -27,8 +28,21 @@
   margin-right: 8px;
 }
 
+
 .combatRightText{
   font-weight: bold;
+}
+
+.combatDivWholeMob{
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+width: 100%;
+}
+.combatDivMob{
+
+min-width: 200px
 }
 @media screen and (max-width: 800px) {
   .combatWholeDiv{
@@ -42,4 +56,20 @@
   .combatLeftText{
    
   }
+  
+}
+
+@media screen and (max-width: 500px) {
+  .combatDivWholeMob{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    }
+    .combatDivMob{
+    
+    min-width: 100px
+    }
+  
 }

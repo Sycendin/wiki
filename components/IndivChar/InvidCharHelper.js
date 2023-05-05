@@ -12,7 +12,7 @@ const getDataInfo = (data, section) => {
   let leftData,
     rightData = [];
   // Set data according to which section of charinfo we are on
-  if (section === "Info") {
+  if (section === "Character") {
     const { name, manufacturer, squad } = data;
     leftData = infoChar;
     rightData = [name, manufacturer, squad];
