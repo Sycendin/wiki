@@ -3632,4 +3632,94 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/53179c477d6102f3fb04ede83ee90646/3cd29/d_full.webp",
   },
+  {
+    name: "Rei",
+    art: "https://www.prydwen.gg/static/228b9936de297c9c1b26c27bb80b59a7/60b4d/rei_icon-min.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Water",
+    squad: "School Circle",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Taunter"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 63% ATK as damage.",
+      },
+      {
+        name: "Senpai's Support",
+        active: "Passive",
+        effect:
+          "■ Activates after 60 normal attack(s). Affects all allies.##Charges Burst Gauge by 2.47%##■ If the decoy is present, affects the decoy.##Restore HP equal to 2.1% of the caster's Max HP.",
+      },
+      {
+        name: "Fighting Spirit",
+        effect:
+          "■ Activates at the start of the battle. Affects self.##Decoy: Avatar with 96% of caster's Max HP for 240 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Model Upperclassman",
+        active: "20 Seconds",
+        effect:
+          "■ Affects Self.##Attracts for 5 sec.##Damage Taken ▼ 14.4% for 10 sec.##■ Affects decoy when decoy exists.##Recovers 2.27% of caster's Max HP every 1 sec for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/28a2b4f9c5b9aa8d3956adbb8c30893c/3cd29/rei_full-min.webp",
+  },
+  {
+    name: "Dorthy",
+    art: "https://www.prydwen.gg/static/be041027f6859062c24eb6f8aa333840/60b4d/dorothy_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Support",
+    manufacturer: "Pilgrim",
+    element: "Water",
+    squad: "Inherit",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 63% ATK as damage.",
+      },
+      {
+        name: "Holy Fire",
+        active: "Passive",
+        effect:
+          "■ Activates when firing the last bullet. Affects all allies.##Cooldown of Burst Skill 1.56 sec.##■ Affects when firing the last bullet during Manifestation. Affetcs all allies.##When attacking part of an enemy, damage dealt to that part ▲ 50.68% lasts for 5 sec",
+      },
+      {
+        name: "Baptism",
+        effect:
+          "■ Affects all enemies##Scorch to Dust: Deals 216% of ATK as distributed damage.",
+        active: "20 Seconds",
+      },
+
+      {
+        name: "Paradise Lost",
+        active: "20 Seconds",
+        effect:
+          "■ Affects Self.##Manifestation: Changes the cooldown of Skill 2 to 2 sec. Lasts for 10 sec.##Gains Pierce for 10 sec.##■ Affects a designated enemy.##Brand: Accumulates total damage dealt to enemies during the duration, and then deals that accumulated damage to all enemies as distributed damage once the duration ends. The maximum accumulated damage is 8900.83% of the caster's ATK. Lasts for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/28a2b4f9c5b9aa8d3956adbb8c30893c/3cd29/rei_full-min.webp",
+  },
 ];
