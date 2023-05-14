@@ -14,13 +14,15 @@ const EventCountDown = () => {
   }, [count]);
   return (
     <Fragment>
-      <span className={`${styles.eventDiv} white`}>{days} </span>
-      <span className={`${styles.eventDiv} white`}>{hours} </span>
-      <span className={`${styles.eventDiv} white`}>{minutes} </span>
-      <span className={`${styles.eventDiv} white`}>{seconds} </span>
+      <div className={`${styles.eventMainDiv} white`}>
+        <span className={`${styles.eventNum} white`}>{days} </span>
+        <span className={`${styles.eventDiv} white`}>{hours} </span>
+        <span className={`${styles.eventNum} white`}>{minutes} </span>
+        <span className={`${styles.eventNum} white`}>{seconds} </span>
+      </div>
       <Countdown
         date={Date.now() + 10000}
-        className={`${styles.eventDiv} white`}
+        className={`${styles.eventNum} white`}
       />
     </Fragment>
   );
