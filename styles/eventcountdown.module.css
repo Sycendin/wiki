@@ -1,6 +1,12 @@
 .eventMainDiv{
  width: 80%;
 }
+.eventCountDiv{
+  width: 50%;
+}
+.eventNumBox{
+  background-color: rgb(134, 134, 134);
+}
 .eventNum{
   color: white;
 }
