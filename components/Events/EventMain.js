@@ -4,7 +4,7 @@ import styles from "../../styles/event.module.css";
 const EventMain = () => {
   return (
     <Fragment>
-      <div className={`${styles.eventDiv}`}>
+      <div className={`${styles.eventMainDiv}`}>
         <EventCountDown />
       </div>
     </Fragment>
