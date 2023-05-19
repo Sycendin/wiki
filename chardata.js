@@ -3722,4 +3722,94 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/28a2b4f9c5b9aa8d3956adbb8c30893c/3cd29/rei_full-min.webp",
   },
+  {
+    name: "Blanc",
+    art: "https://www.prydwen.gg/static/bcd85d9bb6f99885bccc933d03991c07/60b4d/blanc_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Wind",
+    squad: "White Pollux",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1s",
+        effect: "Affects target enemy.##Deals 13.65% ATK as damage.",
+      },
+      {
+        name: "Lucky Guard",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 120 normal attack(s).##Creates a Shield, equivalent to 11.8% of the caster’s Max HP, which protects all allies from damage. Lasts for 5 sec.",
+      },
+      {
+        name: "Rabbit Twins W",
+        effect:
+          "■ Activates after Full Burst ends. Affects all allies.##Constantly recovers 3.68% of caster's Max HP every 1 sec for 5 sec##■ Activates when Full Burst ends with an ally from the same squad on the battlefield. Affects self.##Cooldown of Burst Skill ▼ 40.76 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Showtime",
+        active: "60 Seconds",
+        effect:
+          "■ Affects all allies.##Constantly recovers 3.84% of caster's Max HP every 1 sec for 8 sec.##■ Affects 1 allies with the lowest HP (except caster).##Gain indomitability for 10 sec.##Max HP ▲ 31.68% for 10 sec.##■ Affects all enemies.##Damage Taken ▲ 39.26% for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/28a2b4f9c5b9aa8d3956adbb8c30893c/3cd29/rei_full-min.webp",
+  },
+  {
+    name: "Noir",
+    art: "https://www.prydwen.gg/static/a6a5886e8a8d3759e7f7935e9dcf1b8d/60b4d/noir_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Support",
+    manufacturer: "Pilgrim",
+    element: "Water",
+    squad: "Inherit",
+    position: "Burst 1",
+    burstCD: "20",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect: "■ Affects target enemy.##Deals 63% ATK as damage.",
+      },
+      {
+        name: "Holy Fire",
+        active: "Passive",
+        effect:
+          "■ Activates when firing the last bullet. Affects all allies.##Cooldown of Burst Skill 1.56 sec.##■ Affects when firing the last bullet during Manifestation. Affetcs all allies.##When attacking part of an enemy, damage dealt to that part ▲ 50.68% lasts for 5 sec",
+      },
+      {
+        name: "Baptism",
+        effect:
+          "■ Affects all enemies##Scorch to Dust: Deals 216% of ATK as distributed damage.",
+        active: "20 Seconds",
+      },
+
+      {
+        name: "Paradise Lost",
+        active: "20 Seconds",
+        effect:
+          "■ Affects Self.##Manifestation: Changes the cooldown of Skill 2 to 2 sec. Lasts for 10 sec.##Gains Pierce for 10 sec.##■ Affects a designated enemy.##Brand: Accumulates total damage dealt to enemies during the duration, and then deals that accumulated damage to all enemies as distributed damage once the duration ends. The maximum accumulated damage is 8900.83% of the caster's ATK. Lasts for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/28a2b4f9c5b9aa8d3956adbb8c30893c/3cd29/rei_full-min.webp",
+  },
 ];
