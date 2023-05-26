@@ -1,9 +1,17 @@
 export const pastEvents = [
   {
+    name: "Bunny X 777",
+    enddate: "May 20th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/68/Bunny_X_777_splash_1.jpg/revision/latest/scale-to-width-down/350?cb=20230517174412",
+    logo: " https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e9/Bunny_X_777_logo.png",
+  },
+  {
     name: "Over Zone",
     enddate: "May 20th 2023",
     image:
       "https://i0.wp.com/nikke.gg/wp-content/uploads/image-112.png?resize=1024%2C576&ssl=1",
+    logo: " https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e9/Bunny_X_777_logo.png",
   },
   {
     name: "License To Kill",
