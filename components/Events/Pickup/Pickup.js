@@ -4,7 +4,11 @@ import { pickup } from "../../../eventdata";
 const Pickup = () => {
   return (
     <Fragment>
-      <div className={`${styles.PickupDiv}`}></div>
+      <div className={`${styles.PickupDiv}`}>
+        <div className={`${styles.PickupDiv}`}> </div>
+        <div className={`${styles.PickupDiv}`}> </div>
+        <div className={`${styles.PickupDiv}`}> </div>
+      </div>
     </Fragment>
   );
 };
