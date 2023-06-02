@@ -6,12 +6,21 @@ const Pickup = () => {
     <Fragment>
       <div className={`${styles.pickupDiv}`}>
         <div className={`${styles.pickupInnerDiv}`}>
-          {pastEvents.map((element, index) => {
+          {pickup.map((element, index) => {
             return (
               <Fragment>
-                <div className={`${styles.pickupImageDiv}`}> </div>
-                <div className={`${styles.pickupNameDiv}`}> </div>
-                <div className={`${styles.pickupDateDiv}`}> </div>
+                <div className={`${styles.pickupRowDiv}`}>
+                  <div className={`${styles.pickupImageDiv}`}>
+                    <img src={pickup.img}></img>
+                  </div>
+                  <div className={`${styles.pickupNameDiv}`}>
+                    <p>{pickup.name}</p>{" "}
+                  </div>
+                  <div className={`${styles.pickupDateDiv}`}>
+                    {" "}
+                    <p>{pickup.date}</p>
+                  </div>
+                </div>
               </Fragment>
             );
           })}
