@@ -6,9 +6,15 @@ const Pickup = () => {
     <Fragment>
       <div className={`${styles.pickupDiv}`}>
         <div className={`${styles.pickupInnerDiv}`}>
-          <div className={`${styles.pickupImageDiv}`}> </div>
-          <div className={`${styles.pickupNameDiv}`}> </div>
-          <div className={`${styles.pickupDateDiv}`}> </div>
+          {pastEvents.map((element, index) => {
+            return (
+              <Fragment>
+                <div className={`${styles.pickupImageDiv}`}> </div>
+                <div className={`${styles.pickupNameDiv}`}> </div>
+                <div className={`${styles.pickupDateDiv}`}> </div>
+              </Fragment>
+            );
+          })}
         </div>
       </div>
     </Fragment>
