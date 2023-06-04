@@ -3,10 +3,12 @@
 }
 
 .pickupInnerDiv{
-
+display: flex;
+flex-direction: column;
 }
 .pickupRowDiv{
-
+  display: flex;
+  flex-direction: row;
 }
 .pickupImage{}
   
