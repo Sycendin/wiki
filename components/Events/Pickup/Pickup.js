@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { pickup } from "../../../eventdata";
 
 const Pickup = () => {
+  const { name, enddate, image } = pickup;
   return (
     <Fragment>
       <div className={`${styles.pickupDiv}`}>
@@ -11,14 +12,14 @@ const Pickup = () => {
               <Fragment>
                 <div className={`${styles.pickupRowDiv}`}>
                   <div className={`${styles.pickupImageDiv}`}>
-                    <img src={pickup.img}></img>
+                    <img src={image}></img>
                   </div>
                   <div className={`${styles.pickupNameDiv}`}>
-                    <p>{pickup.name}</p>{" "}
+                    <p>{name}</p>{" "}
                   </div>
                   <div className={`${styles.pickupDateDiv}`}>
                     {" "}
-                    <p>{pickup.date}</p>
+                    <p>{enddate}</p>
                   </div>
                 </div>
               </Fragment>
