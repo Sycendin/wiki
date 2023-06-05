@@ -10,11 +10,14 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
 }
-.pickupImage{}
+.pickupImage{
+  width: 10%;
+  height: auto;
+}
   
 
 .pickupName{
-
+color: white;
 }
 
 .pickupDate{
