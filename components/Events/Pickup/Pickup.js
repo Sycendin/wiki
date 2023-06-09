@@ -1,8 +1,9 @@
 import { Fragment } from "react";
 import { pickup } from "../../../eventdata";
-
+import styles from "../../../styles/pickup.module.css";
 const Pickup = () => {
   const { name, enddate, image } = pickup;
+
   return (
     <Fragment>
       <div className={`${styles.pickupDiv}`}>
