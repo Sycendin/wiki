@@ -9,17 +9,27 @@ flex-direction: column;
 .pickupRowDiv{
   display: flex;
   flex-direction: row;
+
 }
-.pickupImage{
-  width: 10%;
+.pickupImageDiv{
+  width: 50%;
   height: auto;
 }
   
 
-.pickupName{
-color: white;
+.pickupNameDiv{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.pickupDate{
+.pickupDateDiv{
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pickupText{
+
 }
