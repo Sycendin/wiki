@@ -115,6 +115,19 @@ export const pastEvents = [
 
 export const pickup = [
   {
+    name: "Rosanna",
+    startdate: "June 1st 2023",
+    enddate: "June 15th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e4/Pick_Up_14_Rosanna.jpg",
+  },
+  {
+    name: "Noir",
+    enddate: "June 8th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0e/Pick_Up_13_Noir.jpg",
+  },
+  {
     name: "Blanc",
     enddate: "May 20th 2023",
     image:
