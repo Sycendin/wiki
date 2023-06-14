@@ -1,5 +1,12 @@
 export const pastEvents = [
   {
+    name: "Bluewater Island",
+    startdate: "June 1st 2023",
+    enddate: "June 15th 2023",
+    image: "https://i.redd.it/tcpntdsyhk5b1.jpg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/55/Queen%27s_Order_logo.png/revision/latest/scale-to-width-down/200?cb=20230601081943",
+  },
+  {
     name: "Queen's Diner",
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
@@ -114,6 +121,12 @@ export const pastEvents = [
 ];
 
 export const pickup = [
+  {
+    name: "Mary Bay Goddess",
+    startdate: "June 1st 2023",
+    enddate: "June 15th 2023",
+    image: "https://i.redd.it/qlxweri1w35b1.jpg",
+  },
   {
     name: "Neon: blue Ocean",
     startdate: "June 1st 2023",
