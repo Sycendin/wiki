@@ -115,6 +115,12 @@ export const pastEvents = [
 
 export const pickup = [
   {
+    name: "Neon: blue Ocean",
+    startdate: "June 1st 2023",
+    enddate: "June 15th 2023",
+    image: "https://i.redd.it/ynktjpu6vh5b1.jpg",
+  },
+  {
     name: "Rosanna",
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
@@ -123,18 +129,21 @@ export const pickup = [
   },
   {
     name: "Noir",
+    startdate: "May 25th 2023",
     enddate: "June 8th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0e/Pick_Up_13_Noir.jpg",
   },
   {
     name: "Blanc",
+    startdate: "May 18th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/23/Pick_Up_12_Blanc.jpg",
   },
   {
     name: "Dorothy",
+    startdate: "April 27th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/8c/Pick_Up_11_Dorothy.jpg",
@@ -142,90 +151,105 @@ export const pickup = [
 
   {
     name: "Alice",
+    startdate: "April 13th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f9/Pick_Up_10_Alice.jpg",
   },
   {
     name: "D",
+    startdate: "april 13th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/1a/Pick_Up_10_D.jpg",
   },
   {
     name: "Sakura",
+    startdate: "March 30th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/29/Pick_Up_9_Sakura.jpg",
   },
   {
     name: "Biscuit",
+    startdate: "March 15th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f6/Pick_Up_8_Biscuit.jpg",
   },
   {
     name: "Makima",
+    startdate: "February 22nd 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/67/Pick_Up_7_Makima.jpg",
   },
   {
     name: "Power",
+    startdate: "February 22nd 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/14/Pick_Up_7_Power.jpg",
   },
   {
     name: "Cocoa",
+    startdate: "February 1st 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f3/Pick_Up_6_Cocoa.jpg",
   },
   {
     name: "Soda",
+    startdate: "February 1st 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/8d/Pick_Up_6_Soda.jpg",
   },
   {
     name: "Jackal",
+    startdate: "January 12th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/77/Pick_Up_5_Jackal.jpg",
   },
   {
     name: "Viper",
+    startdate: "January 12th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e5/Pick_Up_5_Viper.jpg",
   },
   {
     name: "Modernia",
+    startdate: "January 1st 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/55/Pick_Up_4_Modernia.jpg",
   },
   {
     name: "Anne: Miracle Fairy",
+    startdate: "December 8th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/20/Pick_Up_3_Anne_Miracle_Fairy.jpg",
   },
   {
     name: "Ruppe: Winter Shopper",
+    startdate: "December 15th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/60/Pick_Up_3_Rupee_Winter_Shopper.jpg",
   },
   {
     name: "Laplace",
+    startdate: "November 22nd 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/52/Pick_Up_2_Laplace.jpg",
   },
   {
     name: "Helm",
+    startdate: "November 10th 2023",
     enddate: "May 20th 2023",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/fc/Pick_Up_1_Helm.jpg",
