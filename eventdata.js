@@ -4,7 +4,7 @@ export const pastEvents = [
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
     image: "https://i.redd.it/tcpntdsyhk5b1.jpg",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/55/Queen%27s_Order_logo.png/revision/latest/scale-to-width-down/200?cb=20230601081943",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/13/BlueWater_Island_logo.png/revision/latest/scale-to-width-down/200?cb=20230615105517",
   },
   {
     name: "Queen's Diner",
