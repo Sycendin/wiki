@@ -4,7 +4,7 @@ export const pastEvents = [
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
     image: "https://i.redd.it/tcpntdsyhk5b1.jpg",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/13/BlueWater_Island_logo.png/revision/latest/scale-to-width-down/200?cb=20230615105517",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/13/BlueWater_Island_logo.png",
   },
   {
     name: "Queen's Diner",
@@ -12,7 +12,7 @@ export const pastEvents = [
     enddate: "June 15th 2023",
     image:
       "https://www.prydwen.gg/static/d70a87a2b401d41693e9a154080d82d2/ea530/event_queen.webp",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/55/Queen%27s_Order_logo.png/revision/latest/scale-to-width-down/200?cb=20230601081943",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/55/Queen%27s_Order_logo.png",
   },
   {
     name: "Bunny X 777",
@@ -125,13 +125,18 @@ export const pickup = [
     name: "Mary Bay Goddess",
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
-    image: "https://i.redd.it/qlxweri1w35b1.jpg",
+    // image: "https://i.redd.it/qlxweri1w35b1.jpg",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/19/Pick_Up_15_Mary_Bay_Goddess.jpg",
   },
   {
     name: "Neon: blue Ocean",
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
-    image: "https://i.redd.it/ynktjpu6vh5b1.jpg",
+
+    // image: "https://i.redd.it/ynktjpu6vh5b1.jpg",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4f/Pick_Up_16_Neon_Blue_Ocean.jpg",
   },
   {
     name: "Rosanna",
