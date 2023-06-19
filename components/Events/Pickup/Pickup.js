@@ -1,9 +1,11 @@
 import { Fragment } from "react";
 import { pickup } from "../../../eventdata";
 import styles from "../../../styles/pickup.module.css";
+import HomeButton from "../../Button/HomeButton";
 const Pickup = () => {
   return (
     <Fragment>
+      <HomeButton link={"/"}></HomeButton>
       <div className={`${styles.pickupDiv}`}>
         <div className={`${styles.pickupInnerDiv}`}>
           {pickup.map((element, index) => {
@@ -27,6 +29,7 @@ const Pickup = () => {
           })}
         </div>
       </div>
+      <HomeButton link={"/"}></HomeButton>
     </Fragment>
   );
 };
