@@ -3,14 +3,16 @@ import Link from "next/link";
 import styles from "../../styles/button.module.css";
 
 const HomeButton = (link) => {
+  const onClick = () => {
+    window.location.href = "/chars";
+  };
+
   return (
     <Fragment>
       <div className={`${styles.homeButtonDiv}`}>
-        <Link href="/chars">
-          <button h className="button is-primary">
-            Go home
-          </button>
-        </Link>
+        <a href="/chars">
+          <button className="button is-primary">Go home</button>
+        </a>{" "}
       </div>
     </Fragment>
   );
