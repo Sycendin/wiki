@@ -6,8 +6,10 @@ const HomeButton = (link) => {
   return (
     <Fragment>
       <div className={`${styles.homeButtonDiv}`}>
-        <Link href={link}>
-          <button className="button is-primary">Go home</button>
+        <Link href="/chars">
+          <button h className="button is-primary">
+            Go home
+          </button>
         </Link>
       </div>
     </Fragment>
