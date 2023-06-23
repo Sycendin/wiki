@@ -5,7 +5,7 @@ import HomeButton from "../../Button/HomeButton";
 const Pickup = () => {
   return (
     <Fragment>
-      <HomeButton link={"/"}></HomeButton>
+      <HomeButton link={"/chars"}></HomeButton>
       <div className={`${styles.pickupDiv}`}>
         <div className={`${styles.pickupInnerDiv}`}>
           {pickup.map((element, index) => {
