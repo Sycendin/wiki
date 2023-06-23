@@ -11,7 +11,7 @@ const Pickup = () => {
           {pickup.map((element, index) => {
             const { name, enddate, image } = pickup[index];
             return (
-              <Fragment>
+              <Fragment key={index}>
                 <div className={`${styles.pickupRowDiv}`}>
                   <div className={`${styles.pickupImageDiv}`}>
                     <img src={image}></img>
