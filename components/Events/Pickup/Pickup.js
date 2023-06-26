@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { pickup } from "../../../eventdata";
 import styles from "../../../styles/pickup.module.css";
 import HomeButton from "../../Button/HomeButton";
+import Disqus from "../../Disqus";
 const Pickup = () => {
   return (
     <Fragment>
@@ -30,6 +31,7 @@ const Pickup = () => {
         </div>
       </div>
       <HomeButton link={"/"}></HomeButton>
+      <Disqus url={"pickup"} identifier={"pickup"} title={"pickup"} />
     </Fragment>
   );
 };
