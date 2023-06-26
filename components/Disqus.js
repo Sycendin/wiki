@@ -1,6 +1,6 @@
 import { DiscussionEmbed } from "disqus-react";
 import react from "react";
-const disqus = ({ url, identifier, title }) => {
+const Disqus = ({ url, identifier, title }) => {
   <DiscussionEmbed
     shortname="example"
     config={{
@@ -14,4 +14,4 @@ const disqus = ({ url, identifier, title }) => {
     }}
   />;
 };
-export default disqus;
+export default Disqus;
