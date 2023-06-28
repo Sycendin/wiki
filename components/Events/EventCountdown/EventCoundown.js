@@ -15,7 +15,12 @@ const EventCountDown = () => {
   return (
     <Fragment>
       <div className={`${styles.eventMainDiv} white`}>
+        <img
+          className={`${styles.eventMainImage} white`}
+          src="https://i0.wp.com/nikke.gg/wp-content/uploads/image-112.png?resize=1024%2C576&ssl=1"
+        ></img>
         <div className={`${styles.eventCountdownDiv} white`}>
+          <p className={`${styles.eventCountdownTitle} white`}>Ends in:</p>
           <span className={`${styles.eventNum} white`}>Days: {days} </span>
           <span className={`${styles.eventDiv} white`}> Hours: {hours} </span>
           <span className={`${styles.eventNum} white`}>
