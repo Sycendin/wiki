@@ -7,7 +7,7 @@ import Countdown, {
 import styles from "../../../styles/eventcountdown.module.css";
 const EventCountDown = () => {
   const [count, setCount] = useState(0);
-  const date = "2023-07-01T01:02:03";
+  const date = "2023-08-01T01:02:03";
   const { days, hours, minutes, seconds } = calcTimeDelta(date);
   useEffect(() => {
     setCount(count + 1);
@@ -15,10 +15,17 @@ const EventCountDown = () => {
   return (
     <Fragment>
       <div className={`${styles.eventMainDiv} white`}>
-        <span className={`${styles.eventNum} white`}>{days} </span>
-        <span className={`${styles.eventDiv} white`}>{hours} </span>
-        <span className={`${styles.eventNum} white`}>{minutes} </span>
-        <span className={`${styles.eventNum} white`}>{seconds} </span>
+        <div className={`${styles.eventCountdownDiv} white`}>
+          <span className={`${styles.eventNum} white`}>Days: {days} </span>
+          <span className={`${styles.eventDiv} white`}> Hours: {hours} </span>
+          <span className={`${styles.eventNum} white`}>
+            {" "}
+            Minutes: {minutes}{" "}
+          </span>
+          <span className={`${styles.eventNum} white`}>
+            Seconds: {seconds}{" "}
+          </span>
+        </div>
       </div>
       <Countdown
         date={Date.now() + 10000}
