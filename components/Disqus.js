@@ -1,17 +1,19 @@
 import { DiscussionEmbed } from "disqus-react";
 import react from "react";
 const Disqus = ({ url, identifier, title }) => {
-  <DiscussionEmbed
-    shortname="example"
-    config={{
-      // url: this.props.article.url,
-      // identifier: this.props.article.id,
-      // title: this.props.article.title,
-      url: url,
-      identifier: identifier,
-      title: title,
-      // language: "zh_TW", //e.g. for Traditional Chinese (Taiwan)
-    }}
-  />;
+  const disqusShortname = "nikkegame";
+  const disqusConfig = {
+    url: "http://localhost:3000",
+    identifier: "pickup",
+    title: "pickup",
+  };
+  return (
+    <DiscussionEmbed
+      shortname={disqusShortname}
+      config={{
+        disqusConfig,
+      }}
+    />
+  );
 };
 export default Disqus;
