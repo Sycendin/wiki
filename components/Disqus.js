@@ -1,9 +1,9 @@
 import { DiscussionEmbed } from "disqus-react";
-import react from "react";
-const Disqus = ({ url, identifier, title }) => {
+import { server } from "../../config";
+const Disqus = ({ identifier, title }) => {
   const disqusShortname = "nikkegame";
   const disqusConfig = {
-    url: "http://localhost:3000",
+    url: server,
     identifier: identifier,
     title: title,
   };
