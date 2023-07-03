@@ -3,13 +3,14 @@
  background-color: black;
 }
 .evenMainImage{
-
+width: 50%;
 }
 .eventCountdownDiv{
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 .eventCountdownTitle{
-  
+
 }
 .eventCountDiv{
   width: 50%;
