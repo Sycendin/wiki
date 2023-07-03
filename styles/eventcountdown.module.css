@@ -10,7 +10,7 @@ width: 50%;
   margin-right: auto;
 }
 .eventCountdownTitle{
-
+  font-size: calc(1rem + 4.5vw);
 }
 .eventCountDiv{
   width: 50%;
