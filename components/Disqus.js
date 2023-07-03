@@ -1,5 +1,5 @@
 import { DiscussionEmbed } from "disqus-react";
-import { server } from "../../config";
+import { server } from "../pages/config";
 const Disqus = ({ identifier, title }) => {
   const disqusShortname = "nikkegame";
   const disqusConfig = {
