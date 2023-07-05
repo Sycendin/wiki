@@ -2,15 +2,19 @@
  width: 80%;
  background-color: black;
 }
-.evenMainImage{
-width: 50%;
+
+.eventMainImage{
+width: 40%;
 }
+.PickupMainImage{
+  width: 40%;
+  }
 .eventCountdownDiv{
   margin-left: auto;
   margin-right: auto;
 }
 .eventCountdownTitle{
-  font-size: calc(1rem + 4.5vw);
+  font-size: calc(1rem + 2.5vw);
 }
 .eventCountDiv{
   width: 50%;
