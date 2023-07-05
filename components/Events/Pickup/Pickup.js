@@ -31,7 +31,7 @@ const Pickup = () => {
         </div>
       </div>
       <HomeButton link={"/"}></HomeButton>
-      <Disqus url={"pickup"} identifier={"pickup"} title={"pickup"} />
+      <Disqus identifier={"pickup"} title={"pickup"} />
     </Fragment>
   );
 };
