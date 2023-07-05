@@ -1,6 +1,7 @@
 import react, { Fragment } from "react";
 import dynamic from "next/dynamic";
 import EventCountDown from "./EventCountdown/EventCoundown";
+import PickupCountDown from "./EventCountdown/PickupCountdown";
 import PastEvents from "./PastEvents/PastEvents";
 // import Pickup from "./Pickup/Pickup";
 import styles from "../../styles/event.module.css";
@@ -9,7 +10,10 @@ const EventMain = () => {
   return (
     <Fragment>
       <div className={`${styles.eventMainDiv}`}>
-        <EventCountDown />
+        <div className={`${styles.eventPickupDiv}`}>
+          <EventCountDown />
+          <PickupCountDown />
+        </div>
         <PastEvents />
         <Pickup />
       </div>
