@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    name: "Nya Nya Paradise",
+    startdate: "July 6st 2023",
+    enddate: "July 20th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6e/Nya_Nya_Paradise_splash_2.jpg",
+    logo: "https://nikke-goddess-of-victory-international.fandom.com/wiki/Nya_Nya_Paradise",
+  },
+  {
     name: "Bluewater Island",
     startdate: "June 1st 2023",
     enddate: "June 15th 2023",
