@@ -3860,7 +3860,7 @@ export const charData = [
   },
     {
     name: "Nero",
-    art: "https://www.prydwen.gg/static/91184bdcd40eb0df1edb90d32b0aea90/60b4d/rosanna_icon.webp",
+    art: "https://www.prydwen.gg/static/c4b33d1aa2d901a271268cf109b9dcd9/60b4d/nero_icon.webp",
     hp: 252742,
     atk: 12982,
     def: 2122,
@@ -3902,6 +3902,6 @@ export const charData = [
       },
     ],
     rarity: "SSR",
-    full: "https://www.prydwen.gg/static/f4c793387b6709b51709942473d55cbe/3cd29/rosanna_full.webp",
+    full: "https://www.prydwen.gg/static/91fd6ebe3653e3ebcd3cbd03994192f8/3cd29/nero_full.webp",
   },
 ];
