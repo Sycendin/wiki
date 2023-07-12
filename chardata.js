@@ -3858,6 +3858,7 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/f4c793387b6709b51709942473d55cbe/3cd29/rosanna_full.webp",
   },
+
   {
     name: "Nero",
     art: "https://www.prydwen.gg/static/c4b33d1aa2d901a271268cf109b9dcd9/60b4d/nero_icon.webp",
@@ -3872,6 +3873,7 @@ export const charData = [
     position: "Burst 2",
     burstCD: "20",
     role: ["Buffer", "Taunter"],
+
     skill: [
       {
         name: "Normal Attack",
