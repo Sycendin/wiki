@@ -3858,4 +3858,50 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/f4c793387b6709b51709942473d55cbe/3cd29/rosanna_full.webp",
   },
+  {
+    name: "Nero",
+    art: "https://www.prydwen.gg/static/c4b33d1aa2d901a271268cf109b9dcd9/60b4d/nero_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Happy Zoo",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Taunter"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "1.67s",
+        effect:
+          "■ Affects target enemy.##Deals 5.1% ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "On the Lam",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 120 normal attack(s). Affects self.##Concealment: Prevents self from being the target of single-target attacks for 10 sec. Loses effect when the caster takes damage.##Critical Damage ▲ 19.34% for 10 sec.##■ Activates after landing 10 normal attack(s). Affects 2 enemy units with the highest ATK.##Dispels 5 buffs. Activates 1 time per battle.",
+      },
+      {
+        name: "Capo dei Capi",
+        effect:
+          "■ Activates at the start of the battle. Affects self.##Concealment: Prevents self from being the target of single-target attacks for 5 sec. Loses effect when the caster takes damage.##■ Activates when a Nikke is out of action. Affects self.##Frenzy: ATK ▲ 22.61%, stacks up to 10 time(s) and lasts for 30 sec.##Fills Burst Gauge by 36.54%",
+        active: "Passive",
+      },
+
+      {
+        name: "Vendetta",
+        active: "40 Seconds",
+        effect:
+          "■ Affects 2 Attacker enemy unit(s).##Deals 1310.4% of ATK as damage.##■ Affects the same target(s) when in Concealment status.##Deals 561.6% of ATK as additional damage.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/91fd6ebe3653e3ebcd3cbd03994192f8/3cd29/nero_full.webp",
+  },
 ];
