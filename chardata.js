@@ -3881,26 +3881,26 @@ export const charData = [
         ammo: 300,
         reload: "1.67s",
         effect:
-          "■ Affects target enemy.##Deals 5.1% ATK as damage.##Deals 200% damage when attacking core.",
+          "■ Affects target enemy.## Deals 8.39% ATK as damage.## Deals 200% damage when attacking core.",
       },
       {
-        name: "On the Lam",
+        name: "Cat's Repayment",
         active: "Passive",
         effect:
-          "■ Activates after landing 120 normal attack(s). Affects self.##Concealment: Prevents self from being the target of single-target attacks for 10 sec. Loses effect when the caster takes damage.##Critical Damage ▲ 19.34% for 10 sec.##■ Activates after landing 10 normal attack(s). Affects 2 enemy units with the highest ATK.##Dispels 5 buffs. Activates 1 time per battle.",
+          "■ Activates when recovery takes effect. Affects the target who applied the recovery effect.##Damage Taken ▼ 14.14% for 5 sec.##■ Activates when recovery takes effect. Affects self.##Cat's Repayment: Damage Taken ▼ 8.43%, stacks up to 5 time(s) and lasts for 5 sec.",
       },
       {
-        name: "Capo dei Capi",
+        name: "Lil' Paw",
         effect:
-          "■ Activates at the start of the battle. Affects self.##Concealment: Prevents self from being the target of single-target attacks for 5 sec. Loses effect when the caster takes damage.##■ Activates when a Nikke is out of action. Affects self.##Frenzy: ATK ▲ 22.61%, stacks up to 10 time(s) and lasts for 30 sec.##Fills Burst Gauge by 36.54%",
+          "■ There is a 30% chance of activating when attacked. Affects the target.##Damage Taken ▲ 8.26% for 5 sec.##■ There is a 30% chance of activating when in Grumpy Cat status. Affects the target.##Deals 158.05% of final ATK as damage.##■ Activates when entering battle. Affects self.##Max HP ▲ 60.28% continuously.",
         active: "Passive",
       },
 
       {
-        name: "Vendetta",
-        active: "40 Seconds",
+        name: "Grumpy Cat",
+        active: "20 Seconds",
         effect:
-          "■ Affects 2 Attacker enemy unit(s).##Deals 1310.4% of ATK as damage.##■ Affects the same target(s) when in Concealment status.##Deals 561.6% of ATK as additional damage.",
+          "■ Affects 1 enemy unit(s) with the highest HP.##Deals 1104.91% of final ATK as damage.## Affects self.##Attract: Taunt all enemies for 15 sec.##■ Activates when Cat's Repayment is fully stacked. Affects self.##Grumpy Cat: HP Potency ▲ 60.08% for 15 sec.",
       },
     ],
     rarity: "SSR",
