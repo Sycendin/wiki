@@ -15,6 +15,8 @@ const EventMain = () => {
           <PickupCountDown />
         </div>
         <PastEvents />
+      </div>
+      <div className={`${styles.pickupMainDiv}`}>
         <Pickup />
       </div>
     </Fragment>
