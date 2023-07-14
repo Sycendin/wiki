@@ -32,10 +32,10 @@ const EventCountDown = () => {
           </span>
         </div>
       </div>
-      <Countdown
+      {/* <Countdown
         date={Date.now() + 10000}
         className={`${styles.eventNum} white`}
-      />
+      /> */}
     </Fragment>
   );
 };
