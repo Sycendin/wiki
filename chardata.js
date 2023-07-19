@@ -3908,18 +3908,18 @@ export const charData = [
   },
   {
     name: "Mash",
-    art: "https://www.prydwen.gg/static/c4b33d1aa2d901a271268cf109b9dcd9/60b4d/nero_icon.webp",
+    art: "https://www.prydwen.gg/static/af09bc7d110b6daea420fd5a94207a3f/60b4d/mast_icon.webp",
     hp: 252742,
     atk: 12982,
     def: 2122,
     weapon: "SMG",
-    unitClass: "Defender",
-    manufacturer: "Tetra",
-    element: "Fire",
-    squad: "Happy Zoo",
+    unitClass: "Supporter",
+    manufacturer: "Elysion",
+    element: "Electric",
+    squad: "Aegis",
     position: "Burst 2",
     burstCD: "20",
-    role: ["Buffer", "Taunter"],
+    role: ["Buffer", "Debuffer"],
 
     skill: [
       {
@@ -3951,6 +3951,6 @@ export const charData = [
       },
     ],
     rarity: "SSR",
-    full: "https://www.prydwen.gg/static/91fd6ebe3653e3ebcd3cbd03994192f8/3cd29/nero_full.webp",
+    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
   },
 ];
