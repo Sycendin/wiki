@@ -3906,4 +3906,51 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/91fd6ebe3653e3ebcd3cbd03994192f8/3cd29/nero_full.webp",
   },
+  {
+    name: "Mash",
+    art: "https://www.prydwen.gg/static/c4b33d1aa2d901a271268cf109b9dcd9/60b4d/nero_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Happy Zoo",
+    position: "Burst 2",
+    burstCD: "20",
+    role: ["Buffer", "Taunter"],
+
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "1.67s",
+        effect:
+          "■ Affects target enemy.## Deals 8.39% ATK as damage.## Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Cat's Repayment",
+        active: "Passive",
+        effect:
+          "■ Activates when recovery takes effect. Affects the target who applied the recovery effect.##Damage Taken ▼ 14.14% for 5 sec.##■ Activates when recovery takes effect. Affects self.##Cat's Repayment: Damage Taken ▼ 8.43%, stacks up to 5 time(s) and lasts for 5 sec.",
+      },
+      {
+        name: "Lil' Paw",
+        effect:
+          "■ There is a 30% chance of activating when attacked. Affects the target.##Damage Taken ▲ 8.26% for 5 sec.##■ There is a 30% chance of activating when in Grumpy Cat status. Affects the target.##Deals 158.05% of final ATK as damage.##■ Activates when entering battle. Affects self.##Max HP ▲ 60.28% continuously.",
+        active: "Passive",
+      },
+
+      {
+        name: "Grumpy Cat",
+        active: "20 Seconds",
+        effect:
+          "■ Affects 1 enemy unit(s) with the highest HP.##Deals 1104.91% of final ATK as damage.## Affects self.##Attract: Taunt all enemies for 15 sec.##■ Activates when Cat's Repayment is fully stacked. Affects self.##Grumpy Cat: HP Potency ▲ 60.08% for 15 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/91fd6ebe3653e3ebcd3cbd03994192f8/3cd29/nero_full.webp",
+  },
 ];
