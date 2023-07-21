@@ -3919,6 +3919,10 @@ export const charData = [
     squad: "Aegis",
     position: "Burst 2",
     burstCD: "20",
+    releaseDate: "July 19th, 2023",
+    vakr: "Shin Na-ri",
+    vajpn: "Ryo Hirohashi",
+    vaen: "Lisa Reimold",
     role: ["Buffer", "Debuffer"],
 
     skill: [
