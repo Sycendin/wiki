@@ -3929,29 +3929,29 @@ export const charData = [
       {
         name: "Normal Attack",
         type: "Normal",
-        ammo: 300,
-        reload: "1.67s",
+        ammo: 120,
+        reload: "1.5s",
         effect:
-          "■ Affects target enemy.## Deals 8.39% ATK as damage.## Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 8.73% ATK as damage. Deals 200% damage when attacking core.",
       },
       {
-        name: "Cat's Repayment",
+        name: "Pirate's Grit",
         active: "Passive",
         effect:
-          "■ Activates when recovery takes effect. Affects the target who applied the recovery effect.##Damage Taken ▼ 14.14% for 5 sec.##■ Activates when recovery takes effect. Affects self.##Cat's Repayment: Damage Taken ▼ 8.43%, stacks up to 5 time(s) and lasts for 5 sec.",
+          "■ Activates when crit attack hits 2 time(s). Affects the target(s).##Sea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.##■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Damage ▲ 50.94% continuously.",
       },
       {
-        name: "Lil' Paw",
+        name: "Pirate's Sight",
         effect:
-          "■ There is a 30% chance of activating when attacked. Affects the target.##Damage Taken ▲ 8.26% for 5 sec.##■ There is a 30% chance of activating when in Grumpy Cat status. Affects the target.##Deals 158.05% of final ATK as damage.##■ Activates when entering battle. Affects self.##Max HP ▲ 60.28% continuously.",
+          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Rate ▲ 23.56% for 30 sec.",
         active: "Passive",
       },
 
       {
-        name: "Grumpy Cat",
+        name: "Sail Through the Tempest!",
         active: "20 Seconds",
         effect:
-          "■ Affects 1 enemy unit(s) with the highest HP.##Deals 1104.91% of final ATK as damage.## Affects self.##Attract: Taunt all enemies for 15 sec.##■ Activates when Cat's Repayment is fully stacked. Affects self.##Grumpy Cat: HP Potency ▲ 60.08% for 15 sec.",
+          "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).##Max HP ▲ 60.34% of the caster's Max HP without restoring HP, lasts for 7 sec.##Critical Damage ▲ 25.19% for 7 sec.##■ Affects the target(s) afflicted with Sea Breeze.##Storm: Deals 4.52% of final ATK as damage. Duplicate stacks count of Sea Breeze every 1 sec for 7sec.",
       },
     ],
     rarity: "SSR",
