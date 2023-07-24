@@ -1,11 +1,11 @@
 export const pastEvents = [
   {
     name: "Golden Ship",
-    startdate: "July 6st 2023",
-    enddate: "July 20th 2023",
+    startdate: "July 20st 2023",
+    enddate: "August 3rd 2023",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6e/Nya_Nya_Paradise_splash_2.jpg",
-    logo: "https://nikke-goddess-of-victory-international.fandom.com/wiki/Nya_Nya_Paradise",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Golden_Ship_splash_2.jpg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Golden_Ship_logo.png",
   },
   {
     name: "Nya Nya Paradise",
