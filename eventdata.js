@@ -135,7 +135,12 @@ export const pastEvents = [
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d7/No_Caller_ID_logo.png",
   },
 ];
-
+export const passes = [
+  {
+    name: "",
+    image: "",
+  },
+];
 export const pickup = [
   {
     name: "Mast",
