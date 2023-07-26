@@ -137,8 +137,12 @@ export const pastEvents = [
 ];
 export const passes = [
   {
-    name: "",
-    image: "",
+    name: "Mission Pass 08",
+    startDate: "",
+    endDate: "",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ed/Sea_of_SlothS.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Mission_Pass_Season_09_banner.png",
   },
 ];
 export const pickup = [
