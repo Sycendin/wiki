@@ -144,6 +144,13 @@ export const passes = [
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Mission_Pass_Season_09_banner.png",
   },
+  {
+    name: "Mission Pass 07",
+    startDate: "",
+    endDate: "",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png"
 ];
 export const pickup = [
   {
