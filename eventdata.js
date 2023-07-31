@@ -135,6 +135,20 @@ export const pastEvents = [
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d7/No_Caller_ID_logo.png",
   },
 ];
+export const recurringEvents = [
+  {
+    name: "Coop",
+    duration: "",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Event_Banner_Co-Op_Battle.png",
+  },
+  {
+    name: "Full Burst Day",
+    duration: "",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Event_Banner_Full_Burst_Day.png",
+  },
+];
 export const passes = [
   {
     name: "Mission Pass 08",
