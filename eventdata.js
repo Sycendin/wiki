@@ -150,55 +150,55 @@ export const passes = [
     endDate: "",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Toxic_RabbitS.png",
   },
   {
     name: "Mission Pass 06",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f3/Cherry_Blossom_StageS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b4/Mission_Pass_Season_06_banner.png",
   },
   {
     name: "Mission Pass 05",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Dark_RoseS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cf/Mission_Pass_Season_05_banner.png",
   },
   {
     name: "Mission Pass 04",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/95/Dramatic_ChocolateS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/15/Mission_Pass_Season_04_banner.png",
   },
   {
     name: "Mission Pass 03",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c6/Hard-BoiledS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/15/Mission_Pass_Season_03_banner.png",
   },
   {
     name: "Mission Pass 02",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/eb/Mission_Pass_Season_02_banner.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4d/Mechanic_WhiteS.png",
   },
   {
     name: "Mission Pass 01",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/5d/Black_SundayS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/10/Mission_Pass_Season_01_banner.png",
   },
 ];
 export const pickup = [
