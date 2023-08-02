@@ -7,6 +7,7 @@ export const pastEvents = [
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Golden_Ship_splash_2.jpg",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Golden_Ship_logo.png",
   },
+  // "https://www.prydwen.gg/static/0a624933d3e7bb467be682861d987f0a/ea530/event_golden.webp"
   {
     name: "Nya Nya Paradise",
     startdate: "July 6st 2023",
