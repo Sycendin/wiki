@@ -3957,4 +3957,157 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
   },
+  {
+    name: "Aqua Marine Helm",
+    art: "https://www.prydwen.gg/static/af09bc7d110b6daea420fd5a94207a3f/60b4d/mast_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Supporter",
+    manufacturer: "Elysion",
+    element: "Electric",
+    squad: "Aegis",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "July 19th, 2023",
+    vakr: "Shin Na-ri",
+    vajpn: "Ryo Hirohashi",
+    vaen: "Lisa Reimold",
+    role: ["Buffer", "Debuffer"],
+
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect:
+          "■ Affects target enemy.##Deals 8.73% ATK as damage. Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Pirate's Grit",
+        active: "Passive",
+        effect:
+          "■ Activates when crit attack hits 2 time(s). Affects the target(s).##Sea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.##■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Damage ▲ 50.94% continuously.",
+      },
+      {
+        name: "Pirate's Sight",
+        effect:
+          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Rate ▲ 23.56% for 30 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Sail Through the Tempest!",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).##Max HP ▲ 60.34% of the caster's Max HP without restoring HP, lasts for 7 sec.##Critical Damage ▲ 25.19% for 7 sec.##■ Affects the target(s) afflicted with Sea Breeze.##Storm: Deals 4.52% of final ATK as damage. Duplicate stacks count of Sea Breeze every 1 sec for 7sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+  },
+  {
+    name: "Sparkling Summer Anis",
+    art: "https://www.prydwen.gg/static/af09bc7d110b6daea420fd5a94207a3f/60b4d/mast_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Supporter",
+    manufacturer: "Elysion",
+    element: "Electric",
+    squad: "Aegis",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "July 19th, 2023",
+    vakr: "Shin Na-ri",
+    vajpn: "Ryo Hirohashi",
+    vaen: "Lisa Reimold",
+    role: ["Buffer", "Debuffer"],
+
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect:
+          "■ Affects target enemy.##Deals 8.73% ATK as damage. Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Pirate's Grit",
+        active: "Passive",
+        effect:
+          "■ Activates when crit attack hits 2 time(s). Affects the target(s).##Sea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.##■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Damage ▲ 50.94% continuously.",
+      },
+      {
+        name: "Pirate's Sight",
+        effect:
+          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Rate ▲ 23.56% for 30 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Sail Through the Tempest!",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).##Max HP ▲ 60.34% of the caster's Max HP without restoring HP, lasts for 7 sec.##Critical Damage ▲ 25.19% for 7 sec.##■ Affects the target(s) afflicted with Sea Breeze.##Storm: Deals 4.52% of final ATK as damage. Duplicate stacks count of Sea Breeze every 1 sec for 7sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+  },
+  {
+    name: "Anchor",
+    art: "https://www.prydwen.gg/static/af09bc7d110b6daea420fd5a94207a3f/60b4d/mast_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Supporter",
+    manufacturer: "Elysion",
+    element: "Electric",
+    squad: "Aegis",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "July 19th, 2023",
+    vakr: "Shin Na-ri",
+    vajpn: "Ryo Hirohashi",
+    vaen: "Lisa Reimold",
+    role: ["Buffer", "Debuffer"],
+
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "1.5s",
+        effect:
+          "■ Affects target enemy.##Deals 8.73% ATK as damage. Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Pirate's Grit",
+        active: "Passive",
+        effect:
+          "■ Activates when crit attack hits 2 time(s). Affects the target(s).##Sea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.##■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Damage ▲ 50.94% continuously.",
+      },
+      {
+        name: "Pirate's Sight",
+        effect:
+          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Rate ▲ 23.56% for 30 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Sail Through the Tempest!",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).##Max HP ▲ 60.34% of the caster's Max HP without restoring HP, lasts for 7 sec.##Critical Damage ▲ 25.19% for 7 sec.##■ Affects the target(s) afflicted with Sea Breeze.##Storm: Deals 4.52% of final ATK as damage. Duplicate stacks count of Sea Breeze every 1 sec for 7sec.",
+      },
+    ],
+    rarity: "SR",
+    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+  },
 ];
