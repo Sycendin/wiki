@@ -148,6 +148,18 @@ export const recurringEvents = [
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Event_Banner_Full_Burst_Day.png",
   },
+  {
+    name: "Solo Raid",
+    duration: "",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Event_Banner_Full_Burst_Day.png",
+  },
+  {
+    name: "Union Raid",
+    duration: "",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Event_Banner_Full_Burst_Day.png",
+  },
 ];
 export const passes = [
   {
