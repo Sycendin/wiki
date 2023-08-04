@@ -3959,50 +3959,50 @@ export const charData = [
   },
   {
     name: "Aqua Marine Helm",
-    art: "https://www.prydwen.gg/static/af09bc7d110b6daea420fd5a94207a3f/60b4d/mast_icon.webp",
+    art: "https://www.prydwen.gg/static/0a4558a82257c013750e508866b5da83/60b4d/shelmi_icon.webp",
     hp: 252742,
     atk: 12982,
     def: 2122,
-    weapon: "SMG",
-    unitClass: "Supporter",
+    weapon: "Assault Rifle",
+    unitClass: "Attacker",
     manufacturer: "Elysion",
-    element: "Electric",
+    element: "Iron",
     squad: "Aegis",
     position: "Burst 2",
     burstCD: "20",
-    releaseDate: "July 19th, 2023",
-    vakr: "Shin Na-ri",
-    vajpn: "Ryo Hirohashi",
-    vaen: "Lisa Reimold",
+    releaseDate: "August 10th, 2023",
+    vakr: "Sa Moon-young",
+    vajpn: "Marina Inoue",
+    vaen: "Elizabeth Simmons",
     role: ["Buffer", "Debuffer"],
 
     skill: [
       {
         name: "Normal Attack",
         type: "Normal",
-        ammo: 120,
-        reload: "1.5s",
+        ammo: 60,
+        reload: "1s",
         effect:
-          "■ Affects target enemy.##Deals 8.73% ATK as damage. Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals x% ATK as damage.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Pirate's Grit",
+        name: "Admire Accompaniment",
         active: "Passive",
         effect:
-          "■ Activates when crit attack hits 2 time(s). Affects the target(s).##Sea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.##■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Damage ▲ 50.94% continuously.",
+          "■ Activates after landing 30 normal attack(s). Affects the target.##Deals 131.34% of final ATK as additional damage.## ■ Activates when entering Full Burst. Affects all allies.##Effect changes according to the number of activation time(s). Previous effects triggers repeatedly.##Once: Burst Skill cooldown ▼ 1.82 sec.##Twice: Burst Skill cooldown ▼ 2.2 sec.##Three times: Burst Skill cooldown ▼ 2.6 sec.",
       },
       {
-        name: "Pirate's Sight",
+        name: "Aegis Cannon Suppression Fire",
         effect:
-          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Rate ▲ 23.56% for 30 sec.",
-        active: "Passive",
+          "■ Affects 1 enemy unit randomly.##Deals 105.82% of final ATK as damage.##■ Affects the same target when they belong to Electric Code##Damage Taken ▲ 5.64%, stacks up to 5 times and lasts for 5 sec.",
+        active: "4 Seconds",
       },
 
       {
-        name: "Sail Through the Tempest!",
+        name: "Aegis Cannon Overload",
         active: "20 Seconds",
         effect:
-          "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).##Max HP ▲ 60.34% of the caster's Max HP without restoring HP, lasts for 7 sec.##Critical Damage ▲ 25.19% for 7 sec.##■ Affects the target(s) afflicted with Sea Breeze.##Storm: Deals 4.52% of final ATK as damage. Duplicate stacks count of Sea Breeze every 1 sec for 7sec.",
+          "■ Affects all enemies.##Deals 164.73% of final ATK as damage.##■ Affects the same target(s) when they belong to Electric Code.##Deals 164.73% of final ATK as additional damage.",
       },
     ],
     rarity: "SSR",
