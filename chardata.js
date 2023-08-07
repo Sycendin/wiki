@@ -4107,8 +4107,6 @@ export const charData = [
       },
     ],
     rarity: "SR",
-    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+    full: "// https://www.prydwen.gg/static/5bcfaad7625fb08ba4320cbbae2f4772/3cd29/anchor_full.webp",
   },
 ];
-
-// https://www.prydwen.gg/static/5bcfaad7625fb08ba4320cbbae2f4772/3cd29/anchor_full.webp
