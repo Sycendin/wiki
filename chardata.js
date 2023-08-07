@@ -4081,33 +4081,34 @@ export const charData = [
     skill: [
       {
         name: "Normal Attack",
-        type: "Normal",
-        ammo: 120,
-        reload: "1.5s",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
         effect:
-          "■ Affects target enemy.##Deals 8.73% ATK as damage. Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Pirate's Grit",
+        name: "GS",
         active: "Passive",
         effect:
-          "■ Activates when crit attack hits 2 time(s). Affects the target(s).##Sea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.##■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Damage ▲ 50.94% continuously.",
+          "■ Activates when the last bullet hits the target. Affects the target.##Taunt for 5 sec.##■ Activates when the last bullet hits the target. Affects self.##DEF ▲ 23.82% for 5 sec.",
       },
       {
-        name: "Pirate's Sight",
+        name: "MDS",
         effect:
-          "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).##Critical Rate ▲ 23.56% for 30 sec.",
+          "■ Activates when entering battle. Affects self.##When attacking an enemy projectile, damage dealt to that projectile ▲ 25.6% continuously.",
         active: "Passive",
       },
 
       {
-        name: "Sail Through the Tempest!",
+        name: "CIWS",
         active: "20 Seconds",
-        effect:
-          "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).##Max HP ▲ 60.34% of the caster's Max HP without restoring HP, lasts for 7 sec.##Critical Damage ▲ 25.19% for 7 sec.##■ Affects the target(s) afflicted with Sea Breeze.##Storm: Deals 4.52% of final ATK as damage. Duplicate stacks count of Sea Breeze every 1 sec for 7sec.",
+        effect: "■ Affects all enemies.##Deal 304.45% of final ATK as damage.",
       },
     ],
     rarity: "SR",
     full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
   },
 ];
+
+// https://www.prydwen.gg/static/5bcfaad7625fb08ba4320cbbae2f4772/3cd29/anchor_full.webp
