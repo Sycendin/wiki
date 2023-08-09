@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    name: "Sea You Again",
+    startdate: "July 20st 2023",
+    enddate: "August 3rd 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Golden_Ship_splash_2.jpg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Golden_Ship_logo.png",
+  },
+  {
     name: "Golden Ship",
     startdate: "July 20st 2023",
     enddate: "August 3rd 2023",
