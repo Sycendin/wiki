@@ -1,11 +1,11 @@
 export const pastEvents = [
   {
     name: "Sea You Again",
-    startdate: "July 20st 2023",
-    enddate: "August 3rd 2023",
+    startdate: "August 3rd 2023",
+    enddate: "August 17th 2023",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Golden_Ship_splash_2.jpg",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Golden_Ship_logo.png",
+      "https://www.prydwen.gg/static/1fd569bdec2b5246c63c15f1786371fc/ea530/event_sea.webp",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0d/Sea%2C_You%2C_Again_logo.png",
   },
   {
     name: "Golden Ship",
