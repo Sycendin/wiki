@@ -172,7 +172,15 @@ export const recurringEvents = [
 ];
 export const passes = [
   {
-    name: "Mission Pass 08",
+    name: "Mission Pass 10",
+    startDate: "",
+    endDate: "",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/06/Sunrise_MarketS.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/48/Mission_Pass_Season_10_banner.png",
+  },
+  {
+    name: "Mission Pass 09",
     startDate: "",
     endDate: "",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ed/Sea_of_SlothS.png",
@@ -183,23 +191,15 @@ export const passes = [
     name: "Mission Pass 08",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ed/Sea_of_SlothS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Mission_Pass_Season_09_banner.png",
-  },
-  {
-    name: "Mission Pass 08",
-    startDate: "",
-    endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ed/Sea_of_SlothS.png",
-    image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Mission_Pass_Season_09_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
   },
   {
     name: "Mission Pass 07",
     startDate: "",
     endDate: "",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Toxic_RabbitS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Toxic_RabbitS.png",
   },
@@ -243,6 +243,7 @@ export const passes = [
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4d/Mechanic_WhiteS.png",
   },
+
   {
     name: "Mission Pass 01",
     startDate: "",
