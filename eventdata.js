@@ -263,6 +263,22 @@ export const pickup = [
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/Pick_Up_17_Nero.jpg",
   },
   {
+    name: "Mast",
+    startdate: "July 19th 2023",
+    enddate: "July 20th 2023",
+    // image: "https://i.redd.it/qlxweri1w35b1.jpg",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/Pick_Up_17_Nero.jpg",
+  },
+  {
+    name: "Mast",
+    startdate: "July 19th 2023",
+    enddate: "July 20th 2023",
+    // image: "https://i.redd.it/qlxweri1w35b1.jpg",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/Pick_Up_17_Nero.jpg",
+  },
+  {
     name: "Nero",
     startdate: "July 6th 2023",
     enddate: "July 20th 2023",
