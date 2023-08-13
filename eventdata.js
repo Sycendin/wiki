@@ -263,12 +263,12 @@ export const pickup = [
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/Pick_Up_17_Nero.jpg",
   },
   {
-    name: "Mast",
-    startdate: "July 19th 2023",
-    enddate: "July 20th 2023",
+    name: "Anis: Sparkling Summer",
+    startdate: "August 3rd 2023",
+    enddate: "August 24th 2023",
     // image: "https://i.redd.it/qlxweri1w35b1.jpg",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/Pick_Up_17_Nero.jpg",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/23/Pick_Up_19_Anis_Sparkling_Summer.jpg",
   },
   {
     name: "Mast",
