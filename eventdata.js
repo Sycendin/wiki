@@ -255,12 +255,12 @@ export const passes = [
 ];
 export const pickup = [
   {
-    name: "Mast",
-    startdate: "July 19th 2023",
-    enddate: "July 20th 2023",
+    name: "Helm: Aquamarine",
+    startdate: "August 10th 2023",
+    enddate: "August 31st 2023",
     // image: "https://i.redd.it/qlxweri1w35b1.jpg",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/Pick_Up_17_Nero.jpg",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d0/Pick_Up_20_Helm_Aquamarine.jpg",
   },
   {
     name: "Anis: Sparkling Summer",
