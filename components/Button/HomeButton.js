@@ -2,7 +2,7 @@ import react, { Fragment } from "react";
 import Link from "next/link";
 import styles from "../../styles/button.module.css";
 
-const HomeButton = (link) => {
+const HomeButton = (link, text) => {
   // const onClick = () => {
   //   window.location.href = "/chars";
   // };
@@ -11,7 +11,9 @@ const HomeButton = (link) => {
     <Fragment>
       <div className={`${styles.homeButtonDiv}`}>
         <a href={link}>
-          <button className="button is-primary">Go home</button>
+          <button className="button is-primary">
+            {text ? text : "Go Home"}
+          </button>
         </a>{" "}
       </div>
     </Fragment>
