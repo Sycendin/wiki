@@ -1,12 +1,15 @@
 import { Fragment } from "react";
 import { pickup } from "../../../eventdata";
-import styles from "../../../styles/pickup.module.css";
+import styles from "../../../styles/recurr.module.css";
 import HomeButton from "../../Button/HomeButton";
 import Disqus from "../../Disqus";
 const recurringEvents = () => {
   return (
     <Fragment>
-      <HomeButton link={"/chars"}></HomeButton>
+      <div className={`${styles.HomeButtonDiv}`}>
+        <HomeButton link={"/chars"}></HomeButton>
+        <HomeButton link={"/chars"} text={"All Events"}></HomeButton>
+      </div>
       <div className={`${styles.pickupDiv}`}>
         <div className={`${styles.pickupInnerDiv}`}>
           {pickup.map((element, index) => {
