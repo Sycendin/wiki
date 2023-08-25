@@ -10,20 +10,20 @@ const recurringEvents = () => {
         <HomeButton link={"/chars"}></HomeButton>
         <HomeButton link={"/chars"} text={"All Events"}></HomeButton>
       </div>
-      <div className={`${styles.pickupDiv}`}>
-        <div className={`${styles.pickupInnerDiv}`}>
+      <div className={`${styles.recurrDiv}`}>
+        <div className={`${styles.recurrInnerDiv}`}>
           {pickup.map((element, index) => {
             const { name, enddate, image } = pickup[index];
             return (
               <Fragment key={index}>
-                <div className={`${styles.pickupRowDiv}`}>
-                  <div className={`${styles.pickupImageDiv}`}>
+                <div className={`${styles.recurrRowDiv}`}>
+                  <div className={`${styles.recurrImageDiv}`}>
                     <img src={image}></img>
                   </div>
-                  <div className={`${styles.pickupNameDiv} white`}>
+                  <div className={`${styles.recurrNameDiv} white`}>
                     <p>{name}</p>{" "}
                   </div>
-                  <div className={`${styles.pickupDateDiv} white`}>
+                  <div className={`${styles.recurrDateDiv} white`}>
                     {" "}
                     <p>{enddate}</p>
                   </div>
