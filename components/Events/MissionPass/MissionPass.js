@@ -15,4 +15,4 @@ const MissionPassList = () => {
     </Fragment>
   );
 };
-export default PastEventsList;
+export default MissionPassListList;

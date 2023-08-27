@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import EventCountDown from "./EventCountdown/EventCoundown";
 import PickupCountDown from "./EventCountdown/PickupCountdown";
 import PastEvents from "./PastEvents/PastEvents";
+import MissionPassList from "./MissionPass/MissionPass";
 // import Pickup from "./Pickup/Pickup";
 import styles from "../../styles/event.module.css";
 const EventMain = () => {
@@ -18,6 +19,9 @@ const EventMain = () => {
       </div>
       <div className={`${styles.pickupMainDiv}`}>
         <Pickup />
+      </div>
+      <div className={`${styles.pickupMainDiv}`}>
+        <MissionPassList />
       </div>
     </Fragment>
   );
