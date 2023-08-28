@@ -263,6 +263,14 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "2B",
+    startdate: "August 10th 2023",
+    enddate: "August 31st 2023",
+    // image: "https://i.redd.it/qlxweri1w35b1.jpg",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1144491744986157076/shaimcrb96kb1.png",
+  },
+  {
     name: "Helm: Aquamarine",
     startdate: "August 10th 2023",
     enddate: "August 31st 2023",
