@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    name: "It Is A Familiar And Blissful Scent",
+    startdate: "August 18th 2023",
+    enddate: "August 17th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1144492490641113128/fhrlhyby7fjb1.png",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0d/Sea%2C_You%2C_Again_logo.png",
+  },
+  {
     name: "Sea You Again",
     startdate: "August 3rd 2023",
     enddate: "August 17th 2023",
