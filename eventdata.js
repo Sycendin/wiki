@@ -263,9 +263,16 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "A2",
+    startdate: "September 8th 2023",
+    enddate: "September 28th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/75/Pick_Up_22_A2.jpg",
+  },
+  {
     name: "2B",
-    startdate: "August 10th 2023",
-    enddate: "August 31st 2023",
+    startdate: "September 1st 2023",
+    enddate: "September 28th 2023",
     // image: "https://i.redd.it/qlxweri1w35b1.jpg",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1144491744986157076/shaimcrb96kb1.png",
