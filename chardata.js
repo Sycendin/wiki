@@ -4109,4 +4109,55 @@ export const charData = [
     rarity: "SR",
     full: "// https://www.prydwen.gg/static/5bcfaad7625fb08ba4320cbbae2f4772/3cd29/anchor_full.webp",
   },
+  {
+    name: "2B",
+    art: "https://www.prydwen.gg/static/649a523a78400e80d598323c30a034e5/60b4d/b2_icon-transformed.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Defender",
+    manufacturer: "Abnormal",
+    element: "Fire",
+    squad: "YoRHA",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "September 1st, 2023",
+    vakr: "Kim Seoung-hui",
+    vajpn: "Miho Okasaki",
+    vaen: "Michelle Marie",
+    role: ["Buffer"],
+
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "0.67s",
+        effect:
+          "■ Affects target enemy.##Deals x% ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Survival",
+        active: "Passive",
+        effect:
+          "■ Activates when using Burst Skill. Affects self.##Effect changes according to the number of activation time(s). Previous effects trigger repeatedly:##Once: Max HP ▲ 10.03% continuously.##Twice: Max HP ▲ 20.06% continuously.##Three times: Max HP ▲ 57.76% continuously",
+      },
+      {
+        name: "Cluster Bomb",
+        effect:
+          "■ Activates after firing 300 time(s). Affects all enemies.##Deals 167.45% of final ATK as damage.##■ Activates when entering battle. Affects self.##ATK ▲ 6.16% of the caster's final Max HP continuously.",
+        active: "Passive",
+      },
+
+      {
+        name: "Series of Attacks",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all enemies.##Deals 2439.36% of final ATK as Distributed Damage.##■ Affects 1 enemy unit(s) with the highest Max HP.##Deals 792% of final ATK as additional damage.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+  },
 ];
