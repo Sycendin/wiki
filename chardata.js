@@ -4160,4 +4160,55 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
   },
+  {
+    name: "2B",
+    art: "https://www.prydwen.gg/static/649a523a78400e80d598323c30a034e5/60b4d/b2_icon-transformed.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Rocket Launcher",
+    unitClass: "Defender",
+    manufacturer: "Abnormal",
+    element: "Fire",
+    squad: "YoRHA",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "September 8th, 2023",
+    vakr: "Kim Seoung-hui",
+    vajpn: "Miho Okasaki",
+    vaen: "Michelle Marie",
+    role: ["Buffer"],
+
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "0.67s",
+        effect:
+          "■ Affects target enemy.##Deals x% ATK as damage.## Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Survival",
+        active: "Passive",
+        effect:
+          "■ Activates when using Burst Skill. Affects self.##Charge Damage ▲ 110.44% for 15 sec.##Explosion Radius ▲ 100.74% for 15 sec.",
+      },
+      {
+        name: "Cluster Bomb",
+        effect:
+          "■ Activates when hitting a target with Full Charge. Affects the target.##Deals 30.1% of final ATK as additional damage.##■ Activates when hitting a target with Full Charge. Affects self.##Damage to Parts ▲ 40.88% for 3 sec",
+        active: "Passive",
+      },
+
+      {
+        name: "Series of Attacks",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self.##Mode B: Own HP decreases every second while ATK and Charge Speed increase. If own HP dips below 40%, Mode B is deactivated.##Effect 1: Current HP ▼ 3.99% every 1 sec.##Effect 2: ATK ▲ 15.19%##Effect 3: Charge Speed ▲ 35.88%",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+  },
 ];
