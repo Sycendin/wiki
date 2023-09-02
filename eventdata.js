@@ -263,6 +263,15 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Pascal",
+    startdate: "September 1st 2023",
+    enddate: "September 28th 2023",
+    image: "https://i.redd.it/aq5ww8eedrkb1.jpg",
+    lowiamge:
+      "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
+  },
+
+  {
     name: "A2",
     startdate: "September 8th 2023",
     enddate: "September 28th 2023",
