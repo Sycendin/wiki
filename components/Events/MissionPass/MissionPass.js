@@ -1,6 +1,7 @@
 import react, { Fragment } from "react";
-import { pastEvents } from "../../../../eventdata";
-import { missionPasses } from "../../../../eventdata";
+import { pastEvents } from "../../../eventdata";
+
+import { missionPasses } from "../../../eventdata";
 import styles from "../../../../styles/event.module.css";
 const MissionPassList = () => {
   return (
