@@ -2,7 +2,7 @@ import react, { Fragment } from "react";
 import { pastEvents } from "../../../eventdata";
 
 import { missionPasses } from "../../../eventdata";
-import styles from "../../../../styles/event.module.css";
+import styles from "../../../styles/event.module.css";
 const MissionPassList = () => {
   return (
     <Fragment>
@@ -16,4 +16,4 @@ const MissionPassList = () => {
     </Fragment>
   );
 };
-export default MissionPassListList;
+export default MissionPassList;
