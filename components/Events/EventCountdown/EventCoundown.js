@@ -7,7 +7,7 @@ import Countdown, {
 import styles from "../../../styles/eventcountdown.module.css";
 const EventCountDown = () => {
   const [count, setCount] = useState(0);
-  const date = "2023-08-01T01:02:03";
+  const date = "2023-12-01T01:02:03";
   const { days, hours, minutes, seconds } = calcTimeDelta(date);
   useEffect(() => {
     setCount(count + 1);
