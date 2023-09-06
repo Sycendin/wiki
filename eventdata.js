@@ -178,6 +178,10 @@ export const recurringEvents = [
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Event_Banner_Full_Burst_Day.png",
   },
 ];
+export const minigames = [
+  { name: "Hacking Game", logo: "", event: "" },
+  { name: "Hacking Game", logo: "", event: "" },
+];
 export const missionPasses = [
   {
     name: "Mission Pass 11",
