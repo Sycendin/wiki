@@ -180,6 +180,14 @@ export const recurringEvents = [
 ];
 export const missionPasses = [
   {
+    name: "Mission Pass 11",
+    startDate: "",
+    endDate: "",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ef/Mission_Pass_Season_11_banner.png",
+  },
+  {
     name: "Mission Pass 10",
     startDate: "",
     endDate: "",
