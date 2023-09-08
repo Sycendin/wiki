@@ -179,11 +179,36 @@ export const recurringEvents = [
   },
 ];
 export const minigames = [
-  { name: "Hacking Game", logo: "", event: "" },
-  { name: "BBQ Master", logo: "", event: "" },
-  { name: "White Memory", logo: "", event: "" },
-  { name: "Gift Factory", logo: "", event: "" },
-  { name: "Hero Road", logo: "", event: "" },
+  {
+    name: "Hacking Game",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/BBQ_Master_logo.png",
+    event: "",
+  },
+  {
+    name: "BBQ Master",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/BBQ_Master_logo.png",
+    event: "",
+  },
+  {
+    name: "Volt Road",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/Volt_Road_logo.png",
+    event: "",
+  },
+  {
+    name: "White Memory",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a2/White_Memory_logo.png",
+    event: "",
+  },
+  {
+    name: "Gift Factory",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c2/Gift_Factory_logo.png",
+    event: "",
+  },
+  {
+    name: "Hero Road",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/14/Hero_Road_logo.png",
+    event: "",
+  },
 ];
 export const missionPasses = [
   {
