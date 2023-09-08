@@ -180,7 +180,10 @@ export const recurringEvents = [
 ];
 export const minigames = [
   { name: "Hacking Game", logo: "", event: "" },
-  { name: "Hacking Game", logo: "", event: "" },
+  { name: "BBQ Master", logo: "", event: "" },
+  { name: "White Memory", logo: "", event: "" },
+  { name: "Gift Factory", logo: "", event: "" },
+  { name: "Hero Road", logo: "", event: "" },
 ];
 export const missionPasses = [
   {
