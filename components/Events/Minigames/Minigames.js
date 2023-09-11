@@ -14,6 +14,9 @@ const Minigames = () => {
             <p key={index} className={`${styles.pasEventsText}  white`}>
               {element.event}
             </p>
+            <p key={index} className={`${styles.pasEventsText}  white`}>
+              {element.name}
+            </p>
           </Fragment>
         ))}
       </div>
