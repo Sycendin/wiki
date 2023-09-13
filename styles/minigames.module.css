@@ -1,0 +1,45 @@
+/* For code for the pickup.js component */
+.minigamesDiv{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .minigamesInnerDiv{
+  display: flex;
+  flex-direction: column;
+  }
+  .minigamesRowDiv{
+    display: flex;
+    flex-direction: row;
+  
+  
+  }
+  .minigamesImageDiv{
+    width: 50%;
+    height: auto;
+  }
+    
+  .minigamesLogoDiv{
+    width: 50%;
+    height: auto;
+  }
+  .minigamesNameDiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .minigamespDateDiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .minigamesText{
+    margin-left: auto;
+    margin-right: auto;
+  }
