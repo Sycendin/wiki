@@ -8,15 +8,20 @@ const Minigames = () => {
       <div className={`${styles.minigamesDiv}`}>
         {minigames.map((element, index) => (
           <Fragment>
-            <p key={index} className={`${styles.minigamesLogo}  white`}>
-              {element.logo}
-            </p>
-            <p key={index} className={`${styles.minigamesText}  white`}>
-              {element.event}
-            </p>
-            <p key={index} className={`${styles.minigamesText}  white`}>
-              {element.name}
-            </p>
+            <div key={index} className={`${styles.minigamesInnerDiv}  white`}>
+              <img
+                key={index}
+                src={element.logo}
+                className={`${styles.minigamesLogo}  white`}
+              ></img>
+
+              <p key={index} className={`${styles.minigamesText}  white`}>
+                {element.name}
+              </p>
+              <p key={index} className={`${styles.minigamesText}  white`}>
+                {element.event}
+              </p>
+            </div>
           </Fragment>
         ))}
       </div>

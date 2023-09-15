@@ -4,8 +4,10 @@ import EventCountDown from "./EventCountdown/EventCoundown";
 import PickupCountDown from "./EventCountdown/PickupCountdown";
 import PastEvents from "./PastEvents/PastEvents";
 import MissionPassList from "./MissionPass/MissionPass";
+import Minigames from "./Minigames/Minigames";
 // import Pickup from "./Pickup/Pickup";
 import styles from "../../styles/event.module.css";
+import { minigames } from "../../eventdata";
 const EventMain = () => {
   const Pickup = dynamic(() => import("./Pickup/Pickup"), { ssr: false });
   return (
@@ -22,6 +24,9 @@ const EventMain = () => {
       </div>
       <div className={`${styles.pickupMainDiv}`}>
         <MissionPassList />
+      </div>
+      <div className={`${styles.pickupMainDiv}`}>
+        <Minigames />
       </div>
     </Fragment>
   );
