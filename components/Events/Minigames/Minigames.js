@@ -5,16 +5,16 @@ import styles from "../../../styles/event.module.css";
 const Minigames = () => {
   return (
     <Fragment>
-      <div className={`${styles.pastEventsListDiv}`}>
+      <div className={`${styles.minigamesDiv}`}>
         {minigames.map((element, index) => (
           <Fragment>
-            <p key={index} className={`${styles.pasEventsText}  white`}>
+            <p key={index} className={`${styles.minigamesLogo}  white`}>
               {element.logo}
             </p>
-            <p key={index} className={`${styles.pasEventsText}  white`}>
+            <p key={index} className={`${styles.minigamesText}  white`}>
               {element.event}
             </p>
-            <p key={index} className={`${styles.pasEventsText}  white`}>
+            <p key={index} className={`${styles.minigamesText}  white`}>
               {element.name}
             </p>
           </Fragment>
