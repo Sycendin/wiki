@@ -182,32 +182,32 @@ export const minigames = [
   {
     name: "Hacking Game",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/BBQ_Master_logo.png",
-    event: "",
+    event: "Nier Event",
   },
   {
     name: "BBQ Master",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/BBQ_Master_logo.png",
-    event: "",
+    event: "Sea You Again",
   },
   {
     name: "Volt Road",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/Volt_Road_logo.png",
-    event: "",
+    event: "Bow-Wow Paradise",
   },
   {
     name: "White Memory",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a2/White_Memory_logo.png",
-    event: "",
+    event: "Overzone",
   },
   {
     name: "Gift Factory",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c2/Gift_Factory_logo.png",
-    event: "",
+    event: "Miracle Snow",
   },
   {
     name: "Hero Road",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/14/Hero_Road_logo.png",
-    event: "",
+    event: "Hightech Toy",
   },
 ];
 export const missionPasses = [

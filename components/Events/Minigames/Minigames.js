@@ -1,7 +1,7 @@
 import react, { Fragment } from "react";
 
 import { minigames } from "../../../eventdata";
-import styles from "../../../styles/event.module.css";
+import styles from "../../../styles/minigames.module.css";
 const Minigames = () => {
   return (
     <Fragment>
@@ -12,15 +12,20 @@ const Minigames = () => {
               <img
                 key={index}
                 src={element.logo}
-                className={`${styles.minigamesLogo}  white`}
+                className={`${styles.minigamesLogoDiv}  white`}
               ></img>
-
-              <p key={index} className={`${styles.minigamesText}  white`}>
-                {element.name}
-              </p>
-              <p key={index} className={`${styles.minigamesText}  white`}>
-                {element.event}
-              </p>
+              <div className={`${styles.space}  white`}>
+                <div className={`${styles.miniTextDiv}  white`}>
+                  <p key={index} className={`${styles.minigamesText}  white`}>
+                    {element.name}
+                  </p>
+                </div>
+                <div className={`${styles.miniTextDiv}  white`}>
+                  <p key={index} className={`${styles.minigamesText}  white`}>
+                    {element.event}
+                  </p>
+                </div>
+              </div>
             </div>
           </Fragment>
         ))}
