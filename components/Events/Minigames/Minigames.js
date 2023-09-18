@@ -8,13 +8,13 @@ const Minigames = () => {
       <div className={`${styles.minigamesDiv}`}>
         {minigames.map((element, index) => (
           <Fragment>
-            <div key={index} className={`${styles.minigamesInnerDiv}  white`}>
+            <div key={index} className={`${styles.minigamesInnerRow}  white`}>
               <img
                 key={index}
                 src={element.logo}
                 className={`${styles.minigamesLogoDiv}  white`}
               ></img>
-              <div className={`${styles.space}  white`}>
+              <div className={`${styles.MiniGameRightSideDiv}  white`}>
                 <div className={`${styles.miniTextDiv}  white`}>
                   <p key={index} className={`${styles.minigamesText}  white`}>
                     {element.name}

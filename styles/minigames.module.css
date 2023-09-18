@@ -4,33 +4,27 @@
   margin-left: auto;
   margin-right: auto;
 }
-  .minigamesInnerDiv{
+.minigamesInnerRow{
   display: flex;
   flex-direction: row;
   border: 1px solid white;
 }
-  .minigamesImageDiv{
-    width: 50%;
-    height: auto;
-    border: 3px solid red;
+.minigamesLogoDiv{
+  width: 50%;
+  height: auto;
 }
-    
-  .minigamesLogoDiv{
-    width: 50%;
-    height: auto;
+.minigamesNameDiv{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-  .minigamesNameDiv{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-  .space{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
+.MiniGameRightSideDiv{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
 
 }
 .minigamespDateDiv{
@@ -49,8 +43,8 @@
 
 }
 .minigamesText{
-    width: 50%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
