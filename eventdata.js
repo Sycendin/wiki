@@ -1,16 +1,16 @@
 export const pastEvents = [
   {
     name: "School of Lock",
-    startdate: "August 24th 2023",
-    enddate: "August 31st 2023",
+    startdate: "September 21st 2023",
+    enddate: "October 5th 2023",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1144492490641113128/fhrlhyby7fjb1.png",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/04/First_Affection_logo.png",
   },
   {
-    name: "Nier Event",
+    name: "Outer:Automata",
     startdate: "August 31st 2023",
-    enddate: "September 26th 2023",
+    enddate: "September 21st 2023",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1144492490641113128/fhrlhyby7fjb1.png",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/04/First_Affection_logo.png",
