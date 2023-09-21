@@ -5,7 +5,7 @@ export const pastEvents = [
     enddate: "October 5th 2023",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1144492490641113128/fhrlhyby7fjb1.png",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/04/First_Affection_logo.png",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b3/School_of_Lock_logo.png",
   },
   {
     name: "Outer:Automata",
@@ -13,7 +13,7 @@ export const pastEvents = [
     enddate: "September 21st 2023",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1144492490641113128/fhrlhyby7fjb1.png",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/04/First_Affection_logo.png",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/68/OuteR_Automata_logo.png",
   },
   {
     name: "It Is A Familiar And Blissful Scent",
