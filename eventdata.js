@@ -198,7 +198,7 @@ export const minigames = [
   {
     name: "Hacking Game",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/BBQ_Master_logo.png",
-    event: "Nier Event",
+    event: "Outer:Automata",
   },
   {
     name: "BBQ Master",
@@ -319,11 +319,20 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Marciana",
+    startdate: "September 21st 2023",
+    enddate: "October 5th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/80/Pick_Up_23_Marciana.jpg",
+    lowimage:
+      "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
+  },
+  {
     name: "Pascal",
     startdate: "September 1st 2023",
     enddate: "September 28th 2023",
     image: "https://i.redd.it/aq5ww8eedrkb1.jpg",
-    lowiamge:
+    lowimage:
       "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
   },
 
