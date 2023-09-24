@@ -4217,19 +4217,19 @@ export const charData = [
     hp: 252742,
     atk: 12982,
     def: 2122,
-    weapon: "Rocket Launcher",
-    unitClass: "Defender",
-    manufacturer: "Abnormal",
-    element: "Fire",
-    squad: "YoRHA",
+    weapon: "Shotgun",
+    unitClass: "Supporter",
+    manufacturer: "Elysion",
+    element: "Iron",
+    squad: "Academia",
     position: "Burst 3",
     burstCD: "40",
-    releaseDate: "September 8th, 2023",
+    releaseDate: "September 21st, 2023",
+    // not updated
     vakr: "Kim Seoung-hui",
     vajpn: "Miho Okasaki",
     vaen: "Michelle Marie",
-    role: ["Buffer"],
-
+    role: ["Buffer", "Healer"],
     skill: [
       {
         name: "Normal Attack",
@@ -4259,8 +4259,9 @@ export const charData = [
           "■ Affects self.##Mode B: Own HP decreases every second while ATK and Charge Speed increase. If own HP dips below 40%, Mode B is deactivated.##Effect 1: Current HP ▼ 3.99% every 1 sec.##Effect 2: ATK ▲ 15.19%##Effect 3: Charge Speed ▲ 35.88%",
       },
     ],
+
     rarity: "SSR",
-    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+    full: "https://www.prydwen.gg/static/6aca1ced4c998aab9f425f66e8a4751d/3cd29/marc_full.webp",
   },
   {
     name: "Naga",
