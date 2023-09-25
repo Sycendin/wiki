@@ -4235,28 +4235,28 @@ export const charData = [
         name: "Normal Attack",
         type: "Normal",
         ammo: 9,
-        reload: "0.67s",
+        reload: "1.5s",
         effect:
-          "■ Affects target enemy.##Deals x% ATK as damage.## Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 201.5% ATK as damage.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Survival",
+        name: "Drone Supporter",
         active: "Passive",
         effect:
           "■ Activates when using Burst Skill. Affects self.##Charge Damage ▲ 110.44% for 15 sec.##Explosion Radius ▲ 100.74% for 15 sec.",
       },
       {
-        name: "Cluster Bomb",
+        name: "School Nurse",
         effect:
-          "■ Activates when hitting a target with Full Charge. Affects the target.##Deals 30.1% of final ATK as additional damage.##■ Activates when hitting a target with Full Charge. Affects self.##Damage to Parts ▲ 40.88% for 3 sec",
+          "■ Activates when using Burst Skill. Affects all allies.##Recovers 28.11% of caster's final Max HP as HP.",
         active: "Passive",
       },
 
       {
-        name: "Series of Attacks",
+        name: "A Teacher's Grace",
         active: "20 Seconds",
         effect:
-          "■ Affects self.##Mode B: Own HP decreases every second while ATK and Charge Speed increase. If own HP dips below 40%, Mode B is deactivated.##Effect 1: Current HP ▼ 3.99% every 1 sec.##Effect 2: ATK ▲ 15.19%##Effect 3: Charge Speed ▲ 35.88%",
+          "■ Affects all allies.##Storage: If the target obtained a healing effect that exceeds the character's Max HP, excess portion will be stored, up to 27.87% of the caster's Max HP, lasts for 10 sec.##DEF ▲ 20.9% of the caster's DEF for 10 sec.",
       },
     ],
 
