@@ -229,8 +229,8 @@ export const minigames = [
 export const missionPasses = [
   {
     name: "Mission Pass 11",
-    startDate: "",
-    endDate: "",
+    startDate: "September 1st",
+    endDate: "September 30th",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ef/Mission_Pass_Season_11_banner.png",
