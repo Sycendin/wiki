@@ -228,6 +228,15 @@ export const minigames = [
 ];
 export const missionPasses = [
   {
+    name: "Mission Pass 12",
+    startDate: "October 1st",
+    endDate: "October 31st",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
+    image:
+      "https://www.prydwen.gg/static/6ec7faa551ef559e9a38b0885cca64f4/d689f/preview_skin_oct.webp",
+  },
+
+  {
     name: "Mission Pass 11",
     startDate: "September 1st",
     endDate: "September 30th",
