@@ -4322,10 +4322,10 @@ export const charData = [
     def: 2122,
     weapon: "Rocket Launcher",
     unitClass: "Defender",
-    manufacturer: "Abnormal",
-    element: "Fire",
-    squad: "YoRHA",
-    position: "Burst 3",
+    manufacturer: "Missilis",
+    element: "Iron",
+    squad: "Dazzling Pearl",
+    position: "Burst 1",
     burstCD: "40",
     releaseDate: "September 8th, 2023",
     vakr: "Kim Seoung-hui",
@@ -4336,33 +4336,33 @@ export const charData = [
     skill: [
       {
         name: "Normal Attack",
-        type: "Normal",
-        ammo: 9,
-        reload: "0.67s",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
         effect:
-          "■ Affects target enemy.##Deals x% ATK as damage.## Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Survival",
+        name: "Reptile Lover",
         active: "Passive",
         effect:
-          "■ Activates when using Burst Skill. Affects self.##Charge Damage ▲ 110.44% for 15 sec.##Explosion Radius ▲ 100.74% for 15 sec.",
+          "■ Activates when recovering Cover's HP. Affects self.##Cooldown of Burst Skill ▼ 13 sec, stacks up to 2 time(s) and lasts for 12 sec.##■ Activates when recovering Cover's HP. Affects all allies.##Attack damage ▲ 31.11% for 10 sec.",
       },
       {
-        name: "Cluster Bomb",
+        name: "Chameleon Invisibilit",
         effect:
-          "■ Activates when hitting a target with Full Charge. Affects the target.##Deals 30.1% of final ATK as additional damage.##■ Activates when hitting a target with Full Charge. Affects self.##Damage to Parts ▲ 40.88% for 3 sec",
+          "■ Activates after landing 5 normal attack(s). Affects self.##Cover's Max HP ▲ 32.75% of the caster's Max HP, lasts for 5 sec.##Attract: Taunt all enemies for 5 sec.##■ Activates when using Burst Skill. Affects self.##Recovery of Cover's HP ▲ 21.41% of the caster's final Max HP.##Recovers 21.96% of attack damage for 10 sec.",
         active: "Passive",
       },
 
       {
-        name: "Series of Attacks",
-        active: "20 Seconds",
+        name: "Lizard's Protection",
+        active: "40 Seconds",
         effect:
-          "■ Affects self.##Mode B: Own HP decreases every second while ATK and Charge Speed increase. If own HP dips below 40%, Mode B is deactivated.##Effect 1: Current HP ▼ 3.99% every 1 sec.##Effect 2: ATK ▲ 15.19%##Effect 3: Charge Speed ▲ 35.88%",
+          "■ Affects self.##Generates a Shield with 35.07% of the caster's final Max HP for 10 sec.##■ Affects all allies (except self).##Generates a Shield with 10.21% of the caster's final Max HP for 10 sec.##■ Affects all allies.##Re-enter Burst Skill Stage 1.",
       },
     ],
     rarity: "SSR",
-    full: "https://www.prydwen.gg/static/db8e8c8d1a9e55d29ff1c8e72897f7ca/3cd29/mast_full.webp",
+    full: "https://www.prydwen.gg/static/6862d63319c7cbda9e9294b343465a79/3cd29/tia_full.webp",
   },
 ];
