@@ -11,7 +11,7 @@ export const infoCombat = [
   "Burst Type",
 ];
 
-export const infoOther = ["Role"];
+export const infoOther = ["Role", "Release Date", "JP Va","KR VA", "EN VA"];
 
 export const skillIcons = {
   normal:
