@@ -229,8 +229,8 @@ export const minigames = [
 export const missionPasses = [
   {
     name: "Mission Pass 12",
-    startDate: "October 1st",
-    endDate: "October 31st",
+    startDate: "September 30th 2023",
+    endDate: "October 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
     image:
       "https://www.prydwen.gg/static/6ec7faa551ef559e9a38b0885cca64f4/d689f/preview_skin_oct.webp",
@@ -238,80 +238,80 @@ export const missionPasses = [
 
   {
     name: "Mission Pass 11",
-    startDate: "September 1st",
-    endDate: "September 30th",
+    startDate: "September 1st 2023",
+    endDate: "September 30th 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ef/Mission_Pass_Season_11_banner.png",
   },
   {
     name: "Mission Pass 10",
-    startDate: "",
-    endDate: "",
+    startDate: "August 1st 2023",
+    endDate: " August 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/06/Sunrise_MarketS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/48/Mission_Pass_Season_10_banner.png",
   },
   {
     name: "Mission Pass 09",
-    startDate: "",
-    endDate: "",
+    startDate: "July 1st 2023",
+    endDate: "July 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ed/Sea_of_SlothS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Mission_Pass_Season_09_banner.png",
   },
   {
     name: "Mission Pass 08",
-    startDate: "",
-    endDate: "",
+    startDate: "June 1st 2023",
+    endDate: "June 30th 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9f/Office_TherapyS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bf/Mission_Pass_Season_08_banner.png",
   },
   {
     name: "Mission Pass 07",
-    startDate: "",
-    endDate: "",
+    startDate: "May 1st 2023",
+    endDate: "May 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Toxic_RabbitS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Toxic_RabbitS.png",
   },
   {
     name: "Mission Pass 06",
-    startDate: "",
-    endDate: "",
+    startDate: "April 1st 2023",
+    endDate: "April 30th 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f3/Cherry_Blossom_StageS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b4/Mission_Pass_Season_06_banner.png",
   },
   {
     name: "Mission Pass 05",
-    startDate: "",
-    endDate: "",
+    startDate: "March 1st 2023",
+    endDate: "March 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Dark_RoseS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cf/Mission_Pass_Season_05_banner.png",
   },
   {
     name: "Mission Pass 04",
-    startDate: "",
-    endDate: "",
+    startDate: "February 1st 2023",
+    endDate: "February 28th 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/95/Dramatic_ChocolateS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/15/Mission_Pass_Season_04_banner.png",
   },
   {
     name: "Mission Pass 03",
-    startDate: "",
-    endDate: "",
+    startDate: "January 1st 2023",
+    endDate: "January 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c6/Hard-BoiledS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/15/Mission_Pass_Season_03_banner.png",
   },
   {
     name: "Mission Pass 02",
-    startDate: "",
-    endDate: "",
+    startDate: "December 1st 2022",
+    endDate: "December 31st 2022",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/eb/Mission_Pass_Season_02_banner.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4d/Mechanic_WhiteS.png",
@@ -319,8 +319,8 @@ export const missionPasses = [
 
   {
     name: "Mission Pass 01",
-    startDate: "",
-    endDate: "",
+    startDate: "November 4th 2022",
+    endDate: "Novemeber 30th 2022",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/5d/Black_SundayS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/10/Mission_Pass_Season_01_banner.png",
