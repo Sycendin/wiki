@@ -328,6 +328,24 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Tia",
+    startdate: "September 21st 2023",
+    enddate: "October 5th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158253426346561627/F7UMtmwXsAAf6FF.png?ex=651b9310&is=651a4190&hm=06fd04e462823b1487b1112e4c19c8c5bb0ea3685eeab5859c875d7dcf1d5696&",
+    lowimage:
+      "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
+  },
+  {
+    name: "Naga",
+    startdate: "September 21st 2023",
+    enddate: "October 5th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158253400371240970/F7PDIZRXsAAYx8R.png?ex=651b9309&is=651a4189&hm=43ce1256e88666ccd08a237602923a63308cd53ab1809c66069bf5cd52242b34&",
+    lowimage:
+      "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
+  },
+  {
     name: "Marciana",
     startdate: "September 21st 2023",
     enddate: "October 5th 2023",
