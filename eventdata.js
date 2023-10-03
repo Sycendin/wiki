@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    name: "Dazzling Cupid",
+    startdate: "October 5th 2023",
+    enddate: "October 19th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158616256539267132/F7aa_LKX0AAX2d5.png?ex=651ce4f9&is=651b9379&hm=10fc30b0433522a4c31dda19820b2b675458547f35d1f8a4a3fb9f9315cdea24&",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b3/School_of_Lock_logo.png",
+  },
+  {
     name: "School of Lock",
     startdate: "September 21st 2023",
     enddate: "October 5th 2023",
