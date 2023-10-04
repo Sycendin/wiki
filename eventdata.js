@@ -1,3 +1,38 @@
+export const otherEvents = [
+  {
+    name: "Autumn Picnic",
+    startdate: "October 5th 2023",
+    enddate: "October 19th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158990718992400434/F7etn9PXkAAAOtO.png?ex=651e41b8&is=651cf038&hm=02584d240fcc81fccd11603e711b1acc627ae5e648edc9aadcd5b99be064ec5a&",
+  },
+];
+export const LoginEvents = [
+  {
+    name: "Dazzling Cupid",
+    startdate: "October 5th 2023",
+    enddate: "October 19th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158990805697044480/F7ZkCeBW0AAILCQ.png?ex=651e41cd&is=651cf04d&hm=5ffced67cae14e1fd5a973798d5a235d7627683f8460ea898ddc3f9c9533f9cc&",
+    event: "Dazzling Cupids",
+  },
+  {
+    name: "Memories of:Automata",
+    startdate: "September 1st 2023",
+    enddate: "Septemeber 28th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158990805697044480/F7ZkCeBW0AAILCQ.png?ex=651e41cd&is=651cf04d&hm=5ffced67cae14e1fd5a973798d5a235d7627683f8460ea898ddc3f9c9533f9cc&",
+    event: "OuteR:AutoMata",
+  },
+  {
+    name: "Dazzling Cupid",
+    startdate: "August 24th 2023",
+    enddate: "September 4th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1158992082506108958/F4Ga25jXYAA_tWC.png?ex=651e42fd&is=651cf17d&hm=ac6f98d635228c50a830495847164ec3db169223fdfcf39552e1f03c67f951a8&",
+    event: "Dazzling Cupids",
+  },
+];
 export const pastEvents = [
   {
     name: "Dazzling Cupid",
