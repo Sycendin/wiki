@@ -32,6 +32,14 @@ export const skins = [
       skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/2a/Mast_%28A_Pirate%27s_Heart%29_FB.png",
     },
   ],
+  [
+    "White Promise",
+    {
+      name: "Rapi",
+      skinName: "White Promise",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dd/Rapi_%28White_Promise%29_FB.png",
+    },
+  ],
 ];
 export const otherEvents = [
   {
