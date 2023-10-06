@@ -1,3 +1,38 @@
+export const skins = [
+  [
+    "Summer Business",
+    {
+      name: "Liter",
+      skinName: "Guardian",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/50/Liter_%28Guardfish%29_FB.png",
+    },
+    {
+      name: "Frima",
+      skinName: "Sea of Sloth",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
+    },
+    {
+      name: "Yan",
+      skinName: "Sunrise Market",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
+    },
+    {
+      name: "Pepper",
+      skinName: "Ocean Vitamin",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/53/Pepper_%28Ocean_Vitamin%29_FB.png",
+    },
+    {
+      name: "Rapi",
+      skinName: "Classic Vacation",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Rapi_%28Classic_Vacation%29_FB.png",
+    },
+    {
+      name: "Mast",
+      skinName: "A Pirate's Heart",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/2a/Mast_%28A_Pirate%27s_Heart%29_FB.png",
+    },
+  ],
+];
 export const otherEvents = [
   {
     name: "Autumn Picnic",
