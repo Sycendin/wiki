@@ -40,6 +40,44 @@ export const skins = [
       skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dd/Rapi_%28White_Promise%29_FB.png",
     },
   ],
+  [
+    "Mission Pass",
+    {
+      name: "MaxWell",
+      skinName: "Mechanic White",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Maxwell_%28Mechanic_White%29_FB.png",
+    },
+    {
+      name: "Emma",
+      skinName: "Office Therapy",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+    },
+    {
+      name: "Brid",
+      skinName: "Black Moon",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
+    },
+    {
+      name: "Diesel",
+      skinName: "Black Sunday",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Diesel_%28Black_Sunday%29_FB.png",
+    },
+    {
+      name: "Sugar",
+      skinName: "Hard-Boiled",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png",
+    },
+    {
+      name: "Signal",
+      skinName: "Dramatic Chocolate",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0f/Signal_%28Dramatic_Chocolate%29_FB.png",
+    },
+    {
+      name: "Dolla",
+      skinName: "Dark Rose",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
+    },
+  ],
 ];
 export const otherEvents = [
   {
