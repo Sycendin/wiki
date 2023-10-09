@@ -104,6 +104,15 @@ export const skins = [
       skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
     },
   ],
+  [
+    "Queen's Diner",
+    {
+      name: "Sakura",
+      skinName: "Midnight Stealh",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/54/Sakura_%28Midnight_Stealth%29_FB.png",
+      event: "Queen's Diner",
+    },
+  ],
 ];
 export const otherEvents = [
   {
