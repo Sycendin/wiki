@@ -43,24 +43,14 @@ export const skins = [
   [
     "Mission Pass",
     {
-      name: "MaxWell",
-      skinName: "Mechanic White",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Maxwell_%28Mechanic_White%29_FB.png",
-    },
-    {
-      name: "Emma",
-      skinName: "Office Therapy",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
-    },
-    {
-      name: "Brid",
-      skinName: "Black Moon",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
-    },
-    {
       name: "Diesel",
       skinName: "Black Sunday",
       skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Diesel_%28Black_Sunday%29_FB.png",
+    },
+    {
+      name: "Maxwell",
+      skinName: "Mechanic White",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Maxwell_%28Mechanic_White%29_FB.png",
     },
     {
       name: "Sugar",
@@ -76,6 +66,42 @@ export const skins = [
       name: "Dolla",
       skinName: "Dark Rose",
       skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
+    },
+    {
+      name: "Noise",
+      skinName: "Cherry Blossom Stage",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+    },
+    {
+      name: "Viper",
+      skinName: "Toxic Rabbit",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
+    },
+    {
+      name: "Emma",
+      skinName: "Office Therapy",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+    },
+    {
+      name: "Frima",
+      skinName: "Office Therapy",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
+    },
+    {
+      name: "Yan",
+      skinName: "Office Therapy",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
+    },
+    {
+      name: "Novel",
+      skinName: "Peguin Holmes",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Novel_%28Penguin_Holmes%29_FB.png/revision/latest/scale-to-width-down/86?cb=20230414112152",
+    },
+
+    {
+      name: "Brid",
+      skinName: "Black Moon",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
     },
   ],
 ];
