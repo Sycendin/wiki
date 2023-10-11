@@ -128,6 +128,33 @@ export const skins = [
       event: "Snow Crystal",
     },
   ],
+  [
+    "Sunrise Party",
+    {
+      name: "Julia",
+      skinName: "Mild Nocturne",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/62/Julia_%28Mild_Nocturne%29_FB.png",
+      event: "Sunrise Party",
+    },
+    {
+      name: "Sunrise Party",
+      skinName: "Hard-Boiled",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png/",
+      event: "Sunrise Party",
+    },
+    {
+      name: "Helm",
+      skinName: "Chandelier",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6f/Helm_%28Chandelier%29_FB.png",
+      event: "Sunrise Party",
+    },
+    {
+      name: "Dolla",
+      skinName: "Dark Rose",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
+      event: "Sunrise Party",
+    },
+  ],
 ];
 export const otherEvents = [
   {
