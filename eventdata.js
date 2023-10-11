@@ -113,6 +113,21 @@ export const skins = [
       event: "Queen's Diner",
     },
   ],
+  [
+    "Snow Crystal",
+    {
+      name: "Emma",
+      skinName: "Color Me Red",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/46/Emma_%28Color_Me_Red%29_FB.png",
+      event: "Snow Crystal",
+    },
+    {
+      name: "Exia",
+      skinName: "Joy to the Nerds",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/40/Exia_%28Joy_to_the_Nerds%29_FB.png",
+      event: "Snow Crystal",
+    },
+  ],
 ];
 export const otherEvents = [
   {
