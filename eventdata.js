@@ -170,6 +170,15 @@ export const skins = [
       event: "Bunny Kiss",
     },
   ],
+  [
+    "Engine of Dreams",
+    {
+      name: "Drake",
+      skinName: "Villian Racer",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Drake_%28Villain_Racer%29_FB.png",
+      event: "Bunny Kiss",
+    },
+  ],
 ];
 export const otherEvents = [
   {
