@@ -155,6 +155,21 @@ export const skins = [
       event: "Sunrise Party",
     },
   ],
+  [
+    "Bunny Kiss",
+    {
+      name: "Viper",
+      skinName: "Toxic Rabbit",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
+      event: "Bunny Kiss",
+    },
+    {
+      name: "Rupee",
+      skinName: "Rabbit Deluxe",
+      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c9/Rupee_%28Rabbit_Deluxe%29_FB.png",
+      event: "Bunny Kiss",
+    },
+  ],
 ];
 export const otherEvents = [
   {
