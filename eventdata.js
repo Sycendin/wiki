@@ -1,183 +1,194 @@
 export const skins = [
   [
     "Summer Business",
-    {
-      name: "Liter",
-      skinName: "Guardian",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/50/Liter_%28Guardfish%29_FB.png",
-    },
-    {
-      name: "Frima",
-      skinName: "Sea of Sloth",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
-    },
-    {
-      name: "Yan",
-      skinName: "Sunrise Market",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
-    },
-    {
-      name: "Pepper",
-      skinName: "Ocean Vitamin",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/53/Pepper_%28Ocean_Vitamin%29_FB.png",
-    },
-    {
-      name: "Rapi",
-      skinName: "Classic Vacation",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Rapi_%28Classic_Vacation%29_FB.png",
-    },
-    {
-      name: "Mast",
-      skinName: "A Pirate's Heart",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/2a/Mast_%28A_Pirate%27s_Heart%29_FB.png",
-    },
+    [
+      {
+        name: "Liter",
+        skinName: "Guardian",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/50/Liter_%28Guardfish%29_FB.png",
+      },
+      {
+        name: "Frima",
+        skinName: "Sea of Sloth",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
+      },
+      {
+        name: "Yan",
+        skinName: "Sunrise Market",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
+      },
+      {
+        name: "Pepper",
+        skinName: "Ocean Vitamin",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/53/Pepper_%28Ocean_Vitamin%29_FB.png",
+      },
+      {
+        name: "Rapi",
+        skinName: "Classic Vacation",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/e1/Rapi_%28Classic_Vacation%29_FB.png",
+      },
+      {
+        name: "Mast",
+        skinName: "A Pirate's Heart",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/2a/Mast_%28A_Pirate%27s_Heart%29_FB.png",
+      },
+    ],
   ],
   [
     "White Promise",
-    {
-      name: "Rapi",
-      skinName: "White Promise",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dd/Rapi_%28White_Promise%29_FB.png",
-    },
-  ],
-  [
-    "Mission Pass",
-    {
-      name: "Diesel",
-      skinName: "Black Sunday",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Diesel_%28Black_Sunday%29_FB.png",
-    },
-    {
-      name: "Maxwell",
-      skinName: "Mechanic White",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Maxwell_%28Mechanic_White%29_FB.png",
-    },
-    {
-      name: "Sugar",
-      skinName: "Hard-Boiled",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png",
-    },
-    {
-      name: "Signal",
-      skinName: "Dramatic Chocolate",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0f/Signal_%28Dramatic_Chocolate%29_FB.png",
-    },
-    {
-      name: "Dolla",
-      skinName: "Dark Rose",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
-    },
-    {
-      name: "Noise",
-      skinName: "Cherry Blossom Stage",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
-    },
-    {
-      name: "Viper",
-      skinName: "Toxic Rabbit",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
-    },
-    {
-      name: "Emma",
-      skinName: "Office Therapy",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
-    },
-    {
-      name: "Frima",
-      skinName: "Office Therapy",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
-    },
-    {
-      name: "Yan",
-      skinName: "Office Therapy",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
-    },
-    {
-      name: "Novel",
-      skinName: "Peguin Holmes",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Novel_%28Penguin_Holmes%29_FB.png/revision/latest/scale-to-width-down/86?cb=20230414112152",
-    },
+    [
+      {
+        name: "Rapi",
+        skinName: "White Promise",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dd/Rapi_%28White_Promise%29_FB.png",
+      },
+    ],
+  ][
+    ("Mission Pass",
+    [
+      {
+        name: "Diesel",
+        skinName: "Black Sunday",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Diesel_%28Black_Sunday%29_FB.png",
+      },
+      {
+        name: "Maxwell",
+        skinName: "Mechanic White",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Maxwell_%28Mechanic_White%29_FB.png",
+      },
+      {
+        name: "Sugar",
+        skinName: "Hard-Boiled",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png",
+      },
+      {
+        name: "Signal",
+        skinName: "Dramatic Chocolate",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0f/Signal_%28Dramatic_Chocolate%29_FB.png",
+      },
+      {
+        name: "Dolla",
+        skinName: "Dark Rose",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
+      },
+      {
+        name: "Noise",
+        skinName: "Cherry Blossom Stage",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+      },
+      {
+        name: "Viper",
+        skinName: "Toxic Rabbit",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
+      },
+      {
+        name: "Emma",
+        skinName: "Office Therapy",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+      },
+      {
+        name: "Frima",
+        skinName: "Office Therapy",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
+      },
+      {
+        name: "Yan",
+        skinName: "Office Therapy",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
+      },
+      {
+        name: "Novel",
+        skinName: "Peguin Holmes",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Novel_%28Penguin_Holmes%29_FB.png/revision/latest/scale-to-width-down/86?cb=20230414112152",
+      },
 
-    {
-      name: "Brid",
-      skinName: "Black Moon",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
-    },
+      {
+        name: "Brid",
+        skinName: "Black Moon",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
+      },
+    ])
   ],
   [
     "Queen's Diner",
-    {
-      name: "Sakura",
-      skinName: "Midnight Stealh",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/54/Sakura_%28Midnight_Stealth%29_FB.png",
-      event: "Queen's Diner",
-    },
-  ],
-  [
-    "Snow Crystal",
-    {
-      name: "Emma",
-      skinName: "Color Me Red",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/46/Emma_%28Color_Me_Red%29_FB.png",
-      event: "Snow Crystal",
-    },
-    {
-      name: "Exia",
-      skinName: "Joy to the Nerds",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/40/Exia_%28Joy_to_the_Nerds%29_FB.png",
-      event: "Snow Crystal",
-    },
+    [
+      {
+        name: "Sakura",
+        skinName: "Midnight Stealh",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/54/Sakura_%28Midnight_Stealth%29_FB.png",
+        event: "Queen's Diner",
+      },
+    ],
+    [
+      "Snow Crystal",
+      {
+        name: "Emma",
+        skinName: "Color Me Red",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/46/Emma_%28Color_Me_Red%29_FB.png",
+        event: "Snow Crystal",
+      },
+      {
+        name: "Exia",
+        skinName: "Joy to the Nerds",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/40/Exia_%28Joy_to_the_Nerds%29_FB.png",
+        event: "Snow Crystal",
+      },
+    ],
   ],
   [
     "Sunrise Party",
-    {
-      name: "Julia",
-      skinName: "Mild Nocturne",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/62/Julia_%28Mild_Nocturne%29_FB.png",
-      event: "Sunrise Party",
-    },
-    {
-      name: "Sunrise Party",
-      skinName: "Hard-Boiled",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png/",
-      event: "Sunrise Party",
-    },
-    {
-      name: "Helm",
-      skinName: "Chandelier",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6f/Helm_%28Chandelier%29_FB.png",
-      event: "Sunrise Party",
-    },
-    {
-      name: "Dolla",
-      skinName: "Dark Rose",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
-      event: "Sunrise Party",
-    },
+    [
+      {
+        name: "Julia",
+        skinName: "Mild Nocturne",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/62/Julia_%28Mild_Nocturne%29_FB.png",
+        event: "Sunrise Party",
+      },
+      {
+        name: "Sunrise Party",
+        skinName: "Hard-Boiled",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png/",
+        event: "Sunrise Party",
+      },
+      {
+        name: "Helm",
+        skinName: "Chandelier",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6f/Helm_%28Chandelier%29_FB.png",
+        event: "Sunrise Party",
+      },
+      {
+        name: "Dolla",
+        skinName: "Dark Rose",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
+        event: "Sunrise Party",
+      },
+    ],
   ],
   [
     "Bunny Kiss",
-    {
-      name: "Viper",
-      skinName: "Toxic Rabbit",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
-      event: "Bunny Kiss",
-    },
-    {
-      name: "Rupee",
-      skinName: "Rabbit Deluxe",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c9/Rupee_%28Rabbit_Deluxe%29_FB.png",
-      event: "Bunny Kiss",
-    },
-  ],
-  [
-    "Engine of Dreams",
-    {
-      name: "Drake",
-      skinName: "Villian Racer",
-      skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Drake_%28Villain_Racer%29_FB.png",
-      event: "Bunny Kiss",
-    },
+    [
+      {
+        name: "Viper",
+        skinName: "Toxic Rabbit",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
+        event: "Bunny Kiss",
+      },
+      {
+        name: "Rupee",
+        skinName: "Rabbit Deluxe",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c9/Rupee_%28Rabbit_Deluxe%29_FB.png",
+        event: "Bunny Kiss",
+      },
+    ],
+    [
+      "Engine of Dreams",
+      {
+        name: "Drake",
+        skinName: "Villian Racer",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Drake_%28Villain_Racer%29_FB.png",
+        event: "Bunny Kiss",
+      },
+    ],
   ],
 ];
 export const otherEvents = [
