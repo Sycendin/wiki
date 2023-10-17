@@ -236,6 +236,14 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
+    name: "A.C.P.U! Freeze!",
+    startdate: "October 19th 2023",
+    enddate: "November 1st 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1163674801936801832/F8iu-YXXcAAb6hW.png?ex=65406f9c&is=652dfa9c&hm=aa9de2c0e8660fb7e3fa5210749fe18251da802b10024105d0d475c5b6dee94b&",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b3/School_of_Lock_logo.png",
+  },
+  {
     name: "Dazzling Cupid",
     startdate: "October 5th 2023",
     enddate: "October 19th 2023",
