@@ -202,6 +202,14 @@ export const otherEvents = [
 ];
 export const LoginEvents = [
   {
+    name: "A.C.P.U! Freeze!",
+    startdate: "October 19th 2023",
+    enddate: "November 1st 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1163674371290824714/F8mz4qDXoAEyrcv.png?ex=65406f36&is=652dfa36&hm=eec074cad9004491412e1db01af5072e21ef32dfefa95f071258b174b3ef400e&",
+    event: "A.C.P.U! Freeze!",
+  },
+  {
     name: "Dazzling Cupid",
     startdate: "October 5th 2023",
     enddate: "October 19th 2023",
@@ -563,6 +571,15 @@ export const missionPasses = [
   },
 ];
 export const pickup = [
+  {
+    name: "Quiry",
+    startdate: "October 5th 2023",
+    enddate: "October 3st 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1162968796093493318/mcvw6i7a8aub1.png?ex=653dde17&is=652b6917&hm=0f64cc320fa8d50d5f4b6311c10a18be42c49844fc55102c6ba8c444d1fe015c&",
+    lowimage:
+      "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
+  },
   {
     name: "Tia",
     startdate: "September 21st 2023",
