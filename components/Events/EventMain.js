@@ -5,6 +5,7 @@ import PickupCountDown from "./EventCountdown/PickupCountdown";
 import PastEvents from "./PastEvents/PastEvents";
 import MissionPassList from "./MissionPass/MissionPass";
 import Minigames from "./Minigames/Minigames";
+import PastSkin from "./PastSkins/PastSkins";
 // import Pickup from "./Pickup/Pickup";
 import styles from "../../styles/event.module.css";
 import { minigames } from "../../eventdata";
@@ -15,7 +16,7 @@ const EventMain = () => {
       <div className={`${styles.eventMainDiv}`}>
         <div className={`${styles.eventPickupDiv}`}>
           <EventCountDown />
-          <PickupCountDown />
+          {/* <PickupCountDown /> */}
         </div>
         <PastEvents />
       </div>
@@ -28,6 +29,9 @@ const EventMain = () => {
       <div className={`${styles.pickupMainDiv}`}>
         <Minigames />
       </div>
+      {/* <div className={`${styles.pickupMainDiv}`}>
+        <PastSkin />
+      </div> */}
     </Fragment>
   );
 };

@@ -6,12 +6,16 @@ import Countdown, {
 } from "react-countdown";
 import styles from "../../../styles/eventcountdown.module.css";
 const PickupCountDown = () => {
-  const [count, setCount] = useState(0);
   const date = "2023-08-01T01:02:03";
   const { days, hours, minutes, seconds } = calcTimeDelta(date);
+  const [time, setTime] = useState(Date.now());
+
   useEffect(() => {
-    setCount(count + 1);
-  }, [count]);
+    const interval = setInterval(() => setTime(Date.now()), 1000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
   return (
     <Fragment>
       <div className={`${styles.eventMainDiv} white`}>
