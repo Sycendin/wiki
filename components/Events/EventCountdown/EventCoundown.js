@@ -11,11 +11,13 @@ const EventCountDown = () => {
   const date = "2023-12-01T01:02:03";
 
   const { days, hours, minutes, seconds } = calcTimeDelta(date);
-
+  // Create state that will update this component
   const [time, setTime] = useState(Date.now());
 
   useEffect(() => {
+    // Use setInterval to make call back
     const interval = setInterval(() => setTime(Date.now()), 1000);
+    // Clear setInterval to stop memory leak/too many re-renders
     return () => {
       clearInterval(interval);
     };
