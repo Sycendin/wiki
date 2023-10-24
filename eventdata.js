@@ -194,6 +194,13 @@ export const skins = [
 ];
 export const otherEvents = [
   {
+    name: "Anniversay Celebration",
+    startdate: "October 2tth 2023",
+    enddate: "October 2tth 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1162969226705911968/77qkah4nrxtb1.png?ex=654718fe&is=6534a3fe&hm=4ddf54c087e7d64d1eed569d6daa47b969e30edfac7106a4360dd923baf245d7&",
+  },
+  {
     name: "Autumn Picnic",
     startdate: "October 5th 2023",
     enddate: "October 19th 2023",
