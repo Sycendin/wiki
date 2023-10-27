@@ -7,7 +7,7 @@ const Minigames = () => {
     <Fragment>
       <div className={`${styles.minigamesDiv}`}>
         {minigames.map((element, index) => (
-          <Fragment>
+          <Fragment key={index}>
             <div key={index} className={`${styles.minigamesInnerRow}  white`}>
               <img
                 key={index}

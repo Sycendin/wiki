@@ -6,7 +6,7 @@ import Countdown, {
 } from "react-countdown";
 import styles from "../../../styles/eventcountdown.module.css";
 const PickupCountDown = () => {
-  const date = "2023-08-01T01:02:03";
+  const date = "2023-12-01T01:02:03";
   const { days, hours, minutes, seconds } = calcTimeDelta(date);
   // Create state that will update this component
   const [time, setTime] = useState(Date.now());

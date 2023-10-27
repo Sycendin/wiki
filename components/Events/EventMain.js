@@ -16,7 +16,7 @@ const EventMain = () => {
       <div className={`${styles.eventMainDiv}`}>
         <div className={`${styles.eventPickupDiv}`}>
           <EventCountDown />
-          {/* <PickupCountDown /> */}
+          <PickupCountDown />
         </div>
         <PastEvents />
       </div>
