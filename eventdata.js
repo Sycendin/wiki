@@ -596,6 +596,15 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Red Hood",
+    startdate: "Novmeber 2nd 2023",
+    enddate: "November 30th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1167647022292152371/ir8rqnuk9qwb1.png?ex=654ee307&is=653c6e07&hm=48fbbee64662a428d7198b7345a527db183b8ada765e712c9086cf873d1cfb5c&",
+    lowimage:
+      "https://preview.redd.it/aq5ww8eedrkb1.jpg?width=1024&auto=webp&s=b15436da9b56fc4c5cda53491e89c704ec1e5117",
+  },
+  {
     name: "Quiry",
     startdate: "October 5th 2023",
     enddate: "October 3st 2023",
