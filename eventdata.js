@@ -1,3 +1,11 @@
+export const anniversary = [
+  {
+    pickup:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1167647022292152371/ir8rqnuk9qwb1.png?ex=654ee307&is=653c6e07&hm=48fbbee64662a428d7198b7345a527db183b8ada765e712c9086cf873d1cfb5c&",
+    promo:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1167646941564375050/fulr7ighgqwb1.png?ex=654ee2f4&is=653c6df4&hm=6b9ffb726fc2708a5fc39ebbd00c6031e8ebee30fdb70724f799ff96f616a4a4&",
+  },
+];
 // [{},{}, {}]
 export const skins = [
   [
