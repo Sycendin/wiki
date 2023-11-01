@@ -12,6 +12,21 @@ export const skins = [
     "Summer Business",
     [
       {
+        name: "Harran",
+        skinName: "Banquet Witch",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+      },
+      {
+        name: "Dorothy",
+        skinName: "Nostalgia",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647700087492650/zjywqlbdaqwb1.png?ex=654ee3a9&is=653c6ea9&hm=94db48ae61327961f798f7d2a77077f7f6bf1146ec69e992348ffa9e55979edf&",
+      },
+    ],
+  ],
+  [
+    "Summer Business",
+    [
+      {
         name: "Liter",
         skinName: "Guardian",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/50/Liter_%28Guardfish%29_FB.png",
