@@ -7,15 +7,18 @@ const PastSkin = () => {
     <Fragment>
       <div className={`${styles.pastEventsListDiv}`}>
         {skins.map((element, index) => (
-          <Fragment>
-            {/* <p key={index} className={`${styles.pasEventsText}  white`}>
-              {element[index]}
-            </p> */}
-            {/* {element[1].map((element, index) => (
+          <Fragment key={index}>
+            {console.log(element)}
+            <p key={index} className={`${styles.pasEventsText}  white`}>
+              {element[0]}
+            </p>
+            {element[1].map((data, index) => (
+              // console.log(data.name)
+
               <p key={index} className={`${styles.pasEventsText}  white`}>
-                {element[1]}
+                {data.name}
               </p>
-            ))} */}
+            ))}
           </Fragment>
         ))}
       </div>

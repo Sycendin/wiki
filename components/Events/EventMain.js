@@ -29,9 +29,9 @@ const EventMain = () => {
       <div className={`${styles.pickupMainDiv}`}>
         <Minigames />
       </div>
-      {/* <div className={`${styles.pickupMainDiv}`}>
+      <div className={`${styles.pickupMainDiv}`}>
         <PastSkin />
-      </div> */}
+      </div>
     </Fragment>
   );
 };
