@@ -9,7 +9,7 @@ export const anniversary = [
 // [{},{}, {}]
 export const skins = [
   [
-    "Summer Business",
+    "Anniversary",
     [
       {
         name: "Harran",
@@ -67,8 +67,9 @@ export const skins = [
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dd/Rapi_%28White_Promise%29_FB.png",
       },
     ],
-  ][
-    ("Mission Pass",
+  ],
+  [
+    "Mission Pass",
     [
       {
         name: "Diesel",
@@ -131,7 +132,7 @@ export const skins = [
         skinName: "Black Moon",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
       },
-    ])
+    ],
   ],
   [
     "Queen's Diner",
