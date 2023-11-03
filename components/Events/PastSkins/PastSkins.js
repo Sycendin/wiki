@@ -14,10 +14,19 @@ const PastSkin = () => {
             </p>
             {element[1].map((data, index) => (
               // console.log(data.name)
-
-              <p key={index} className={`${styles.pasEventsText}  white`}>
-                {data.name}
-              </p>
+              <Fragment>
+                <div className={`${styles.pastEventsText}  white`}>
+                  <div className={`${styles.pastSkinDiv}  white`}>
+                    <img
+                      className={`${styles.pastSkins} white`}
+                      src={data.skin}
+                    ></img>
+                    <p key={index} className={`${styles.pasEventsText}  white`}>
+                      {data.skinName}
+                    </p>
+                  </div>
+                </div>
+              </Fragment>
             ))}
           </Fragment>
         ))}
