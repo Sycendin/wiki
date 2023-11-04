@@ -205,12 +205,44 @@ export const skins = [
         event: "Bunny Kiss",
       },
     ],
+  ],
+
+  [
+    "Engine of Dreams",
     [
-      "Engine of Dreams",
       {
         name: "Drake",
         skinName: "Villian Racer",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Drake_%28Villain_Racer%29_FB.png",
+        event: "Bunny Kiss",
+      },
+    ],
+  ],
+  [
+    "YoRHa",
+    [
+      {
+        name: "2B",
+        skinName: "Metamorphic Damage",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/8b/2B_%28Metamorphic_Damage%29_FB.png",
+        event: "Bunny Kiss",
+      },
+      {
+        name: "Rupee",
+        skinName: "YorHa Uniform 1",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/50/2B_%28YoRHa_Uniform_1%29_FB.png",
+        event: "Bunny Kiss",
+      },
+      {
+        name: "1A",
+        skinName: "Metamorphic Damage",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/A2_%28Metamorphic_Damage%29_FB.png",
+        event: "Bunny Kiss",
+      },
+      {
+        name: "1A",
+        skinName: "YoRha Uniform Prototype",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f9/A2_%28YoRHa_Uniform_Prototype%29_FB.png",
         event: "Bunny Kiss",
       },
     ],
