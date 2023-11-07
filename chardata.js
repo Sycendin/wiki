@@ -4476,14 +4476,15 @@ export const charData = [
     weapon: "Rocket Launcher",
     unitClass: "Supporter",
     manufacturer: "Pilgrim",
-    element: "Wind",
-    squad: "A.C.P.U.",
+    element: "Iron",
+    squad:
+      "https://www.prydwen.gg/static/34cd796bf8a22b0724e625146a4a4fa5/60b4d/smol_icon.webp",
     position: "Burst 3",
     burstCD: "40",
     releaseDate: "October 26th, 2023",
-    vakr: "Kim Seoung-hui",
-    vajpn: "Miho Okasaki",
-    vaen: "Michelle Marie",
+    vakr: "So Yeon",
+    vajpn: "M • A • O",
+    vaen: "Laura Stahl",
     role: ["Buffer", "Healer", "Debuffer"],
 
     skill: [
