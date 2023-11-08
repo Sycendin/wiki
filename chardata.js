@@ -4491,29 +4491,29 @@ export const charData = [
       {
         name: "Normal Attack",
         type: "Charge",
-        ammo: 6,
+        ammo: 60,
         reload: "1s",
         effect:
-          "■ Affects target enemy.##Deals x% of ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core",
+          "■ Affects target enemy.##Deals 13.65% ATK as damage.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Glance",
+        name: "Seven Dwarves V&VI",
         active: "Passive",
         effect:
-          "■ Activates when hitting a target with Full Charge. Affects the target.##ATK ▼ 8.94% of caster's ATK for 3 sec.##■ Activates when attacking with Full Charge. Affects 2 Defender ally target's.##ATK ▲ 5.81% of caster's ATK for 3 sec..",
+          "■ Activates after landing 30 normal attack(s). Affects self.##Max ammunition capacity ▲ 25.66%, stacks up to 5 time(s) and last for 5 sec.##■ Activates after landing 30 normal attack(s). Affects enemies within attack range.##Deals 188.68% of final ATK as damage.",
       },
       {
-        name: "Scrutiny",
+        name: "Seven Dwarves IV",
         effect:
-          "■ Activates when entering battle. Affects 2 Defender Ally units.##Max HP ▲ 11.63% continously.",
+          "■ Activates after landing 50 normal attack(s). Affects all enemies.##Deals 61.69% of final ATK as damage.##■ Activates when using Burst Skill. Affects self.##Attack damage ▲ 21.12% for 10 sec.",
         active: "Passive",
       },
 
       {
-        name: "Scrutiny",
+        name: "Seven Dwarves III",
         active: "40 Seconds",
         effect:
-          "■ Affects all allies.##Recovers 6.96% of caster's final Max HP every 1 sec for 10 sec.##■ Affects all allies.##Critical Rate ▲ 19.9% for 10 sec..",
+          "■ Affects self.##Hit counter required for Skill 2 ▼ 20 time(s) for 10 sec.##ATK ▲ 97.2% of caster’s ATK for 10 sec.##Grants unlimited ammunition for 10 sec.",
       },
     ],
     rarity: "SSR",
