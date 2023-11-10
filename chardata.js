@@ -4440,28 +4440,28 @@ export const charData = [
         name: "Normal Attack",
         type: "Charge",
         ammo: 6,
-        reload: "1s",
+        reload: "2s",
         effect:
-          "■ Affects target enemy.##Deals x% of ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core",
+          "■ Affects target enemy.##Deals 69.04% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 350%.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Glance",
+        name: "Wild Tooth",
         active: "Passive",
         effect:
-          "■ Activates when hitting a target with Full Charge. Affects the target.##ATK ▼ 8.94% of caster's ATK for 3 sec.##■ Activates when attacking with Full Charge. Affects 2 Defender ally target's.##ATK ▲ 5.81% of caster's ATK for 3 sec..",
+          "■ Activates when casting a normal attack. Affects self.##Charge Speed ▲ 3.81%, stacks up to 10 time(s) and lasts for 5 sec.##■ Activates when entering battle. Affects self.##Convert excess value over 100% of Charge Speed to Charge Damage. Charge Damage ▲ 240% of the excess value continuously.",
       },
       {
-        name: "Scrutiny",
+        name: "Wild Tooth",
         effect:
-          "■ Activates when entering battle. Affects 2 Defender Ally units.##Max HP ▲ 11.63% continously.",
+          "■ Activates when entering battle. Affects self.##Gain Pierce continuously.##■ Activates during Beast Cage. Affects all allies.##DEF ▲ 50.68% of caster's DEF for 10 sec.##■ Activates during The Last Howl. Affects self.##Recovers 23.04% of attack damage as HP for 10 sec.##■ Activates when casting Red Wolf. Affects self.##ATK ▲ 71.42% of caster's ATK for 10 sec.",
         active: "Passive",
       },
 
       {
-        name: "Scrutiny",
+        name: "Red Wolf",
         active: "40 Seconds",
         effect:
-          "■ Affects all allies.##Recovers 6.96% of caster's final Max HP every 1 sec for 10 sec.##■ Affects all allies.##Critical Rate ▲ 19.9% for 10 sec..",
+          "When used in Step 1: Beast Cage##■ Affects all allies.##ATK ▲ 77.55% of caster's ATK for 10 sec.##■ Affects self.##Cooldown of Burst Skill ▼ 40 sec. Activates once per battle.##When used in Step 2: The Last Howl##■ Affects self.##Attract: Taunt all enemies for 10 sec.##HP Potency ▲ 74.88% for 10 sec.##Cooldown of Burst Skill ▼ 40 sec. Activates once per battle.##When used in Step 3: Red Wolf##■ Affects self.##Change the Weapon in use:##Damage: 27.8% of final ATK##Full Charge Damage: 250% of damage##Last for: 10 sec##Additional Effect:##Expand Pierce range by 100% for 10 sec.##Charge Speed ▲ 100.8% for 10 sec.",
       },
     ],
     rarity: "SSR",
