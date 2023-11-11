@@ -4434,7 +4434,6 @@ export const charData = [
     vajpn: "Yoko Hikasa",
     vaen: "Paris Blu",
     role: ["Buffer"],
-
     skill: [
       {
         name: "Normal Attack",
@@ -4481,12 +4480,11 @@ export const charData = [
       "https://www.prydwen.gg/static/34cd796bf8a22b0724e625146a4a4fa5/60b4d/smol_icon.webp",
     position: "Burst 3",
     burstCD: "40",
-    releaseDate: "October 26th, 2023",
+    releaseDate: "November 2nd 2023",
     vakr: "So Yeon",
     vajpn: "M • A • O",
     vaen: "Laura Stahl",
     role: ["Buffer", "Healer", "Debuffer"],
-
     skill: [
       {
         name: "Normal Attack",
