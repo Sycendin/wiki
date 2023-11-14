@@ -15,3 +15,53 @@
 .pastSkins{
   height: 50%;
 }
+
+.minigamesDiv{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.minigamesInnerRow{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+}
+.minigamesLogoDiv{
+  width: 50%;
+  height: auto;
+}
+.minigamesNameDiv{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.MiniGameRightSideDiv{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+
+}
+.minigamespDateDiv{
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.miniTextDiv{
+  width: 50%;
+  height: auto;
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.minigamesText{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
