@@ -15,6 +15,22 @@
 .pastSkins{
   height: 50%;
 }
+
+/* Main div */
+.skinsDiv{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftImageDiv{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+}
+.leftImage{
+  width: 50%;
+  height: auto;
+}
 /* main div for whole page */
 .minigamesDiv{
   width: 50%;
