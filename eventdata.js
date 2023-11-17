@@ -305,6 +305,14 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
+    name: "Red Ash",
+    startdate: "November 2nd 2023",
+    enddate: "November 23rd 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Red_Ash_splash_1.jpg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/64/Red_Ash_logo.png",
+  },
+  {
     name: "A.C.P.U! Freeze!",
     startdate: "October 19th 2023",
     enddate: "November 1st 2023",
