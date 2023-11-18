@@ -22,7 +22,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.leftImageDiv{
+.leftDiv{
   display: flex;
   flex-direction: row;
   border: 1px solid white;
@@ -30,6 +30,11 @@
 .leftImage{
   width: 50%;
   height: auto;
+}
+.rightDiv{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
 }
 /* main div for whole page */
 .minigamesDiv{
