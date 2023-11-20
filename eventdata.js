@@ -106,7 +106,7 @@ export const skins = [
       {
         name: "Noise",
         skinName: "Cherry Blossom Stage",
-        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png",
       },
       {
         name: "Viper",

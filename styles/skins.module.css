@@ -13,7 +13,10 @@
   flex-direction: column;
 }
 .pastSkins{
-  height: 50%;
+  max-height: 290px;
+  height: 290px;
+  width: auto;
+  max-width: 200px;
 }
 
 /* Main div */
@@ -22,14 +25,27 @@
   margin-left: auto;
   margin-right: auto;
 }
-.leftDiv{
+.skins2Div{
   display: flex;
   flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftDiv{
+  display: flex;
+  flex-direction: column;
   border: 1px solid white;
 }
 .leftImage{
-  width: 50%;
-  height: auto;
+  width: auto;
+  height: 290px;
+}
+.leftText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rightDiv{
   display: flex;
@@ -42,13 +58,8 @@
 }
 
 .textDiv{
-  width: 50%;
-  height: auto;
-  border: 1px solid white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 /* main div for whole page */
