@@ -25,6 +25,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.skinsTopDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .skinsBottomDiv{
   display: flex;
   flex-direction: row;

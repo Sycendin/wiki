@@ -8,10 +8,12 @@ const PastSkin = () => {
       <div className={`${styles.skinsWholeDiv}`}>
         {skins.map((element, index) => (
           <Fragment key={index}>
-            {console.log(element)}
-            <p key={index} className={`${styles.pasEventsText}  white`}>
-              {element[0]}
-            </p>
+            <div className={`${styles.skinsTopDiv}  white`}>
+              {console.log(element)}
+              <p key={index} className={`${styles.pasEventsText}  white`}>
+                {element[0]}
+              </p>
+            </div>
             <div className={`${styles.skinsBottomiv}  white`}>
               {element[1].map((data, index) => (
                 <Fragment>
