@@ -5,16 +5,15 @@ import styles from "../../../styles/skins.module.css";
 const PastSkin = () => {
   return (
     <Fragment>
-      <div className={`${styles.skinsDiv}`}>
+      <div className={`${styles.skinsWholeDiv}`}>
         {skins.map((element, index) => (
           <Fragment key={index}>
             {console.log(element)}
             <p key={index} className={`${styles.pasEventsText}  white`}>
               {element[0]}
             </p>
-            <div className={`${styles.skins2Div}  white`}>
+            <div className={`${styles.skinsBottomiv}  white`}>
               {element[1].map((data, index) => (
-                // console.log(data.name)
                 <Fragment>
                   <div className={`${styles.leftDiv}  white`}>
                     <img
