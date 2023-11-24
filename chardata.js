@@ -4517,4 +4517,55 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/b6feed49ab920fce2021150aaeb29eaa/3cd29/quirk_full.webp",
   },
+  {
+    name: "Tove",
+    art: "https://www.prydwen.gg/static/87d06e7e093d8cc140f716418a0eca5d/60b4d/tove_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Rocket Launcher",
+    unitClass: "Supporter",
+    manufacturer: "Pilgrim",
+    element: "Iron",
+    squad:
+      "https://www.prydwen.gg/static/34cd796bf8a22b0724e625146a4a4fa5/60b4d/smol_icon.webp",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "November 2nd 2023",
+    vakr: "So Yeon",
+    vajpn: "M • A • O",
+    vaen: "Laura Stahl",
+    role: ["Buffer", "Healer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 60,
+        reload: "1s",
+        effect:
+          "■ Affects target enemy.##Deals 13.65% ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Seven Dwarves V&VI",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 30 normal attack(s). Affects self.##Max ammunition capacity ▲ 25.66%, stacks up to 5 time(s) and last for 5 sec.##■ Activates after landing 30 normal attack(s). Affects enemies within attack range.##Deals 188.68% of final ATK as damage.",
+      },
+      {
+        name: "Seven Dwarves IV",
+        effect:
+          "■ Activates after landing 50 normal attack(s). Affects all enemies.##Deals 61.69% of final ATK as damage.##■ Activates when using Burst Skill. Affects self.##Attack damage ▲ 21.12% for 10 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Seven Dwarves III",
+        active: "40 Seconds",
+        effect:
+          "■ Affects self.##Hit counter required for Skill 2 ▼ 20 time(s) for 10 sec.##ATK ▲ 97.2% of caster’s ATK for 10 sec.##Grants unlimited ammunition for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/b6feed49ab920fce2021150aaeb29eaa/3cd29/quirk_full.webp",
+  },
 ];
