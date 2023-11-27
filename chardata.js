@@ -4542,18 +4542,18 @@ export const charData = [
         ammo: 60,
         reload: "1s",
         effect:
-          "■ Affects target enemy.##Deals 13.65% ATK as damage.##Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 14.2% ATK as damage.##Deals 200% damage when attacking core.",
       },
       {
         name: "Seven Dwarves V&VI",
         active: "Passive",
         effect:
-          "■ Activates after landing 30 normal attack(s). Affects self.##Max ammunition capacity ▲ 25.66%, stacks up to 5 time(s) and last for 5 sec.##■ Activates after landing 30 normal attack(s). Affects enemies within attack range.##Deals 188.68% of final ATK as damage.",
+          "■ There is a 5% chance of activating when attacking. Affects self.##Emergency-Crafted Bullets: Reload 5.31% of the magazine(s).##■ Activates during Emergency-Crafted Bullets. Affects all allies.##Temporary Modification: Max Ammunition Capacity ▲ 2, stacks up to 3 time(s) and lasts for 5 sec.##Critical Damage ▲ 5.24% for 5 sec.",
       },
       {
         name: "Seven Dwarves IV",
         effect:
-          "■ Activates after landing 50 normal attack(s). Affects all enemies.##Deals 61.69% of final ATK as damage.##■ Activates when using Burst Skill. Affects self.##Attack damage ▲ 21.12% for 10 sec.",
+          "■ Only activates when Temporary Modification is fully stacked. Affects all allies.##Critical Rate ▲ 3.32% continuously.##■ Only activates when Temporary Modification is fully stacked. Affects all allies with a Shotgun.##Attack Speed ▲ 42.24% continuously..",
         active: "Passive",
       },
 
@@ -4561,7 +4561,7 @@ export const charData = [
         name: "Seven Dwarves III",
         active: "40 Seconds",
         effect:
-          "■ Affects self.##Hit counter required for Skill 2 ▼ 20 time(s) for 10 sec.##ATK ▲ 97.2% of caster’s ATK for 10 sec.##Grants unlimited ammunition for 10 sec.",
+          "■ Affects all allies.##Miracle of Makeshifts: ATK ▲ 2.32% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec.##■ Affects all allies with a Shotgun.##Miracle of Makeshifts: ATK ▲ 24.21% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec..",
       },
     ],
     rarity: "SSR",
