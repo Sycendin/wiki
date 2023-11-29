@@ -312,11 +312,11 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
-    name: "First Anniversary",
+    name: "Alone Survivor",
     startdate: "November 23rd 2023",
     enddate: "December 7th 2023",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/20/Happy_1st_Anniversary_splash_1.jpg",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Alone_Survivor_splash_2.jpg",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bd/Alone_Survivor_logo.png",
   },
   {
