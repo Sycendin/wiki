@@ -580,21 +580,36 @@ export const minigames = [
 ];
 export const missionPasses = [
   {
-    name: "Mission Pass 12",
-    startDate: "September 30th 2023",
-    endDate: "October 31st 2023",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
+    name: "Mission Pass 14",
+    startDate: "November 29th 2023",
+    endDate: "December 29th 31st 2023",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4b/Noir_%28Black_Rabbit%29S.png",
     image:
-      "https://www.prydwen.gg/static/6ec7faa551ef559e9a38b0885cca64f4/d689f/preview_skin_oct.webp",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
   },
-
+  {
+    name: "Mission Pass 13",
+    startDate: "October 30th 2023",
+    endDate: "November 31st 2023",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a4/Privaty_%28Banquet_Princess%29S.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/9e/Mission_Pass_Season_13_banner.png",
+  },
+  {
+    name: "Mission Pass 12",
+    startDate: "September 1st 2023",
+    endDate: "October 30th 2023",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/81/Mission_Pass_Season_12_banner.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/18/Novel_%28Detective_Nurse%29S.png",
+  },
   {
     name: "Mission Pass 11",
-    startDate: "September 1st 2023",
+    startDate: "August 1st 2023",
     endDate: "September 30th 2023",
-    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/47/Black_MoonS.png/revision",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ef/Mission_Pass_Season_11_banner.png/revision/latest/scale-to-width-down/240?cb=20230901051042",
     image:
-      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ef/Mission_Pass_Season_11_banner.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/53/Brid_%28Black_Moon%29S.png/revision/latest/scale-to-width-down/80?cb=20230901051255",
   },
   {
     name: "Mission Pass 10",
