@@ -605,7 +605,7 @@ export const missionPasses = [
   },
   {
     name: "Mission Pass 11",
-    startDate: "August 1st 2023",
+    startDate: "August 30th 2023",
     endDate: "September 30th 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/e/ef/Mission_Pass_Season_11_banner.png/revision/latest/scale-to-width-down/240?cb=20230901051042",
     image:
@@ -614,7 +614,7 @@ export const missionPasses = [
   {
     name: "Mission Pass 10",
     startDate: "August 1st 2023",
-    endDate: " August 31st 2023",
+    endDate: " August 29th 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/06/Sunrise_MarketS.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/48/Mission_Pass_Season_10_banner.png",
