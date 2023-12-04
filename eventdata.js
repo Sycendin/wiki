@@ -548,6 +548,11 @@ export const recurringEvents = [
 ];
 export const minigames = [
   {
+    name: "MOG",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d1/Memory_of_Goddess_logo.png",
+    event: "Red ash",
+  },
+  {
     name: "Hacking Game",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/61/BBQ_Master_logo.png",
     event: "Outer:Automata",
