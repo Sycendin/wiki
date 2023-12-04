@@ -700,6 +700,24 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Mica",
+    startdate: "Novmeber 23rd 2023",
+    enddate: "December 7th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Pick_Up_28_Tove.jpg",
+    lowimage:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Pick_Up_28_Tove.jpg/revision/latest/scale-to-width-down/200?cb=20231119041532",
+  },
+  {
+    name: "Ludmilla: Winter Owner",
+    startdate: "Novmeber 23rd 2023",
+    enddate: "December 7th 2023",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Pick_Up_28_Tove.jpg",
+    lowimage:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Pick_Up_28_Tove.jpg/revision/latest/scale-to-width-down/200?cb=20231119041532",
+  },
+  {
     name: "Tove",
     startdate: "Novmeber 23rd 2023",
     enddate: "December 7th 2023",
