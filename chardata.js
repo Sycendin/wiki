@@ -4567,4 +4567,104 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/47ff2e24d1e0ae5ec61bef0a29f6b99e/3cd29/tove_full.webp",
   },
+  {
+    name: "Ludmilla: winter Owner",
+    art: "https://www.prydwen.gg/static/87d06e7e093d8cc140f716418a0eca5d/60b4d/tove_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Supporter",
+    manufacturer: "Missilis",
+    element: "Water",
+    squad: "Unlimited",
+    position: "Burst 1",
+    burstCD: "20",
+    releaseDate: "November 23rd 2023",
+    vakr: "Cha Yeong-hui",
+    vajpn: "Shion Wakayama",
+    vaen: "Molly Elizabeth Ring",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 14.2% ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Modification Successful",
+        active: "Passive",
+        effect:
+          "■ There is a 5% chance of activating when attacking. Affects self.##Emergency-Crafted Bullets: Reload 5.31% of the magazine(s).##■ Activates during Emergency-Crafted Bullets. Affects all allies.##Temporary Modification: Max Ammunition Capacity ▲ 2, stacks up to 3 time(s) and lasts for 5 sec.##Critical Damage ▲ 5.24% for 5 sec.",
+      },
+      {
+        name: "Modification Successful",
+        effect:
+          "■ Only activates when Temporary Modification is fully stacked. Affects all allies.##Critical Rate ▲ 3.32% continuously.##■ Only activates when Temporary Modification is fully stacked. Affects all allies with a Shotgun.##Attack Speed ▲ 42.24% continuously..",
+        active: "Passive",
+      },
+
+      {
+        name: "Modification Successful",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all allies.##Miracle of Makeshifts: ATK ▲ 2.32% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec.##■ Affects all allies with a Shotgun.##Miracle of Makeshifts: ATK ▲ 24.21% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec..",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/47ff2e24d1e0ae5ec61bef0a29f6b99e/3cd29/tove_full.webp",
+  },
+  {
+    name: "Mica: Snow Buddy",
+    art: "https://www.prydwen.gg/static/87d06e7e093d8cc140f716418a0eca5d/60b4d/tove_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Supporter",
+    manufacturer: "Missilis",
+    element: "Water",
+    squad: "Unlimited",
+    position: "Burst 1",
+    burstCD: "20",
+    releaseDate: "November 23rd 2023",
+    vakr: "Cha Yeong-hui",
+    vajpn: "Shion Wakayama",
+    vaen: "Molly Elizabeth Ring",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "2s",
+        effect:
+          "■ Affects target enemy.##Deals 14.2% ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Modification Successful",
+        active: "Passive",
+        effect:
+          "■ There is a 5% chance of activating when attacking. Affects self.##Emergency-Crafted Bullets: Reload 5.31% of the magazine(s).##■ Activates during Emergency-Crafted Bullets. Affects all allies.##Temporary Modification: Max Ammunition Capacity ▲ 2, stacks up to 3 time(s) and lasts for 5 sec.##Critical Damage ▲ 5.24% for 5 sec.",
+      },
+      {
+        name: "Modification Successful",
+        effect:
+          "■ Only activates when Temporary Modification is fully stacked. Affects all allies.##Critical Rate ▲ 3.32% continuously.##■ Only activates when Temporary Modification is fully stacked. Affects all allies with a Shotgun.##Attack Speed ▲ 42.24% continuously..",
+        active: "Passive",
+      },
+
+      {
+        name: "Modification Successful",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all allies.##Miracle of Makeshifts: ATK ▲ 2.32% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec.##■ Affects all allies with a Shotgun.##Miracle of Makeshifts: ATK ▲ 24.21% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec..",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/47ff2e24d1e0ae5ec61bef0a29f6b99e/3cd29/tove_full.webp",
+  },
 ];
