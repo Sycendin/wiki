@@ -278,9 +278,18 @@ export const otherEvents = [
 ];
 export const LoginEvents = [
   {
+    name: "Happy Holiday",
+    startdate: "December 6th 2023",
+    enddate: "December 31st 2023",
+    image:
+      "https://preview.redd.it/4zcw6dw69g4c1.jpg?width=1359&format=pjpg&auto=webp&s=b9d0dd47d118237634e3b60c2d20a7d8f68ee558",
+    event: "Neverland",
+  },
+  {
     name: "A.C.P.U! Freeze!",
     startdate: "October 19th 2023",
     enddate: "November 1st 2023",
+
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1163674371290824714/F8mz4qDXoAEyrcv.png?ex=65406f36&is=652dfa36&hm=eec074cad9004491412e1db01af5072e21ef32dfefa95f071258b174b3ef400e&",
     event: "A.C.P.U! Freeze!",
@@ -700,7 +709,15 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
-    name: "Mica",
+    name: "Ruppe: Christmas Shopper & Anne",
+    startdate: "Novmeber 23rd 2023",
+    enddate: "December 7th 2023",
+    image: "https://i.redd.it/14ccrss98g4c1.png",
+    lowimage:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Pick_Up_28_Tove.jpg/revision/latest/scale-to-width-down/200?cb=20231119041532",
+  },
+  {
+    name: "Mica: winter Buddy",
     startdate: "Novmeber 23rd 2023",
     enddate: "December 7th 2023",
     image:
