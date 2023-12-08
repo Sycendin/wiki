@@ -321,6 +321,13 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
+    name: "NeverLand",
+    startdate: "December 6th 2023",
+    enddate: "December 31st 2023",
+    image: "https://i.redd.it/5p250vtfe84c1.jpeg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bd/Alone_Survivor_logo.png",
+  },
+  {
     name: "Alone Survivor",
     startdate: "November 23rd 2023",
     enddate: "December 7th 2023",
@@ -557,6 +564,11 @@ export const recurringEvents = [
 ];
 export const minigames = [
   {
+    name: "Snowfall Oasis",
+    logo: "https://i.redd.it/kxsvu9ct7m4c1.jpeg",
+    event: "Red ash",
+  },
+  {
     name: "MOG",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d1/Memory_of_Goddess_logo.png",
     event: "Red ash",
@@ -592,6 +604,7 @@ export const minigames = [
     event: "Hightech Toy",
   },
 ];
+
 export const missionPasses = [
   {
     name: "Mission Pass 14",
