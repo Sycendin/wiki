@@ -557,6 +557,11 @@ export const recurringEvents = [
 ];
 export const minigames = [
   {
+    name: "Snowfall Oasis",
+    logo: "https://i.redd.it/kxsvu9ct7m4c1.jpeg",
+    event: "Red ash",
+  },
+  {
     name: "MOG",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d1/Memory_of_Goddess_logo.png",
     event: "Red ash",
