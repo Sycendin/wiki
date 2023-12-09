@@ -605,6 +605,28 @@ export const minigames = [
   },
 ];
 
+export const eventPasses = [
+  {
+    name: "Bunny Pass",
+    startDate: "Decemmber 6th 2023",
+    endDate: "December 29th 31st 2023",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4b/Noir_%28Black_Rabbit%29S.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
+    char: "Blanc",
+    event: "Neverland",
+  },
+  {
+    name: "Harran Pass",
+    startDate: "Decemmber 6th 2023",
+    endDate: "December 29th 31st 2023",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4b/Noir_%28Black_Rabbit%29S.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
+    char: "Harran",
+    event: "Red Ash",
+  },
+];
 export const missionPasses = [
   {
     name: "Mission Pass 14",
