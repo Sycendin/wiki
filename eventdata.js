@@ -147,6 +147,82 @@ export const skins = [
     ],
   ],
   [
+    "Event Mission Pass",
+    [
+      {
+        name: "Noir",
+        skinName: "Banquet Witch",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+      },
+      {
+        name: "Harran",
+        skinName: "Banquet Witch",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+      },
+      {
+        name: "Diesel",
+        skinName: "Black Sunday",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Diesel_%28Black_Sunday%29_FB.png",
+      },
+      {
+        name: "Maxwell",
+        skinName: "Mechanic White",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/1/17/Maxwell_%28Mechanic_White%29_FB.png",
+      },
+      {
+        name: "Sugar",
+        skinName: "Hard-Boiled",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f2/Sugar_%28Hard-Boiled%29_FB.png",
+      },
+      {
+        name: "Signal",
+        skinName: "Dramatic Chocolate",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0f/Signal_%28Dramatic_Chocolate%29_FB.png",
+      },
+      {
+        name: "Dolla",
+        skinName: "Dark Rose",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/ff/Dolla_%28Dark_Rose%29_FB.png",
+      },
+      {
+        name: "Noise",
+        skinName: "Cherry Blossom Stage",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png",
+      },
+      {
+        name: "Viper",
+        skinName: "Toxic Rabbit",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/cc/Viper_%28Toxic_Rabbit%29_FB.png",
+      },
+      {
+        name: "Emma",
+        skinName: "Office Therapy",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/d5/Noise_%28Cherry_Blossom_Stage%29_FB.png/revision/latest/scale-to-width-down/105?cb=20230414112425",
+      },
+      {
+        name: "Frima",
+        skinName: "Office Therapy",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a9/Frima_%28Sea_of_Sloth%29_FB.png",
+      },
+      {
+        name: "Yan",
+        skinName: "Office Therapy",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4c/Yan_%28Sunrise_Market%29_FB.png",
+      },
+      {
+        name: "Novel",
+        skinName: "Peguin Holmes",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Novel_%28Penguin_Holmes%29_FB.png/revision/latest/scale-to-width-down/86?cb=20230414112152",
+      },
+
+      {
+        name: "Brid",
+        skinName: "Black Moon",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/71/Brid_%28Black_Moon%29_FB.png",
+      },
+    ],
+  ],
+  [
     "Queen's Diner",
     [
       {
@@ -566,7 +642,7 @@ export const minigames = [
   {
     name: "Snowfall Oasis",
     logo: "https://i.redd.it/kxsvu9ct7m4c1.jpeg",
-    event: "Red ash",
+    event: "Neverland",
   },
   {
     name: "MOG",
