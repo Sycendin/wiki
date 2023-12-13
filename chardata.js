@@ -4639,32 +4639,32 @@ export const charData = [
       {
         name: "Normal Attack",
         type: "Normal",
-        ammo: 60,
+        ammo: 120,
         reload: "2s",
         effect:
-          "■ Affects target enemy.##Deals 14.2% ATK as damage.##Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 11.7% ATK as damage.##Deals 250% damage when attacking core.",
       },
       {
-        name: "Modification Successful",
+        name: "Tidying Up",
         active: "Passive",
         effect:
-          "■ There is a 5% chance of activating when attacking. Affects self.##Emergency-Crafted Bullets: Reload 5.31% of the magazine(s).##■ Activates during Emergency-Crafted Bullets. Affects all allies.##Temporary Modification: Max Ammunition Capacity ▲ 2, stacks up to 3 time(s) and lasts for 5 sec.##Critical Damage ▲ 5.24% for 5 sec.",
+          "■ Activates when landing 120 normal attacks. Affects all allies.##Tidying Up: Damage Taken ▼ 2%, stacks up to 10 times and lasts for 15 sec.##■ Activates when the caster's Tidying Up is fully stacked. Affects all allies.##Max Ammunition Capacity ▲ 40% continuously.",
       },
       {
-        name: "Modification Successful",
+        name: "Blessing Cannon",
         effect:
-          "■ Only activates when Temporary Modification is fully stacked. Affects all allies.##Critical Rate ▲ 3.32% continuously.##■ Only activates when Temporary Modification is fully stacked. Affects all allies with a Shotgun.##Attack Speed ▲ 42.24% continuously..",
+          "■ Activates when landing 150 normal attacks. Affects all allies.##Increases stack count of stackable buffs by 1.##■ Activates when entering battle. Affects self.##Burst Gauge filling speed ▲ 300% continuously.",
         active: "Passive",
       },
 
       {
-        name: "Modification Successful",
+        name: "Snowfield Festival",
         active: "20 Seconds",
         effect:
-          "■ Affects all allies.##Miracle of Makeshifts: ATK ▲ 2.32% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec.##■ Affects all allies with a Shotgun.##Miracle of Makeshifts: ATK ▲ 24.21% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec..",
+          "■ Affects all allies.##Dispels 1 debuff.##ATK ▲ 39.3% of caster's ATK for 5 seconds.",
       },
     ],
     rarity: "SSR",
-    full: "https://www.prydwen.gg/static/47ff2e24d1e0ae5ec61bef0a29f6b99e/3cd29/tove_full.webp",
+    full: "https://www.prydwen.gg/static/5cf246fda82e98655cf988e7afa38648/3cd29/xmica_full.webp",
   },
 ];
