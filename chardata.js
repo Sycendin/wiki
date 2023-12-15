@@ -4589,29 +4589,29 @@ export const charData = [
       {
         name: "Normal Attack",
         type: "Normal",
-        ammo: 60,
-        reload: "2s",
+        ammo: 300,
+        reload: "3s",
         effect:
-          "■ Affects target enemy.##Deals 14.2% ATK as damage.##Deals 200% damage when attacking core.",
+          "■ Affects target enemy.##Deals 5.86% ATK as damage.##Deals 200% damage when attacking core.",
       },
       {
-        name: "Modification Successful",
+        name: "The Queen's Gaze",
         active: "Passive",
         effect:
-          "■ There is a 5% chance of activating when attacking. Affects self.##Emergency-Crafted Bullets: Reload 5.31% of the magazine(s).##■ Activates during Emergency-Crafted Bullets. Affects all allies.##Temporary Modification: Max Ammunition Capacity ▲ 2, stacks up to 3 time(s) and lasts for 5 sec.##Critical Damage ▲ 5.24% for 5 sec.",
+          "■ Activates when landing 60 normal attacks. Affects the target.##Damage Taken ▲ 12.56% for 3 sec.##Deal 158.43% of final ATK as additional damage.##■ Activates when landing 60 normal attacks. Affects self.##Reloads 20 rounds of ammunition.",
       },
       {
-        name: "Modification Successful",
+        name: "Snowstorm",
         effect:
-          "■ Only activates when Temporary Modification is fully stacked. Affects all allies.##Critical Rate ▲ 3.32% continuously.##■ Only activates when Temporary Modification is fully stacked. Affects all allies with a Shotgun.##Attack Speed ▲ 42.24% continuously..",
+          "■ Activates when hitting the Core for 60 times. Affects the target.##Deal 109.64% of final ATK as additional damage.##■ Activates at the beginning of Full Burst. Affects self.##Critical Rate ▲ 14.6% for 3 sec.",
         active: "Passive",
       },
 
       {
-        name: "Modification Successful",
+        name: "Guiding Lantern",
         active: "20 Seconds",
         effect:
-          "■ Affects all allies.##Miracle of Makeshifts: ATK ▲ 2.32% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec.##■ Affects all allies with a Shotgun.##Miracle of Makeshifts: ATK ▲ 24.21% of caster's ATK. Mirrors the stack count of Temporary Modification. This effect lasts for 10 sec..",
+          "■ Affects self.##ATK ▲ 62.54% for 10 sec.##Reloading Speed ▲ 67.2% for 20 sec.",
       },
     ],
     rarity: "SSR",
