@@ -635,9 +635,9 @@ export const eventPasses = [
     event: "Neverland",
   },
   {
-    name: "Harran Pass",
-    startDate: "Decemmber 6th 2023",
-    endDate: "December 29th 31st 2023",
+    name: "Anniversary Pass",
+    startDate: "November 6th 2023",
+    endDate: "November 29th 31st 2023",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4b/Noir_%28Black_Rabbit%29S.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
