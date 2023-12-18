@@ -1,3 +1,10 @@
+export const archives = [
+  {
+    event: "Miracle snow",
+    date: "November 23th, 2023",
+    image: "https://i.redd.it/2ikflya5ft1c1.jpeg",
+  },
+];
 export const anniversary = [
   {
     pickup:
@@ -762,7 +769,7 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
-    name: "Ruppe: Christmas Shopper & Anne",
+    name: "Rupee: Christmas Shopper & Anne",
     startdate: "Novmeber 23rd 2023",
     enddate: "December 7th 2023",
     image: "https://i.redd.it/14ccrss98g4c1.png",
