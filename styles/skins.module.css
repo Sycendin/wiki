@@ -18,7 +18,10 @@
   width: auto;
   max-width: 200px;
 }
-
+.headerText{
+  font-size: 32px;
+  color: bisque;
+}
 /* Main div */
 .skinsWholeDiv{
   width: 50%;
@@ -30,6 +33,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .skinsBottomDiv{
   display: flex;
   flex-direction: row;
@@ -65,6 +69,7 @@
 .textDiv{
   margin-left: auto;
   margin-right: auto;
+
 
 }
 /* main div for whole page */
