@@ -1,0 +1,86 @@
+.pastEventsListDivP{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pastSkinRowDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.pastSkinsDiv{
+  display: flex;
+  flex-direction: column;
+}
+.pastSkins{
+  max-height: 290px;
+  height: 290px;
+  width: auto;
+  max-width: 200px;
+}
+.headerText{
+  font-size: 32px;
+  color: bisque;
+}
+
+.skinsTopDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftDiv{
+  width: 20%- 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.skinsBottomDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftDiv{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+}
+.leftImage{
+  width: auto;
+  height: 290px;
+}
+.leftText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightDiv{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textDiv{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(41, 41, 41);
+
+}
+
+/* new css */
+
+/* Main div */
+.skinsWholeDiv{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
