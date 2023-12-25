@@ -769,6 +769,14 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Scarlet: Black Shadow",
+    startdate: "December 27th 2023",
+    enddate: "January 7th 2024",
+    image: "https://i.redd.it/14ccrss98g4c1.png",
+    lowimage:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/51/Pick_Up_28_Tove.jpg/revision/latest/scale-to-width-down/200?cb=20231119041532",
+  },
+  {
     name: "Rupee: Christmas Shopper & Anne",
     startdate: "Novmeber 23rd 2023",
     enddate: "December 7th 2023",
