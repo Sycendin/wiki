@@ -346,6 +346,13 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
+    name: "New year New Sword",
+    startdate: "January 1st 2023",
+    enddate: "January 14st 2024",
+    image: "https://i.redd.it/b6ubqpjzg58c1.jpeg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bd/Alone_Survivor_logo.png",
+  },
+  {
     name: "NeverLand",
     startdate: "December 6th 2023",
     enddate: "December 31st 2023",
