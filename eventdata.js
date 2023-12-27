@@ -303,6 +303,14 @@ export const otherEvents = [
 ];
 export const LoginEvents = [
   {
+    name: "New Year New Sword",
+    startdate: "December 27th 2023",
+    enddate: "November 7th 2023",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1189306105990479902/7554242vqj8c1.png?ex=659dae9f&is=658b399f&hm=0c1ac27f99d6d973046b79ef9b55527d2e554c2fb730bd7bddf8d011e540dc48&",
+    event: "Neverland",
+  },
+  {
     name: "Happy Holiday",
     startdate: "December 6th 2023",
     enddate: "December 31st 2023",
