@@ -305,7 +305,7 @@ export const LoginEvents = [
   {
     name: "New Year New Sword",
     startdate: "December 27th 2023",
-    enddate: "November 7th 2023",
+    enddate: "January 7th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1189306105990479902/7554242vqj8c1.png?ex=659dae9f&is=658b399f&hm=0c1ac27f99d6d973046b79ef9b55527d2e554c2fb730bd7bddf8d011e540dc48&",
     event: "Neverland",
@@ -783,6 +783,15 @@ export const missionPasses = [
   },
 ];
 export const pickup = [
+  {
+    name: "Modernia",
+    startdate: "December 27th 2023",
+    enddate: "January 7th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1188694899407728670/wgqiagkbqc8c1.png?ex=659b7564&is=65890064&hm=c49f640d96d3cb1610ad36e1c433f257f03b176100985c5226d33889642ebbda&",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1188694899407728670/wgqiagkbqc8c1.png?ex=659b7564&is=65890064&hm=c49f640d96d3cb1610ad36e1c433f257f03b176100985c5226d33889642ebbda&",
+  },
   {
     name: "Scarlet: Black Shadow",
     startdate: "December 27th 2023",
