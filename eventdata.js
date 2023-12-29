@@ -1,5 +1,10 @@
 export const archives = [
   {
+    event: "Nya Nya Paradise",
+    date: "November 23th, 2023",
+    image: "https://cdn.discordapp.com/attachments/747928182891610213/1190119268809981992/GCUcw7EWQAAWPOX.png?ex=65a0a3f1&is=658e2ef1&hm=c9020674178a332447a46bed7a2d726adad494ee6d6509d7e86c53b747094e5c&,
+  },
+  {
     event: "Miracle snow",
     date: "November 23th, 2023",
     image: "https://i.redd.it/2ikflya5ft1c1.jpeg",
