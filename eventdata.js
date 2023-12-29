@@ -2,7 +2,8 @@ export const archives = [
   {
     event: "Nya Nya Paradise",
     date: "November 23th, 2023",
-    image: "https://cdn.discordapp.com/attachments/747928182891610213/1190119268809981992/GCUcw7EWQAAWPOX.png?ex=65a0a3f1&is=658e2ef1&hm=c9020674178a332447a46bed7a2d726adad494ee6d6509d7e86c53b747094e5c&,
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1190119268809981992/GCUcw7EWQAAWPOX.png?ex=65a0a3f1&is=658e2ef1&hm=c9020674178a332447a46bed7a2d726adad494ee6d6509d7e86c53b747094e5c&",
   },
   {
     event: "Miracle snow",
@@ -34,6 +35,34 @@ export const skins = [
         skinName: "Nostalgia",
         // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647700087492650/zjywqlbdaqwb1.png?ex=654ee3a9&is=653c6ea9&hm=94db48ae61327961f798f7d2a77077f7f6bf1146ec69e992348ffa9e55979edf&",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/25/Dorothy_%28Nostalgia%29_FB.png",
+      },
+    ],
+  ],
+  [
+    "Anniversary",
+    [
+      {
+        name: "Harran",
+        skinName: "Banquet Witch",
+        // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/81/Harran_%28Banquet_Witch%29_FB.png",
+      },
+      {
+        name: "Dorothy",
+        skinName: "Nostalgia",
+        // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647700087492650/zjywqlbdaqwb1.png?ex=654ee3a9&is=653c6ea9&hm=94db48ae61327961f798f7d2a77077f7f6bf1146ec69e992348ffa9e55979edf&",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/25/Dorothy_%28Nostalgia%29_FB.png",
+      },
+    ],
+  ],
+  [
+    "Classic Diva",
+    [
+      {
+        name: "Noise",
+        skinName: "Classic Diva",
+        // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1190119239378538556/GCV6a9gXcAAUYQS.png?ex=65a0a3ea&is=658e2eea&hm=77e7d324837712b8559ffaeb408cbf529d6e223698b50f096109213689c1bc83&",
       },
     ],
   ],
