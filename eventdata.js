@@ -819,7 +819,7 @@ export const missionPasses = [
 export const pickup = [
   {
     name: "Modernia",
-    startdate: "December 27th 2023",
+    startdate: "January 1st 2023",
     enddate: "January 7th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1188694899407728670/wgqiagkbqc8c1.png?ex=659b7564&is=65890064&hm=c49f640d96d3cb1610ad36e1c433f257f03b176100985c5226d33889642ebbda&",
@@ -828,7 +828,7 @@ export const pickup = [
   },
   {
     name: "Scarlet: Black Shadow",
-    startdate: "December 27th 2023",
+    startdate: "January 1st 2023",
     enddate: "January 7th 2024",
     image: "https://i.redd.it/14ccrss98g4c1.png",
     lowimage:
