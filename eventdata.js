@@ -195,6 +195,13 @@ export const skins = [
     [
       {
         name: "Blanc",
+        passname: "Sunrise Pass",
+        skinName: "White Rabbit",
+        // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/3/30/Blanc_%28White_Rabbit%29_FB.png",
+      },
+      {
+        name: "Blanc",
         passname: "Bunny Pass",
         skinName: "White Rabbit",
         // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
@@ -299,16 +306,45 @@ export const skins = [
         name: "2B",
         skinName: "Metamorphic Damage",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/8b/2B_%28Metamorphic_Damage%29_FB.png",
-        event: "Bunny Kiss",
+        event: "Memories of:Automata",
       },
       {
         name: "Rupee",
         skinName: "YorHa Uniform 1",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/5/50/2B_%28YoRHa_Uniform_1%29_FB.png",
-        event: "Bunny Kiss",
+        event: "Memories of:Automata",
       },
       {
         name: "1A",
+        skinName: "Metamorphic Damage",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/A2_%28Metamorphic_Damage%29_FB.png",
+        event: "Memories of:Automata",
+      },
+      {
+        name: "1A",
+        skinName: "YoRha Uniform Prototype",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f9/A2_%28YoRHa_Uniform_Prototype%29_FB.png",
+        event: "Memories of:Automata",
+      },
+    ],
+  ],
+  [
+    "Skin Lottery",
+    [
+      {
+        name: "Noise",
+        skinName: "Classic Diva",
+        // skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1190119239378538556/GCV6a9gXcAAUYQS.png?ex=65a0a3ea&is=658e2eea&hm=77e7d324837712b8559ffaeb408cbf529d6e223698b50f096109213689c1bc83&",
+      },
+      {
+        name: "Drake",
+        skinName: "Villian Racer",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/00/Drake_%28Villain_Racer%29_FB.png",
+        event: "Bunny Kiss",
+      },
+      {
+        name: "2B",
         skinName: "Metamorphic Damage",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/9/99/A2_%28Metamorphic_Damage%29_FB.png",
         event: "Bunny Kiss",
