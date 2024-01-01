@@ -1,3 +1,6 @@
+export const newYears = [
+  { event: "New Years", image: "https://i.redd.it/np26f47ibn9c1.png" },
+];
 export const archives = [
   {
     event: "Nya Nya Paradise",
