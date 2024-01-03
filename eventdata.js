@@ -118,6 +118,11 @@ export const skins = [
     "Mission Pass",
     [
       {
+        name: "Guillotine",
+        skinName: "Dark Tracer",
+        skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
+      },
+      {
         name: "Noir",
         skinName: "Black Rabbit",
         skin: "https://cdn.discordapp.com/attachments/747928182891610213/1167647677941567528/im3zg1eeaqwb1.png?ex=654ee3a4&is=653c6ea4&hm=2018dbc7f748d2cb0f3075ace079d9afd508ee271fdcd29845bae50a464c4a1d&",
