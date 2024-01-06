@@ -748,6 +748,14 @@ export const eventPasses = [
 ];
 export const missionPasses = [
   {
+    name: "Mission Pass 15",
+    startDate: "December 29th 2023",
+    endDate: "January 27th 31st 2023",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6f/Guillotine_%28Dark_Tracer%29_FB.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
+  },
+  {
     name: "Mission Pass 14",
     startDate: "November 29th 2023",
     endDate: "December 29th 31st 2023",
