@@ -871,6 +871,15 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Leona",
+    startdate: "January 10th 2023",
+    enddate: "January 31st 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1193437903674687518/o0anu1rdoxac1.png?ex=65acb6a9&is=659a41a9&hm=c860b588ce44a42c7eddffef924aca52c438db334cf1f55231f3850ece6e42ea&",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1193437903674687518/o0anu1rdoxac1.png?ex=65acb6a9&is=659a41a9&hm=c860b588ce44a42c7eddffef924aca52c438db334cf1f55231f3850ece6e42ea&",
+  },
+  {
     name: "Modernia",
     startdate: "January 1st 2023",
     enddate: "January 7th 2024",
