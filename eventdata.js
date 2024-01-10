@@ -356,8 +356,8 @@ export const skins = [
         event: "Bunny Kiss",
       },
       {
-        name: "1A",
-        skinName: "YoRha Uniform Prototype",
+        name: "Rupee",
+        skinName: "Rupee Bunny",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/f/f9/A2_%28YoRHa_Uniform_Prototype%29_FB.png",
         event: "Bunny Kiss",
       },
@@ -440,6 +440,14 @@ export const LoginEvents = [
   },
 ];
 export const pastEvents = [
+  {
+    name: "Lion Heart",
+    startdate: "January 11st 2024",
+    enddate: "January 25th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1193437984851234866/9j3pd4hpdsac1.png?ex=65acb6bc&is=659a41bc&hm=a20db0cf9a9bd13eb9b9a72b7db1fd43e4082e1d2132400566caef79a5b2a107&",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bd/Alone_Survivor_logo.png",
+  },
   {
     name: "New year New Sword",
     startdate: "January 1st 2023",
