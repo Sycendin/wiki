@@ -383,11 +383,11 @@ export const otherEvents = [
 export const LoginEvents = [
   {
     name: "Lion Heart",
-    startdate: "January 10th 2024",
-    enddate: "January 31st 2024",
+    startdate: "January 11th 2024",
+    enddate: "January 25st 2024",
     image:
-      "https://cdn.discordapp.com/attachments/747928182891610213/1193437984851234866/9j3pd4hpdsac1.png?ex=65acb6bc&is=659a41bc&hm=a20db0cf9a9bd13eb9b9a72b7db1fd43e4082e1d2132400566caef79a5b2a107&",
-    event: "Neverland",
+      "https://cdn.discordapp.com/attachments/747928182891610213/1194119016713834628/uhh5rk4jnbbc1.png?ex=65af30ff&is=659cbbff&hm=0f39da6a3255ae108daf3e06caa6648aba1d4db43233010c6aebdac119d41224&",
+    event: "Lion Heart",
   },
   {
     name: "New Year New Sword",
