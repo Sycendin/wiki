@@ -742,6 +742,16 @@ export const minigames = [
 
 export const eventPasses = [
   {
+    name: "Sunrise Pass",
+    startDate: "December 30th 2023",
+    endDate: "January 31st 2024",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4b/Noir_%28Black_Rabbit%29S.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
+    char: "Liter",
+    event: "Lion Heart",
+  },
+  {
     name: "Bunny Pass",
     startDate: "Decemmber 6th 2023",
     endDate: "December 29th 31st 2023",
@@ -889,7 +899,7 @@ export const pickup = [
   {
     name: "Leona",
     startdate: "January 10th 2023",
-    enddate: "January 31st 2024",
+    enddate: "January 25th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1193437903674687518/o0anu1rdoxac1.png?ex=65acb6a9&is=659a41a9&hm=c860b588ce44a42c7eddffef924aca52c438db334cf1f55231f3850ece6e42ea&",
     lowimage:
