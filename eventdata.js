@@ -441,8 +441,15 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
+    name: "Dirty Backyard",
+    startdate: "January 26th 2024",
+    enddate: "Febuary 8th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486650808979536/3v9zq2olapdc1.png?ex=65bf14ac&is=65ac9fac&hm=ffefdbbcc943c812f0972c2fac01816bd896abcad5fc8f20547eb007d38551d5&Alone_Survivor_logo.png",
+  },
+  {
     name: "Lion Heart",
-    startdate: "January 11st 2024",
+    startdate: "January 11th 2024",
     enddate: "January 25th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1193437984851234866/9j3pd4hpdsac1.png?ex=65acb6bc&is=659a41bc&hm=a20db0cf9a9bd13eb9b9a72b7db1fd43e4082e1d2132400566caef79a5b2a107&",
@@ -896,6 +903,15 @@ export const missionPasses = [
   },
 ];
 export const pickup = [
+  {
+    name: "Moran",
+    startdate: "January 26th 2023",
+    enddate: "Febuary 8th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
+  },
   {
     name: "Leona",
     startdate: "January 10th 2023",
