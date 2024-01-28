@@ -3,6 +3,12 @@ export const newYears = [
 ];
 export const archives = [
   {
+    event: "D_Outsiders",
+    date: "Frebuary 8th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1199551256058929223/b55cupldpaec1.png?ex=65c2f42a&is=65b07f2a&hm=11353033d233a8e8ab8fca9ee677bb48850ca2ce505ca135286e330f09d626c4&",
+  },
+  {
     event: "Nya Nya Paradise",
     date: "November 23th, 2023",
     image:
