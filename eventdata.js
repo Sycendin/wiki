@@ -124,6 +124,12 @@ export const skins = [
     "Mission Pass",
     [
       {
+        name: "Sugar ",
+        skinName: "Wild Backyard",
+        skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/0a/Sugar_%28Wild_Backyard%29_FB.png",
+        // https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/24/Noise_%28Classic_Diva%29_FB.png/revision/latest/scale-to-width-down/109?cb=20231228083339
+      },
+      {
         name: "Guillotine",
         skinName: "Dark Tracer",
         skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6f/Guillotine_%28Dark_Tracer%29_FB.png",
@@ -447,11 +453,19 @@ export const LoginEvents = [
 ];
 export const pastEvents = [
   {
+    name: "Perfect Maid",
+    startdate: "Feburary 9th 2024",
+    enddate: "Febuary 22nd 2024",
+    image: "https://i.redd.it/64nlyv7mihfc1.jpeg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Dirty_Backyard_logo.png",
+  },
+  {
     name: "Dirty Backyard",
     startdate: "January 26th 2024",
     enddate: "Febuary 8th 2024",
     image:
-      "https://cdn.discordapp.com/attachments/747928182891610213/1198486650808979536/3v9zq2olapdc1.png?ex=65bf14ac&is=65ac9fac&hm=ffefdbbcc943c812f0972c2fac01816bd896abcad5fc8f20547eb007d38551d5&Alone_Survivor_logo.png",
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/a/a8/Dirty_Backyard_splash_2.jpg",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Dirty_Backyard_logo.png",
   },
   {
     name: "Lion Heart",
@@ -459,7 +473,7 @@ export const pastEvents = [
     enddate: "January 25th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1193437984851234866/9j3pd4hpdsac1.png?ex=65acb6bc&is=659a41bc&hm=a20db0cf9a9bd13eb9b9a72b7db1fd43e4082e1d2132400566caef79a5b2a107&",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/bd/Alone_Survivor_logo.png",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/0/01/Lion_Heart_logo.png",
   },
   {
     name: "New year New Sword",
