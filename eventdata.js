@@ -924,9 +924,26 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Privaty: Unkind Maid",
+    startdate: "February 9th 2023",
+    enddate: "rFebuary 23th 2024",
+    image: "https://i.redd.it/y4iao71jthfc1.jpeg",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
+  },
+  {
+    name: "Ade",
+    startdate: "Febuary 9th 2023",
+    startdate: "February 9th 2023",
+    enddate: "rFebuary 23th 2024",
+    image: "https://i.redd.it/c43pvb9rgpfc1.png",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
+  },
+  {
     name: "Moran",
     startdate: "January 26th 2023",
-    enddate: "Febuary 8th 2024",
+    enddate: "February 8th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
     lowimage:
