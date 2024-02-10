@@ -394,9 +394,25 @@ export const otherEvents = [
 ];
 export const LoginEvents = [
   {
+    name: "Perfect Maid",
+    startdate: "February 5th 2024",
+    enddate: "February 18th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1194119016713834628/uhh5rk4jnbbc1.png?ex=65af30ff&is=659cbbff&hm=0f39da6a3255ae108daf3e06caa6648aba1d4db43233010c6aebdac119d41224&",
+    event: "Perfect Maid",
+  },
+  {
+    name: "Dirty Backyard",
+    startdate: "January 26th 2024",
+    enddate: "February 5th 2024",
+    image:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1194119016713834628/uhh5rk4jnbbc1.png?ex=65af30ff&is=659cbbff&hm=0f39da6a3255ae108daf3e06caa6648aba1d4db43233010c6aebdac119d41224&",
+    event: "Dirty Backyard",
+  },
+  {
     name: "Lion Heart",
     startdate: "January 11th 2024",
-    enddate: "January 25st 2024",
+    enddate: "January 25th 2024",
     image:
       "https://cdn.discordapp.com/attachments/747928182891610213/1194119016713834628/uhh5rk4jnbbc1.png?ex=65af30ff&is=659cbbff&hm=0f39da6a3255ae108daf3e06caa6648aba1d4db43233010c6aebdac119d41224&",
     event: "Lion Heart",
@@ -457,7 +473,7 @@ export const pastEvents = [
     startdate: "Feburary 9th 2024",
     enddate: "Febuary 22nd 2024",
     image: "https://i.redd.it/64nlyv7mihfc1.jpeg",
-    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/c/c5/Dirty_Backyard_logo.png",
+    logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/83/Perfect_Maid_logo.png",
   },
   {
     name: "Dirty Backyard",
@@ -801,9 +817,17 @@ export const eventPasses = [
 ];
 export const missionPasses = [
   {
+    name: "Mission Pass 16",
+    startDate: "Feburary 30th 2024",
+    endDate: "January 278th 31st 2024",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/74/Sugar_%28Wild_Backyard%29S.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/24/Mission_Pass_Season_16_banner.png",
+  },
+  {
     name: "Mission Pass 15",
     startDate: "December 29th 2023",
-    endDate: "January 27th 31st 2023",
+    endDate: "January 27th 31st 2024",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/6/6f/Guillotine_%28Dark_Tracer%29_FB.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/4/4e/Mission_Pass_Season_14_banner.png",
