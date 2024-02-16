@@ -4667,4 +4667,54 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/5cf246fda82e98655cf988e7afa38648/3cd29/xmica_full.webp",
   },
+  {
+    name: "Privaty: Unkind Maid",
+    art: "https://www.prydwen.gg/static/f937449de34ebebb68c27465a83dbee1/7dbca/privmaid_card.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SG",
+    unitClass: "Attacker",
+    manufacturer: "Elysion",
+    element: "Electric",
+    squad: "Faction",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "February 8th 2024",
+    vakr: "Bang Siu",
+    vajpn: "Ayana Taketatsu",
+    vaen: "Kira Buckland",
+    role: ["Buffer", "Cleanser"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2s",
+        effect:
+          "■ Affects Target(s).##Deals 182.1% ATK as damage.##Increases Hit Rate when attacking.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Passionate Maid",
+        active: "Passive",
+        effect:
+          "■ Activates when landing attacks 30 time(s) using pellets. Affects 2 enemy unit(s) nearest to the crosshair.##Deals 202.84% of final ATK as additional damage.",
+      },
+      {
+        name: "Loving Maid",
+        effect:
+          "■ Activates when more than 5 pellet(s) hit with a single normal attack. Affects self.##Reloading Speed ▲ 20.88% for 2 sec.##■ Activates when hitting 30 time(s) using pellets during Full Burst Time. Affects self.##Reload 1 round(s).##ATK ▲ 11.22%, stacks up to 5 time(s) and lasts for 2 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Your Bashful Maid!",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self.##Attack Damage ▲ 10.56% for 10 sec.##Critical Damage ▲ 88.17% for 10 sec.##■ Affects all enemies.##Deals 1066.66% of final ATK as damage.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/565d3e1d812bac084955fef1909a4cb0/3cd29/privmaid_full.webp",
+  },
 ];

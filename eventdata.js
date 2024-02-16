@@ -471,7 +471,7 @@ export const pastEvents = [
   {
     name: "Perfect Maid",
     startdate: "Feburary 9th 2024",
-    enddate: "Febuary 22nd 2024",
+    enddate: "Febuary 20th 2024",
     image: "https://i.redd.it/64nlyv7mihfc1.jpeg",
     logo: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/8/83/Perfect_Maid_logo.png",
   },
