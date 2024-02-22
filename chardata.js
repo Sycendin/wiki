@@ -4619,7 +4619,7 @@ export const charData = [
   },
   {
     name: "Mica: Snow Buddy",
-    art: "https://www.prydwen.gg/static/87d06e7e093d8cc140f716418a0eca5d/60b4d/tove_icon.webp",
+    art: "https://www.prydwen.gg/static/32657f0d965b63213f1bb601ba7ccda3/e9a79/xmica_icon.png",
     hp: 252742,
     atk: 12982,
     def: 2122,
@@ -4669,7 +4669,7 @@ export const charData = [
   },
   {
     name: "Privaty: Unkind Maid",
-    art: "https://www.prydwen.gg/static/f937449de34ebebb68c27465a83dbee1/7dbca/privmaid_card.webp",
+    art: "https://www.prydwen.gg/static/ad846ac2fbf8f04f1b8b02b35b8c4197/60b4d/privmaid_icon.webp",
     hp: 252742,
     atk: 12982,
     def: 2122,
@@ -4712,6 +4712,56 @@ export const charData = [
         active: "20 Seconds",
         effect:
           "■ Affects self.##Attack Damage ▲ 10.56% for 10 sec.##Critical Damage ▲ 88.17% for 10 sec.##■ Affects all enemies.##Deals 1066.66% of final ATK as damage.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/565d3e1d812bac084955fef1909a4cb0/3cd29/privmaid_full.webp",
+  },
+  {
+    name: "Ade",
+    art: "https://www.prydwen.gg/static/74ef7903dba4fbb5b9f85e71e4d06bae/e9a79/aid_icon.png",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Supporter",
+    manufacturer: "Tetra",
+    element: "Wind",
+    squad: "Maid For You",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "February 8th 2024",
+    vakr: "Bang Siu",
+    vajpn: "Ayana Taketatsu",
+    vaen: "Kira Buckland",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect:
+          "■ Affects Target(s).##Deals 14.71% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Cleaning Time",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Affects all allies.##Perfect Maid: Gain debuff immunity to 1 debuff(s) and stacks up to 1 times(s) continuously.##■ Activates when own HP falls below 90%. Affects all allies.##ATK ▲ 5.19% of caster's ATK for 5 sec.",
+      },
+      {
+        name: "Rest Time",
+        effect:
+          "■ Activates after 420 normal attack(s). Affects all allies.##Perfect Maid: Gain debuff immunity to 1 debuff(s) and stacks up for 1 time continuously.##■ Activates after 120 normal attack(s). Affects all allies.##Max HP ▲ 15.62% of caster's Max HP without restoring HP, lasts for 5 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Mealtime",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all allies.##Max HP ▲ 25.15% of caster's Max HP without restoring HP, lasts for 10 sec.##ATK ▲ 10.15% of caster's ATK for 10 sec.",
       },
     ],
     rarity: "SSR",
