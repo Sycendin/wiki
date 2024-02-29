@@ -4767,4 +4767,54 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/565d3e1d812bac084955fef1909a4cb0/3cd29/privmaid_full.webp",
   },
+  {
+    name: "Elegg",
+    art: "https://www.prydwen.gg/static/252e26d8d267492e948c0ebcedc63764/60b4d/elegg_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Minigun",
+    unitClass: "Supporter",
+    manufacturer: "Tetra",
+    element: "Electric",
+    squad: "Electric Shock",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "February 8th 2024",
+    vakr: "Kim Hyeon-ji",
+    vajpn: "Ayasa Ito",
+    vaen: "Kira Buckland",
+    role: ["Buffer", "Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect:
+          "■ Affects Target(s).##Deals 5.57% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Short Circuit",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Affects all allies.##When attacking an enemy projectile, damage dealt to that projectile ▲ 59.66 % continuously.## ■ Activates after landing 100 normal attack(s). Affects the target and 2 surrounding enemy unit(s) if the target is in BOOM Install.##Deals 91.03% of final ATK as Distributed Damage.",
+      },
+      {
+        name: "Fast Charge",
+        effect:
+          "■ Activates after landing 60 normal attack(s). Affects all allies if the target is in BOOM Install.##ATK ▲ 13.09 % of caster's ATK for 5 sec.##■ Activates when the target appears. Affects all allies.##Fills Burst Gauge by 100%. Activates once per battle.",
+        active: "Passive",
+      },
+
+      {
+        name: "BOOM Install",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all allies.##Distributed Damage dealt ▲ 39.74 % for 10 sec.##■ Affects the enemy nearest to the crosshair.##Deals 79.2 % of final ATK as damage.##BOOM Install: DEF ▼ 35.64 % for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/2debb199cbbf68c4879cd6bf1b6f02f3/3cd29/elegg_big.webp",
+  },
 ];
