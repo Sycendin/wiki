@@ -4817,4 +4817,54 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/2debb199cbbf68c4879cd6bf1b6f02f3/3cd29/elegg_big.webp",
   },
+  {
+    name: "D: Killer Wife",
+    art: "https://www.prydwen.gg/static/d34b774430e4bf5d446e33e56e23103c/60b4d/dkiller_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper",
+    unitClass: "Supporter",
+    manufacturer: "Elysion",
+    element: "Fire",
+    squad: "Perilous Siege",
+    position: "Burst 1",
+    burstCD: "20",
+    releaseDate: "March 7th 2024",
+    vakr: "Kim Hyeon-ji",
+    vajpn: "Ayasa Ito",
+    vaen: "Kira Buckland",
+    role: ["Buffer", "Debuffer", "Burst CD Reduction"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect:
+          "Deals 69.04% of ATK as damage.##Charge Time: 1 sec##Full Charge Damage: 250% of damage##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Calm Sniping",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge for 3 time(s). Affects self.##Gain Pierce for 1 round.##■ Activates when entering Full Burst. Affects all allies with a Sniper Rifle.##Pierce Damage ▲ 13.55% for 10 sec.",
+      },
+      {
+        name: "Assault Formation",
+        effect:
+          "■ Activates when attacking with Full Charge for 8 time(s). Affects all allies.##Cooldown of Burst Skill ▼ 7 sec.##■ Activates when attacking with Full Charge for 5 time(s). Affects all allies.##Attack damage ▲ 5.06% for 10 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Kill the Target",
+        active: "20 Seconds",
+        effect:
+          "■ Affects the enemy nearest to the crosshair.##Deals 269.28% of final ATK as additional damage.##Inflicts Wipe Out on the target for 10 sec.##■ Activates when allies' normal attack hits a certain area of the target afflicted with Wipe Out. Affects allies.##Buff takes effect depending on the area hit.##Allies that hit parts: Damage dealt when attacking core ▲ 16.26% for 10 sec.##Allies that hit the body: ATK ▲ 12.19% of caster's ATK for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/ded8c1c0199918fff576a8cf22d98f03/3cd29/dkiller_full.webp",
+  },
 ];
