@@ -818,8 +818,16 @@ export const eventPasses = [
 export const missionPasses = [
   {
     name: "Mission Pass 16",
-    startDate: "Feburary 30th 2024",
-    endDate: "January 278th 31st 2024",
+    startDate: "March 8th 2024",
+    endDate: "March 31st 2024",
+    skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/b/b7/Exia_%28Gamer%29S.png",
+    image:
+      "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/d/dd/Mission_Pass_Season_17_banner.png",
+  },
+  {
+    name: "Mission Pass 16",
+    startDate: "Feburary 1st 2024",
+    endDate: "February 28th 2024",
     skin: "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/7/74/Sugar_%28Wild_Backyard%29S.png",
     image:
       "https://static.wikia.nocookie.net/nikke-goddess-of-victory-international/images/2/24/Mission_Pass_Season_16_banner.png",
@@ -948,9 +956,24 @@ export const missionPasses = [
 ];
 export const pickup = [
   {
+    name: "Rem",
+    enddate: "April 5th 2024",
+    image: "https://i.redd.it/y4iao71jthfc1.jpeg",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
+  },
+  {
+    name: "Emilia",
+    startdate: "March 20th 2023",
+    enddate: "April 5th 2024",
+    image: "https://i.redd.it/y4iao71jthfc1.jpeg",
+    lowimage:
+      "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
+  },
+  {
     name: "Privaty: Unkind Maid",
     startdate: "February 9th 2023",
-    enddate: "rFebuary 23th 2024",
+    enddate: "Febuary 23th 2024",
     image: "https://i.redd.it/y4iao71jthfc1.jpeg",
     lowimage:
       "https://cdn.discordapp.com/attachments/747928182891610213/1198486618114363462/xsqrcuq5lpdc1.png?ex=65bf14a4&is=65ac9fa4&hm=f929a225498f40d330bda0ac7203d0bd292e175ddd30341e0918d210ff8b00cd&",
