@@ -4867,4 +4867,154 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/ded8c1c0199918fff576a8cf22d98f03/3cd29/dkiller_full.webp",
   },
+  {
+    name: "Emilia",
+    art: "https://www.prydwen.gg/static/5856dec359844237ded7408feb6ecd8d/60b4d/emilia_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Rocket Launcher",
+    unitClass: "Attacker",
+    manufacturer: "Abnormal",
+    element: "Fire",
+    squad: "Perilous Siege",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Kim Hyeon-ji",
+    vajpn: "Ayasa Ito",
+    vaen: "Kira Buckland",
+    role: ["Buffer", "Debuffer", "Burst CD Reduction"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "2",
+        effect:
+          "■ Affects target enemy.## Deals 61.3% ATK as damage.##Charge Time: 1 sec.##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Lesser Spirit's Blessing",
+        active: "Passive",
+        effect:
+          "■ Activates when attacking with Full Charge. Affects self.##Charge Speed ▲ 13.01% for 1 round(s).##Charge Damage ▲ 2.01% for every unit in the final Max Ammunition Capacity.##Lasts for 1 round(s).",
+      },
+      {
+        name: "Great Spirit's Mace",
+        effect:
+          "■ Activates when attacking with Full Charge. Affect target(s).##Deals Fixed Damage to the main body equal to 58.99% of the damage dealt by self.##■ Activates when entering Full Burst. Affects self.##Max Ammunition Capacity ▲ 3 round(s) for 10 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Freezing Witch",
+        active: "40 Seconds",
+        effect:
+          "■ Affects self.##Explosion Range ▲ 101.24% for 10 sec.##Freezing Witch##Function: Decreases Charge Speed and increases Charge Damage for 1 shot(s).##Effect 1: Charge Speed ▼ 300%.##Effect 2: Charge Damage ▲ 1300.53%",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/a6891e3b51be13659da50df62ed732a1/3cd29/emilia_full.webp",
+  },
+  {
+    name: "Rem",
+    art: "https://www.prydwen.gg/static/d830f1c5ed39165b8ccb20a5e37462cc/60b4d/rem_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Minigun",
+    unitClass: "Supporter",
+    manufacturer: "Abnormal",
+    element: "Water",
+    squad: "Perilous Siege",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "March 20th 2024",
+    vakr: "Kim Hyeon-ji",
+    vajpn: "Ayasa Ito",
+    vaen: "Kira Buckland",
+    role: ["Buffer", "Debuffer", "Burst CD Reduction"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 300,
+        reload: "2.1s",
+        effect:
+          "■ Affects Target(s).##Deals 5.57% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Leave it to Rem!",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 15 normal attack(s) in Demon's Breath status. Affects self.##ATK ▲ 4.22%, stacks up to 30 times(s) and lasts for 10 sec.##■ Activates when using Burst Skill. Affect all allies.##Shares HP recovery for 10 sec.",
+      },
+      {
+        name: "Rem the Healer",
+        effect:
+          "■ Activates when entering battle. Affects self.##Recovers 42.24% of attack damage as HP continuously.##■ Activates when entering battle. Affects self and 2 Rocket Launcher-wielding ally unit(s) with the highest ATK.##Shares HP recovery continuously.",
+        active: "Passive",
+      },
+
+      {
+        name: "No Mercy from Rem",
+        active: "20 Seconds",
+        effect:
+          "■ Affects self.##Demon's Breath: Critical Rate ▲ 37.8% for 10 sec.##■ Affects all allies with a Rocket Launcher.##ATK ▲ 50.78% of caster's ATK for 10 sec.##Max Ammunition Capacity ▲ 5 round(s) for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/58ee12970c467c840c1d4ddfba5db4a9/3cd29/rem_full.webp",
+  },
+  {
+    name: "Ram",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper",
+    unitClass: "Defender",
+    manufacturer: "Abnormal",
+    element: "Wind",
+    squad: "Perilous Siege",
+    position: "Burst 2",
+    burstCD: "20",
+    releaseDate: "March 20th 2024",
+    vakr: "Kim Hyeon-ji",
+    vajpn: "Ayasa Ito",
+    vaen: "Kira Buckland",
+    role: ["Buffer", "Debuffer", "Burst CD Reduction"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "1.5s",
+        effect:
+          "■ Affects Target(s).##Deals 69.04% of ATK as damage.##Charge Time: 1 sec##Full Charge Damage: 250% of damage##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Fura",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 5 normal attack(s). Affects the target(s).##ATK ▼ 7.95% for 5 sec.##■ Activates when Full Burst ends with an ally from the same squad still on the battlefield. Affects self.##Cooldown of Burst Skill ▼ 20.16 sec.",
+      },
+      {
+        name: "Sister's Authority",
+        effect:
+          "■ Affect self.##Max HP ▲ 40.72% without restoring HP for 10 sec.##■ Affect 2 allies with the lowest remaining HP.##DEF ▲ 11.34% of caster's DEF for 5 sec.",
+        active: "15 Seconds",
+      },
+
+      {
+        name: "Don't Bother Ram",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all allies.##Generates a Shield with 10.08% of the caster's final Max HP for 10 sec.",
+      },
+    ],
+    rarity: "SR",
+    full: "https://www.prydwen.gg/static/f95bf1d6f0726e617148e52fb9bc6a98/3cd29/ram_full.webp",
+  },
 ];
