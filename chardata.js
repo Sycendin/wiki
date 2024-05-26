@@ -5017,4 +5017,104 @@ export const charData = [
     rarity: "SR",
     full: "https://www.prydwen.gg/static/f95bf1d6f0726e617148e52fb9bc6a98/3cd29/ram_full.webp",
   },
+  {
+    name: "Bay",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Rocket Launcher",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Fire",
+    squad: "Rewind",
+    position: "Burst 2",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Lee Bo-young",
+    vajpn: "Yū Serizawa",
+    vaen: "Tara Sands",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■■ Affects Target(s).## Deals 61.3% of ATK as damage.##Charge Time: 1 sec##Full Charge Damage: 250% of damage## Deals 200% damage when attacking core.",
+      },
+      {
+        name: "You Can Do It",
+        active: "Passive",
+        effect:
+          "■ Activates if self survives when using Burst Skill. Affects all allies.##Proportionally shares damage taken continuously.##DEF ▲ 10.13% of caster's DEF continuously.",
+      },
+      {
+        name: "Cheer Up Together",
+        effect:
+          "■ Activates if self survives when using Burst Skill. Affects all allies.##Proportionally shares damage taken continuously.##■ Activates when Full Burst ends. Affects self.##Constantly recovers Cover's HP by 2.88% of caster's final Max HP every 1 sec for 5 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "First Winner",
+        active: "40 Seconds",
+        effect:
+          "■ Affects self.##Cover's Max HP ▲ 18% of the caster's Max HP, lasts for 20 sec.##■ Affects all allies.##Damage Taken ▼ 8.87% for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/42b4676607d603731d3a0cd204d4b0ef/3cd29/bay_full.webp",
+  },
+  {
+    name: "Trony",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper",
+    unitClass: "Attacker",
+    manufacturer: "Missilis",
+    element: "Fire",
+    squad: "Electric Shock",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Yu Hye-ji",
+    vajpn: "Akane Fujita",
+    vaen: "Aria Saltini",
+    role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects Target(s).##Deals 69.04% of ATK as damage.##Charge Time: 1 sec.##ull Charge Damage: 250% of damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "T.Rony Bomber",
+        active: "Passive",
+        effect:
+          "■ Activates when hitting the target with Full Charge. Affects the target if there are no enemies in T.Rony Bomber status.##Cumulative Damage Skill for 5 sec.##Function: Accumulates part of damage inflicted by the caster. Upon reaching the maximum accumulated damage, deal damage to enemies before ending.##Effect 1: Maximum Accumulated Damage is 1536% of the caster's final ATK.##Effect 2: Accumulates 50% of damage dealt by self.##Effect 3: Deals distributed damage to all nearby enemies upon reaching the maximum accumulated damage.",
+      },
+      {
+        name: "Efficiency Increase",
+        effect:
+          "■ Activates when attacking with Full Charge for 5 time(s). Affects self.##Distributed Damage ▲ 51.84% for 10 sec.##■ Activates when hitting the target with Full Charge for 5 time(s). Affects the target.##DEF ▼ 9.59% for 10 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Mega T.Rony",
+        active: "40 Seconds",
+        effect:
+          "■ Affects Self.##ATK ▲ 101.37% for 10 sec.##Accumulated damage ratio of the Cumulative Damage Skill ▲ 62.83% for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/19fea052fd0e1dbff3a67dd4b8c8b193/3cd29/trony_full.webp",
+  },
 ];
