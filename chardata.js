@@ -5117,4 +5117,354 @@ export const charData = [
     rarity: "SSR",
     full: "https://www.prydwen.gg/static/19fea052fd0e1dbff3a67dd4b8c8b193/3cd29/trony_full.webp",
   },
+  {
+    name: "Crown",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "A=Minigun",
+    unitClass: "Defender",
+    manufacturer: "Pilgrim",
+    element: "Iron",
+    squad: "Electric Shock",
+    position: "Burst 2",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Kailey Bray",
+    vajpn: "Aki Toyosaki",
+    vaen: "Heo Ye-eun",
+    role: ["Buffer", "Shielder", "Taunter"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "300s",
+        effect:
+          "■ Affects Target(s).##Deals 5.57% of ATK as damage.##Senses enemies that cannot be auto-targeted.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "One for All",
+        active: "Passive",
+        effect:
+          "■ Activates at the start of Full Burst. Affects all allies who previously cast their Burst Skills.## ATK ▲ 64.51% of caster's ATK for 15 sec.##Reloading Speed ▲ 44.35% for 15 sec.##■ Affects all allies who did not previously cast their Burst Skills.##DEF ▲ 37.44% of caster's DEF for 15 sec.##Reloading Speed ▲ 44.35% for 15 sec..",
+      },
+      {
+        name: "Royal Attire",
+        effect:
+          "■ Activates after 43 normal attack(s). Affects self.##Relax: HP Potency ▲ 4.06% continuously, stacks up to 20 time(s).##■ Activates when Relax is fully stacked, Affects self after the stacks are removed.##Invulnerable for 5 sec.##Attract: Taunt all enemies for 5 sec.##Recovers 5.23% of the caster's final Max HP as HP.##■ Activates when recovery takes effect. Affects all allies.##Attack Damage ▲ 20.99% for 7 sec.",
+        active: "Passive",
+      },
+
+      {
+        name: "Last Kingdom",
+        active: "20 Seconds",
+        effect:
+          "■ Affects all allies.##Attack Damage ▲ 36.24% for 15 sec.##Creates a Shield equal to 10.45% of the caster's final Max HP for 15 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/c7557f52c9284d75dea5514881b40c09/3cd29/crown_full.webp",
+  },
+  {
+    name: "Soda: Twinkling Bunny",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Shotgun",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Iron",
+    squad: "Maid For You",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Elizabeth",
+    vajpn: "Konomi Kohara",
+    vaen: "Park Shi-yoon",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 9,
+        reload: "2.63s",
+        effect:
+          "■ Affects Target(s).##Deals 231.6% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Lucky Golden Chip",
+        active: "Passive",
+        effect:
+          "■ Activates at the start of the battle. Affects self.##Number of Golden Chip stacks ▲ 50## ■ Activates after casting 3 normal attack(s) during Full Burst Time. Affects self.##Golden Chip: Critical damage ▲ 1.32% continuously, stacks up to 50 time(s).## ■ Activates after casting 3 normal attack(s) during Full Burst Time. Affects self and I ally unit(s) with the highest ATK (except caster).##Attack damage ▲ 10.51% for 2 sec.",
+      },
+      {
+        name: "Beginner's Rewards",
+        effect:
+          "■ Activates when entering Burst stage 3. Affects all allies.##Additional effects triggered according to the number of Golden Chip stacks. Previous effects trigger repeatedly:## Stage 1: Golden Chip 10 stack(s) and above.##Time Extension I: Full Burst Time Duration ▲ 2 sec.##Active during Full Burst Time.##Stage 2: Golden Chip 20 stack(s) and above.##Time Extension II: Full Burst Time Duration ▲ 3 sec.##Active during Full Burst Time.## ■ Activates when casting a normal attack during Full Burst Time. Affects I enemy unit(s) nearest to the crosshair.##Additional effects triggered according to Time Extension state, Previous effects trigger repeatedly:##Stage I: When in Time Extension I state.##Deals 52.04% of final ATK as damage.##Stage 2: When in Time Extension II state.##Deals 85.02% of final ATK as damage.",
+        active: "Passive",
+      },
+
+      {
+        name: "Onward, Soda!",
+        active: "40 Seconds",
+        effect:
+          "■ Activates when using Onward, Soda!##Additional effects triggered according to the number of Golden Chip stacks. Previous effects trigger repeatedly. Number of Golden Chip stacks ▼ 17 after the effect applied.##■ Stage 1: Affects all enemies.##Deals 628.7% of final ATK as damage.##■ Stage 2: Activates when number of Golden Chip stacks is 20 and above. Affects self.##Hit Rate ▲ 38.91% for 15 sec.##■ Stage 3: Activates when number of Golden Chip stacks is 30 and above. Affects self.##ATK ▲ 65.25% for 15 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/fee88ebde2cfc6724a4652a070d46fc5/3cd29/soda_full.webp",
+  },
+  {
+    name: "Clay",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "SMG",
+    unitClass: "Defender",
+    manufacturer: "Tetra",
+    element: "Electric",
+    squad: "Maid For You",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Elizabeth",
+    vajpn: "Konomi Kohara",
+    vaen: "Park Shi-yoon",
+    role: ["Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "2.63s",
+        effect:
+          "■ Affects Target(s).##eals 10.12% of ATK as damage.##Deals 250% damage when attacking core.",
+      },
+      {
+        name: "Don't Miss",
+        active: "Passive",
+        effect:
+          "■ Activates after landing 60 normal attack(s) during Full Burst Time. Affects all allies.##Victorious Battle Cry: True Damage ▲ 6.45%, stacks up to 3 time(s) and lasts for 6 sec.##When attacking an enemy projectile, damage to that projectile ▲ 45.05% for 6 sec..",
+      },
+      {
+        name: "Wake Up!",
+        effect:
+          "■ Activates when entering Burst stage 1. Affects all allies.##Immune to 1 debuff(s) for 10 sec.##■ Only activates when in Victorious Battle Cry status. Affects all allies.##ATK ▲ 20.07% of caster's ATK continuously..",
+        active: "Passive",
+      },
+
+      {
+        name: "Go! Go! Victory!",
+        active: "40 Seconds",
+        effect:
+          "■ Affects all allies.## True Damage ▲ 12.56% for 10 sec.##■ Affects self.##Normal attacks deal true damage for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/fc779ebc79fa408edca97a442db17c2c/3cd29/clay_full.webp",
+  },
+  {
+    name: "Kilo",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Minigun",
+    unitClass: "Defender",
+    manufacturer: "Missilis",
+    element: "Electric",
+    squad: "Heavy Gram",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Tara Sands",
+    vajpn: "Han Megumi",
+    vaen: "Kim Ha-young",
+    role: ["Shielder"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 120,
+        reload: "2.63s",
+        effect:
+          "■ Affects Target(s).##Deals 5.57% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Nano Coating",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Affects self.##Nano Coating: Creates a Shield equal to 21.12% of the caster's final Max HP continuously.##■ Activates when using Burst Skill. Affects self if not in Nano Coating status.##Nano Coating: Creates a Shield equal to 21.12% of the caster's final Max HP continuously.",
+      },
+      {
+        name: "Self-Cure",
+        effect:
+          "■ Activates when performing Normal Attack for 200 time(s) in Nano Coating status. Affects self.##Recovery Shield HP equal to 2.85% caster's final Max HP.##■ Activates when using Burst Skill. Affects self if not in Nano Coating status.##Effect changes according to the caster's status. Previous effects trigger repeatedly.##Once: Next Shield's HP ▲ 17.75% continuously.##Twice: Next Shield's HP ▲ 26.66% continuously.##Three times: Next Shield's HP ▲ 35.53% continuously.",
+        active: "Passive",
+      },
+
+      {
+        name: "Assign Priority",
+        active: "40 Seconds",
+        effect:
+          "■ Activates when in Nano Coating status. Affects all enemies.##Deals damage equal to 1150.84% of the ATK, which is calculated from 5% of final Max HP.##■ Activates when not in Nano Coating status. Affects self.##Max HP ▲ 48% for 20 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/d9c473c4a960af2365b18c99718162b9/3cd29/kilo_full.webp",
+  },
+  {
+    name: "Sakura: bloom In Summer",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Supporter",
+    manufacturer: "Tetra",
+    element: "Wind",
+    squad: "Electric Shock",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Yu Hye-ji",
+    vajpn: "Akane Fujita",
+    vaen: "Aria Saltini",
+    role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "2s",
+        effect:
+          "■ Affects Target(s).##Deals 13.65% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Bloom",
+        active: "Passive",
+        effect:
+          "■ Activates at the start of the battle. Affects self.##Forcefully uses Skill 2.##■ Activates when an ally or self destroys an enemy's part. Affects self.##Sustained Damage ▲ 5.1% for 30 sec.##■ Activates when an ally or self destroys an enemy's part. Affects self during Dancing Flower.##Dancing Flower Duration ▲ 10.02 sec.##■ Activates when an ally or self destroys an enemy's part. Affects all enemies who are in Sakura Petals status.##Sakura Petals Duration ▲ 10.02 sec.",
+      },
+      {
+        name: "Full Glory",
+        effect:
+          "■ Affects self.##Dancing Flower: Attack Damage ▲ 15.64% for 15 sec.##■ Affects the enemy with the highest ATK.##Sakura Petals: Deals 256% of final ATK as sustained damage every 1 Sec for 15 sec.",
+        active: "30 Seconds",
+      },
+
+      {
+        name: "Ephemeral Spender",
+        active: "40 Seconds",
+        effect:
+          "■ Affects random enemies.##Deals 457. 14% of final ATK as damage. Attacks sequentially for 10 time(s).##■ Affects the same target(s).## Deals 35.16% of final ATK as sustained damage every 1 sec, stacks up to 10 times(s) and lasts for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/ac335cd4606739893ee24c0006e97a65/3cd29/Sakura_Bloom_full.webp",
+  },
+  {
+    name: "Rosanna: Chic Ocean",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Assault Rifle",
+    unitClass: "Supporter",
+    manufacturer: "Tetra",
+    element: "Wind",
+    squad: "Electric Shock",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Yu Hye-ji",
+    vajpn: "Akane Fujita",
+    vaen: "Aria Saltini",
+    role: ["Debuffer", "Buffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Normal",
+        ammo: 60,
+        reload: "2s",
+        effect:
+          "■ Affects Target(s).##Deals 13.65% of ATK as damage.##Deals 200% damage when attacking core.",
+      },
+      {
+        name: "Feather Standby",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Affects all allies.##Damage to Parts ▲ 24.26% for 15 sec.##■ Activates when an ally or self destroys an enemy's part. Affects all allies.##ATK ▲ 3% of caster's ATK, stacks up to 5 time(s) and lasts for 30 sec.",
+      },
+      {
+        name: "Feather Shot",
+        effect:
+          "■ Affects all allies.## Damage to Parts ▲ 24.26% for 15 sec.##■ Affects the enemy nearest to the crosshair.##Deals 70.4% of final ATK as sustained damage every Sec for 15 sec.",
+        active: "30 Seconds",
+      },
+
+      {
+        name: "Feather-All Range",
+        active: "30 Seconds",
+        effect:
+          "■ Affects all allies.##Sustained Damage ▲ 20.32% for 10 sec.##■ Affects all enemies.##Damage Taken ▲ 32.23% for 10 sec.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/801c37e61346929690dbbbdd697bcde8/3cd29/Rosanna_Chic_full.webp",
+  },
+  {
+    name: "Ein",
+    art: "https://www.prydwen.gg/static/5364a4cf43824cd1559749ea3aa8fc7f/60b4d/ram_icon.webp",
+    hp: 252742,
+    atk: 12982,
+    def: 2122,
+    weapon: "Sniper",
+    unitClass: "Attacker",
+    manufacturer: "Missilis",
+    element: "Fire",
+    squad: "Electric Shock",
+    position: "Burst 3",
+    burstCD: "40",
+    releaseDate: "March 20th 2024",
+    vakr: "Yu Hye-ji",
+    vajpn: "Akane Fujita",
+    vaen: "Aria Saltini",
+    role: ["Debuffer"],
+    skill: [
+      {
+        name: "Normal Attack",
+        type: "Charge",
+        ammo: 6,
+        reload: "2s",
+        effect:
+          "■ Affects Target(s).##Deals 69.04% of ATK as damage.##Charge Time: 1 sec##Full Charge Damage: 250% of damage.##Deals 200% damage when attacking core..",
+      },
+      {
+        name: "Feather Standby",
+        active: "Passive",
+        effect:
+          "■ Activates when entering battle. Effects self.##Summons 4 Near Feathers.##■ Activates when entering Burst Skill Stage 3. Affects self.##ATK ▲ 70.12% for 10 sec.",
+      },
+      {
+        name: "Feather Shot",
+        effect:
+          "■ Activates when Near Feather is summoned. Effects 1 random enemy unit(s).##Near Feather Attack: Deals 90.81% of final ATK as true damage.##■ Activates when attacking with Full Charge. Affects self.##Charge Damage ▲ 80% for 1 shot(s).",
+        active: "Passive",
+      },
+
+      {
+        name: "Feather-All Range",
+        active: "40 Seconds",
+        effect:
+          "■ Affects self.##Summons 6 Near Feathers.##True Damage ▲ 55.3% for 10 sec.##Charge Damage ▲ 140.68% for 10 sec.##■ Affects 10 enemy unit(s) with the highest DEF.##Deals 300.02% of final ATK as true damage.",
+      },
+    ],
+    rarity: "SSR",
+    full: "https://www.prydwen.gg/static/f5411db089a7c9a35422e1eac24b0d0a/3cd29/ein_full.webp",
+  },
 ];
